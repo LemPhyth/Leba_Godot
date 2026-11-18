@@ -1,0 +1,73 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_hj6ph"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_q_buff_ring.png" id="2_3aeph"]
+
+[resource]
+script = ExtResource("1_hj6ph")
+identifier = "crt1_q_buff_ring"
+texture = ExtResource("2_3aeph")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-32.6, -103.5, 72.0, 121.0],
+"pivot": [34.6, 103.5],
+"region": [2.0, 2.0, 81.0, 121.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-32.6, -103.5, 72.0, 121.0],
+"pivot": [34.6, 103.5],
+"region": [87.0, 2.0, 81.0, 121.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-30.6, -68.5, 66.0, 77.0],
+"pivot": [34.6, 103.5],
+"region": [172.0, 2.0, 81.0, 121.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-30.6, -68.5, 66.0, 77.0],
+"pivot": [34.6, 103.5],
+"region": [257.0, 2.0, 81.0, 121.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-34.6, -82.5, 81.0, 84.0],
+"pivot": [34.6, 103.5],
+"region": [342.0, 2.0, 81.0, 121.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-34.6, -82.5, 81.0, 84.0],
+"pivot": [34.6, 103.5],
+"region": [2.0, 127.0, 81.0, 121.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-30.6, -96.5, 76.0, 100.0],
+"pivot": [34.6, 103.5],
+"region": [87.0, 127.0, 81.0, 121.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-30.6, -96.5, 76.0, 100.0],
+"pivot": [34.6, 103.5],
+"region": [172.0, 127.0, 81.0, 121.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-30.6, -100.5, 76.0, 113.0],
+"pivot": [34.6, 103.5],
+"region": [257.0, 127.0, 81.0, 121.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-30.6, -100.5, 76.0, 113.0],
+"pivot": [34.6, 103.5],
+"region": [342.0, 127.0, 81.0, 121.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-27.6, -101.5, 71.0, 110.0],
+"pivot": [34.6, 103.5],
+"region": [2.0, 252.0, 81.0, 121.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-27.6, -101.5, 71.0, 110.0],
+"pivot": [34.6, 103.5],
+"region": [87.0, 252.0, 81.0, 121.0],
+"source_frame": 12.0
+}])
+baked_placement_matrix = PackedFloat64Array(1.1495972, 0, 0, 0.7391205, 0, 0)
+baked_alpha_mult = 141.0
+source = "asset_catalog.animations.crt1_q_buff_ring；派生图集；来源与pivot见catalog。"

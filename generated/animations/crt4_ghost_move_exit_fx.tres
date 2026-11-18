@@ -1,0 +1,60 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_o3wjy"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_ghost_move_exit_fx.png" id="2_0tip5"]
+
+[resource]
+script = ExtResource("1_o3wjy")
+identifier = "crt4_ghost_move_exit_fx"
+texture = ExtResource("2_0tip5")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-63.4, -63.5, 128.0, 128.0],
+"pivot": [63.4, 63.5],
+"region": [2.0, 2.0, 128.0, 128.0],
+"source_crop": [19.0, 99.0, 147.0, 227.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-63.4, -63.5, 128.0, 128.0],
+"pivot": [63.4, 63.5],
+"region": [134.0, 2.0, 128.0, 128.0],
+"source_crop": [19.0, 99.0, 147.0, 227.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-47.4, -45.5, 97.0, 97.0],
+"pivot": [47.4, 45.5],
+"region": [266.0, 2.0, 97.0, 97.0],
+"source_crop": [35.0, 117.0, 132.0, 214.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-32.4, -46.5, 68.0, 81.0],
+"pivot": [32.4, 46.5],
+"region": [367.0, 2.0, 68.0, 81.0],
+"source_crop": [50.0, 116.0, 118.0, 197.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-31.4, -94.5, 88.0, 129.0],
+"pivot": [31.4, 94.5],
+"region": [439.0, 2.0, 88.0, 129.0],
+"source_crop": [51.0, 68.0, 139.0, 197.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-42.4, -108.5, 96.0, 155.0],
+"pivot": [42.4, 108.5],
+"region": [531.0, 2.0, 96.0, 155.0],
+"source_crop": [40.0, 54.0, 136.0, 209.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-25.4, -142.5, 78.0, 105.0],
+"pivot": [25.4, 142.5],
+"region": [631.0, 2.0, 78.0, 105.0],
+"source_crop": [57.0, 20.0, 135.0, 125.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [82.4, 162.5],
+"region": [713.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 8.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_ghost_move_exit_fx；派生图集；来源与pivot见catalog。"

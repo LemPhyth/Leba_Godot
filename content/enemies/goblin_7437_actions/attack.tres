@@ -1,0 +1,50 @@
+[gd_resource type="Resource" format=3 uid="uid://df4okqg06r6xt"]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_attack.tres" id="1_aqdu1"]
+[ext_resource type="AudioStream" uid="uid://oo8n70yvq8gl" path="res://assets/audio/7383.mp3" id="2_e0ajd"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_0o6t1"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_4tgii"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="5_4tfpw"]
+
+[sub_resource type="Resource" id="Resource_os4du"]
+script = ExtResource("3_0o6t1")
+frame = 10
+sound = "enemy7437_attack"
+audio_stream = ExtResource("2_e0ajd")
+parameters = {
+"source_sound_id": 7383
+}
+
+[sub_resource type="Resource" id="Resource_7uxli"]
+script = ExtResource("5_4tfpw")
+from_frame = 13
+until_frame = 21
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-197.54666, -103.15021, 229.09332, 113.366135)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 13..21; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[resource]
+script = ExtResource("4_4tgii")
+identifier = "attack"
+title = "attack"
+animation = ExtResource("1_aqdu1")
+animation_key = "enemy7437_attack"
+source_parent = 6
+sequence = PackedInt32Array(6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 152, 153, 154, 155)
+input_id = "attack"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold_at = PackedInt32Array()
+next_action = "recover"
+events = Array[Resource]([SubResource("Resource_os4du")])
+windows = Array[Resource]([SubResource("Resource_7uxli")])
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."
+extra = {
+"parent_from_source_frame": true
+}

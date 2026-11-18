@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/combatant.gd" id="1_ei073"]
+[ext_resource type="Script" path="res://scripts/combat/source_sprite.gd" id="2_iq6g4"]
+[ext_resource type="Resource" path="res://generated/animations/enemy_idle.tres" id="3_gwjt0"]
+[ext_resource type="Script" path="res://scripts/content/action_preview.gd" id="4_w7k3k"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_4030_actions/idle.tres" id="5_emg7u"]
+
+[node name="Actor" type="Node2D" unique_id=758627098]
+script = ExtResource("1_ei073")
+
+[node name="AuthorOffset" type="Node2D" parent="." unique_id=1140351997]
+
+[node name="Visual" type="Node2D" parent="AuthorOffset" unique_id=1792764724]
+script = ExtResource("2_iq6g4")
+source_animation = ExtResource("3_gwjt0")
+
+[node name="ActionPreview" type="Node2D" parent="AuthorOffset" unique_id=2109411041]
+script = ExtResource("4_w7k3k")
+action = ExtResource("5_emg7u")

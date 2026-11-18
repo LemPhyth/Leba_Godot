@@ -1,0 +1,93 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_84wqv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_65ue4"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.98)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Dialogue" type="Control" unique_id=1505346122]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_84wqv")
+
+[node name="@Panel@47" type="Panel" parent="." unique_id=1345333265]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 172.0
+offset_right = 532.0
+offset_bottom = 384.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_65ue4")
+
+[node name="DialogueSpeaker" type="Label" parent="." unique_id=1522837804]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 187.0
+offset_right = 398.0
+offset_bottom = 213.0
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "对话角色"
+autowrap_mode = 3
+
+[node name="PageNumber" type="Label" parent="." unique_id=195531371]
+layout_mode = 0
+offset_left = 462.0
+offset_top = 190.0
+offset_right = 517.0
+offset_bottom = 216.0
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "1 / 1"
+autowrap_mode = 3
+
+[node name="DialogueText" type="Label" parent="." unique_id=1374232908]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 220.0
+offset_right = 508.0
+offset_bottom = 308.0
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "对话内容"
+autowrap_mode = 3
+
+[node name="Hint" type="Label" parent="." unique_id=804713591]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 307.0
+offset_right = 503.0
+offset_bottom = 333.0
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "点击逐句阅读  ·  Space 跳过本段"
+autowrap_mode = 3
+
+[node name="DialogueNext" type="Button" parent="." unique_id=1960961406]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 337.0
+offset_right = 213.0
+offset_bottom = 368.0
+text = "继续"
+
+[node name="DialogueSkip" type="Button" parent="." unique_id=112067431]
+layout_mode = 0
+offset_left = 282.0
+offset_top = 337.0
+offset_right = 512.0
+offset_bottom = 368.0
+text = "跳过本段（Space）"

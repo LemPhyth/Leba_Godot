@@ -1,0 +1,64 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_kalla_basic.tres" id="1_rj24a"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_f1j7d"]
+[ext_resource type="AudioStream" path="res://assets/audio/6526.mp3" id="3_kjkq1"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_wixan"]
+
+[sub_resource type="Resource" id="Resource_m4d3v"]
+script = ExtResource("2_f1j7d")
+frame = 3
+kind = "crt4_spawn_clone"
+parameters = {
+"source_id": 1326.0
+}
+
+[sub_resource type="Resource" id="Resource_o8we5"]
+script = ExtResource("2_f1j7d")
+frame = 2
+sound = "crt4_source_6527_sound_1"
+audio_stream = ExtResource("3_kjkq1")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6526.0,
+"source_id": 6527,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6527.0
+}
+
+[resource]
+script = ExtResource("4_wixan")
+identifier = "kalla_basic"
+title = "kalla_basic"
+animation = ExtResource("1_rj24a")
+animation_key = "crt4_kalla_basic"
+source_parent = 166
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+allowed_states = PackedStringArray()
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_m4d3v"), SubResource("Resource_o8we5")])
+source = "Original6732 parent166/source6527; res://data/act06_crt4_rules.json.actions.kalla_basic; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -40.35, 12.45],
+"source_allowed_parent_frames": [],
+"source_id": 6527.0,
+&"source_references": [{
+"frame": 11.0,
+"path": "res/scripts/DefineSprite_6527/frame_11/DoAction.as",
+"sha256": "03e9cebe218452a07441beea1e8450971ec16a88e43ec5fb5937ad47f68fc063"
+}],
+"source_selected": true
+}

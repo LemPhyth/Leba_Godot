@@ -1,0 +1,133 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_lcvn0"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_ghostslash_status.png" id="2_nwd1t"]
+
+[resource]
+script = ExtResource("1_lcvn0")
+identifier = "crt4_ghostslash_status"
+texture = ExtResource("2_nwd1t")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-23.1, -1.85, 46.0, 55.0],
+"pivot": [23.1, 1.85],
+"region": [2.0, 2.0, 46.0, 55.0],
+"source_crop": [101.0, 39.0, 147.0, 94.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-23.1, -8.85, 46.0, 56.0],
+"pivot": [23.1, 8.85],
+"region": [52.0, 2.0, 46.0, 56.0],
+"source_crop": [101.0, 32.0, 147.0, 88.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-24.1, -16.85, 48.0, 56.0],
+"pivot": [24.1, 16.85],
+"region": [102.0, 2.0, 48.0, 56.0],
+"source_crop": [100.0, 24.0, 148.0, 80.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-24.1, -20.85, 48.0, 56.0],
+"pivot": [24.1, 20.85],
+"region": [154.0, 2.0, 48.0, 56.0],
+"source_crop": [100.0, 20.0, 148.0, 76.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-24.1, -19.85, 48.0, 57.0],
+"pivot": [24.1, 19.85],
+"region": [206.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 21.0, 148.0, 78.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [258.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [310.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [362.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [414.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [466.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [518.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [570.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [622.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [674.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-24.1, -27.85, 48.0, 57.0],
+"pivot": [24.1, 27.85],
+"region": [726.0, 2.0, 48.0, 57.0],
+"source_crop": [100.0, 13.0, 148.0, 70.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-56.1, -28.85, 110.0, 97.0],
+"pivot": [56.1, 28.85],
+"region": [778.0, 2.0, 110.0, 97.0],
+"source_crop": [68.0, 12.0, 178.0, 109.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-81.1, -28.85, 160.0, 96.0],
+"pivot": [81.1, 28.85],
+"region": [892.0, 2.0, 160.0, 96.0],
+"source_crop": [43.0, 12.0, 203.0, 108.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-109.1, -27.85, 216.0, 94.0],
+"pivot": [109.1, 27.85],
+"region": [1056.0, 2.0, 216.0, 94.0],
+"source_crop": [15.0, 13.0, 231.0, 107.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-69.1, -27.85, 138.0, 58.0],
+"pivot": [69.1, 27.85],
+"region": [1276.0, 2.0, 138.0, 58.0],
+"source_crop": [55.0, 13.0, 193.0, 71.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [124.1, 40.85],
+"region": [1418.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 20.0
+}])
+baked_placement_matrix = PackedFloat64Array(0.718856811523, 0, 0, 0.655654907227, 0, 0)
+baked_alpha_mult = 192.0
+source = "asset_catalog.animations.crt4_ghostslash_status；派生图集；来源与pivot见catalog。"

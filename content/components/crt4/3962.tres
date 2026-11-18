@@ -1,0 +1,417 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_ghostslash_status.tres" id="1_n5p2f"]
+[ext_resource type="AudioStream" path="res://assets/audio/3958.mp3" id="2_0sqiw"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="3_uytr5"]
+
+[resource]
+script = ExtResource("3_uytr5")
+identifier = "3962"
+parameters = {
+"air_marker_seek": 2.0,
+"births": [{
+"color_transform": {
+"alphaMultTerm": "95",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 39.25],
+"name": null,
+"source_id": 3954.0
+}, {
+"depth": 1.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"frame": 16.0,
+"matrix": [1.5365906, 0.0, 0.0, 2.0, -2.1, 79.85],
+"name": null,
+"source_id": 3956.0
+}, {
+"depth": 3.0,
+"frame": 16.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3957.0
+}, {
+"depth": 4.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"frame": 16.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.1, 3.75],
+"name": null,
+"source_id": 3956.0
+}, {
+"depth": 3.0,
+"frame": 17.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3959.0
+}, {
+"depth": 3.0,
+"frame": 18.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3960.0
+}, {
+"depth": 1.0,
+"frame": 19.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3961.0
+}],
+"capture_facings_frame": 16.0,
+"clear_old_interval": true,
+"clear_zab": true,
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"gacc_delta": 0.1,
+"gravity": -8.0,
+"launch_frame": 20.0,
+"marked_normal_marker": 8.0,
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "95",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 39.25],
+"source_id": 3954.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "95",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 29.95],
+"source_id": 3954.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "151",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 17.55],
+"source_id": 3954.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "151",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 11.35],
+"source_id": 3954.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"color_transform": {
+"hasAddTerms": "false",
+"hasMultTerms": "false",
+"nbits": "1"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 12.9],
+"source_id": 3954.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"color_transform": {
+"hasAddTerms": "false",
+"hasMultTerms": "false",
+"nbits": "1"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.5],
+"source_id": 3954.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"matrix": [1.5365906, 0.0, 0.0, 2.0, -2.1, 79.85],
+"ratio": "15",
+"source_id": 3956.0
+}, {
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 3957.0
+}, {
+"depth": 4.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.1, 3.75],
+"ratio": "15",
+"source_id": 3956.0
+}],
+"source_frame": 16.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"matrix": [2.4191895, 0.0, 0.0, 1.0, -2.1, 79.85],
+"ratio": "15",
+"source_id": 3956.0
+}, {
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 3959.0
+}, {
+"depth": 4.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"matrix": [1.9756165, 0.0, 0.0, 0.5, -1.6, 3.75],
+"ratio": "15",
+"source_id": 3956.0
+}],
+"source_frame": 17.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"matrix": [3.4134216, 0.0, 0.0, 0.5, -2.1, 79.85],
+"ratio": "15",
+"source_id": 3956.0
+}, {
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 3960.0
+}, {
+"depth": 4.0,
+"filters": [{
+"blurX": "8.0",
+"blurY": "8.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "255",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.796875"
+}],
+"matrix": [2.243042, 0.0, 0.0, -0.5, 0.9, 3.0],
+"ratio": "15",
+"source_id": 3956.0
+}],
+"source_frame": 18.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 3961.0
+}],
+"source_frame": 19.0
+}, {
+"placements": [],
+"source_frame": 20.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("2_0sqiw"),
+"envelope": [],
+"frame": 16,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_3962_sound_1",
+"sound_id": 3958.0,
+"source_id": 3962,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 3962.0
+}],
+"source": [{
+"frame": 16.0,
+"path": "res/scripts/DefineSprite_3962/frame_16/DoAction.as",
+"sha256": "267834a1c81ccbd96dbf9f769a1797b9ba1ad29762d8c849b280d23eb7d3c25c"
+}, {
+"frame": 20.0,
+"path": "res/scripts/DefineSprite_3962/frame_20/DoAction.as",
+"sha256": "70fd7137ad1af8a538dc8e2f4dc758a7c666da486363ac66bbe00da117f53fab"
+}],
+"source_frame_count": 20.0,
+"source_id": 3962.0,
+"stop_source_frames": [20.0],
+"timer_callback": "all_air_targets_x_minus_0_05_times_captured_face_percent",
+"timer_guard_player_parent_not": 175.0,
+"timer_interval_ms": 10.0,
+"timer_key": "flyInt",
+"timer_scope": "shared root.flyInt; each status has its own timeline; old timeout clears CURRENT shared ID",
+"timer_timeout_ms": 1000.0
+}
+animations = Array[Resource]([ExtResource("1_n5p2f")])
+source = "Original AS/XML source 3962; res://data/act06_crt4_rules.json.components.3962"

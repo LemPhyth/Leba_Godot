@@ -1,0 +1,96 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/game_ui.gd" id="1"]
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/ui/source_menu.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/ui/title.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/ui/characters.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/ui/training_characters.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/ui/difficulty.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/ui/modes.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/ui/shop.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/ui/intro.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dialogue.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://scenes/ui/intermission.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://scenes/ui/transition.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://scenes/ui/result.tscn" id="14"]
+[ext_resource type="PackedScene" path="res://scenes/ui/pause.tscn" id="15"]
+[ext_resource type="PackedScene" path="res://scenes/ui/error.tscn" id="16"]
+[ext_resource type="PackedScene" path="res://scenes/ui/battle_controls.tscn" id="17"]
+
+[node name="GameUI" type="CanvasLayer"]
+layer = 10
+script = ExtResource("1")
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("2")
+
+[node name="RuntimeTransitionOffset" type="Control" parent="UI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Pages" type="Control" parent="UI/RuntimeTransitionOffset"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="title" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("4")]
+visible = true
+
+[node name="characters" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("5")]
+visible = false
+
+[node name="training_characters" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("6")]
+visible = false
+
+[node name="difficulty" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("7")]
+visible = false
+
+[node name="modes" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("8")]
+visible = false
+
+[node name="shop" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("9")]
+visible = false
+
+[node name="intro" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("10")]
+visible = false
+
+[node name="dialogue" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("11")]
+visible = false
+
+[node name="intermission" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("12")]
+visible = false
+
+[node name="transition" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("13")]
+visible = false
+
+[node name="result" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("14")]
+visible = false
+
+[node name="pause" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("15")]
+visible = false
+
+[node name="error" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("16")]
+visible = false
+
+[node name="battle_controls" parent="UI/RuntimeTransitionOffset/Pages" instance=ExtResource("17")]
+visible = false
+
+[node name="SourceMenu" parent="UI/RuntimeTransitionOffset" instance=ExtResource("3")]
+visible = false

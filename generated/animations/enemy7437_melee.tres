@@ -1,0 +1,111 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_h7nnd"]
+[ext_resource type="Texture2D" path="res://assets/atlases/enemy7437_melee.png" id="2_kce1t"]
+
+[resource]
+script = ExtResource("1_h7nnd")
+identifier = "enemy7437_melee"
+texture = ExtResource("2_kce1t")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-24.05, -88.55, 111.0, 90.0],
+"pivot": [98.05, 127.55],
+"region": [2.0, 2.0, 185.0, 155.0],
+"source_frame": 101.0
+}, {
+"alpha_bounds": [-24.05, -88.55, 111.0, 90.0],
+"pivot": [98.05, 127.55],
+"region": [191.0, 2.0, 185.0, 155.0],
+"source_frame": 102.0
+}, {
+"alpha_bounds": [-27.05, -85.55, 110.0, 86.0],
+"pivot": [98.05, 127.55],
+"region": [380.0, 2.0, 185.0, 155.0],
+"source_frame": 103.0
+}, {
+"alpha_bounds": [-27.05, -85.55, 102.0, 86.0],
+"pivot": [98.05, 127.55],
+"region": [569.0, 2.0, 185.0, 155.0],
+"source_frame": 104.0
+}, {
+"alpha_bounds": [-48.05, -85.55, 67.0, 113.0],
+"pivot": [98.05, 127.55],
+"region": [758.0, 2.0, 185.0, 155.0],
+"source_frame": 105.0
+}, {
+"alpha_bounds": [-59.05, -85.55, 78.0, 100.0],
+"pivot": [98.05, 127.55],
+"region": [2.0, 161.0, 185.0, 155.0],
+"source_frame": 106.0
+}, {
+"alpha_bounds": [-90.05, -81.55, 113.0, 82.0],
+"pivot": [98.05, 127.55],
+"region": [191.0, 161.0, 185.0, 155.0],
+"source_frame": 107.0
+}, {
+"alpha_bounds": [-98.05, -127.55, 118.0, 130.0],
+"pivot": [98.05, 127.55],
+"region": [380.0, 161.0, 185.0, 155.0],
+"source_frame": 108.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [569.0, 161.0, 185.0, 155.0],
+"source_frame": 109.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [758.0, 161.0, 185.0, 155.0],
+"source_frame": 110.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [2.0, 320.0, 185.0, 155.0],
+"source_frame": 111.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [191.0, 320.0, 185.0, 155.0],
+"source_frame": 112.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [380.0, 320.0, 185.0, 155.0],
+"source_frame": 113.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [569.0, 320.0, 185.0, 155.0],
+"source_frame": 114.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [758.0, 320.0, 185.0, 155.0],
+"source_frame": 115.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [2.0, 479.0, 185.0, 155.0],
+"source_frame": 116.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [191.0, 479.0, 185.0, 155.0],
+"source_frame": 117.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [380.0, 479.0, 185.0, 155.0],
+"source_frame": 118.0
+}, {
+"alpha_bounds": [-82.05, -127.55, 102.0, 128.0],
+"pivot": [98.05, 127.55],
+"region": [569.0, 479.0, 185.0, 155.0],
+"source_frame": 119.0
+}, {
+"alpha_bounds": [-24.05, -88.55, 111.0, 90.0],
+"pivot": [98.05, 127.55],
+"region": [758.0, 479.0, 185.0, 155.0],
+"source_frame": 120.0
+}])
+source = "asset_catalog.animations.enemy7437_melee；派生图集；来源与pivot见catalog。"

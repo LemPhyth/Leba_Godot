@@ -1,0 +1,121 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_o8yy3"]
+[ext_resource type="Texture2D" path="res://assets/atlases/hud_crt1_w_ammo.png" id="2_4i5b1"]
+
+[resource]
+script = ExtResource("1_o8yy3")
+identifier = "hud_crt1_w_ammo"
+texture = ExtResource("2_4i5b1")
+frames = Array[Dictionary]([{
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [705.15, -42.55],
+"region": [2.0, 2.0, 45.0, 44.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [51.0, 2.0, 45.0, 44.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [100.0, 2.0, 45.0, 44.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [149.0, 2.0, 45.0, 44.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [198.0, 2.0, 45.0, 44.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [2.0, 50.0, 45.0, 44.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [51.0, 50.0, 45.0, 44.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [100.0, 50.0, 45.0, 44.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [149.0, 50.0, 45.0, 44.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [198.0, 50.0, 45.0, 44.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 42.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [2.0, 98.0, 45.0, 44.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 45.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [51.0, 98.0, 45.0, 44.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [100.0, 98.0, 45.0, 44.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [149.0, 98.0, 45.0, 44.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 34.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [198.0, 98.0, 45.0, 44.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [2.0, 146.0, 45.0, 44.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [51.0, 146.0, 45.0, 44.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [100.0, 146.0, 45.0, 44.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [149.0, 146.0, 45.0, 44.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [198.0, 146.0, 45.0, 44.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 31.0, 44.0],
+"pivot": [705.15, -42.55],
+"region": [2.0, 194.0, 45.0, 44.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-705.15, 42.55, 33.0, 43.0],
+"pivot": [705.15, -42.55],
+"region": [51.0, 194.0, 45.0, 44.0],
+"source_frame": 22.0
+}])
+source = "asset_catalog.animations.hud_crt1_w_ammo；派生图集；来源与pivot见catalog。"

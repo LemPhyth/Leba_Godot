@@ -1,0 +1,457 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_6i7on"]
+
+[resource]
+script = ExtResource("1_6i7on")
+identifier = "grab_v"
+parameters = {
+"anchor_active_with_zab_frames": [17.0, 65.0],
+"anchor_formula": {
+"actor_scale_applied": false,
+"x": "player.root_x + facing*(action.local_x+anchor.local_x)",
+"y": "player.root_y + action.local_y+anchor.local_y"
+},
+"anchor_gravity_acceleration_add": 0.1,
+"anchor_gravity_add": -2.0,
+"anchor_helper": 5652.0,
+"anchor_track": {
+"17": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 57.45, 28.15],
+"name": null,
+"source_id": 5652.0
+}],
+"18": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 57.45, 28.15],
+"name": null,
+"source_id": 5652.0
+}],
+"19": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 65.85, 9.2],
+"name": null,
+"source_id": 5652.0
+}],
+"20": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 73.15, -7.2],
+"name": null,
+"source_id": 5652.0
+}],
+"21": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 79.35, -21.1],
+"name": null,
+"source_id": 5652.0
+}],
+"22": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 84.4, -32.45],
+"name": null,
+"source_id": 5652.0
+}],
+"23": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 88.3, -41.3],
+"name": null,
+"source_id": 5652.0
+}],
+"24": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 91.1, -47.6],
+"name": null,
+"source_id": 5652.0
+}],
+"25": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 92.8, -51.4],
+"name": null,
+"source_id": 5652.0
+}],
+"26": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 93.35, -52.65],
+"name": null,
+"source_id": 5652.0
+}],
+"27": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 93.55, -51.9],
+"name": null,
+"source_id": 5652.0
+}],
+"28": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 94.2, -49.55],
+"name": null,
+"source_id": 5652.0
+}],
+"29": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 95.25, -45.7],
+"name": null,
+"source_id": 5652.0
+}],
+"30": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 96.7, -40.25],
+"name": null,
+"source_id": 5652.0
+}],
+"31": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 98.6, -33.3],
+"name": null,
+"source_id": 5652.0
+}],
+"32": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 100.95, -24.75],
+"name": null,
+"source_id": 5652.0
+}],
+"33": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 103.65, -14.7],
+"name": null,
+"source_id": 5652.0
+}],
+"34": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 106.8, -3.05],
+"name": null,
+"source_id": 5652.0
+}],
+"35": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"36": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"37": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"38": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"39": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"40": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"41": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"42": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"43": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"44": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"45": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"46": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"47": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"48": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"49": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"50": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"51": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"52": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"53": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"54": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"55": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"56": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"57": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"58": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"59": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"60": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"61": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"62": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"63": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"64": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"65": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"66": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"67": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"68": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"69": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}],
+"70": [{
+"alpha_mult": 0.0,
+"depth": 60.0,
+"matrix": [0.9986725, 0.0, 0.0, 1.0027161, 110.4, 10.1],
+"name": null,
+"source_id": 5652.0
+}]
+},
+"contact_frames": [5.0, 7.0],
+"contact_helper": 1234.0,
+"contact_track": {
+"5": [{
+"alpha_mult": 0.0,
+"depth": 25.0,
+"matrix": [1.9648285, 0.0, 0.0, 2.4519653, 70.45, -47.65],
+"name": "오른대각",
+"source_id": 1234.0
+}],
+"6": [{
+"alpha_mult": 0.0,
+"depth": 25.0,
+"matrix": [1.9648285, 0.0, 0.0, 2.4519653, 70.45, -47.65],
+"name": "오른대각",
+"source_id": 1234.0
+}],
+"7": [{
+"alpha_mult": 0.0,
+"depth": 25.0,
+"matrix": [1.9648285, 0.0, 0.0, 2.4519653, 70.45, -47.65],
+"name": "오른대각",
+"source_id": 1234.0
+}]
+},
+"end_frame": 79.0,
+"failure_frame": 16.0,
+"marker_events": [{
+"gravity": -4.0,
+"marker_frame": 2.0,
+"source_frame": 36.0
+}, {
+"gravity": -4.0,
+"marker_frame": 2.0,
+"source_frame": 43.0
+}, {
+"gravity": -4.0,
+"marker_frame": 2.0,
+"source_frame": 50.0
+}, {
+"gravity": -4.0,
+"marker_frame": 2.0,
+"source_frame": 57.0
+}, {
+"gravity": -6.0,
+"marker_frame": 2.0,
+"source_frame": 64.0
+}],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -11.25, 1.45],
+"release_air_push": 8.0,
+"release_air_push_frames": [66.0, 79.0],
+"release_frame": 66.0,
+"source": ["res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5752/frame_5/PlaceObject2_1234_25/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5752/frame_17/PlaceObject2_5652_60/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5752/frame_17/PlaceObject2_5652_60/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5752/frame_17/PlaceObject2_5652_60/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5752/frame_17/PlaceObject2_5652_60/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5752/frame_17/PlaceObject2_5652_60/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5752/frame_66/DoAction.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5752/frame_66/PlaceObject2_524_62/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as"],
+"source_id": 5752.0,
+"source_parent": 100.0,
+"success_frame": 17.0,
+"targets": ["normal", "super_armor"],
+"writes_pren": false
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

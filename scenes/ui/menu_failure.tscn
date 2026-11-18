@@ -1,0 +1,236 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_wcqql"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_panel.png" id="2_hiqp8"]
+[ext_resource type="Script" path="res://scripts/ui/source_button.gd" id="3_11xgj"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_retry_up.png" id="4_1cfbj"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_retry_over.png" id="5_7dv6m"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_retry_down.png" id="6_x7cge"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_return_up.png" id="7_nuicu"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_return_over.png" id="8_v1per"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_failure_return_down.png" id="9_aldi5"]
+
+[node name="MenuFailure" type="Control" unique_id=1721180177]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+theme = ExtResource("1_wcqql")
+
+[node name="PanelRoot" type="Node2D" parent="." unique_id=16268732]
+position = Vector2(742.15, 284.6)
+metadata/source_depth = 2623
+metadata/panel_root = true
+
+[node name="source_failure_panel" type="Sprite2D" parent="PanelRoot" unique_id=2035323149]
+position = Vector2(-743.55, -284.6)
+texture = ExtResource("2_hiqp8")
+centered = false
+metadata/panel_sprite = true
+
+[node name="PanelMouseSurface" type="Control" parent="PanelRoot" unique_id=1241707172]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -743.55
+offset_top = -284.6
+offset_right = 39.450012
+offset_bottom = 117.399994
+
+[node name="failure_retryRegistration" type="Node2D" parent="PanelRoot" unique_id=389276428]
+position = Vector2(-409.2, -38.15)
+metadata/source_depth = 5
+
+[node name="failure_retry" type="BaseButton" parent="PanelRoot/failure_retryRegistration" unique_id=1240943624]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -51.7
+offset_top = -11.85
+offset_right = 57.999996
+offset_bottom = 12.299999
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "重新开始"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_11xgj")
+normal_texture = ExtResource("4_1cfbj")
+hover_texture = ExtResource("5_7dv6m")
+pressed_texture = ExtResource("6_x7cge")
+normal_pivot = Vector2(41.7, 13.85)
+hover_pivot = Vector2(41.7, 13.85)
+pressed_pivot = Vector2(41.7, 13.85)
+metadata/button_key = "failure_retry"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/failure_retryRegistration/failure_retry" unique_id=1893935778]
+position = Vector2(10, -2)
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/failure_retryRegistration/failure_retry/ArtworkLayout" unique_id=1156720077]
+texture = ExtResource("4_1cfbj")
+centered = false
+
+[node name="failure_returnRegistration" type="Node2D" parent="PanelRoot" unique_id=1727602504]
+position = Vector2(-513.2, -37.15)
+metadata/source_depth = 7
+
+[node name="failure_return" type="BaseButton" parent="PanelRoot/failure_returnRegistration" unique_id=938984609]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -38.0
+offset_top = -14.3
+offset_right = 58.0
+offset_bottom = 12.499999
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "返回标题"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_11xgj")
+normal_texture = ExtResource("7_nuicu")
+hover_texture = ExtResource("8_v1per")
+pressed_texture = ExtResource("9_aldi5")
+normal_pivot = Vector2(40, 14.3)
+hover_pivot = Vector2(40, 14.3)
+pressed_pivot = Vector2(40, 14.3)
+metadata/button_key = "failure_return"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/failure_returnRegistration/failure_return" unique_id=1084602972]
+position = Vector2(-2, 0)
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/failure_returnRegistration/failure_return/ArtworkLayout" unique_id=1776744331]
+texture = ExtResource("7_nuicu")
+centered = false

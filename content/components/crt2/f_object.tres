@@ -1,0 +1,57 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_nqj37"]
+
+[resource]
+script = ExtResource("1_nqj37")
+identifier = "f_object"
+parameters = {
+"birth_actor_source_frame": 2.0,
+"child": {
+"default_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0],
+"end_empty": true,
+"end_frame": 36.0,
+"hold_frame": 2.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"resume_by": {
+"operation": "_parent.nextFrame()",
+"source_frame": 23.0,
+"source_id": 633.0
+},
+"resume_frame": 3.0,
+"source_id": 802.0
+},
+"end_empty_stop": true,
+"end_frame": 40.0,
+"facing_scale_applied": false,
+"hit": {
+"frames": [2.0, 4.0],
+"gravity": -12.0,
+"helper": 649.0,
+"marker_bonus": 25.0,
+"marker_frame": 2.0
+},
+"linkage": "리얼레퓨",
+"parent": "root",
+"position": "player.root_position",
+"source": ["res/scripts/DefineSprite_803_리얼레퓨/frame_1/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_2/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_2/PlaceObject2_649_6/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_803_리얼레퓨/frame_23/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_3/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_4/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_40/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_5/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_6/DoAction.as"],
+"source_id": 803.0,
+"spawn_second": {
+"linkage": "리얼레퓨2",
+"position": "first_object.root_position",
+"source_frame": 23.0,
+"source_id": 1077.0,
+"space": "root"
+},
+"timeline": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0],
+"timer_child": {
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.15, -0.85],
+"parent_source_frame": 2.0,
+"parent_source_id": 802.0,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0],
+"source_id": 633.0,
+"terminal_operation": "_parent.nextFrame()",
+"terminal_source": "res/scripts/DefineSprite_633/frame_23/DoAction.as"
+}
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

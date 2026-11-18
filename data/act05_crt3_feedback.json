@@ -1,0 +1,282 @@
+{
+  "source": "Original XML1410/6861 + root maps and6917; AS6276f116/128 and6259f1",
+  "roots": {
+    "2": [
+      {
+        "source_id": 3856,
+        "depth": 1,
+        "name": "맵",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          279.35,
+          311.2
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      },
+      {
+        "source_id": 6917,
+        "depth": 2723,
+        "name": "게임오버",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          742.15,
+          284.6
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "4": [
+      {
+        "source_id": 3856,
+        "depth": 3,
+        "name": "맵",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          279.35,
+          311.2
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      },
+      {
+        "source_id": 6917,
+        "depth": 3466,
+        "name": "게임오버",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          742.15,
+          284.6
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "6": [
+      {
+        "source_id": 3856,
+        "depth": 3,
+        "name": "맵",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          279.35,
+          311.2
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      },
+      {
+        "source_id": 6917,
+        "depth": 2749,
+        "name": "게임오버",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          742.15,
+          284.6
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "9": [
+      {
+        "source_id": 7370,
+        "depth": 3,
+        "name": "맵",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          302.35,
+          88.6
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      },
+      {
+        "source_id": 6917,
+        "depth": 2832,
+        "name": "게임오버",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          742.15,
+          284.6
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "41": [
+      {
+        "source_id": 8483,
+        "depth": 1,
+        "name": "맵",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          288.7,
+          206.05
+        ],
+        "color_transform": {
+          "type": "CXFORMWITHALPHA",
+          "alphaAddTerm": "0",
+          "alphaMultTerm": "256",
+          "blueAddTerm": "23",
+          "blueMultTerm": "233",
+          "greenAddTerm": "23",
+          "greenMultTerm": "233",
+          "hasAddTerms": "true",
+          "hasMultTerms": "true",
+          "nbits": "10",
+          "redAddTerm": "23",
+          "redMultTerm": "233"
+        },
+        "filter": null,
+        "blend_mode": null
+      },
+      {
+        "source_id": 6917,
+        "depth": 2623,
+        "name": "게임오버",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          742.15,
+          284.6
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ]
+  },
+  "children": {
+    "3856": [
+      {
+        "parent_source_frame": 1,
+        "source_id": 1410,
+        "depth": 114,
+        "name": "암전",
+        "matrix": [
+          1.1309052,
+          0.0,
+          0.0,
+          1.1300049,
+          -11.8,
+          -121.05
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "6917": [
+      {
+        "parent_source_frame": 1,
+        "source_id": 6861,
+        "depth": 12,
+        "name": "반전",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.3,
+          176.4
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "7370": [
+      {
+        "parent_source_frame": 1,
+        "source_id": 1410,
+        "depth": 184,
+        "name": "암전",
+        "matrix": [
+          1.1309052,
+          0.0,
+          0.0,
+          1.1300049,
+          -29.55,
+          114.05
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      },
+      {
+        "parent_source_frame": 2,
+        "source_id": 1410,
+        "depth": 184,
+        "name": "암전",
+        "matrix": [
+          1.1309052,
+          0.0,
+          0.0,
+          1.1300049,
+          -29.55,
+          114.05
+        ],
+        "color_transform": null,
+        "filter": null,
+        "blend_mode": null
+      }
+    ],
+    "8483": []
+  },
+  "dark": {
+    "source_id": 1410,
+    "animation": "crt3_e_map_dark",
+    "entry": 2,
+    "end": 27,
+    "return": 1,
+    "training_missing_is_noop": true
+  },
+  "flash": {
+    "source_id": 6861,
+    "animation": "crt3_e_screen_flash",
+    "entry": 22,
+    "control": 23,
+    "return": 1,
+    "source22_alpha": 0.15625,
+    "not_inversion_shader": true
+  }
+}

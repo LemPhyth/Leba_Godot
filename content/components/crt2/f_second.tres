@@ -1,0 +1,152 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_o02pr"]
+[ext_resource type="AudioStream" path="res://assets/audio/345.mp3" id="1_yyov4"]
+
+[resource]
+script = ExtResource("1_o02pr")
+identifier = "f_second"
+parameters = {
+"child": {
+"end_empty_stop": 21.0,
+"load_goto": 2.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"sequence": [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0],
+"source_id": 1076.0
+},
+"end_empty_stop": true,
+"end_frame": 24.0,
+"hit": {
+"gravity": -5.0,
+"helper": 651.0,
+"marker_bonus": 25.0,
+"marker_frame": 2.0,
+"windows": [[1.0, 2.0], [5.0, 6.0], [9.0, 11.0], [12.0, 13.0]]
+},
+"linkage": "리얼레퓨2",
+"sounds": [{
+"audio_stream": ExtResource("1_yyov4"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 1,
+"in_point_samples_44100": 13200.0,
+"kind": "sound",
+"offset": 0.29931972789115646,
+"out_point_samples_44100": 84504.0,
+"sound": "crt2_f_burst_host",
+"sound_id": 345.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "13200",
+"outPoint": "84504",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1077.0
+}, {
+"audio_stream": ExtResource("1_yyov4"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 3,
+"in_point_samples_44100": 13000.0,
+"kind": "sound",
+"offset": 0.2947845804988662,
+"out_point_samples_44100": 84504.0,
+"sound": "crt2_f_burst_host_sound_2",
+"sound_id": 345.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "13000",
+"outPoint": "84504",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1077.0
+}, {
+"audio_stream": ExtResource("1_yyov4"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 5,
+"in_point_samples_44100": 13200.0,
+"kind": "sound",
+"offset": 0.29931972789115646,
+"out_point_samples_44100": 86516.0,
+"sound": "crt2_f_burst_host_sound_3",
+"sound_id": 345.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "13200",
+"outPoint": "86516",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1077.0
+}, {
+"audio_stream": ExtResource("1_yyov4"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 7,
+"in_point_samples_44100": 13300.0,
+"kind": "sound",
+"offset": 0.30158730158730157,
+"out_point_samples_44100": 85510.0,
+"sound": "crt2_f_burst_host_sound_4",
+"sound_id": 345.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "13300",
+"outPoint": "85510",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1077.0
+}, {
+"audio_stream": ExtResource("1_yyov4"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 9,
+"in_point_samples_44100": 13400.0,
+"kind": "sound",
+"offset": 0.30385487528344673,
+"out_point_samples_44100": 88528.0,
+"sound": "crt2_f_burst_host_sound_5",
+"sound_id": 345.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "13400",
+"outPoint": "88528",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1077.0
+}],
+"source": ["res/scripts/DefineSprite_1077_리얼레퓨2/frame_1/PlaceObject2_651_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_1077_리얼레퓨2/frame_1/PlaceObject2_653_3/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_1077_리얼레퓨2/frame_1/PlaceObject3_1076_5/CLIPACTIONRECORD onClipEvent(load).as", "res/scripts/DefineSprite_1077_리얼레퓨2/frame_12/PlaceObject2_651_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_1077_리얼레퓨2/frame_24/DoAction.as", "res/scripts/DefineSprite_1077_리얼레퓨2/frame_5/PlaceObject2_651_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_1077_리얼레퓨2/frame_9/PlaceObject2_651_1/CLIPACTIONRECORD onClipEvent(enterFrame).as"],
+"source_id": 1077.0,
+"timeline": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0]
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

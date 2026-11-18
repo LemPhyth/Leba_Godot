@@ -1,0 +1,155 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_basic1.tres" id="1_dsany"]
+[ext_resource type="AudioStream" path="res://assets/audio/5181.mp3" id="2_x0j8w"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_qx1pm"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_lsfey"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_t74em"]
+
+[sub_resource type="Resource" id="Resource_1ihle"]
+script = ExtResource("3_qx1pm")
+frame = 4
+sound = "crt3_basic1"
+audio_stream = ExtResource("2_x0j8w")
+parameters = {
+"envelope": [{
+"left": 13284.0,
+"right": 13580.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5181.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5820.0
+}
+
+[sub_resource type="Resource" id="Resource_06lep"]
+script = ExtResource("5_t74em")
+from_frame = 6
+until_frame = 6
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.174997, -68.05575, 154.00201, 133.00906)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 41,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_xf6f2"]
+script = ExtResource("5_t74em")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.174997, -68.05575, 154.00201, 133.00906)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 41,
+"source_frame": 7,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_wc3c5"]
+script = ExtResource("5_t74em")
+from_frame = 8
+until_frame = 8
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.174997, -68.05575, 154.00201, 133.00906)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 41,
+"source_frame": 8,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_33r78"]
+script = ExtResource("5_t74em")
+from_frame = 6
+until_frame = 6
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.174997, -68.05575, 154.00201, 133.00906)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 43,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"category": "left",
+"collision": "enemy.normal_body vs named helper",
+"kind": "named_common_slash",
+"note": "Use existing original common slash dispatch; named helper is independent from gravity helper; compare <= and >= independently when choosing left/right.",
+"once_gate": false,
+"source_effect_ids": [1481.0, 1496.0]
+}
+}
+
+[resource]
+script = ExtResource("4_lsfey")
+identifier = "basic"
+title = "basic"
+animation = ExtResource("1_dsany")
+animation_key = "crt3_basic1"
+source_parent = 106
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
+input_id = "attack"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_1ihle")])
+windows = Array[Resource]([SubResource("Resource_06lep"), SubResource("Resource_xf6f2"), SubResource("Resource_wc3c5"), SubResource("Resource_33r78")])
+source = "Original AS/XML sprite5820 parent106; source hashes in asset_catalog and investigation facts."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -32.0, 14.35],
+"reset_combo_counters": false,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 5820.0
+}

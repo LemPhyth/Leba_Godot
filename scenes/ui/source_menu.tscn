@@ -1,0 +1,148 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/source_menu.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ui/menu_keys.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/ui/menu_actions.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/ui/menu_settings.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/ui/menu_failure.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/ui/warehouse_2.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/ui/warehouse_8.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_1.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_2.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_3.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_4.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_5.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_6.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_7.tscn" id="14"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_8.tscn" id="15"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_9.tscn" id="16"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_10.tscn" id="17"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_11.tscn" id="18"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dropdown_12.tscn" id="19"]
+[ext_resource type="PackedScene" path="res://scenes/ui/warehouse_4.tscn" id="28_h8dtm"]
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="29_fq0kq"]
+[ext_resource type="PackedScene" path="res://scenes/ui/warehouse_5.tscn" id="29_ogm2f"]
+[ext_resource type="PackedScene" path="res://scenes/ui/warehouse_6.tscn" id="30_ogm2f"]
+[ext_resource type="PackedScene" path="res://scenes/ui/warehouse_3.tscn" id="30_weapon3"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_volume_0.png" id="101"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_volume_25.png" id="102"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_volume_50.png" id="103"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_volume_75.png" id="104"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_volume_100.png" id="105"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_checkbox_off.png" id="108"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_checkbox_on.png" id="109"]
+
+[node name="SourceMenu" type="Control" unique_id=999948617]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+script = ExtResource("1")
+volume_textures = Array[Texture2D]([ExtResource("101"), ExtResource("102"), ExtResource("103"), ExtResource("104"), ExtResource("105")])
+auto_save_textures = Array[Texture2D]([ExtResource("108"), ExtResource("109")])
+auto_quality_textures = Array[Texture2D]([ExtResource("108"), ExtResource("109")])
+checkbox_frame_offsets = Array[Vector2]([Vector2(0, 0), Vector2(0, -20)])
+
+[node name="Pages" type="Control" parent="." unique_id=636183155]
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="menu_keys" parent="Pages" unique_id=617410642 instance=ExtResource("2")]
+visible = false
+layout_mode = 0
+
+[node name="menu_actions" parent="Pages" unique_id=1065502341 instance=ExtResource("3")]
+layout_mode = 0
+
+[node name="menu_settings" parent="Pages" unique_id=1887408140 instance=ExtResource("4")]
+visible = false
+layout_mode = 0
+
+[node name="menu_failure" parent="Pages" unique_id=1115760495 instance=ExtResource("5")]
+visible = false
+layout_mode = 0
+
+[node name="warehouse_2" parent="Pages" unique_id=1684604749 instance=ExtResource("6")]
+visible = false
+layout_mode = 0
+
+[node name="warehouse_8" parent="Pages" unique_id=794576298 instance=ExtResource("7")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_1" parent="Pages" unique_id=1777774334 instance=ExtResource("8")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_2" parent="Pages" unique_id=79207955 instance=ExtResource("9")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_3" parent="Pages" unique_id=1655575701 instance=ExtResource("10")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_4" parent="Pages" unique_id=845962581 instance=ExtResource("11")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_5" parent="Pages" unique_id=220718714 instance=ExtResource("12")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_6" parent="Pages" unique_id=581420822 instance=ExtResource("13")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_7" parent="Pages" unique_id=1650447567 instance=ExtResource("14")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_8" parent="Pages" unique_id=598903104 instance=ExtResource("15")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_9" parent="Pages" unique_id=871518231 instance=ExtResource("16")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_10" parent="Pages" unique_id=352955417 instance=ExtResource("17")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_11" parent="Pages" unique_id=464436383 instance=ExtResource("18")]
+visible = false
+layout_mode = 0
+
+[node name="dropdown_12" parent="Pages" unique_id=279142136 instance=ExtResource("19")]
+visible = false
+layout_mode = 0
+
+[node name="warehouse_3" parent="Pages" unique_id=1571458354 instance=ExtResource("30_weapon3")]
+visible = false
+layout_mode = 0
+
+[node name="warehouse_4" parent="Pages" unique_id=2089430266 instance=ExtResource("28_h8dtm")]
+visible = false
+layout_mode = 0
+
+[node name="warehouse_5" parent="Pages" unique_id=910003114 instance=ExtResource("29_ogm2f")]
+visible = false
+layout_mode = 0
+
+[node name="warehouse_6" type="Control" parent="Pages" unique_id=1820726808 instance=ExtResource("30_ogm2f")]
+visible = false
+anchors_preset = 0
+mouse_filter = 2
+theme = ExtResource("29_fq0kq")
+
+[node name="Error" type="Label" parent="." unique_id=174171775]
+visible = false
+layout_mode = 0
+offset_left = 25.0
+offset_top = 140.0
+offset_right = 525.0
+offset_bottom = 240.0
+text = "菜单场景或资源缺失"
+autowrap_mode = 3

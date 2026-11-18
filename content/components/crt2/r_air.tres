@@ -1,0 +1,91 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/260.mp3" id="1_hbq8x"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_ywn36"]
+
+[resource]
+script = ExtResource("1_ywn36")
+identifier = "r_air"
+parameters = {
+"air_pull_frames": [47.0, 129.0],
+"air_pull_x": 0.8,
+"cutin": {
+"end_frame": 97.0,
+"end_goto_stop": 1.0,
+"source_id": 6835.0,
+"start_frame": 66.0,
+"trigger_actor_frame": 4.0
+},
+"first_gravity": -10.0,
+"first_marker_bonus": 100.0,
+"last_marker_bonus": 20.0,
+"loop": "natural",
+"main_hits": [25.0, 47.0, 54.0, 66.0, 74.0, 82.0, 91.0, 100.0, 109.0, 120.0, 130.0],
+"main_parent90_marker_bonus": 3.0,
+"marker_bonus": 10.0,
+"marker_frame": 2.0,
+"nested_visual": {
+"instance_loop_phase": "Not dynamic-probed; respect actual parent instance lifetimes, do not simply schedule source sound at main R47.",
+"loop": "natural",
+"parent_matrix": [0.9866333, 0.0, 0.0, 1.1159058, -109.25, 15.15],
+"parent_source_id": 5617.0,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0],
+"sounds": [{
+"audio_stream": ExtResource("1_hbq8x"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt2_r_air_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5609.0
+}, {
+"audio_stream": ExtResource("1_hbq8x"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 5,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt2_r_air_hit_child_sound_2",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5609.0
+}],
+"source_id": 5609.0
+},
+"parent_matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"parent_presence": [47.0, 129.0],
+"parent_source_id": 5619.0,
+"ready_slot_frame": 430.0,
+"rest_gravity": -5.0,
+"resume_cd_actor_frame": 138.0,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0],
+"source": ["res/scripts/DefineSprite_5618/frame_2/DoAction.as", "res/scripts/DefineSprite_5618/frame_3/DoAction.as", "res/scripts/DefineSprite_5618/frame_4/DoAction.as", "res/scripts/DefineSprite_5618/frame_5/DoAction.as", "res/scripts/DefineSprite_5618/frame_6/DoAction.as", "res/scripts/DefineSprite_5618/frame_7/DoAction.as", "res/scripts/DefineSprite_5619/frame_47/DoAction.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_439_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject2_5493_94/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject3_5618_57/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject3_5618_57/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject3_5618_57/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject3_5618_57/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5619/frame_47/PlaceObject3_5618_57/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5619/frame_138/DoAction.as"],
+"source_id": 5618.0,
+"static_children": [5617.0, 5567.0, 5573.0],
+"use_slot_frame": 2.0,
+"use_slot_stopped": true
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

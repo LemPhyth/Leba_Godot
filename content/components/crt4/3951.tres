@@ -1,0 +1,402 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_q_status.tres" id="1_mx3ld"]
+[ext_resource type="AudioStream" path="res://assets/audio/3950.mp3" id="2_w2vk7"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="3_nyhpv"]
+
+[resource]
+script = ExtResource("3_nyhpv")
+identifier = "3951"
+parameters = {
+"active_from": 9.0,
+"active_until": 293.0,
+"air_damage": 7.0,
+"air_marker_frame": 2.0,
+"air_targets": [1.0, 2.0, 7.0, 7.0, 5.0],
+"births": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, 0.4, -59.55],
+"name": null,
+"source_id": 3947.0
+}, {
+"depth": 1.0,
+"frame": 2.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"name": null,
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "82",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"frame": 2.0,
+"matrix": [0.9949646, 0.0, 0.0, 0.8929901, -2.5, -55.45],
+"name": null,
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "125",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"frame": 2.0,
+"matrix": [0.68362427, 0.0, 0.0, 0.5968933, -3.4, -54.75],
+"name": null,
+"source_id": 3949.0
+}, {
+"depth": 1.0,
+"frame": 9.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"name": null,
+"source_id": 1729.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"ghostslash_damage": 35.0,
+"ghostslash_frame": 19.0,
+"ghostslash_targets": [1.0, 2.0, 3.0, 7.0, 5.0],
+"observer_scope": "Each applied target status owns a separate GLOBAL target observer set; literal source typos retained",
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, 0.4, -59.55],
+"source_id": 3947.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "1",
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "82",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [0.9949646, 0.0, 0.0, 0.8929901, -2.5, -55.45],
+"ratio": "1",
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "125",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [0.68362427, 0.0, 0.0, 0.5968933, -3.4, -54.75],
+"ratio": "1",
+"source_id": 3949.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "1",
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "82",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [1.3716888, 0.0, 0.0, 1.411499, -0.95, -57.3],
+"ratio": "1",
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "125",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [0.94247437, 0.0, 0.0, 0.9434662, -2.2, -56.2],
+"ratio": "1",
+"source_id": 3949.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "1",
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "82",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [1.6075897, 0.0, 0.0, 1.6726685, -0.95, -57.3],
+"ratio": "1",
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "125",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [0.94247437, 0.0, 0.0, 0.9434662, -2.2, -56.2],
+"ratio": "1",
+"source_id": 3949.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "1",
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "82",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [1.8467712, 0.0, 0.0, 2.0258636, -2.1, -59.0],
+"ratio": "1",
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "125",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [1.0826874, 0.0, 0.0, 1.1426849, -3.5, -57.7],
+"ratio": "1",
+"source_id": 3949.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "1",
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "41",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [2.3584442, 0.0, 0.0, 2.4022217, -2.1, -59.0],
+"ratio": "1",
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "125",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [1.0826874, 0.0, 0.0, 1.1426849, -3.5, -57.7],
+"ratio": "1",
+"source_id": 3949.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "1",
+"source_id": 1729.0
+}, {
+"color_transform": {
+"alphaMultTerm": "23",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [2.9443207, 0.0, 0.0, 3.1115417, -2.1, -59.0],
+"ratio": "1",
+"source_id": 3949.0
+}, {
+"color_transform": {
+"alphaMultTerm": "72",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [1.5619812, 0.0, 0.0, 1.6983337, -3.5, -57.7],
+"ratio": "1",
+"source_id": 3949.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.1299133, 0.0, 0.0, 1.1299133, -1.95, -53.75],
+"ratio": "8",
+"source_id": 1729.0
+}],
+"source_frame": 9.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("2_w2vk7"),
+"envelope": [{
+"left": 12399.0,
+"right": 12694.0,
+"sample": 0.0
+}],
+"frame": 2,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_3951_sound_1",
+"sound_id": 3950.0,
+"source_id": 3951,
+"source_sound_info": {
+"envelopes": [{
+"leftLevel": "12399",
+"pos44": "0",
+"rightLevel": "12694",
+"type": "SOUNDENVELOPE"
+}],
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 3951.0
+}],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_3951/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "94bbd5cc958c4657af65df55cb9a59c341695c4b880750b10d8ad6c4f08a1388"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "fd477f66e4bdd1fcefcff71f00a2b93f2d1f05c2228edc6b8162311d285217aa"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "d3d8dd08edd9f504b7f6bc6a1283baa98de27580cba0dcba3d0c33a4c533fffd"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "cb594a8f9026880106dc3bec6584e9e8352b22216bd6e15dad145656a6837542"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "cb594a8f9026880106dc3bec6584e9e8352b22216bd6e15dad145656a6837542"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "fa800ba4e5a0cc7502d502232305c3b206731e75c1986ba43f4cb0efc942a1d4"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "b8dd8a5289680bb5bc79e5c040738f81dbd3f5fc27298293f2f28b375e0160b5"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "57329ac191687af285616f7c8ec7f166c592efda83713c986f5710a5aededc39"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "77633ec575c1fbd2ab78529e4d0fb9be854d0be5d389c98a7042fab15c310ae7"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_3951/frame_9/PlaceObject2_1729_1/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "0e3de0446bd5255288d2cac6f9ecbcabc3e511225c480b58f99b70bad1a16b47"
+}],
+"source_frame_count": 293.0,
+"source_id": 3951.0,
+"stop_source_frames": [1.0]
+}
+animations = Array[Resource]([ExtResource("1_mx3ld")])
+source = "Original AS/XML source 3951; res://data/act06_crt4_rules.json.components.3951"

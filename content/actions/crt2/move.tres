@@ -1,0 +1,56 @@
+[gd_resource type="Resource" format=3 uid="uid://cy5dxvvfkbwrn"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_move.tres" id="1_rflad"]
+[ext_resource type="AudioStream" uid="uid://cgnphbfd7ddms" path="res://assets/audio/4616.mp3" id="2_72uew"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_f16uh"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_ekfxv"]
+
+[sub_resource type="Resource" id="Resource_7t3ep"]
+script = ExtResource("3_f16uh")
+frame = 11
+sound = "crt2_move"
+audio_stream = ExtResource("2_72uew")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5178.0
+}
+
+[resource]
+script = ExtResource("4_ekfxv")
+identifier = "move"
+title = "move"
+animation = ExtResource("1_rflad")
+animation_key = "crt2_move"
+source_parent = 65
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+allowed_states = PackedStringArray()
+loop = true
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_7t3ep")])
+source = "res/scripts/DefineSprite_5178/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_move",
+"1": "crt2_move_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "action",
+"hit_callback_sources": [],
+"normal_end_source_frame": 12,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 11.95, 19.6],
+"source_id": 5178.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

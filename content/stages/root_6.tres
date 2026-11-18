@@ -1,0 +1,52 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_definition.gd" id="1_5oy5n"]
+
+[resource]
+script = ExtResource("1_5oy5n")
+identifier = "root_6"
+title = "哥布林之森 · 十夫长"
+source_root_frame = 6
+enemy_type = "goblin_7176"
+enemy_hp = 400.0
+next_stage = "root_7"
+reward = 300
+player_hurt_observers = PackedFloat32Array(3.5)
+extra = {
+"bounds": [35.0, 520.0],
+"clear_counter_frame": 2.0,
+"clear_dialogue": "root_6_clear",
+"end_source": "7192对话帧2..8 → 7191帧35 → 根7结算",
+"map_position": [279.35, 311.2],
+"map_scale": [1.0, 1.0],
+"progress_gain": 1.0,
+"reset_hp": 100.0,
+"reset_mp": 100.0,
+"retry_source_root_frame": 5.0,
+"reward_by_difficulty": {
+"beast": 550,
+"expert": 300,
+"king": 400,
+"master": 350,
+"slayer": 450
+},
+"reward_by_nan": {
+"0": 300.0,
+"1": 350.0,
+"2": 400.0,
+"3": 450.0,
+"4": 550.0
+},
+"source_depths": {
+"enemies": [458],
+"ground": 441,
+"hp": 451,
+"hud": 2749,
+"mp": 449,
+"player": 933,
+"skills": 227,
+"sniper": 2651,
+"y": 743
+},
+"source_map_id": 3856.0
+}

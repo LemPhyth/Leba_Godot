@@ -1,0 +1,290 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_d1.tres" id="1_dphop"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_2ehci"]
+[ext_resource type="AudioStream" path="res://assets/audio/6037.mp3" id="3_fhyvr"]
+[ext_resource type="AudioStream" path="res://assets/audio/6039.mp3" id="4_2ehci"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_5w16q"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_k2dpj"]
+
+[sub_resource type="Resource" id="Resource_lk1sb"]
+script = ExtResource("2_2ehci")
+kind = "crt3_goto_source"
+parameters = {
+"note": "same-source control, not an extra waiting tick",
+"source_frame": 1.0,
+"target_frame": 3.0
+}
+
+[sub_resource type="Resource" id="Resource_qiki2"]
+script = ExtResource("2_2ehci")
+frame = 5
+sound = "crt3_skill_d1"
+audio_stream = ExtResource("3_fhyvr")
+audio_offset = 0.0364625850340136
+parameters = {
+"envelope": [{
+"left": 15941.0,
+"right": 15056.0,
+"sample": 201.0
+}],
+"in_point_samples_44100": 1608.0,
+"out_point_samples_44100": 20502.0,
+"sound_id": 6037.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1608",
+"outPoint": "20502",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6050.0
+}
+
+[sub_resource type="Resource" id="Resource_f3yax"]
+script = ExtResource("5_k2dpj")
+from_frame = 6
+until_frame = 6
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-105.0625, -121.39789, 256.0326, 188.72343)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 43,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_phx1w"]
+script = ExtResource("5_k2dpj")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-105.0625, -121.39789, 256.0326, 188.72343)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 43,
+"source_frame": 7,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ydhtx"]
+script = ExtResource("5_k2dpj")
+from_frame = 8
+until_frame = 8
+kind = "crt3_hit"
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 8,
+"source_depth": 43,
+"source_frame": 8,
+"source_helper": 6044,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_7omgs"]
+script = ExtResource("5_k2dpj")
+from_frame = 9
+until_frame = 9
+kind = "crt3_hit"
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 8,
+"source_depth": 43,
+"source_frame": 9,
+"source_helper": 6044,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("4_5w16q")
+identifier = "skill_d"
+title = "skill_d"
+animation = ExtResource("1_dphop")
+animation_key = "crt3_skill_d1"
+source_parent = 120
+sequence = PackedInt32Array(1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+input_id = "skill"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+cost = 3.0
+required_mp = 3.0
+cooldown_ticks = 162
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_lk1sb"), SubResource("Resource_qiki2")])
+windows = Array[Resource]([SubResource("Resource_f3yax"), SubResource("Resource_phx1w"), SubResource("Resource_ydhtx"), SubResource("Resource_7omgs")])
+source = "Original AS/XML sprite6050 parent120; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [{
+"cost": 0.0,
+"default_condition": "true",
+"from": 8.0,
+"keycode": 68.0,
+"kind": "keydown_held",
+"next": "skill_d2",
+"terminal_frame_present": true,
+"until": 20.0
+}],
+"motion_overlap_additive": true,
+"nested_audio": [{
+"entry_frame": 1,
+"from_frame": 6,
+"identifier": "src6040_d1_f6",
+"sounds": [{
+"audio_stream": ExtResource("4_2ehci"),
+"envelope": [{
+"left": 14170.0,
+"right": 15056.0,
+"sample": 0.0
+}],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt3_child_6040",
+"sound_id": 6039.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6040.0
+}],
+"source_id": 6040,
+"until_frame": 20
+}],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -31.1, 12.7],
+"physical_keys": [68.0],
+"reset_combo_counters": true,
+"slot_id": 4242.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 6050.0,
+"source_motion": [{
+"add_spd": true,
+"dx": 15.0,
+"facing": true,
+"from": 4.0,
+"until": 6.0
+}, {
+"add_spd": true,
+"dx": 10.0,
+"facing": true,
+"from": 6.0,
+"until": 8.0
+}, {
+"add_spd": true,
+"dx": 7.0,
+"facing": true,
+"from": 9.0,
+"until": 11.0
+}]
+}

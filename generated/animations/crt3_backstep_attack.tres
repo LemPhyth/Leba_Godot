@@ -1,0 +1,102 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_ua3nq"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_backstep_attack.png" id="2_i2q30"]
+
+[resource]
+script = ExtResource("1_ua3nq")
+identifier = "crt3_backstep_attack"
+texture = ExtResource("2_i2q30")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-38.0, -87.0, 101.0, 181.0],
+"pivot": [37.55, 86.65],
+"region": [2.0, 2.0, 101.0, 181.0],
+"source_crop": [84.0, 68.0, 185.0, 249.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-67.0, -94.0, 110.0, 172.0],
+"pivot": [66.55, 93.65],
+"region": [107.0, 2.0, 110.0, 172.0],
+"source_crop": [55.0, 61.0, 165.0, 233.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-67.0, -94.0, 110.0, 172.0],
+"pivot": [66.55, 93.65],
+"region": [221.0, 2.0, 110.0, 172.0],
+"source_crop": [55.0, 61.0, 165.0, 233.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-15.0, -114.0, 173.0, 208.0],
+"pivot": [14.55, 113.9],
+"region": [335.0, 2.0, 173.0, 208.0],
+"source_crop": [107.0, 41.0, 280.0, 249.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-15.0, -85.0, 150.0, 179.0],
+"pivot": [14.55, 84.9],
+"region": [512.0, 2.0, 150.0, 179.0],
+"source_crop": [107.0, 70.0, 257.0, 249.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-15.0, -85.0, 124.0, 179.0],
+"pivot": [14.55, 84.9],
+"region": [666.0, 2.0, 124.0, 179.0],
+"source_crop": [107.0, 70.0, 231.0, 249.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [794.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [904.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1014.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1124.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1234.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1344.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1454.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1564.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-15.0, -86.0, 106.0, 180.0],
+"pivot": [14.55, 85.65],
+"region": [1674.0, 2.0, 106.0, 180.0],
+"source_crop": [107.0, 69.0, 213.0, 249.0],
+"source_frame": 15.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt3_backstep_attack；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_evade.tres" id="1_yjmga"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_wp2me"]
+
+[resource]
+script = ExtResource("2_wp2me")
+identifier = "evade"
+title = "evade"
+animation = ExtResource("1_yjmga")
+animation_key = "enemy7437_evade"
+source_parent = 150
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35)
+input_id = "evade"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold_at = PackedInt32Array()
+next_action = "recover"
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."
+extra = {
+"retreat_per_tick": 3.0
+}

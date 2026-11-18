@@ -1,0 +1,48 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_3qajx"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_ghostwalk_loop.png" id="2_68mln"]
+
+[resource]
+script = ExtResource("1_3qajx")
+identifier = "crt4_ghostwalk_loop"
+texture = ExtResource("2_68mln")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-26.35, -42.05, 53.0, 84.0],
+"pivot": [26.35, 42.05],
+"region": [2.0, 2.0, 53.0, 84.0],
+"source_crop": [6.0, 0.0, 59.0, 84.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-26.35, -42.05, 53.0, 84.0],
+"pivot": [26.35, 42.05],
+"region": [59.0, 2.0, 53.0, 84.0],
+"source_crop": [6.0, 0.0, 59.0, 84.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-31.35, -42.05, 63.0, 77.0],
+"pivot": [31.35, 42.05],
+"region": [116.0, 2.0, 63.0, 77.0],
+"source_crop": [1.0, 0.0, 64.0, 77.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-31.35, -42.05, 63.0, 77.0],
+"pivot": [31.35, 42.05],
+"region": [183.0, 2.0, 63.0, 77.0],
+"source_crop": [1.0, 0.0, 64.0, 77.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-32.35, -41.05, 71.0, 82.0],
+"pivot": [32.35, 41.05],
+"region": [250.0, 2.0, 71.0, 82.0],
+"source_crop": [0.0, 1.0, 71.0, 83.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-32.35, -41.05, 71.0, 82.0],
+"pivot": [32.35, 41.05],
+"region": [325.0, 2.0, 71.0, 82.0],
+"source_crop": [0.0, 1.0, 71.0, 83.0],
+"source_frame": 6.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_ghostwalk_loop；派生图集；来源与pivot见catalog。"

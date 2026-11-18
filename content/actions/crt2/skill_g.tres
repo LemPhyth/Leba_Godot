@@ -1,0 +1,81 @@
+[gd_resource type="Resource" format=3 uid="uid://dulb3rqo7j6as"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_g.tres" id="1_l51jr"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_3yim2"]
+[ext_resource type="AudioStream" uid="uid://b6764mr2hxlsg" path="res://assets/audio/5314.mp3" id="3_b52a3"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_kxpwq"]
+
+[sub_resource type="Resource" id="Resource_paeiq"]
+script = ExtResource("2_3yim2")
+frame = 11
+kind = "crt2_persistent_start"
+parameters = {
+"component": "rage",
+"source_frame": 11.0,
+"source_id": 4601.0,
+"start_frame": 2.0
+}
+
+[sub_resource type="Resource" id="Resource_r2nie"]
+script = ExtResource("2_3yim2")
+frame = 2
+sound = "crt2_skill_g"
+audio_stream = ExtResource("3_b52a3")
+parameters = {
+"envelope": [{
+"left": 17417.0,
+"right": 17417.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5314.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5318.0
+}
+
+[resource]
+script = ExtResource("4_kxpwq")
+identifier = "skill_g"
+title = "skill_g"
+animation = ExtResource("1_l51jr")
+animation_key = "crt2_skill_g"
+source_parent = 81
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19)
+input_id = "load_g"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+cost = 8.0
+required_mp = 8.0
+cooldown_ticks = 599
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_paeiq"), SubResource("Resource_r2nie")])
+source = "res/scripts/DefineSprite_5318/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_skill_g",
+"1": "crt2_skill_g_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "action",
+"hit_callback_sources": [],
+"input_semantics": "onClipEvent(keyDown) then Key.isDown(key), not event key equality",
+"normal_end_source_frame": 19,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -0.15, 26.2],
+"physical_key": "G",
+"slot_id": 4185.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+"slot_start_playing": true,
+"source_allowed_parent_frames": [64.0, 65.0, 66.0, 67.0, 69.0, 70.0, 71.0, 84.0, 85.0, 86.0, 87.0],
+"source_id": 5318.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

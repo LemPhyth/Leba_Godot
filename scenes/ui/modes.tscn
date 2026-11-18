@@ -1,0 +1,129 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_bs0mp"]
+[ext_resource type="Texture2D" path="res://assets/ui/title.png" id="2_uvbdi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d40f6"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Modes" type="Control" unique_id=607029286]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_bs0mp")
+
+[node name="@TextureRect@26" type="TextureRect" parent="." unique_id=1657245997]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 265.0
+mouse_filter = 2
+texture = ExtResource("2_uvbdi")
+expand_mode = 1
+
+[node name="@ColorRect@27" type="ColorRect" parent="." unique_id=354536984]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+color = Color(0.025, 0.03, 0.04, 0.85)
+
+[node name="@Panel@28" type="Panel" parent="." unique_id=862143290]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 45.0
+offset_right = 485.0
+offset_bottom = 365.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_d40f6")
+
+[node name="Title" type="Label" parent="." unique_id=1411553882]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 62.0
+offset_right = 440.0
+offset_bottom = 88.0
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "选择模式"
+autowrap_mode = 3
+
+[node name="Mode_story" type="Button" parent="." unique_id=1780827873]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 112.0
+offset_right = 460.0
+offset_bottom = 152.0
+tooltip_text = "角色选择后由难度按钮设置nan → 根帧2"
+text = "冒险"
+
+[node name="Mode_training" type="Button" parent="." unique_id=93196414]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 164.0
+offset_right = 460.0
+offset_bottom = 204.0
+tooltip_text = "3016设置crt0→根40→41"
+text = "练习模式"
+
+[node name="Mode_tower" type="Button" parent="." unique_id=1960985533]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 216.0
+offset_right = 460.0
+offset_bottom = 256.0
+tooltip_text = "入口已定位，玩法和场景尚未接入。"
+disabled = true
+text = "其他模式 · 待还原"
+
+[node name="Description" type="Label" parent="." unique_id=233948695]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 225.0
+offset_right = 457.0
+offset_bottom = 274.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "冒险流程：选择角色 → 选择难度。
+其他模式暂未接入。"
+autowrap_mode = 3
+
+[node name="VolumeLabel" type="Label" parent="." unique_id=349268007]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 282.0
+offset_right = 162.0
+offset_bottom = 308.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "音量"
+autowrap_mode = 3
+
+[node name="Volume" type="HSlider" parent="." unique_id=813504134]
+layout_mode = 0
+offset_left = 155.0
+offset_top = 283.0
+offset_right = 345.0
+offset_bottom = 305.0
+max_value = 1.0
+step = 0.05
+value = 0.8
+
+[node name="Back" type="Button" parent="." unique_id=2141595617]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 322.0
+offset_right = 180.0
+offset_bottom = 353.0
+text = "返回"

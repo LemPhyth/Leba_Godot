@@ -1,0 +1,80 @@
+[gd_resource type="Resource" format=3 uid="uid://cltao4wo0ch8n"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_down.tres" id="1_dpjjt"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="2_fip3f"]
+[ext_resource type="AudioStream" uid="uid://d1n4c6exfyokb" path="res://assets/audio/4624.mp3" id="2_gasw5"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_5boyy"]
+[ext_resource type="AudioStream" uid="uid://cgnphbfd7ddms" path="res://assets/audio/4616.mp3" id="4_iu17u"]
+
+[sub_resource type="Resource" id="Resource_mjewc"]
+script = ExtResource("3_5boyy")
+frame = 2
+sound = "crt1_down"
+audio_stream = ExtResource("2_gasw5")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4624.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4919.0
+}
+source = "原StartSound：sprite4919/frame2/Sound4624；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_6fj80"]
+script = ExtResource("3_5boyy")
+frame = 11
+sound = "crt1_down_sound_2"
+audio_stream = ExtResource("4_iu17u")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4919.0
+}
+source = "原StartSound：sprite4919/frame11/Sound4616；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("2_fip3f")
+identifier = "down"
+title = "down"
+animation = ExtResource("1_dpjjt")
+animation_key = "crt1_down"
+source_parent = 43
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+input_id = "down"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_mjewc"), SubResource("Resource_6fj80")])
+source = "res/scripts/DefineSprite_6732/frame_43 + DefineSprite_4919；父矩阵/选帧见asset_catalog.animations.crt1_down"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"backstep": {
+"end_child_x": -4.4,
+"end_source_frame": 12,
+"per_tick": -5.0,
+"through_source_frame": 11
+},
+"body_clip_id": 4673,
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 4919
+}

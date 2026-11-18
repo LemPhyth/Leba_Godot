@@ -1,0 +1,767 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_basic3.tres" id="1_0g2t7"]
+[ext_resource type="AudioStream" path="res://assets/audio/5205.mp3" id="2_ykvlw"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_uj3a1"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_aoo7c"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_feebf"]
+
+[sub_resource type="Resource" id="Resource_myax2"]
+script = ExtResource("3_uj3a1")
+frame = 2
+sound = "crt4_source_6413_sound_1"
+audio_stream = ExtResource("2_ykvlw")
+audio_offset = 0.006802721088435374
+parameters = {
+"envelope": [{
+"left": 12103.0,
+"right": 10923.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 300.0,
+"out_point_samples_44100": 16398.0,
+"sound_id": 5205.0,
+"source_id": 6413,
+"source_sound_info": {
+"envelopes": [{
+"leftLevel": "12103",
+"pos44": "0",
+"rightLevel": "10923",
+"type": "SOUNDENVELOPE"
+}],
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "300",
+"outPoint": "16398",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6413.0
+}
+
+[sub_resource type="Resource" id="Resource_ghl7g"]
+script = ExtResource("5_feebf")
+from_frame = 5
+until_frame = 5
+kind = "crt4_launch"
+rectangles = Array[Rect2]([Rect2(34.559376, -163.44333, 127.21144, 229.99112)])
+gravity = -7.0
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 5,
+"source_depth": 36,
+"source_frame": 5,
+"source_helper": 439,
+"source_parent_matrix": [1.0, 0.0, 0.0, 1.0, 70.4, 2.8],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [0.64151, 0.0, 0.0, 1.0567017, 29.85, -105.8],
+"ratio": "4",
+"source_frame": 5.0,
+"source_id": 439.0
+}],
+"source_references": [{
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1a99216cd71275ae17a455591aa120f31b10f3e74fbeedb0401664dcd2e6671e"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "74d71fee6dc4f350f08ba64c0dcad0c8c289b7d180788b0b76a4ea0eb1619dca"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "df9afe6e04990147922f9ed125fa6f92ccf0672e49655f4e46fc3aa7dfd16b14"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "0a125d83faf4934fdfb1866336642b28d44499ef3674fcff37f080dc557b29d7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "31a89437d209d6d4a0ef54596cd0dc60038b007420c6459eb30137d4a62971e7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "2db6e62fbda45f684aeb3fbc8abf763dd0795155df850c83302c431759ba673b"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "742b624ad353198a79ce18d0b766b260b8aa897d2b6ea915a550cf9d4357e5a7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "2db8f92d6d8524e5a770f5435ec4f593c4d4669faaaaaac465941a7f3fe5f13c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "c4952d1cec25152885cd12fc7c4b2ac5c429ce91715c940addada080cbcfdf4f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "ef2e72eba8c2dc3052e970950e56a5c453f8c710d1ad22f447cf334ba2756c44"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "2faeb1357d7902e4bc0645dbc3d51753c6f9a854b08f0a06647136011f0e22f8"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "63bb010df328040bf4ece9a203c595cc1b552d7f3813447be45500ef7e200754"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "a597f8afcaaa8241bf258245757c4dc41d107508e822c3331c23b02b39d4ceea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "011d5202251eff661eb48bf3798264c3642c7a924c9be5131cc286051a3d6b39"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "4e333eded904c564a82716b259857623a9448e364993ef2cf413d053e6f8dbe9"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}],
+"source_rule": {
+"contact_bodies": ["normal"],
+"frozen_seek": 2.0,
+"gacc_delta": 0.1,
+"gravity": -7.0,
+"helper_seek": 2.0,
+"kind": "launch",
+"marker_seek": 0.0,
+"observer_requires_this_contact": false,
+"observers": [],
+"once_per_action": false,
+"reset_marker": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"super_seek": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_onw8s"]
+script = ExtResource("5_feebf")
+from_frame = 6
+until_frame = 6
+kind = "crt4_launch"
+rectangles = Array[Rect2]([Rect2(34.559376, -163.44333, 127.21144, 229.99112)])
+gravity = -7.0
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 5,
+"source_depth": 36,
+"source_frame": 6,
+"source_helper": 439,
+"source_parent_matrix": [1.0, 0.0, 0.0, 1.0, 70.4, 2.8],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [0.64151, 0.0, 0.0, 1.0567017, 29.85, -105.8],
+"ratio": "4",
+"source_frame": 5.0,
+"source_id": 439.0
+}],
+"source_references": [{
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1a99216cd71275ae17a455591aa120f31b10f3e74fbeedb0401664dcd2e6671e"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "74d71fee6dc4f350f08ba64c0dcad0c8c289b7d180788b0b76a4ea0eb1619dca"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "df9afe6e04990147922f9ed125fa6f92ccf0672e49655f4e46fc3aa7dfd16b14"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "0a125d83faf4934fdfb1866336642b28d44499ef3674fcff37f080dc557b29d7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "31a89437d209d6d4a0ef54596cd0dc60038b007420c6459eb30137d4a62971e7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "2db6e62fbda45f684aeb3fbc8abf763dd0795155df850c83302c431759ba673b"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "742b624ad353198a79ce18d0b766b260b8aa897d2b6ea915a550cf9d4357e5a7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "2db8f92d6d8524e5a770f5435ec4f593c4d4669faaaaaac465941a7f3fe5f13c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "c4952d1cec25152885cd12fc7c4b2ac5c429ce91715c940addada080cbcfdf4f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "ef2e72eba8c2dc3052e970950e56a5c453f8c710d1ad22f447cf334ba2756c44"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "2faeb1357d7902e4bc0645dbc3d51753c6f9a854b08f0a06647136011f0e22f8"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "63bb010df328040bf4ece9a203c595cc1b552d7f3813447be45500ef7e200754"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "a597f8afcaaa8241bf258245757c4dc41d107508e822c3331c23b02b39d4ceea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "011d5202251eff661eb48bf3798264c3642c7a924c9be5131cc286051a3d6b39"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "4e333eded904c564a82716b259857623a9448e364993ef2cf413d053e6f8dbe9"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}],
+"source_rule": {
+"contact_bodies": ["normal"],
+"frozen_seek": 2.0,
+"gacc_delta": 0.1,
+"gravity": -7.0,
+"helper_seek": 2.0,
+"kind": "launch",
+"marker_seek": 0.0,
+"observer_requires_this_contact": false,
+"observers": [],
+"once_per_action": false,
+"reset_marker": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"super_seek": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_o2hut"]
+script = ExtResource("5_feebf")
+from_frame = 5
+until_frame = 5
+kind = "crt4_dark_hit_fx"
+rectangles = Array[Rect2]([Rect2(32.19844, -167.44745, 127.23262, 230.19702)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 5,
+"source_depth": 38,
+"source_frame": 5,
+"source_helper": 439,
+"source_parent_matrix": [1.0, 0.0, 0.0, 1.0, 70.4, 2.8],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 38.0,
+"matrix": [0.6416168, 0.0, 0.0, 1.0576477, 27.5, -109.75],
+"ratio": "4",
+"source_frame": 5.0,
+"source_id": 439.0
+}],
+"source_references": [{
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1d2e8abab73afc98ea966819aaf58d485328d4f30f533afd1c30ae85f4dd47e0"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c5b4a74dcd9b3d251c628c91fe133bb57bb0be38912c1e2baf56d21eb054fe7a"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "f5a43e4df35825dd3d39a6456d62bb28e7635eb6c14fc1026c04532f2e26641f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "13a33fbeda14cfc4fe6675c3a604ce4b0c0e39b2bae66f5fff7c4eca257fe531"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "e5e63096365c027fe484a5f59474d9ac239c53ad27a617f308e47e5f71fcc44d"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "b75124546f06858465dc0ef19356cf9f3db6ceb8034aef94a17b04ad33f02cd5"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "526fa4ef0099acef1dd78d5c21ff09760eb61f330a8a568afe89b46c56aeaa5c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "78033f4f72470daf7ee7b75819c167b4b68e753cf7c6d9824a02d04f4fbb0fd3"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "2ce92338d2ba120228163f2cd65c8b22ca8c8d689c3377905ffdc41bf0d2fd28"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "543d2e7f873ca89f1951abd00a97ffbf45b30124527cddb881c70d06442be3a6"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "66b603a711e454d45cd21155c7b4f8b95cf57d7e36ce85f4b18fdff64ae8f866"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "6e1ca67dbcadc8e3da9da073d1ad2d05e40df516c58a4e06646c03c3f20ae253"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "9d0c76c5f9fb6d78b9f03ba1c8363799cf5a015874124d4de0e09c4396db504f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "ee128d9b03524882fb6cfbbd943a8403f13603d2e5811c68f72d0fc9fcb29fbc"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "6ef546a9355774e375e2f472ac01a77fe34881bf2a5411dc9f6c37133eb09950"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"helper_seek": 2.0,
+"kind": "dark_hit_fx",
+"local_depth_increment": false,
+"local_depth_initial": 0.0,
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_id": 578.0,
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}
+}
+
+[sub_resource type="Resource" id="Resource_ckg26"]
+script = ExtResource("5_feebf")
+from_frame = 6
+until_frame = 6
+kind = "crt4_dark_hit_fx"
+rectangles = Array[Rect2]([Rect2(32.19844, -167.44745, 127.23262, 230.19702)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 5,
+"source_depth": 38,
+"source_frame": 6,
+"source_helper": 439,
+"source_parent_matrix": [1.0, 0.0, 0.0, 1.0, 70.4, 2.8],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 38.0,
+"matrix": [0.6416168, 0.0, 0.0, 1.0576477, 27.5, -109.75],
+"ratio": "4",
+"source_frame": 5.0,
+"source_id": 439.0
+}],
+"source_references": [{
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1d2e8abab73afc98ea966819aaf58d485328d4f30f533afd1c30ae85f4dd47e0"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c5b4a74dcd9b3d251c628c91fe133bb57bb0be38912c1e2baf56d21eb054fe7a"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "f5a43e4df35825dd3d39a6456d62bb28e7635eb6c14fc1026c04532f2e26641f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "13a33fbeda14cfc4fe6675c3a604ce4b0c0e39b2bae66f5fff7c4eca257fe531"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "e5e63096365c027fe484a5f59474d9ac239c53ad27a617f308e47e5f71fcc44d"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "b75124546f06858465dc0ef19356cf9f3db6ceb8034aef94a17b04ad33f02cd5"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "526fa4ef0099acef1dd78d5c21ff09760eb61f330a8a568afe89b46c56aeaa5c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "78033f4f72470daf7ee7b75819c167b4b68e753cf7c6d9824a02d04f4fbb0fd3"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "2ce92338d2ba120228163f2cd65c8b22ca8c8d689c3377905ffdc41bf0d2fd28"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "543d2e7f873ca89f1951abd00a97ffbf45b30124527cddb881c70d06442be3a6"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "66b603a711e454d45cd21155c7b4f8b95cf57d7e36ce85f4b18fdff64ae8f866"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "6e1ca67dbcadc8e3da9da073d1ad2d05e40df516c58a4e06646c03c3f20ae253"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "9d0c76c5f9fb6d78b9f03ba1c8363799cf5a015874124d4de0e09c4396db504f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "ee128d9b03524882fb6cfbbd943a8403f13603d2e5811c68f72d0fc9fcb29fbc"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "6ef546a9355774e375e2f472ac01a77fe34881bf2a5411dc9f6c37133eb09950"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"helper_seek": 2.0,
+"kind": "dark_hit_fx",
+"local_depth_increment": false,
+"local_depth_initial": 0.0,
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_id": 578.0,
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}
+}
+
+[resource]
+script = ExtResource("4_aoo7c")
+identifier = "basic3"
+title = "basic3"
+animation = ExtResource("1_0g2t7")
+animation_key = "crt4_basic3"
+source_parent = 152
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
+input_id = "attack"
+allowed_states = PackedStringArray()
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_myax2")])
+windows = Array[Resource]([SubResource("Resource_ghl7g"), SubResource("Resource_onw8s"), SubResource("Resource_o2hut"), SubResource("Resource_ckg26")])
+source = "Original6732 parent152/source6413; res://data/act06_crt4_rules.json.actions.basic3; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 70.4, 2.8],
+"selection_note": "Source definition retained; no unverified default input route is invented",
+"source_allowed_parent_frames": [],
+"source_id": 6413.0,
+&"source_references": [{
+"frame": 18.0,
+"path": "res/scripts/DefineSprite_6413/frame_18/DoAction.as",
+"sha256": "03e9cebe218452a07441beea1e8450971ec16a88e43ec5fb5937ad47f68fc063"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1a99216cd71275ae17a455591aa120f31b10f3e74fbeedb0401664dcd2e6671e"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "ef2e72eba8c2dc3052e970950e56a5c453f8c710d1ad22f447cf334ba2756c44"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "2faeb1357d7902e4bc0645dbc3d51753c6f9a854b08f0a06647136011f0e22f8"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "63bb010df328040bf4ece9a203c595cc1b552d7f3813447be45500ef7e200754"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "a597f8afcaaa8241bf258245757c4dc41d107508e822c3331c23b02b39d4ceea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "011d5202251eff661eb48bf3798264c3642c7a924c9be5131cc286051a3d6b39"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "4e333eded904c564a82716b259857623a9448e364993ef2cf413d053e6f8dbe9"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "74d71fee6dc4f350f08ba64c0dcad0c8c289b7d180788b0b76a4ea0eb1619dca"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "df9afe6e04990147922f9ed125fa6f92ccf0672e49655f4e46fc3aa7dfd16b14"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "0a125d83faf4934fdfb1866336642b28d44499ef3674fcff37f080dc557b29d7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "31a89437d209d6d4a0ef54596cd0dc60038b007420c6459eb30137d4a62971e7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "2db6e62fbda45f684aeb3fbc8abf763dd0795155df850c83302c431759ba673b"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "742b624ad353198a79ce18d0b766b260b8aa897d2b6ea915a550cf9d4357e5a7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "2db8f92d6d8524e5a770f5435ec4f593c4d4669faaaaaac465941a7f3fe5f13c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "c4952d1cec25152885cd12fc7c4b2ac5c429ce91715c940addada080cbcfdf4f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_36/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1d2e8abab73afc98ea966819aaf58d485328d4f30f533afd1c30ae85f4dd47e0"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "543d2e7f873ca89f1951abd00a97ffbf45b30124527cddb881c70d06442be3a6"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "66b603a711e454d45cd21155c7b4f8b95cf57d7e36ce85f4b18fdff64ae8f866"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "6e1ca67dbcadc8e3da9da073d1ad2d05e40df516c58a4e06646c03c3f20ae253"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "9d0c76c5f9fb6d78b9f03ba1c8363799cf5a015874124d4de0e09c4396db504f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "ee128d9b03524882fb6cfbbd943a8403f13603d2e5811c68f72d0fc9fcb29fbc"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "6ef546a9355774e375e2f472ac01a77fe34881bf2a5411dc9f6c37133eb09950"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c5b4a74dcd9b3d251c628c91fe133bb57bb0be38912c1e2baf56d21eb054fe7a"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "f5a43e4df35825dd3d39a6456d62bb28e7635eb6c14fc1026c04532f2e26641f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "13a33fbeda14cfc4fe6675c3a604ce4b0c0e39b2bae66f5fff7c4eca257fe531"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "e5e63096365c027fe484a5f59474d9ac239c53ad27a617f308e47e5f71fcc44d"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "b75124546f06858465dc0ef19356cf9f3db6ceb8034aef94a17b04ad33f02cd5"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "526fa4ef0099acef1dd78d5c21ff09760eb61f330a8a568afe89b46c56aeaa5c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "78033f4f72470daf7ee7b75819c167b4b68e753cf7c6d9824a02d04f4fbb0fd3"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "2ce92338d2ba120228163f2cd65c8b22ca8c8d689c3377905ffdc41bf0d2fd28"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_6413/frame_5/PlaceObject2_439_38/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}],
+"source_selected": false
+}

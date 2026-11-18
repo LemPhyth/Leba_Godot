@@ -1,0 +1,35 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_definition.gd" id="1_j72os"]
+
+[resource]
+script = ExtResource("1_j72os")
+identifier = "root_2"
+title = "哥布林之森 · 第一场"
+source_root_frame = 2
+next_stage = "root_4"
+player_hurt_observers = PackedFloat32Array(10)
+extra = {
+"bounds": [35.0, 520.0],
+"clear_dialogue": "root_2_clear",
+"end_source": "计数4413到2 → 对话7009帧10 → Space → 根帧3 → 根帧4",
+"open_dialogue": "root_2_open",
+"reward_by_difficulty": {
+"beast": 200,
+"expert": 100,
+"king": 150,
+"master": 120,
+"slayer": 170
+},
+"source_depths": {
+"enemies": [222],
+"ground": 686,
+"hp": 696,
+"hud": 2723,
+"mp": 694,
+"player": 909,
+"skills": 472,
+"sniper": 2625,
+"y": 703
+}
+}

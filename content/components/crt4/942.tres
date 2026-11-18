@@ -1,0 +1,224 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_y_wisp.tres" id="1_12mqp"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_u67tt"]
+
+[resource]
+script = ExtResource("2_u67tt")
+identifier = "942"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 933.0
+}, {
+"depth": 1.0,
+"frame": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 934.0
+}, {
+"depth": 1.0,
+"frame": 5.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 935.0
+}, {
+"depth": 1.0,
+"frame": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 936.0
+}, {
+"depth": 1.0,
+"frame": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 937.0
+}, {
+"depth": 1.0,
+"frame": 11.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 938.0
+}, {
+"depth": 1.0,
+"frame": 13.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 939.0
+}, {
+"depth": 1.0,
+"frame": 15.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 940.0
+}, {
+"depth": 1.0,
+"frame": 17.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 941.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 933.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 934.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 935.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 936.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 937.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 938.0
+}],
+"source_frame": 11.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 939.0
+}],
+"source_frame": 13.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 940.0
+}],
+"source_frame": 15.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 941.0
+}],
+"source_frame": 17.0
+}, {
+"placements": [],
+"source_frame": 19.0
+}],
+"screen_displacements": [{
+"dx": 1.0,
+"frame": 1.0
+}, {
+"dx": -2.0,
+"dy": 1.0,
+"frame": 3.0
+}, {
+"dy": -2.0,
+"frame": 5.0,
+"set_x": 0.0
+}, {
+"frame": 7.0,
+"set_y": 0.0
+}, {
+"dx": 1.0,
+"frame": 9.0
+}, {
+"dx": -2.0,
+"dy": 1.0,
+"frame": 11.0
+}, {
+"dy": -2.0,
+"frame": 13.0,
+"set_x": 0.0
+}, {
+"frame": 15.0,
+"set_y": 0.0
+}, {
+"frame": 16.0,
+"set_y": 0.0
+}],
+"sounds": [],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_942/frame_1/DoAction.as",
+"sha256": "e3572fc8094957ec5aa6ba07c40ac2e9dec722a52bfb430b30fc4c1c38bed5a7"
+}, {
+"frame": 11.0,
+"path": "res/scripts/DefineSprite_942/frame_11/DoAction.as",
+"sha256": "e0e1b27a2677c20271ee3acdaa04721a746ce2f5478bb16cbbc844e54e1e5653"
+}, {
+"frame": 11.0,
+"path": "res/scripts/DefineSprite_942/frame_11/DoAction_2.as",
+"sha256": "1bcbc5187c8ce5dade85724544eddd2d3d1bb375de2aab0ca89deec214473b2e"
+}, {
+"frame": 13.0,
+"path": "res/scripts/DefineSprite_942/frame_13/DoAction.as",
+"sha256": "0f60d62f201ab0061eba410c3b56638f2843e1bcf612182446f6312cd68feb60"
+}, {
+"frame": 13.0,
+"path": "res/scripts/DefineSprite_942/frame_13/DoAction_2.as",
+"sha256": "972fdc2c1ee7d0ebd047bc4f70e546aec63e08ccd0b72514b4ad8424200358ff"
+}, {
+"frame": 15.0,
+"path": "res/scripts/DefineSprite_942/frame_15/DoAction.as",
+"sha256": "8d23d84b12e136d5b2b06a528b88fe1aedb91b39aa50aad17afd66ff0cb5be7f"
+}, {
+"frame": 16.0,
+"path": "res/scripts/DefineSprite_942/frame_16/DoAction.as",
+"sha256": "8d23d84b12e136d5b2b06a528b88fe1aedb91b39aa50aad17afd66ff0cb5be7f"
+}, {
+"frame": 3.0,
+"path": "res/scripts/DefineSprite_942/frame_3/DoAction.as",
+"sha256": "e0e1b27a2677c20271ee3acdaa04721a746ce2f5478bb16cbbc844e54e1e5653"
+}, {
+"frame": 3.0,
+"path": "res/scripts/DefineSprite_942/frame_3/DoAction_2.as",
+"sha256": "1bcbc5187c8ce5dade85724544eddd2d3d1bb375de2aab0ca89deec214473b2e"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_942/frame_5/DoAction.as",
+"sha256": "0f60d62f201ab0061eba410c3b56638f2843e1bcf612182446f6312cd68feb60"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_942/frame_5/DoAction_2.as",
+"sha256": "972fdc2c1ee7d0ebd047bc4f70e546aec63e08ccd0b72514b4ad8424200358ff"
+}, {
+"frame": 7.0,
+"path": "res/scripts/DefineSprite_942/frame_7/DoAction.as",
+"sha256": "8d23d84b12e136d5b2b06a528b88fe1aedb91b39aa50aad17afd66ff0cb5be7f"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_942/frame_9/DoAction.as",
+"sha256": "e3572fc8094957ec5aa6ba07c40ac2e9dec722a52bfb430b30fc4c1c38bed5a7"
+}],
+"source_frame_count": 21.0,
+"source_id": 942.0,
+"stop_source_frames": []
+}
+animations = Array[Resource]([ExtResource("1_12mqp")])
+source = "Original AS/XML source 942; res://data/act06_crt4_rules.json.components.942"

@@ -1,0 +1,78 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_dead.tres" id="1_m11tb"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_sdl1r"]
+[ext_resource type="AudioStream" path="res://assets/audio/5625.mp3" id="3_narkv"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_ji0dc"]
+
+[sub_resource type="Resource" id="Resource_psn8m"]
+script = ExtResource("2_sdl1r")
+frame = 25
+kind = "stop_all_sounds"
+parameters = {
+"source_frame": 25.0
+}
+
+[sub_resource type="Resource" id="Resource_i2h7j"]
+script = ExtResource("2_sdl1r")
+frame = 2
+sound = "crt3_dead"
+audio_stream = ExtResource("3_narkv")
+audio_offset = 0.05895691609977324
+parameters = {
+"envelope": [{
+"left": 32768.0,
+"right": 32768.0,
+"sample": 0.0
+}, {
+"left": 32768.0,
+"right": 32768.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 2600.0,
+"out_point_samples_44100": 51840.0,
+"sound_id": 5625.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "2600",
+"outPoint": "51840",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6307.0
+}
+
+[resource]
+script = ExtResource("4_ji0dc")
+identifier = "dead"
+title = "dead"
+animation = ExtResource("1_m11tb")
+animation_key = "crt3_dead"
+source_parent = 138
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25)
+allowed_states = PackedStringArray()
+hold = true
+hold_at = PackedInt32Array(25)
+events = Array[Resource]([SubResource("Resource_psn8m"), SubResource("Resource_i2h7j")])
+source = "Original AS/XML sprite6307 parent138; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [],
+"branches": [],
+"hold_source_frame": 25.0,
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 5.2, 15.7],
+"reset_combo_counters": false,
+"slot_id": null,
+"slot_ready_frame": null,
+"slot_start_frame": null,
+&"source_allowed_parent_frames": [],
+"source_id": 6307.0,
+"source_motion": []
+}

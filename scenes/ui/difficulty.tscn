@@ -1,0 +1,128 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_mdliy"]
+[ext_resource type="Texture2D" path="res://assets/ui/title.png" id="2_uij6s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_doc1g"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Difficulty" type="Control" unique_id=1115152735]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_mdliy")
+
+[node name="@TextureRect@20" type="TextureRect" parent="." unique_id=105901512]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 265.0
+mouse_filter = 2
+texture = ExtResource("2_uij6s")
+expand_mode = 1
+
+[node name="@ColorRect@21" type="ColorRect" parent="." unique_id=1320666291]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+color = Color(0.025, 0.03, 0.04, 0.85)
+
+[node name="@Panel@22" type="Panel" parent="." unique_id=1745420287]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 30.0
+offset_right = 485.0
+offset_bottom = 375.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_doc1g")
+
+[node name="Title" type="Label" parent="." unique_id=1628905958]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 45.0
+offset_right = 440.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "选择难度"
+autowrap_mode = 3
+
+[node name="Difficulty_expert" type="Button" parent="." unique_id=608130627]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 94.0
+offset_right = 460.0
+offset_bottom = 131.0
+tooltip_text = "选择后进入冒险。"
+text = "Expert  ✓"
+
+[node name="Difficulty_master" type="Button" parent="." unique_id=48788947]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 141.0
+offset_right = 460.0
+offset_bottom = 178.0
+tooltip_text = "选择后进入冒险。"
+text = "Master"
+
+[node name="Difficulty_king" type="Button" parent="." unique_id=662097339]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 188.0
+offset_right = 460.0
+offset_bottom = 225.0
+tooltip_text = "选择后进入冒险。"
+text = "King"
+
+[node name="Locked" type="Label" parent="." unique_id=1514772049]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 240.0
+offset_right = 457.0
+offset_bottom = 289.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "Slayer / Beast：尚未开放
+高难度的解锁与后续流程仍待还原。"
+autowrap_mode = 3
+
+[node name="VolumeLabel" type="Label" parent="." unique_id=1394658589]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 296.0
+offset_right = 152.0
+offset_bottom = 322.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "音量"
+autowrap_mode = 3
+
+[node name="Volume" type="HSlider" parent="." unique_id=671210617]
+layout_mode = 0
+offset_left = 151.0
+offset_top = 297.0
+offset_right = 401.0
+offset_bottom = 319.0
+max_value = 1.0
+step = 0.05
+value = 0.8
+
+[node name="Back" type="Button" parent="." unique_id=45043839]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 331.0
+offset_right = 200.0
+offset_bottom = 362.0
+text = "返回选人"

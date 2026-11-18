@@ -1,0 +1,249 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/314.mp3" id="1_m862m"]
+[ext_resource type="AudioStream" path="res://assets/audio/955.mp3" id="2_m5um8"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="3_b8g42"]
+
+[resource]
+script = ExtResource("3_b8g42")
+identifier = "956"
+parameters = {
+"births": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"name": null,
+"source_id": 954.0
+}, {
+"depth": 1.0,
+"frame": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"name": null,
+"source_id": 954.0
+}],
+"clear_frame": 544.0,
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"flag": "bremen",
+"flag_on_frame": 9.0,
+"ghost_select_frame": 9.0,
+"ghost_value": 2.0,
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "32",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "64",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "96",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "128",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "160",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "192",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "224",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"source_id": 954.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.0, 18.0],
+"ratio": "8",
+"source_id": 954.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [],
+"source_frame": 544.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("1_m862m"),
+"envelope": [],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_956_sound_1",
+"sound_id": 314.0,
+"source_id": 956,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 956.0
+}, {
+"audio_stream": ExtResource("2_m5um8"),
+"envelope": [],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_956_sound_2",
+"sound_id": 955.0,
+"source_id": 956,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 956.0
+}],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_956_브레멘/frame_1/DoAction.as",
+"sha256": "def945151f8ef0b76625ef9e76fdb08c9ca249c12f1068d4090861a554bfa155"
+}, {
+"frame": 544.0,
+"path": "res/scripts/DefineSprite_956_브레멘/frame_544/DoAction.as",
+"sha256": "55d3a89170b810f860120968ccd492d82144d44117d66f92acba6433670f1657"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_956_브레멘/frame_9/DoAction.as",
+"sha256": "cc56cfa5b7fc3d50d2ddda4ef1a102cf5a86e1758de2dd45a18703122dbbaa2a"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_956_브레멘/frame_9/PlaceObject2_954_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "95834a8b003a54de95d2d93d7499cdf0cc5e7a586d19ecee6d115851f8e61cf9"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_956_브레멘/frame_9/PlaceObject2_954_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "daf50cb4b96d7e6131ac40428aab30021c49d3e4c30ad5c9b9fb114c24014705"
+}],
+"source_frame_count": 544.0,
+"source_id": 956.0,
+"stop_source_frames": [544.0]
+}
+source = "Original AS/XML source 956; res://data/act06_crt4_rules.json.components.956"

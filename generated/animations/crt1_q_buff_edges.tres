@@ -1,0 +1,87 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_tdyqu"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_q_buff_edges.png" id="2_1w3hh"]
+
+[resource]
+script = ExtResource("1_tdyqu")
+identifier = "crt1_q_buff_edges"
+texture = ExtResource("2_1w3hh")
+parent_scale = Vector2(1.654419, 1.8181763)
+frames = Array[Dictionary]([{
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [41.437785, 104.065211],
+"region": [2.0, 2.0, 82.0, 71.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [88.0, 2.0, 82.0, 71.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [174.0, 2.0, 82.0, 71.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-32.158241, -152.845374, 64.522341, 61.817994],
+"pivot": [41.437785, 104.065211],
+"region": [260.0, 2.0, 82.0, 71.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-37.121498, -158.299903, 76.103274, 70.908876],
+"pivot": [41.437785, 104.065211],
+"region": [2.0, 77.0, 82.0, 71.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-43.739174, -167.390785, 86.029788, 83.63611],
+"pivot": [41.437785, 104.065211],
+"region": [88.0, 77.0, 82.0, 71.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-55.320107, -174.66349, 109.191654, 99.999696],
+"pivot": [41.437785, 104.065211],
+"region": [174.0, 77.0, 82.0, 71.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-68.555459, -189.2089, 135.662358, 129.090517],
+"pivot": [41.437785, 104.065211],
+"region": [260.0, 77.0, 82.0, 71.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [2.0, 152.0, 82.0, 71.0],
+"source_frame": 401.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [88.0, 152.0, 82.0, 71.0],
+"source_frame": 402.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [174.0, 152.0, 82.0, 71.0],
+"source_frame": 403.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [260.0, 152.0, 82.0, 71.0],
+"source_frame": 404.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [2.0, 227.0, 82.0, 71.0],
+"source_frame": 405.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [88.0, 227.0, 82.0, 71.0],
+"source_frame": 406.0
+}, {
+"alpha_bounds": [-32.158241, -147.390845, 61.213503, 56.363465],
+"pivot": [41.437785, 104.065211],
+"region": [174.0, 227.0, 82.0, 71.0],
+"source_frame": 407.0
+}])
+source = "asset_catalog.animations.crt1_q_buff_edges；派生图集；来源与pivot见catalog。"

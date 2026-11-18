@@ -1,0 +1,74 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_w_idle.tres" id="1_ck0bs"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_w_move.tres" id="2_swqep"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_w_shot.tres" id="3_pyudf"]
+[ext_resource type="Resource" path="res://generated/animations/projectile_moving.tres" id="4_4mobx"]
+[ext_resource type="Resource" path="res://generated/animations/hud_crt1_w_ammo.tres" id="5_8ill0"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="6_grfjq"]
+
+[resource]
+script = ExtResource("6_grfjq")
+identifier = "crt1_moving_fire"
+parameters = {
+"actor_parent": 54.0,
+"ammo_animation": "hud_crt1_w_ammo",
+"ammo_consume_frames": [3.0, 7.0],
+"ammo_count": 20.0,
+"ammo_end_frame": 22.0,
+"ammo_hud_placement": {
+"alpha_mult": 256.0,
+"depth": 15.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 1.3, 229.4],
+"name": "이동사격시간",
+"source_id": 6884.0
+},
+"ammo_source_id": 6884.0,
+"ammo_source_start": 2.0,
+"cancel_key": 67.0,
+"hold_keys": [87.0, 88.0],
+"idle": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.4, -0.95],
+"name": "홀드",
+"source_id": 5137.0
+},
+"idle_animation": "crt1_w_idle",
+"marker2_bonus": 12.0,
+"marker9_bonus": 5.0,
+"move": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.4, -0.95],
+"name": "무빙",
+"source_id": 5141.0
+},
+"move_animation": "crt1_w_move",
+"move_control_frame": 17.0,
+"move_loop_destination": 1.0,
+"move_per_tick": 6.0,
+"parent_id": 5142.0,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 3.25, -12.5],
+"projectile": "projectile_moving",
+"shot": {
+"alpha_mult": 256.0,
+"depth": 4.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 16.05, 21.6],
+"name": "발사",
+"source_id": 5128.0
+},
+"shot_animation": "crt1_w_shot",
+"shot_frames": [2.0, 6.0],
+"shot_gravity": -4.0,
+"shot_stop_frames": [1.0, 5.0],
+"spawn": {
+"root_space": true,
+"scale_y": 0.3,
+"x_delta_times_facing": -90.0,
+"y_deltas": [-15.0, -10.0]
+},
+"turn_key": 90.0
+}
+animations = Array[Resource]([ExtResource("1_ck0bs"), ExtResource("2_swqep"), ExtResource("3_pyudf"), ExtResource("4_4mobx"), ExtResource("5_8ill0")])
+source = "首次派生：asset_catalog.source_geometry.act03_crt1_components.moving_fire；此Resource自此为作者参数权威，普通资源导入不覆盖。来源原AS/XML及边界见docs/LEBA-ACT-03_角色1与资源依据.md。"

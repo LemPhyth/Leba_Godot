@@ -1,0 +1,71 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_gp4al"]
+[ext_resource type="Texture2D" path="res://assets/atlases/projectile_diagonal_two.png" id="2_xlf2r"]
+
+[resource]
+script = ExtResource("1_gp4al")
+identifier = "projectile_diagonal_two"
+texture = ExtResource("2_xlf2r")
+frames = Array[Dictionary]([{
+"alpha_bounds": [139.8, -126.35, 19.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [2.0, 2.0, 187.0, 160.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [158.8, -110.35, 18.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [193.0, 2.0, 187.0, 160.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [177.8, -94.35, 18.0, 18.0],
+"pivot": [-139.8, 126.35],
+"region": [384.0, 2.0, 187.0, 160.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [195.8, -79.35, 19.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [575.0, 2.0, 187.0, 160.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [214.8, -63.35, 18.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [2.0, 166.0, 187.0, 160.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [233.8, -47.35, 18.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [193.0, 166.0, 187.0, 160.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [251.8, -31.35, 19.0, 18.0],
+"pivot": [-139.8, 126.35],
+"region": [384.0, 166.0, 187.0, 160.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [270.8, -16.35, 18.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [575.0, 166.0, 187.0, 160.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [289.8, -0.35, 18.0, 19.0],
+"pivot": [-139.8, 126.35],
+"region": [2.0, 330.0, 187.0, 160.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [307.8, 15.65, 19.0, 18.0],
+"pivot": [-139.8, 126.35],
+"region": [193.0, 330.0, 187.0, 160.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [-139.8, 126.35],
+"region": [384.0, 330.0, 187.0, 160.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [-139.8, 126.35],
+"region": [575.0, 330.0, 187.0, 160.0],
+"source_frame": 12.0
+}])
+source = "asset_catalog.animations.projectile_diagonal_two；派生图集；来源与pivot见catalog。"

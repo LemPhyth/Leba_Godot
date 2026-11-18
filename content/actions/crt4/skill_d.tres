@@ -1,0 +1,58 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_cast.tres" id="1_uxci4"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_ycedu"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="3_0l7gb"]
+
+[sub_resource type="Resource" id="Resource_b1opf"]
+script = ExtResource("2_ycedu")
+frame = 7
+kind = "crt4_spawn_field"
+parameters = {
+"global_i_increment": true,
+"source_id": 316.0,
+"x_offset": 100.0,
+"y_offset": 0.0
+}
+
+[resource]
+script = ExtResource("3_0l7gb")
+identifier = "skill_d"
+title = "skill_d"
+animation = ExtResource("1_uxci4")
+animation_key = "crt4_cast"
+source_parent = 158
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+input_id = "skill"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "kalla_basic")
+cost = 3.0
+required_mp = 3.0
+cooldown_ticks = 540
+cooldown_key = "skill"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_b1opf")])
+source = "Original6732 parent158/source6507; res://data/act06_crt4_rules.json.actions.skill_d; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.2, 19.1],
+"ready_source_frame": 1.0,
+"slot_source_id": 4304.0,
+"source_allowed_parent_frames": [146.0, 150.0, 151.0, 152.0, 166.0],
+"source_entry": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4304/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "008c3bae1cbdd5ea3c899c0f79442b95a5fd1283806532695e05dd0ac1481e9a"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4304/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown)_2.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}],
+"source_id": 6507.0,
+&"source_references": [{
+"frame": 14.0,
+"path": "res/scripts/DefineSprite_6507/frame_14/DoAction.as",
+"sha256": "9f28fd4d051c78949aa3433e32507c07d46ff819c6ceb333a14e14a1060b03be"
+}],
+"source_selected": true
+}

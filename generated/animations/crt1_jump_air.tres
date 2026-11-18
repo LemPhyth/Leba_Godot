@@ -1,0 +1,41 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_iqjes"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_jump_air.png" id="2_1d4x6"]
+
+[resource]
+script = ExtResource("1_iqjes")
+identifier = "crt1_jump_air"
+texture = ExtResource("2_1d4x6")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-57.15, -66.65, 109.0, 153.0],
+"pivot": [57.15, 66.65],
+"region": [2.0, 2.0, 178.0, 153.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-38.15, -59.65, 154.0, 143.0],
+"pivot": [57.15, 66.65],
+"region": [184.0, 2.0, 178.0, 153.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-38.15, -59.65, 159.0, 143.0],
+"pivot": [57.15, 66.65],
+"region": [366.0, 2.0, 178.0, 153.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-38.15, -59.65, 105.0, 143.0],
+"pivot": [57.15, 66.65],
+"region": [2.0, 159.0, 178.0, 153.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-38.15, -59.65, 105.0, 143.0],
+"pivot": [57.15, 66.65],
+"region": [184.0, 159.0, 178.0, 153.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-38.15, -59.65, 105.0, 143.0],
+"pivot": [57.15, 66.65],
+"region": [366.0, 159.0, 178.0, 153.0],
+"source_frame": 6.0
+}])
+source = "asset_catalog.animations.crt1_jump_air；派生图集；来源与pivot见catalog。"

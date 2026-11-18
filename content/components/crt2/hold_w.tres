@@ -1,0 +1,47 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_xt3xp"]
+
+[resource]
+script = ExtResource("1_xt3xp")
+identifier = "hold_w"
+parameters = {
+"air_push": [{
+"active_frames": [119.0, 121.0],
+"delta": 10.0,
+"source_frame": 119.0
+}, {
+"active_frames": [122.0, 128.0],
+"delta": 8.0,
+"source_frame": 122.0
+}],
+"blast_gravity": -5.0,
+"blast_marker_bonus": 185.0,
+"blast_source_frame": 119.0,
+"bleed_contact_frames": [13.0, 90.0],
+"combo_clear_observer": {
+"active_frames": [13.0, 119.0],
+"depth": 91.0,
+"helper_id": 4509.0,
+"operation": "root.combo.gotoStop1",
+"requires_geometry": false
+},
+"end_frame": 128.0,
+"held_key": 87.0,
+"held_operation": "play",
+"poll_frames": [40.0, 109.0],
+"poll_helper": 5235.0,
+"release_goto": 110.0,
+"source": ["res/scripts/DefineSprite_5469/frame_13/PlaceObject2_439_93/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_439_93/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_439_93/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_439_93/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_439_93/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_89/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5469/frame_13/PlaceObject2_4509_91/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_40/PlaceObject2_5235_95/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_26.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_27.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_28.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_29.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_30.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_4509_52/CLIPACTIONRECORD onClipEvent(load).as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5469/frame_119/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5469/frame_122/PlaceObject2_524_54/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as"],
+"source_id": 5469.0,
+"suction": {
+"active_frames": [13.0, 108.0],
+"delta_x": 5.0,
+"depth": 89.0,
+"helper": 4509.0,
+"source_frame": 13.0,
+"targets": ["normal", "super_armor"],
+"toward_player": true
+}
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

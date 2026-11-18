@@ -1,0 +1,93 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_3dhtb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e5n2g"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Result" type="Control" unique_id=86345225]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_3dhtb")
+
+[node name="@Panel@65" type="Panel" parent="." unique_id=1720657384]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 65.0
+offset_right = 465.0
+offset_bottom = 340.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_e5n2g")
+
+[node name="Title" type="Label" parent="." unique_id=2106902520]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 86.0
+offset_right = 445.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "本场完成"
+autowrap_mode = 3
+
+[node name="Stats" type="Label" parent="." unique_id=1349452943]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 135.0
+offset_right = 445.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "场景
+本场获得金币：0
+用时 0.00 秒（源时间轴）"
+autowrap_mode = 3
+
+[node name="Description" type="Label" parent="." unique_id=1141270539]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 205.0
+offset_right = 445.0
+offset_bottom = 254.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "原作结束对话后进入下一场。
+Space 或点击继续。"
+autowrap_mode = 3
+
+[node name="Continue" type="Button" parent="." unique_id=1385046005]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 260.0
+offset_right = 345.0
+offset_bottom = 294.0
+text = "继续下一场"
+
+[node name="Menu" type="Button" parent="." unique_id=62464629]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 300.0
+offset_right = 345.0
+offset_bottom = 331.0
+text = "返回菜单"
+
+[node name="Retry" type="Button" parent="." unique_id=124344660]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 230.0
+offset_right = 345.0
+offset_bottom = 264.0
+text = "重新挑战本场"

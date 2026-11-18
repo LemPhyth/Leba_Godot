@@ -1,0 +1,36 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_45a4y"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_t_air_body.png" id="2_o47r3"]
+
+[resource]
+script = ExtResource("1_45a4y")
+identifier = "crt1_t_air_body"
+texture = ExtResource("2_o47r3")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-292.75, -172.95, 339.0, 212.0],
+"pivot": [501.75, 359.95],
+"region": [2.0, 2.0, 760.0, 560.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-360.75, -164.95, 495.0, 280.0],
+"pivot": [501.75, 359.95],
+"region": [766.0, 2.0, 760.0, 560.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-389.75, -268.95, 561.0, 416.0],
+"pivot": [501.75, 359.95],
+"region": [2.0, 566.0, 760.0, 560.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-453.75, -317.95, 656.0, 492.0],
+"pivot": [501.75, 359.95],
+"region": [766.0, 566.0, 760.0, 560.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-501.75, -359.95, 760.0, 560.0],
+"pivot": [501.75, 359.95],
+"region": [2.0, 1130.0, 760.0, 560.0],
+"source_frame": 5.0
+}])
+source = "asset_catalog.animations.crt1_t_air_body；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,122 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_flkrt"]
+
+[resource]
+script = ExtResource("1_flkrt")
+identifier = "3971"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [0.715683, 0.0, 0.0, 0.61305237, 0.0, 0.05],
+"name": null,
+"source_id": 3967.0
+}, {
+"depth": 2.0,
+"frame": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -5.45, -13.65],
+"name": "일",
+"source_id": 3968.0
+}, {
+"depth": 4.0,
+"frame": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.45, -10.2],
+"name": "이",
+"source_id": 3969.0
+}, {
+"depth": 6.0,
+"frame": 4.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.05, -4.55],
+"name": "삼",
+"source_id": 3970.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [0.715683, 0.0, 0.0, 0.61305237, 0.0, 0.05],
+"source_id": 3967.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.715683, 0.0, 0.0, 0.61305237, 0.0, 0.05],
+"source_id": 3967.0
+}, {
+"depth": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -5.45, -13.65],
+"name": "일",
+"ratio": "1",
+"source_id": 3968.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.715683, 0.0, 0.0, 0.61305237, 0.0, 0.05],
+"source_id": 3967.0
+}, {
+"depth": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -5.45, -13.65],
+"name": "일",
+"ratio": "1",
+"source_id": 3968.0
+}, {
+"depth": 4.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.45, -10.2],
+"name": "이",
+"ratio": "2",
+"source_id": 3969.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.715683, 0.0, 0.0, 0.61305237, 0.0, 0.05],
+"source_id": 3967.0
+}, {
+"depth": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -5.45, -13.65],
+"name": "일",
+"ratio": "1",
+"source_id": 3968.0
+}, {
+"depth": 4.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.45, -10.2],
+"name": "이",
+"ratio": "2",
+"source_id": 3969.0
+}, {
+"depth": 6.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.05, -4.55],
+"name": "삼",
+"ratio": "3",
+"source_id": 3970.0
+}],
+"source_frame": 4.0
+}],
+"sounds": [],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_3971/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_3971/frame_2/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 3.0,
+"path": "res/scripts/DefineSprite_3971/frame_3/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_3971/frame_4/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 4.0,
+"source_id": 3971.0,
+"stop_source_frames": [1.0, 2.0, 3.0, 4.0]
+}
+source = "Original AS/XML source 3971; res://data/act06_crt4_rules.json.components.3971"

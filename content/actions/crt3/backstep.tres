@@ -1,0 +1,87 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_backstep.tres" id="1_wq1a1"]
+[ext_resource type="AudioStream" path="res://assets/audio/4624.mp3" id="2_wydq8"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_amdku"]
+[ext_resource type="AudioStream" path="res://assets/audio/4616.mp3" id="4_gu2qr"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="5_f1jk8"]
+
+[sub_resource type="Resource" id="Resource_yr5g5"]
+script = ExtResource("3_amdku")
+frame = 2
+sound = "crt3_backstep"
+audio_stream = ExtResource("2_wydq8")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4624.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6158.0
+}
+
+[sub_resource type="Resource" id="Resource_cvi02"]
+script = ExtResource("3_amdku")
+frame = 11
+sound = "crt3_backstep_sound_2"
+audio_stream = ExtResource("4_gu2qr")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6158.0
+}
+
+[resource]
+script = ExtResource("5_f1jk8")
+identifier = "backstep"
+title = "backstep"
+animation = ExtResource("1_wq1a1")
+animation_key = "crt3_backstep"
+source_parent = 130
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+input_id = "backstep"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_yr5g5"), SubResource("Resource_cvi02")])
+source = "Original AS/XML sprite6158 parent130; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0],
+"branches": [],
+"component": "backstep",
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 2.85, 76.75],
+"physical_keys": [40.0],
+"reset_combo_counters": false,
+"slot_id": null,
+"slot_ready_frame": null,
+"slot_start_frame": null,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0],
+"source_id": 6158.0,
+"source_motion": [{
+"dx": -5.0,
+"facing": true,
+"from": 1.0,
+"until": 11.0
+}]
+}

@@ -1,0 +1,183 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_skill_q.tres" id="1_dibgi"]
+[ext_resource type="AudioStream" path="res://assets/audio/3950.mp3" id="2_711me"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_xulsm"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_p8l2i"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_yrrjb"]
+
+[sub_resource type="Resource" id="Resource_x5q2c"]
+script = ExtResource("3_xulsm")
+frame = 7
+sound = "crt4_source_6487_sound_1"
+audio_stream = ExtResource("2_711me")
+parameters = {
+"envelope": [{
+"left": 9447.0,
+"right": 8856.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 3950.0,
+"source_id": 6487,
+"source_sound_info": {
+"envelopes": [{
+"leftLevel": "9447",
+"pos44": "0",
+"rightLevel": "8856",
+"type": "SOUNDENVELOPE"
+}],
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6487.0
+}
+
+[sub_resource type="Resource" id="Resource_pvjej"]
+script = ExtResource("5_yrrjb")
+from_frame = 7
+until_frame = 7
+kind = "crt4_apply_observer_status"
+rectangles = Array[Rect2]([Rect2(-260.063, -226.6295, 516.05286, 326.21848)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 7,
+"source_depth": 26,
+"source_frame": 7,
+"source_helper": 6486,
+"source_parent_matrix": [1.0059509, 0.0, 0.0, 1.0059509, 12.6, 21.65],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 26.0,
+"matrix": [1.0, 0.0, 0.0, 4.6559753, -14.55, -84.55],
+"ratio": "6",
+"source_frame": 7.0,
+"source_id": 6486.0
+}],
+"source_references": [{
+"frame": 7.0,
+"path": "res/scripts/DefineSprite_6487/frame_7/PlaceObject2_6486_26/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "39eefca361a6c112cb6f7fbfbe10822603a57a4d52f912e7780fdbd42bc01b18"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"kind": "apply_observer_status",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status_clock": "per_target_instance",
+"status_seek": 2.0,
+"status_source_id": 3951.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_tebr4"]
+script = ExtResource("5_yrrjb")
+from_frame = 8
+until_frame = 8
+kind = "crt4_apply_observer_status"
+rectangles = Array[Rect2]([Rect2(-260.063, -226.6295, 516.05286, 326.21848)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 7,
+"source_depth": 26,
+"source_frame": 8,
+"source_helper": 6486,
+"source_parent_matrix": [1.0059509, 0.0, 0.0, 1.0059509, 12.6, 21.65],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 26.0,
+"matrix": [1.0, 0.0, 0.0, 4.6559753, -14.55, -84.55],
+"ratio": "6",
+"source_frame": 7.0,
+"source_id": 6486.0
+}],
+"source_references": [{
+"frame": 7.0,
+"path": "res/scripts/DefineSprite_6487/frame_7/PlaceObject2_6486_26/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "39eefca361a6c112cb6f7fbfbe10822603a57a4d52f912e7780fdbd42bc01b18"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"kind": "apply_observer_status",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status_clock": "per_target_instance",
+"status_seek": 2.0,
+"status_source_id": 3951.0
+}
+}
+
+[resource]
+script = ExtResource("4_p8l2i")
+identifier = "skill_q"
+title = "skill_q"
+animation = ExtResource("1_dibgi")
+animation_key = "crt4_skill_q"
+source_parent = 155
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
+input_id = "skill_q"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "kalla_basic")
+cost = 3.0
+required_mp = 3.0
+cooldown_ticks = 277
+cooldown_key = "skill_q"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_x5q2c")])
+windows = Array[Resource]([SubResource("Resource_pvjej"), SubResource("Resource_tebr4")])
+source = "Original6732 parent155/source6487; res://data/act06_crt4_rules.json.actions.skill_q; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [],
+&"nested_audio": [],
+"parent_matrix": [1.0059509, 0.0, 0.0, 1.0059509, 12.6, 21.65],
+"ready_source_frame": 1.0,
+"slot_source_id": 4318.0,
+"source_allowed_parent_frames": [146.0, 150.0, 151.0, 152.0, 166.0],
+"source_entry": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4318/frame_1/PlaceObject2_4051_4/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "38cecb2bce3bcf25b8d30ee82d3c175a4d590bb2a18efac15ac45f29440073de"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4318/frame_1/PlaceObject2_4051_4/CLIPACTIONRECORD onClipEvent(keyDown)_2.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}],
+"source_id": 6487.0,
+&"source_references": [{
+"frame": 18.0,
+"path": "res/scripts/DefineSprite_6487/frame_18/DoAction.as",
+"sha256": "03e9cebe218452a07441beea1e8450971ec16a88e43ec5fb5937ad47f68fc063"
+}, {
+"frame": 7.0,
+"path": "res/scripts/DefineSprite_6487/frame_7/PlaceObject2_6486_26/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "39eefca361a6c112cb6f7fbfbe10822603a57a4d52f912e7780fdbd42bc01b18"
+}],
+"source_selected": true
+}

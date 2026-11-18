@@ -1,0 +1,131 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_field_f_base.tres" id="1_7idt2"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_oedxj"]
+
+[resource]
+script = ExtResource("2_oedxj")
+identifier = "954"
+parameters = {
+"births": [{
+"color_transform": {
+"alphaMultTerm": "192",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"frame": 1.0,
+"matrix": [1.192688, 0.0, 0.0, 0.7815399, -0.05, 35.95],
+"name": null,
+"source_id": 305.0
+}, {
+"color_transform": {
+"alphaMultTerm": "179",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"filters": [{
+"blurX": "13.0",
+"blurY": "13.0",
+"children": [{
+"alpha": "255",
+"blue": "151",
+"green": "213",
+"name": "glowColor",
+"red": "21",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5"
+}],
+"frame": 1.0,
+"matrix": [0.92736816, 0.0, 0.0, 0.92736816, -1.2, -9.7],
+"name": null,
+"source_id": 953.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "192",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"matrix": [1.192688, 0.0, 0.0, 0.7815399, -0.05, 35.95],
+"source_id": 305.0
+}, {
+"color_transform": {
+"alphaMultTerm": "179",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"filters": [{
+"blurX": "13.0",
+"blurY": "13.0",
+"children": [{
+"alpha": "255",
+"blue": "151",
+"green": "213",
+"name": "glowColor",
+"red": "21",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5"
+}],
+"matrix": [0.92736816, 0.0, 0.0, 0.92736816, -1.2, -9.7],
+"source_id": 953.0
+}],
+"source_frame": 1.0
+}],
+"sounds": [],
+"source": [],
+"source_frame_count": 1.0,
+"source_id": 954.0,
+"stop_source_frames": []
+}
+animations = Array[Resource]([ExtResource("1_7idt2")])
+source = "Original AS/XML source 954; res://data/act06_crt4_rules.json.components.954"

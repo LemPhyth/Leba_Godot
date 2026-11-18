@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/combatant.gd" id="1_6h555"]
+[ext_resource type="Script" path="res://scripts/combat/source_sprite.gd" id="2_16ou1"]
+[ext_resource type="Resource" path="res://generated/animations/crt4_idle.tres" id="3_lo8gr"]
+[ext_resource type="Script" path="res://scripts/content/action_preview.gd" id="4_qjsev"]
+[ext_resource type="Resource" path="res://content/actions/crt4/idle.tres" id="5_wm17u"]
+
+[node name="Actor" type="Node2D" unique_id=1389434978]
+script = ExtResource("1_6h555")
+
+[node name="AuthorOffset" type="Node2D" parent="." unique_id=622670899]
+
+[node name="Visual" type="Node2D" parent="AuthorOffset" unique_id=2035172027]
+script = ExtResource("2_16ou1")
+source_animation = ExtResource("3_lo8gr")
+
+[node name="ActionPreview" type="Node2D" parent="AuthorOffset" unique_id=156622320]
+script = ExtResource("4_qjsev")
+action = ExtResource("5_wm17u")

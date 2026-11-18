@@ -1,0 +1,72 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://content/actions/crt1/idle.tres" id="1_l1v4k"]
+[ext_resource type="Resource" path="res://content/actions/crt1/move.tres" id="2_pvjpv"]
+[ext_resource type="Resource" path="res://content/actions/crt1/basic.tres" id="3_qwat0"]
+[ext_resource type="Resource" path="res://content/actions/crt1/basic2.tres" id="4_7k2qq"]
+[ext_resource type="Resource" path="res://content/actions/crt1/basic3.tres" id="5_ulwk8"]
+[ext_resource type="Resource" path="res://content/actions/crt1/basic4.tres" id="6_p2x2c"]
+[ext_resource type="Resource" path="res://content/actions/crt1/basic5.tres" id="7_80ti4"]
+[ext_resource type="Resource" path="res://content/actions/crt1/jump.tres" id="8_8lvse"]
+[ext_resource type="Resource" path="res://content/actions/crt1/down.tres" id="9_q16be"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_z.tres" id="10_ec8th"]
+[ext_resource type="Resource" path="res://content/actions/crt1/move_z.tres" id="11_pjhyk"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_a.tres" id="12_d8maw"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_s.tres" id="13_feu1d"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill.tres" id="14_bugx8"]
+[ext_resource type="Resource" path="res://content/actions/crt1/d_follow.tres" id="15_hxkde"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_f.tres" id="16_mivx1"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_g.tres" id="17_gqmwd"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_q.tres" id="18_fxad3"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_h.tres" id="19_40wg6"]
+[ext_resource type="Resource" path="res://content/actions/crt1/h_forward.tres" id="20_g0mjg"]
+[ext_resource type="Resource" path="res://content/actions/crt1/h_back.tres" id="21_dsw0q"]
+[ext_resource type="Resource" path="res://content/actions/crt1/h_down.tres" id="22_3u6wv"]
+[ext_resource type="Resource" path="res://content/actions/crt1/h_up.tres" id="23_0bon6"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_w.tres" id="24_bf6bg"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_e.tres" id="25_hynrb"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_r.tres" id="26_mku7q"]
+[ext_resource type="Resource" path="res://content/actions/crt1/r_catch1.tres" id="27_8tyee"]
+[ext_resource type="Resource" path="res://content/actions/crt1/r_catch2.tres" id="28_mkjme"]
+[ext_resource type="Resource" path="res://content/actions/crt1/revenger.tres" id="29_ot5dr"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_v.tres" id="30_ps47r"]
+[ext_resource type="Resource" path="res://content/actions/crt1/skill_t.tres" id="31_3uo30"]
+[ext_resource type="Resource" path="res://content/actions/crt1/hit.tres" id="32_n0p5g"]
+[ext_resource type="Resource" path="res://content/actions/crt1/dead.tres" id="33_f3pd6"]
+[ext_resource type="Resource" path="res://content/actions/crt1/knockdown.tres" id="34_2yhyp"]
+[ext_resource type="PackedScene" path="res://scenes/actors/crt1.tscn" id="35_gm8ef"]
+[ext_resource type="Script" path="res://scripts/content/character_definition.gd" id="36_wdjlc"]
+
+[resource]
+script = ExtResource("36_wdjlc")
+identifier = "crt_1"
+title = "角色编号1"
+source_crt = 1
+actor_scene = ExtResource("35_gm8ef")
+actions = Array[Resource]([ExtResource("1_l1v4k"), ExtResource("2_pvjpv"), ExtResource("3_qwat0"), ExtResource("4_7k2qq"), ExtResource("5_ulwk8"), ExtResource("6_p2x2c"), ExtResource("7_80ti4"), ExtResource("8_8lvse"), ExtResource("9_q16be"), ExtResource("10_ec8th"), ExtResource("11_pjhyk"), ExtResource("12_d8maw"), ExtResource("13_feu1d"), ExtResource("14_bugx8"), ExtResource("15_hxkde"), ExtResource("16_mivx1"), ExtResource("17_gqmwd"), ExtResource("18_fxad3"), ExtResource("19_40wg6"), ExtResource("20_g0mjg"), ExtResource("21_dsw0q"), ExtResource("22_3u6wv"), ExtResource("23_0bon6"), ExtResource("24_bf6bg"), ExtResource("25_hynrb"), ExtResource("26_mku7q"), ExtResource("27_8tyee"), ExtResource("28_mkjme"), ExtResource("29_ot5dr"), ExtResource("30_ps47r"), ExtResource("31_3uo30"), ExtResource("32_n0p5g"), ExtResource("33_f3pd6"), ExtResource("34_2yhyp")])
+extra = {
+"calibration": "默认功能链依据静态AS/XML恢复；伤害分期和手感不宣称已通过精确原作运行oracle。",
+"default_locked_slots": [4151, 4155, 4165, 4172],
+"skill_slot_actions": {
+"a": "skill_a",
+"d": "skill",
+"e": "skill_e",
+"f": "skill_f",
+"g": "skill_g",
+"h": "skill_h",
+"q": "skill_q",
+"r": "skill_r",
+"revenger": "revenger",
+"s": "skill_s",
+"t": "skill_t",
+"v": "skill_v",
+"w": "skill_w",
+"z": "skill_z"
+},
+"source_profile": {
+"armor": 1,
+"master": 0,
+"weapon": 0
+}
+}
+source = "原6732父30起；默认武器0、装扮1、master0。AS/XML路径、默认与解锁边界见各Action和asset_catalog.act03_crt1_*。"

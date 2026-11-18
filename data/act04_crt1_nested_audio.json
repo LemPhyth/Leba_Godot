@@ -1,0 +1,990 @@
+{
+  "status": "aliases confirmed with sole asset writer; catalog publication pending",
+  "clock_contract": "child source1 at actual instance creation; source2 next source tick. Use actual reached from_frame, action serial, parent hold/seek and original instance depth. Do not schedule all E copies at cast start. Until excludes control frame45 returning E parent.",
+  "aliases": {
+    "5115": "crt1_h_direction_child",
+    "5156": "crt1_e_flash_child",
+    "5069": "crt1_e_tail_child",
+    "5840": "crt1_t_phase_hit",
+    "5879": "crt1_t_air_container",
+    "6771": "crt1_r_helper1",
+    "6760": "crt1_r_helper2",
+    "6752": "crt1_r_helper3"
+  },
+  "action_extra_nested_audio": {
+    "h_back": [
+      {
+        "identifier": "5116/depth46/5115",
+        "source_id": 5115,
+        "depth": 46,
+        "depth_path": [
+          46
+        ],
+        "from_frame": 3,
+        "until_frame": 10,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_h_direction_child",
+            "offset": 0.0,
+            "source_sound_id": 5085
+          }
+        ],
+        "source_parent": 5116
+      }
+    ],
+    "h_down": [
+      {
+        "identifier": "5122/depth36/5115",
+        "source_id": 5115,
+        "depth": 36,
+        "depth_path": [
+          36
+        ],
+        "from_frame": 3,
+        "until_frame": 11,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_h_direction_child",
+            "offset": 0.0,
+            "source_sound_id": 5085
+          }
+        ],
+        "source_parent": 5122
+      }
+    ],
+    "h_up": [
+      {
+        "identifier": "5123/depth3/5115",
+        "source_id": 5115,
+        "depth": 3,
+        "depth_path": [
+          3
+        ],
+        "from_frame": 3,
+        "until_frame": 11,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_h_direction_child",
+            "offset": 0.0,
+            "source_sound_id": 5085
+          }
+        ],
+        "source_parent": 5123
+      }
+    ],
+    "skill_e": [
+      {
+        "identifier": "5158/depth204/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 204,
+        "depth_path": [
+          204,
+          8
+        ],
+        "from_frame": 3,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth204/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 204,
+        "depth_path": [
+          204,
+          10
+        ],
+        "from_frame": 3,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth215/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 215,
+        "depth_path": [
+          215,
+          8
+        ],
+        "from_frame": 3,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth215/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 215,
+        "depth_path": [
+          215,
+          10
+        ],
+        "from_frame": 3,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth226/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 226,
+        "depth_path": [
+          226,
+          8
+        ],
+        "from_frame": 8,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth226/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 226,
+        "depth_path": [
+          226,
+          10
+        ],
+        "from_frame": 8,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth237/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 237,
+        "depth_path": [
+          237,
+          8
+        ],
+        "from_frame": 8,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth237/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 237,
+        "depth_path": [
+          237,
+          10
+        ],
+        "from_frame": 8,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth248/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 248,
+        "depth_path": [
+          248,
+          8
+        ],
+        "from_frame": 12,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth248/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 248,
+        "depth_path": [
+          248,
+          10
+        ],
+        "from_frame": 12,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth259/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 259,
+        "depth_path": [
+          259,
+          8
+        ],
+        "from_frame": 12,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth259/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 259,
+        "depth_path": [
+          259,
+          10
+        ],
+        "from_frame": 12,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth270/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 270,
+        "depth_path": [
+          270,
+          8
+        ],
+        "from_frame": 17,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth270/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 270,
+        "depth_path": [
+          270,
+          10
+        ],
+        "from_frame": 17,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth281/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 281,
+        "depth_path": [
+          281,
+          8
+        ],
+        "from_frame": 17,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth281/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 281,
+        "depth_path": [
+          281,
+          10
+        ],
+        "from_frame": 17,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth292/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 292,
+        "depth_path": [
+          292,
+          8
+        ],
+        "from_frame": 22,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth292/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 292,
+        "depth_path": [
+          292,
+          10
+        ],
+        "from_frame": 22,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth303/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 303,
+        "depth_path": [
+          303,
+          8
+        ],
+        "from_frame": 22,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth303/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 303,
+        "depth_path": [
+          303,
+          10
+        ],
+        "from_frame": 22,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth314/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 314,
+        "depth_path": [
+          314,
+          8
+        ],
+        "from_frame": 27,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth314/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 314,
+        "depth_path": [
+          314,
+          10
+        ],
+        "from_frame": 27,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth325/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 325,
+        "depth_path": [
+          325,
+          8
+        ],
+        "from_frame": 27,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth325/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 325,
+        "depth_path": [
+          325,
+          10
+        ],
+        "from_frame": 27,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth336/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 336,
+        "depth_path": [
+          336,
+          8
+        ],
+        "from_frame": 32,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth336/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 336,
+        "depth_path": [
+          336,
+          10
+        ],
+        "from_frame": 32,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth347/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 347,
+        "depth_path": [
+          347,
+          8
+        ],
+        "from_frame": 32,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth347/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 347,
+        "depth_path": [
+          347,
+          10
+        ],
+        "from_frame": 32,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth358/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 358,
+        "depth_path": [
+          358,
+          8
+        ],
+        "from_frame": 36,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth358/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 358,
+        "depth_path": [
+          358,
+          10
+        ],
+        "from_frame": 36,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth369/5157/depth8/5069",
+        "source_id": 5069,
+        "depth": 369,
+        "depth_path": [
+          369,
+          8
+        ],
+        "from_frame": 36,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 11,
+            "sound": "crt1_e_tail_child",
+            "offset": 0.0,
+            "source_sound_id": 5068
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      },
+      {
+        "identifier": "5158/depth369/5157/depth10/5156",
+        "source_id": 5156,
+        "depth": 369,
+        "depth_path": [
+          369,
+          10
+        ],
+        "from_frame": 36,
+        "until_frame": 44,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_e_flash_child",
+            "offset": 0.006802721088435374,
+            "source_sound_id": 4859
+          }
+        ],
+        "source_parent": 5158,
+        "end_evidence": "5158/frame45 DoAction returns actor30; independent children removed with action"
+      }
+    ],
+    "skill_t": [
+      {
+        "identifier": "5881/depth34/5840",
+        "source_id": 5840,
+        "depth": 34,
+        "depth_path": [
+          34
+        ],
+        "from_frame": 15,
+        "until_frame": 23,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_t_phase_hit",
+            "offset": 0.0,
+            "source_sound_id": 4616
+          }
+        ],
+        "source_parent": 5881
+      },
+      {
+        "identifier": "5881/depth36/5840",
+        "source_id": 5840,
+        "depth": 36,
+        "depth_path": [
+          36
+        ],
+        "from_frame": 15,
+        "until_frame": 23,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_t_phase_hit",
+            "offset": 0.0,
+            "source_sound_id": 4616
+          }
+        ],
+        "source_parent": 5881
+      },
+      {
+        "identifier": "5881/depth59/5840",
+        "source_id": 5840,
+        "depth": 59,
+        "depth_path": [
+          59
+        ],
+        "from_frame": 35,
+        "until_frame": 42,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_t_phase_hit",
+            "offset": 0.0,
+            "source_sound_id": 4616
+          }
+        ],
+        "source_parent": 5881
+      },
+      {
+        "identifier": "5881/depth61/5840",
+        "source_id": 5840,
+        "depth": 61,
+        "depth_path": [
+          61
+        ],
+        "from_frame": 35,
+        "until_frame": 42,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_t_phase_hit",
+            "offset": 0.0,
+            "source_sound_id": 4616
+          }
+        ],
+        "source_parent": 5881
+      },
+      {
+        "identifier": "5881/depth79/5840",
+        "source_id": 5840,
+        "depth": 79,
+        "depth_path": [
+          79
+        ],
+        "from_frame": 52,
+        "until_frame": 55,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_t_phase_hit",
+            "offset": 0.0,
+            "source_sound_id": 4616
+          }
+        ],
+        "source_parent": 5881
+      },
+      {
+        "identifier": "5881/depth81/5840",
+        "source_id": 5840,
+        "depth": 81,
+        "depth_path": [
+          81
+        ],
+        "from_frame": 52,
+        "until_frame": 55,
+        "entry_frame": 1,
+        "sounds": [
+          {
+            "frame": 2,
+            "sound": "crt1_t_phase_hit",
+            "offset": 0.0,
+            "source_sound_id": 4616
+          }
+        ],
+        "source_parent": 5881
+      }
+    ]
+  },
+  "gunhawks_child_audio": {
+    "6771": "crt1_r_helper1",
+    "6760": "crt1_r_helper2",
+    "6752": "crt1_r_helper3"
+  },
+  "awakening_air_container_audio": {
+    "parent_frame": 66,
+    "on_entry_once": true,
+    "source_id": 5879,
+    "frame": 1,
+    "sound": "crt1_t_air_container",
+    "offset": 0.07029478458049887
+  },
+  "e_expected_uncancelled_observations": {
+    "flash_parent_frames": [
+      [
+        4,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        28,
+        2
+      ],
+      [
+        33,
+        2
+      ],
+      [
+        37,
+        2
+      ]
+    ],
+    "tail_parent_frames": [
+      [
+        13,
+        2
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        27,
+        2
+      ],
+      [
+        32,
+        2
+      ],
+      [
+        37,
+        2
+      ],
+      [
+        42,
+        2
+      ]
+    ],
+    "note": "Source-time derived; not a dynamic original probe. Source36 births are cancelled by parent45 before child11."
+  }
+}

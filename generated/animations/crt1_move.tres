@@ -1,0 +1,61 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_wfquk"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_move.png" id="2_egurr"]
+
+[resource]
+script = ExtResource("1_wfquk")
+identifier = "crt1_move"
+texture = ExtResource("2_egurr")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-40.25, -70.3, 138.0, 149.0],
+"pivot": [42.25, 72.3],
+"region": [2.0, 2.0, 140.0, 151.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-40.25, -70.3, 138.0, 149.0],
+"pivot": [42.25, 72.3],
+"region": [146.0, 2.0, 140.0, 151.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-36.25, -71.3, 134.0, 139.0],
+"pivot": [42.25, 72.3],
+"region": [290.0, 2.0, 140.0, 151.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-36.25, -71.3, 134.0, 138.0],
+"pivot": [42.25, 72.3],
+"region": [434.0, 2.0, 140.0, 151.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-32.25, -72.3, 130.0, 140.0],
+"pivot": [42.25, 72.3],
+"region": [2.0, 157.0, 140.0, 151.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-32.25, -71.3, 130.0, 138.0],
+"pivot": [42.25, 72.3],
+"region": [146.0, 157.0, 140.0, 151.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-32.25, -70.3, 130.0, 149.0],
+"pivot": [42.25, 72.3],
+"region": [290.0, 157.0, 140.0, 151.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-42.25, -70.3, 140.0, 144.0],
+"pivot": [42.25, 72.3],
+"region": [434.0, 157.0, 140.0, 151.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-42.25, -70.3, 140.0, 144.0],
+"pivot": [42.25, 72.3],
+"region": [2.0, 312.0, 140.0, 151.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-42.25, -70.3, 140.0, 143.0],
+"pivot": [42.25, 72.3],
+"region": [146.0, 312.0, 140.0, 151.0],
+"source_frame": 10.0
+}])
+source = "asset_catalog.animations.crt1_move；派生图集；来源与pivot见catalog。"

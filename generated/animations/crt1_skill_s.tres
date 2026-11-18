@@ -1,0 +1,97 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_fs3fx"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_skill_s.png" id="2_kke1n"]
+
+[resource]
+script = ExtResource("1_fs3fx")
+identifier = "crt1_skill_s"
+texture = ExtResource("2_kke1n")
+parent_scale = Vector2(1.000412, 1)
+frames = Array[Dictionary]([{
+"alpha_bounds": [-49.275997, -90.55, 122.050264, 163.0],
+"pivot": [49.255704, 90.55],
+"region": [2.0, 2.0, 210.0, 163.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-49.275997, -90.55, 106.043672, 163.0],
+"pivot": [49.255704, 90.55],
+"region": [216.0, 2.0, 210.0, 163.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-49.275997, -90.55, 106.043672, 163.0],
+"pivot": [49.255704, 90.55],
+"region": [430.0, 2.0, 210.0, 163.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-48.275585, -90.55, 113.046556, 162.0],
+"pivot": [49.255704, 90.55],
+"region": [644.0, 2.0, 210.0, 163.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 132.054384, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [2.0, 169.0, 210.0, 163.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 132.054384, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [216.0, 169.0, 210.0, 163.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 207.085284, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [430.0, 169.0, 210.0, 163.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 194.079928, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [644.0, 169.0, 210.0, 163.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 189.077868, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [2.0, 336.0, 210.0, 163.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [216.0, 336.0, 210.0, 163.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [430.0, 336.0, 210.0, 163.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [644.0, 336.0, 210.0, 163.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [2.0, 503.0, 210.0, 163.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [216.0, 503.0, 210.0, 163.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [430.0, 503.0, 210.0, 163.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [644.0, 503.0, 210.0, 163.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-46.274761, -90.55, 118.048616, 161.0],
+"pivot": [49.255704, 90.55],
+"region": [2.0, 670.0, 210.0, 163.0],
+"source_frame": 17.0
+}])
+source = "asset_catalog.animations.crt1_skill_s；派生图集；来源与pivot见catalog。"

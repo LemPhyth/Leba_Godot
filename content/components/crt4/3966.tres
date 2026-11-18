@@ -1,0 +1,83 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_kqidu"]
+
+[resource]
+script = ExtResource("1_kqidu")
+identifier = "3966"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3964.0
+}, {
+"depth": 1.0,
+"frame": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, -18.95],
+"name": null,
+"source_id": 3965.0
+}, {
+"depth": 1.0,
+"frame": 230.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, -18.95],
+"name": null,
+"source_id": 3965.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 3964.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, -18.95],
+"ratio": "1",
+"source_id": 3965.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, -18.95],
+"ratio": "229",
+"source_id": 3965.0
+}],
+"source_frame": 230.0
+}],
+"sounds": [],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_3966/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_3966/frame_2/DoAction.as",
+"sha256": "def945151f8ef0b76625ef9e76fdb08c9ca249c12f1068d4090861a554bfa155"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_3966/frame_2/PlaceObject2_3965_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "0e7c953bd23171c916afcca169a2aebf87d0d65e0c7baaf1b02692d14240bb07"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_3966/frame_2/PlaceObject2_3965_1/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "9e2aadd9ae58f4b092bae48fad51bec576e3e1e5705bca77b21dfa7c73fd6a9a"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_3966/frame_2/PlaceObject2_3965_1/CLIPACTIONRECORD onClipEvent(unload).as",
+"sha256": "1f2944480165ba908768093457f853f75b4b1bacc89ffe9af3587b0b97d29c8a"
+}, {
+"frame": 230.0,
+"path": "res/scripts/DefineSprite_3966/frame_230/PlaceObject2_3965_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}],
+"source_frame_count": 231.0,
+"source_id": 3966.0,
+"stop_source_frames": [1.0]
+}
+source = "Original AS/XML source 3966; res://data/act06_crt4_rules.json.components.3966"

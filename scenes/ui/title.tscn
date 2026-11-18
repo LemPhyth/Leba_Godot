@@ -1,0 +1,97 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_g80e2"]
+[ext_resource type="Texture2D" path="res://assets/ui/title.png" id="2_4v1qu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s1drf"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Title" type="Control" unique_id=821941386]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_g80e2")
+
+[node name="@ColorRect@4" type="ColorRect" parent="." unique_id=1067695555]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+color = Color(0.06666667, 0.07058824, 0.101960786, 1)
+
+[node name="@TextureRect@5" type="TextureRect" parent="." unique_id=437670313]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 265.0
+mouse_filter = 2
+texture = ExtResource("2_4v1qu")
+expand_mode = 1
+
+[node name="@Panel@6" type="Panel" parent="." unique_id=1030751856]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 234.0
+offset_right = 420.0
+offset_bottom = 386.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_s1drf")
+
+[node name="Title" type="Label" parent="." unique_id=1400094983]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 242.0
+offset_right = 422.0
+offset_bottom = 268.0
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "雷巴的冒险 EX · 还原版"
+autowrap_mode = 3
+
+[node name="Start" type="Button" parent="." unique_id=978866815]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 273.0
+offset_right = 375.0
+offset_bottom = 304.0
+text = "开始冒险"
+
+[node name="Training" type="Button" parent="." unique_id=1004288360]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 307.0
+offset_right = 375.0
+offset_bottom = 338.0
+text = "练习模式"
+
+[node name="Gold" type="Label" parent="." unique_id=649037399]
+layout_mode = 0
+offset_left = 173.0
+offset_top = 341.0
+offset_right = 433.0
+offset_bottom = 367.0
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "金币 0"
+autowrap_mode = 3
+
+[node name="SaveMessage" type="Label" parent="." unique_id=707114849]
+layout_mode = 0
+offset_left = 145.0
+offset_top = 361.0
+offset_right = 415.0
+offset_bottom = 387.0
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+autowrap_mode = 3

@@ -1,0 +1,432 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_y_swamp_cell.tres" id="1_anhy3"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_leo82"]
+
+[resource]
+script = ExtResource("2_leo82")
+identifier = "932"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 908.0
+}, {
+"depth": 2.0,
+"frame": 1.0,
+"matrix": [0.84661865, 0.0, 0.0, 0.84661865, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 5.0,
+"frame": 1.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"name": null,
+"source_id": 904.0
+}, {
+"depth": 1.0,
+"frame": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 913.0
+}, {
+"depth": 2.0,
+"frame": 3.0,
+"matrix": [0.8807068, 0.0, 0.0, 0.8807068, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 1.0,
+"frame": 5.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 914.0
+}, {
+"depth": 2.0,
+"frame": 5.0,
+"matrix": [0.9147949, 0.0, 0.0, 0.9147949, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 1.0,
+"frame": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 915.0
+}, {
+"depth": 2.0,
+"frame": 7.0,
+"matrix": [0.9488678, 0.0, 0.0, 0.9488678, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 1.0,
+"frame": 10.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 915.0
+}, {
+"depth": 2.0,
+"frame": 10.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 5.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [{
+"alpha": "255",
+"blue": "0",
+"green": "0",
+"name": "glowColor",
+"red": "0",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.0"
+}],
+"frame": 10.0,
+"matrix": [1.1597595, 0.0, 0.0, 2.9874573, -4.95, 26.85],
+"name": null,
+"source_id": 928.0
+}, {
+"depth": 1.0,
+"frame": 11.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 929.0
+}, {
+"depth": 2.0,
+"frame": 11.0,
+"matrix": [0.96702576, 0.0, 0.0, 0.96702576, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 1.0,
+"frame": 13.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 930.0
+}, {
+"depth": 2.0,
+"frame": 13.0,
+"matrix": [0.9010773, 0.0, 0.0, 0.9010773, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}, {
+"depth": 1.0,
+"frame": 15.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 931.0
+}, {
+"depth": 2.0,
+"frame": 15.0,
+"matrix": [0.8351288, 0.0, 0.0, 0.8351288, 54.05, 18.0],
+"name": null,
+"source_id": 912.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 908.0
+}, {
+"depth": 2.0,
+"matrix": [0.84661865, 0.0, 0.0, 0.84661865, 54.05, 18.0],
+"source_id": 912.0
+}, {
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 908.0
+}, {
+"depth": 2.0,
+"matrix": [0.8636627, 0.0, 0.0, 0.8636627, 54.05, 18.0],
+"source_id": 912.0
+}, {
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 913.0
+}, {
+"depth": 2.0,
+"matrix": [0.8807068, 0.0, 0.0, 0.8807068, 54.05, 18.0],
+"ratio": "2",
+"source_id": 912.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 913.0
+}, {
+"depth": 2.0,
+"matrix": [0.89775085, 0.0, 0.0, 0.89775085, 54.05, 18.0],
+"ratio": "2",
+"source_id": 912.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 914.0
+}, {
+"depth": 2.0,
+"matrix": [0.9147949, 0.0, 0.0, 0.9147949, 54.05, 18.0],
+"ratio": "4",
+"source_id": 912.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 914.0
+}, {
+"depth": 2.0,
+"matrix": [0.93182373, 0.0, 0.0, 0.93182373, 54.05, 18.0],
+"ratio": "4",
+"source_id": 912.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 915.0
+}, {
+"depth": 2.0,
+"matrix": [0.9488678, 0.0, 0.0, 0.9488678, 54.05, 18.0],
+"ratio": "6",
+"source_id": 912.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 915.0
+}, {
+"depth": 2.0,
+"matrix": [0.96591187, 0.0, 0.0, 0.96591187, 54.05, 18.0],
+"ratio": "6",
+"source_id": 912.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 5.0,
+"matrix": [0.9330902, 0.0, 0.0, 0.74890137, 51.6, 15.95],
+"source_id": 904.0
+}, {
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 915.0
+}, {
+"depth": 2.0,
+"matrix": [0.98295593, 0.0, 0.0, 0.98295593, 54.05, 18.0],
+"ratio": "6",
+"source_id": 912.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 915.0
+}, {
+"depth": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 54.05, 18.0],
+"ratio": "9",
+"source_id": 912.0
+}, {
+"depth": 5.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [{
+"alpha": "255",
+"blue": "0",
+"green": "0",
+"name": "glowColor",
+"red": "0",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.0"
+}],
+"matrix": [1.1597595, 0.0, 0.0, 2.9874573, -4.95, 26.85],
+"ratio": "9",
+"source_id": 928.0
+}],
+"source_frame": 10.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 929.0
+}, {
+"depth": 2.0,
+"matrix": [0.96702576, 0.0, 0.0, 0.96702576, 54.05, 18.0],
+"ratio": "10",
+"source_id": 912.0
+}],
+"source_frame": 11.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 929.0
+}, {
+"depth": 2.0,
+"matrix": [0.9340515, 0.0, 0.0, 0.9340515, 54.05, 18.0],
+"ratio": "10",
+"source_id": 912.0
+}],
+"source_frame": 12.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 930.0
+}, {
+"depth": 2.0,
+"matrix": [0.9010773, 0.0, 0.0, 0.9010773, 54.05, 18.0],
+"ratio": "12",
+"source_id": 912.0
+}],
+"source_frame": 13.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 930.0
+}, {
+"depth": 2.0,
+"matrix": [0.868103, 0.0, 0.0, 0.868103, 54.05, 18.0],
+"ratio": "12",
+"source_id": 912.0
+}],
+"source_frame": 14.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 931.0
+}, {
+"depth": 2.0,
+"matrix": [0.8351288, 0.0, 0.0, 0.8351288, 54.05, 18.0],
+"ratio": "14",
+"source_id": 912.0
+}],
+"source_frame": 15.0
+}, {
+"placements": [{
+"clipDepth": "4",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 931.0
+}, {
+"depth": 2.0,
+"matrix": [0.80215454, 0.0, 0.0, 0.80215454, 54.05, 18.0],
+"ratio": "14",
+"source_id": 912.0
+}],
+"source_frame": 16.0
+}, {
+"placements": [],
+"source_frame": 17.0
+}],
+"sounds": [],
+"source": [{
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_932/frame_10/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_932/frame_10/PlaceObject3_928_5/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "8ffda9482a4fd665b35f262bbca383f8d5965aba4f26d9aea7390aad8a845eb5"
+}, {
+"frame": 11.0,
+"path": "res/scripts/DefineSprite_932/frame_11/DoAction.as",
+"sha256": "def945151f8ef0b76625ef9e76fdb08c9ca249c12f1068d4090861a554bfa155"
+}, {
+"frame": 17.0,
+"path": "res/scripts/DefineSprite_932/frame_17/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 17.0,
+"source_id": 932.0,
+"stop_source_frames": [10.0, 17.0]
+}
+animations = Array[Resource]([ExtResource("1_anhy3")])
+source = "Original AS/XML source 932; res://data/act06_crt4_rules.json.components.932"

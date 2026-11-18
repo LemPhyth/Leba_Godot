@@ -1,0 +1,1750 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_skill_e.tres" id="1_y2dq8"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_qdo7e"]
+[ext_resource type="AudioStream" path="res://assets/audio/4695.mp3" id="3_j5cta"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_hxudt"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_3v46w"]
+
+[sub_resource type="Resource" id="Resource_hmh7u"]
+script = ExtResource("2_qdo7e")
+frame = 6
+kind = "crt4_cutin"
+parameters = {
+"source_frame": 130.0
+}
+
+[sub_resource type="Resource" id="Resource_7h50j"]
+script = ExtResource("2_qdo7e")
+frame = 8
+kind = "crt4_ghostwalk_hide_and_map_dark"
+
+[sub_resource type="Resource" id="Resource_awbwm"]
+script = ExtResource("2_qdo7e")
+frame = 12
+kind = "crt4_random_targets_reset"
+
+[sub_resource type="Resource" id="Resource_515yl"]
+script = ExtResource("2_qdo7e")
+frame = 28
+kind = "crt4_ghostslash_release"
+
+[sub_resource type="Resource" id="Resource_eif76"]
+script = ExtResource("2_qdo7e")
+frame = 45
+kind = "crt4_ghostslash_finish"
+
+[sub_resource type="Resource" id="Resource_cxckv"]
+script = ExtResource("2_qdo7e")
+frame = 65
+kind = "crt4_ghostwalk_restore"
+
+[sub_resource type="Resource" id="Resource_4pp33"]
+script = ExtResource("2_qdo7e")
+frame = 8
+sound = "crt4_source_6506_sound_1"
+audio_stream = ExtResource("3_j5cta")
+parameters = {
+"envelope": [{
+"left": 15351.0,
+"right": 15351.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 4695.0,
+"source_id": 6506,
+"source_sound_info": {
+"envelopes": [{
+"leftLevel": "15351",
+"pos44": "0",
+"rightLevel": "15351",
+"type": "SOUNDENVELOPE"
+}],
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6506.0
+}
+
+[sub_resource type="Resource" id="Resource_st7fk"]
+script = ExtResource("5_3v46w")
+from_frame = 10
+until_frame = 10
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 10,
+"source_depth": 36,
+"source_frame": 10,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "9",
+"source_frame": 10.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "d17fb26c0effd556caf1b6e2ea471fb7b1b5014104edfae6db3623673581e564"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c3b687b7dd11c1aeb7adb0ce0f54ba9c4e31d47621e537c2c927b29ea223e3ee"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "589c70b474bd48ea0b332a511319b983da60e008486b2061375c3a442058ce40"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "363e9f92c409734e08277ed4daba85c2bdafbd1f34c824837b531638eb66dd12"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "a54346dced048b432745421dca0e3d937cb5c32f8ac55992d340bfbe240752a3"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "f748036e360b6c20eeb58c8bf129df805cee68801863faaa2439f5ddf5082a3e"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "e81a453f5e7627da1d9439f03689910d34ce1cd60da1a678c616202363812be1"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "7196bbb68b1df599089cfce694c9e6bf3718acc2c74f2e2eb0d0a46d526116a4"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "db8053660e70669d0bd47eb7b4ea145c826c58669d6fec19453c90ab887d02e9"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "737827f61e5f92970ff73dabc21f2f88197825a102ea106519fd1a4a7749d7df"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_1jkdj"]
+script = ExtResource("5_3v46w")
+from_frame = 11
+until_frame = 11
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 10,
+"source_depth": 36,
+"source_frame": 11,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "9",
+"source_frame": 10.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "d17fb26c0effd556caf1b6e2ea471fb7b1b5014104edfae6db3623673581e564"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c3b687b7dd11c1aeb7adb0ce0f54ba9c4e31d47621e537c2c927b29ea223e3ee"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "589c70b474bd48ea0b332a511319b983da60e008486b2061375c3a442058ce40"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "363e9f92c409734e08277ed4daba85c2bdafbd1f34c824837b531638eb66dd12"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "a54346dced048b432745421dca0e3d937cb5c32f8ac55992d340bfbe240752a3"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "f748036e360b6c20eeb58c8bf129df805cee68801863faaa2439f5ddf5082a3e"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "e81a453f5e7627da1d9439f03689910d34ce1cd60da1a678c616202363812be1"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "7196bbb68b1df599089cfce694c9e6bf3718acc2c74f2e2eb0d0a46d526116a4"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "db8053660e70669d0bd47eb7b4ea145c826c58669d6fec19453c90ab887d02e9"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "737827f61e5f92970ff73dabc21f2f88197825a102ea106519fd1a4a7749d7df"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_8rh3e"]
+script = ExtResource("5_3v46w")
+from_frame = 12
+until_frame = 12
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 12,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_r355k"]
+script = ExtResource("5_3v46w")
+from_frame = 13
+until_frame = 13
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 13,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_fd8pu"]
+script = ExtResource("5_3v46w")
+from_frame = 14
+until_frame = 14
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 14,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_emy1w"]
+script = ExtResource("5_3v46w")
+from_frame = 15
+until_frame = 15
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 15,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_06a61"]
+script = ExtResource("5_3v46w")
+from_frame = 16
+until_frame = 16
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 16,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_ra82b"]
+script = ExtResource("5_3v46w")
+from_frame = 17
+until_frame = 17
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 17,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_831w0"]
+script = ExtResource("5_3v46w")
+from_frame = 18
+until_frame = 18
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 18,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_876kr"]
+script = ExtResource("5_3v46w")
+from_frame = 19
+until_frame = 19
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 19,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_fbsr6"]
+script = ExtResource("5_3v46w")
+from_frame = 20
+until_frame = 20
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 20,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_be3x8"]
+script = ExtResource("5_3v46w")
+from_frame = 21
+until_frame = 21
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 21,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_uktnj"]
+script = ExtResource("5_3v46w")
+from_frame = 22
+until_frame = 22
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 22,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_k50u3"]
+script = ExtResource("5_3v46w")
+from_frame = 23
+until_frame = 23
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 23,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_b1dxr"]
+script = ExtResource("5_3v46w")
+from_frame = 24
+until_frame = 24
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 24,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_78if6"]
+script = ExtResource("5_3v46w")
+from_frame = 25
+until_frame = 25
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 25,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_iwjj6"]
+script = ExtResource("5_3v46w")
+from_frame = 26
+until_frame = 26
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 26,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_cjby3"]
+script = ExtResource("5_3v46w")
+from_frame = 27
+until_frame = 27
+kind = "crt4_ghostslash_mark"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 12,
+"source_depth": 36,
+"source_frame": 27,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "11",
+"source_frame": 12.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}],
+"source_rule": {
+"contact_bodies": ["frozen"],
+"kind": "ghostslash_mark",
+"normal_marker_seek": 8.0,
+"normal_state_label": "kk",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"scope": "source_helper_instance",
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"status": "ghostslash_pending"
+}
+}
+
+[sub_resource type="Resource" id="Resource_oldc6"]
+script = ExtResource("5_3v46w")
+from_frame = 8
+until_frame = 8
+kind = "crt4_ground"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+gravity = 0.0
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 8,
+"source_depth": 36,
+"source_frame": 8,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "7",
+"source_frame": 8.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "25dd20b0829ef6871815c30e06342a20eca848006c9032c909215c0c5aa593da"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "499e949f3741d65f9f7b008f63a8af4260a328bf6389e59af1c892e282ec49ce"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "0c1bc2b2adaa39c7622e4b1ecb70ad07762f3ed6ad322b56165391c419a44ee1"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "99de31b28accae73043c3431d17957e1d5160638db4d12e73bfbc953cbb720e5"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "2a671c3d2511d88e9d33000ad049dde6ee5de445b9d0bef9d924b56cb46dfb03"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "49d8579cbe8b45930e4f1f741dd11204e02849c9c16bc357f1b32d2e03e77df4"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "5ce987bda2d6d63fd0fd03a985a4ce4527f584ae104a0fe777d3a6e684d9b553"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "3e8818d903f7434b771a39f88fed86519ad392d6395ab3c43ce8122d977e0942"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "7ef9a2f43c98574968db81d857019bf8fef4dae0abea1a12f816d821f94c140c"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "e61562ff2e63f373e090d132ec9be8f600b24800ca700c05288b8902cfdcef50"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "dabc8c30bf47edb3abf223a9366ecc77f025c6054de7a39c6ad12c03c248f6cf"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "42b7b9ffc47e07ca46cf680f78203ee88bbe51bfbe863d2d36aeeebce24be185"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "1cff0aab4198950702cfc258257f78643a3af25f631eab7a5a1acaaf60b0a75c"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "90b77b212516808a7eda415cfa4be84dccbd535881c9677c913000a3f95cc03d"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "2cfb604318bd13c50e9a3867689ac67be4f490090c37334d3637061b2c102e08"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"enemy_y": "source_floor_y",
+"gacc": 0.0,
+"gravity": 0.0,
+"kind": "ground",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"outer_frame": 1.0,
+"scope": "source_helper_instance",
+"slow_seek": 1.0,
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}
+}
+
+[sub_resource type="Resource" id="Resource_15qoe"]
+script = ExtResource("5_3v46w")
+from_frame = 9
+until_frame = 9
+kind = "crt4_ground"
+rectangles = Array[Rect2]([Rect2(-593.18115, -89.5022, 717.8421, 181.53409)])
+gravity = 0.0
+once_per_action = false
+parameters = {
+"rect_space": "actor_local; source parent matrix applied once",
+"source_birth_frame": 8,
+"source_depth": 36,
+"source_frame": 9,
+"source_helper": 6443,
+"source_parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"source_placement_track": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 36.0,
+"matrix": [1.1271973, 0.0, 0.0, 1.2645874, -227.9, -18.85],
+"ratio": "7",
+"source_frame": 8.0,
+"source_id": 6443.0
+}],
+"source_references": [{
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "25dd20b0829ef6871815c30e06342a20eca848006c9032c909215c0c5aa593da"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "499e949f3741d65f9f7b008f63a8af4260a328bf6389e59af1c892e282ec49ce"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "0c1bc2b2adaa39c7622e4b1ecb70ad07762f3ed6ad322b56165391c419a44ee1"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "99de31b28accae73043c3431d17957e1d5160638db4d12e73bfbc953cbb720e5"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "2a671c3d2511d88e9d33000ad049dde6ee5de445b9d0bef9d924b56cb46dfb03"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "49d8579cbe8b45930e4f1f741dd11204e02849c9c16bc357f1b32d2e03e77df4"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "5ce987bda2d6d63fd0fd03a985a4ce4527f584ae104a0fe777d3a6e684d9b553"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "3e8818d903f7434b771a39f88fed86519ad392d6395ab3c43ce8122d977e0942"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "7ef9a2f43c98574968db81d857019bf8fef4dae0abea1a12f816d821f94c140c"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "e61562ff2e63f373e090d132ec9be8f600b24800ca700c05288b8902cfdcef50"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "dabc8c30bf47edb3abf223a9366ecc77f025c6054de7a39c6ad12c03c248f6cf"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "42b7b9ffc47e07ca46cf680f78203ee88bbe51bfbe863d2d36aeeebce24be185"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "1cff0aab4198950702cfc258257f78643a3af25f631eab7a5a1acaaf60b0a75c"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "90b77b212516808a7eda415cfa4be84dccbd535881c9677c913000a3f95cc03d"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "2cfb604318bd13c50e9a3867689ac67be4f490090c37334d3637061b2c102e08"
+}],
+"source_rule": {
+"contact_bodies": ["normal", "super", "frozen"],
+"enemy_y": "source_floor_y",
+"gacc": 0.0,
+"gravity": 0.0,
+"kind": "ground",
+"observer_requires_this_contact": false,
+"once_per_action": false,
+"outer_frame": 1.0,
+"scope": "source_helper_instance",
+"slow_seek": 1.0,
+"source_targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}
+}
+
+[resource]
+script = ExtResource("4_hxudt")
+identifier = "skill_e"
+title = "skill_e"
+animation = ExtResource("1_y2dq8")
+animation_key = "crt4_skill_e"
+source_parent = 157
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65)
+input_id = "skill_e"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "kalla_basic")
+cost = 7.0
+required_mp = 7.0
+cubes = 1
+cooldown_ticks = 543
+cooldown_key = "skill_e"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_hmh7u"), SubResource("Resource_7h50j"), SubResource("Resource_awbwm"), SubResource("Resource_515yl"), SubResource("Resource_eif76"), SubResource("Resource_cxckv"), SubResource("Resource_4pp33")])
+windows = Array[Resource]([SubResource("Resource_st7fk"), SubResource("Resource_1jkdj"), SubResource("Resource_8rh3e"), SubResource("Resource_r355k"), SubResource("Resource_fd8pu"), SubResource("Resource_emy1w"), SubResource("Resource_06a61"), SubResource("Resource_ra82b"), SubResource("Resource_831w0"), SubResource("Resource_876kr"), SubResource("Resource_fbsr6"), SubResource("Resource_be3x8"), SubResource("Resource_uktnj"), SubResource("Resource_k50u3"), SubResource("Resource_b1dxr"), SubResource("Resource_78if6"), SubResource("Resource_iwjj6"), SubResource("Resource_cjby3"), SubResource("Resource_oldc6"), SubResource("Resource_15qoe")])
+source = "Original6732 parent157/source6506; res://data/act06_crt4_rules.json.actions.skill_e; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [{
+"at": 28.0,
+"event": "do_action",
+"held": "continue",
+"held_key": "E",
+"released": "mark_all_then_damage350_in_order_5_to_1_and_return146"
+}, {
+"at": 45.0,
+"event": "do_action",
+"operation": "marked_targets_damage350_in_order_1_to_5"
+}, {
+"event": "enter_frame",
+"from": 45.0,
+"operation": "air_targets_attract_8_5_two_sequential_comparisons",
+"until": 64.0
+}],
+&"nested_audio": [],
+"parent_matrix": [1.0134277, 0.0, 0.0, 1.0134277, -3.3, 20.4],
+"ready_source_frame": 1.0,
+"slot_source_id": 4326.0,
+"source_allowed_parent_frames": [146.0, 150.0, 151.0, 152.0, 166.0],
+"source_entry": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4326/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "a7d39c89e3c5265a6f4ebf86b058d8ef010c3815980a0523a2a5455e2f007609"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4326/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown)_2.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4326/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown)_3.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}],
+"source_id": 6506.0,
+&"source_references": [{
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "d17fb26c0effd556caf1b6e2ea471fb7b1b5014104edfae6db3623673581e564"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "737827f61e5f92970ff73dabc21f2f88197825a102ea106519fd1a4a7749d7df"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c3b687b7dd11c1aeb7adb0ce0f54ba9c4e31d47621e537c2c927b29ea223e3ee"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "589c70b474bd48ea0b332a511319b983da60e008486b2061375c3a442058ce40"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "363e9f92c409734e08277ed4daba85c2bdafbd1f34c824837b531638eb66dd12"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "a54346dced048b432745421dca0e3d937cb5c32f8ac55992d340bfbe240752a3"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "f748036e360b6c20eeb58c8bf129df805cee68801863faaa2439f5ddf5082a3e"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "e81a453f5e7627da1d9439f03689910d34ce1cd60da1a678c616202363812be1"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "7196bbb68b1df599089cfce694c9e6bf3718acc2c74f2e2eb0d0a46d526116a4"
+}, {
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_6506/frame_10/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "db8053660e70669d0bd47eb7b4ea145c826c58669d6fec19453c90ab887d02e9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/DoAction.as",
+"sha256": "876b6fba9714ec8d901bd3ccabe8b212801418a762b101b61b8bf20a5dbbb2b7"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "f9930dbc24ec293751e49ab4685217324cc3a61183bd2f6c6a47af3d2b7648b9"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "738a538330659dd3402c3b690116450ff6a1057c432ff89bc789145da21c387a"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "391505f33959e43f99e509618af2f8f42d9e08bfc80ab8d9bb1f23da31850beb"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "c60b675ecc191ae435d19cec283d297cf693aa49b8b56a48c6684a0017ccd6e1"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6506/frame_12/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "43703a7b136df2fd412f8c1bda7d5972e54a9446cee14bdfb7742fd03b55a223"
+}, {
+"frame": 28.0,
+"path": "res/scripts/DefineSprite_6506/frame_28/DoAction.as",
+"sha256": "ee2ac1d4e5ab0a3201e1d3bc90f7ff3cb53b744b44d64cecdff2485cc9f19a14"
+}, {
+"frame": 45.0,
+"path": "res/scripts/DefineSprite_6506/frame_45/DoAction.as",
+"sha256": "18a46acf1686a9bfb82524d13e9144c8f3e334853e9f30ea269cf5c501d7a05b"
+}, {
+"frame": 45.0,
+"path": "res/scripts/DefineSprite_6506/frame_45/PlaceObject2_6505_28/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "97647468a6a910a17a8b4a0676d10cbeeda8b8db3e7674c6cd174ff7d247c5c4"
+}, {
+"frame": 53.0,
+"path": "res/scripts/DefineSprite_6506/frame_53/DoAction.as",
+"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}, {
+"frame": 6.0,
+"path": "res/scripts/DefineSprite_6506/frame_6/DoAction.as",
+"sha256": "5786f674c7ecc6a3dc389823bf19c10cd5179a41c99635d7d63fa8360530817f"
+}, {
+"frame": 65.0,
+"path": "res/scripts/DefineSprite_6506/frame_65/DoAction.as",
+"sha256": "7a922f0b04650f43257594afa2d52ac209334af94c14a2941948566af16554e0"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/DoAction.as",
+"sha256": "947603e278492f98cb2722bdad152f2a6f10cee734eabe16fe79d61b020f8f2e"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "25dd20b0829ef6871815c30e06342a20eca848006c9032c909215c0c5aa593da"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "e61562ff2e63f373e090d132ec9be8f600b24800ca700c05288b8902cfdcef50"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "dabc8c30bf47edb3abf223a9366ecc77f025c6054de7a39c6ad12c03c248f6cf"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "42b7b9ffc47e07ca46cf680f78203ee88bbe51bfbe863d2d36aeeebce24be185"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "1cff0aab4198950702cfc258257f78643a3af25f631eab7a5a1acaaf60b0a75c"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "90b77b212516808a7eda415cfa4be84dccbd535881c9677c913000a3f95cc03d"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "2cfb604318bd13c50e9a3867689ac67be4f490090c37334d3637061b2c102e08"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "499e949f3741d65f9f7b008f63a8af4260a328bf6389e59af1c892e282ec49ce"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "0c1bc2b2adaa39c7622e4b1ecb70ad07762f3ed6ad322b56165391c419a44ee1"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "99de31b28accae73043c3431d17957e1d5160638db4d12e73bfbc953cbb720e5"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "2a671c3d2511d88e9d33000ad049dde6ee5de445b9d0bef9d924b56cb46dfb03"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "49d8579cbe8b45930e4f1f741dd11204e02849c9c16bc357f1b32d2e03e77df4"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "5ce987bda2d6d63fd0fd03a985a4ce4527f584ae104a0fe777d3a6e684d9b553"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "3e8818d903f7434b771a39f88fed86519ad392d6395ab3c43ce8122d977e0942"
+}, {
+"frame": 8.0,
+"path": "res/scripts/DefineSprite_6506/frame_8/PlaceObject2_6443_36/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "7ef9a2f43c98574968db81d857019bf8fef4dae0abea1a12f816d821f94c140c"
+}],
+"source_selected": true
+}

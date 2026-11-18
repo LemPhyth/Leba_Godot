@@ -1,0 +1,1060 @@
+{
+  "schema_version": 1,
+  "source_frame_rate": 25,
+  "coordinate_space": "Enemy rectangles are [x,y,w,h] in outer actor local pixels, default source-facing left. Parent7170 offset already applied; root actor scale and facing applied once at runtime. Source frame numbers are inclusive and belong to each action source_sprite_id.",
+  "source_doc": "docs/工单02_关卡依据.md",
+  "stages": {
+    "root_6": {
+      "source_root_frame": 6,
+      "source_map_id": 3856,
+      "map_position": [
+        279.35,
+        311.2
+      ],
+      "map_scale": [
+        1,
+        1
+      ],
+      "player_position": [
+        101.95,
+        314.9
+      ],
+      "player_scale": [
+        0.6369171,
+        0.65245056
+      ],
+      "enemy_type": "goblin_7176",
+      "enemy_positions": [
+        [
+          345.45,
+          364.15
+        ]
+      ],
+      "enemy_scale": [
+        0.55415344,
+        0.54756165
+      ],
+      "floor_y": 360.15,
+      "reset_hp": 100.0,
+      "reset_mp": 100.0,
+      "retry_source_root_frame": 5,
+      "next_stage": "intermission_7",
+      "reward_by_nan": {
+        "0": 300,
+        "1": 350,
+        "2": 400,
+        "3": 450,
+        "4": 550
+      },
+      "clear_counter_frame": 2,
+      "progress_gain": 1,
+      "clear_dialogue": "root_6_clear",
+      "source": "frame_6/DoAction.as; frame_6/PlaceObject2_4413_455; game.xml root6"
+    }
+  },
+  "enemies": {
+    "goblin_7176": {
+      "source_id": 7176,
+      "source_facing": -1,
+      "hp": 400.0,
+      "source_script_dir": "frame_6/PlaceObject3_7176_458",
+      "move_per_tick": 3.0,
+      "move_condition": "player gravity body overlaps move_rect while original trigger exists; not unconditional chase",
+      "unconfirmed_mobsp": null,
+      "hurt_rect": [
+        -49.25,
+        -124.3,
+        81.3,
+        117.9
+      ],
+      "move_rect": [
+        -652.8357876,
+        -156.3138415,
+        636.3447846,
+        167.927683
+      ],
+      "proximity_rect": [
+        -139.9282334,
+        -103.65,
+        41.7284798,
+        75.4
+      ],
+      "ranged_rect": [
+        -422.3960678,
+        -103.65,
+        30.6715645,
+        75.4
+      ],
+      "gravity_body_rect": [
+        -48.967605,
+        -173.5221841,
+        104.7796037,
+        172.4000067
+      ],
+      "airborne_drift_per_tick": 0.8,
+      "airborne_source_sprite_id": 7175,
+      "airborne_parent_offset": [
+        0,
+        -61.0
+      ],
+      "timer": {
+        "source_sprite_id": 7178,
+        "trigger_tick": 200,
+        "action": "evade",
+        "restart_action_frame": 2,
+        "stop_on_death": true
+      },
+      "actions": {
+        "idle": {
+          "animation": "boss7176_idle",
+          "source_sprite_id": 7155,
+          "source_frames": [
+            1
+          ],
+          "loop": true,
+          "parent_offset": [
+            0,
+            -71.4
+          ],
+          "events": [],
+          "windows": []
+        },
+        "move": {
+          "animation": "boss7176_move",
+          "source_sprite_id": 7158,
+          "source_frames": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "loop": true,
+          "parent_offset": [
+            0,
+            -71.4
+          ],
+          "events": [],
+          "windows": []
+        },
+        "attack": {
+          "animation": "boss7176_attack",
+          "source_sprite_id": 7170,
+          "source_frames": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "loop": false,
+          "parent_offset": [
+            0,
+            -71.4
+          ],
+          "events": [
+            {
+              "kind": "sound",
+              "frame": 10,
+              "sound_id": 7164,
+              "sound": "boss7176_attack"
+            },
+            {
+              "kind": "sound",
+              "frame": 22,
+              "sound_id": 7164,
+              "sound": "boss7176_attack"
+            },
+            {
+              "kind": "sound",
+              "frame": 34,
+              "sound_id": 7164,
+              "sound": "boss7176_attack"
+            }
+          ],
+          "windows": [
+            {
+              "kind": "enemy_hit",
+              "from": 10,
+              "until": 10,
+              "damage": 3.5,
+              "rect": [
+                -145.5383131,
+                -125.7665879,
+                126.7766263,
+                101.1331758
+              ],
+              "hit_group": "melee_1",
+              "knockback": 10.0,
+              "knockback_scope": "per overlapping source tick",
+              "source_shape_id": 7162,
+              "source_placement_twips": [
+                -1643,
+                -76,
+                1.3765106,
+                0.7328491
+              ],
+              "source_event": "frame_6/PlaceObject3_7176_458/CLIPACTIONRECORD onClipEvent(enterFrame)_33.as; _35/_36/_37.as",
+              "repeat_note": "Source uses shared player hurt marker. hit_group distinguishes separated windows, not proof of once-per-group immunity."
+            },
+            {
+              "kind": "enemy_hit",
+              "from": 22,
+              "until": 22,
+              "damage": 3.5,
+              "rect": [
+                -145.5383131,
+                -125.7665879,
+                126.7766263,
+                101.1331758
+              ],
+              "hit_group": "melee_2",
+              "knockback": 10.0,
+              "knockback_scope": "per overlapping source tick",
+              "source_shape_id": 7162,
+              "source_placement_twips": [
+                -1643,
+                -76,
+                1.3765106,
+                0.7328491
+              ],
+              "source_event": "frame_6/PlaceObject3_7176_458/CLIPACTIONRECORD onClipEvent(enterFrame)_33.as; _35/_36/_37.as",
+              "repeat_note": "Source uses shared player hurt marker. hit_group distinguishes separated windows, not proof of once-per-group immunity."
+            },
+            {
+              "kind": "enemy_hit",
+              "from": 34,
+              "until": 34,
+              "damage": 3.5,
+              "rect": [
+                -145.5383131,
+                -125.7665879,
+                126.7766263,
+                101.1331758
+              ],
+              "hit_group": "melee_3",
+              "knockback": 10.0,
+              "knockback_scope": "per overlapping source tick",
+              "source_shape_id": 7162,
+              "source_placement_twips": [
+                -1643,
+                -76,
+                1.3765106,
+                0.7328491
+              ],
+              "source_event": "frame_6/PlaceObject3_7176_458/CLIPACTIONRECORD onClipEvent(enterFrame)_33.as; _35/_36/_37.as",
+              "repeat_note": "Source uses shared player hurt marker. hit_group distinguishes separated windows, not proof of once-per-group immunity."
+            }
+          ],
+          "next_action": "idle"
+        },
+        "ranged": {
+          "animation": "boss7176_ranged",
+          "source_sprite_id": 7170,
+          "source_frames": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130
+          ],
+          "loop": false,
+          "parent_offset": [
+            0,
+            -71.4
+          ],
+          "events": [
+            {
+              "kind": "sound",
+              "frame": 51,
+              "sound_id": 7164,
+              "sound": "boss7176_attack"
+            }
+          ],
+          "windows": [
+            {
+              "kind": "enemy_hit",
+              "from": 68,
+              "until": 69,
+              "damage": 3.5,
+              "rect": [
+                -222.5882752,
+                -241.799745,
+                68.3765504,
+                239.09949
+              ],
+              "hit_group": "ranged_1",
+              "knockback": 10.0,
+              "knockback_scope": "per overlapping source tick",
+              "source_shape_id": 7162,
+              "source_placement_twips": [
+                -3768,
+                -1017,
+                0.7424164,
+                1.732605
+              ],
+              "source_event": "frame_6/PlaceObject3_7176_458/CLIPACTIONRECORD onClipEvent(enterFrame)_33.as; _35/_36/_37.as",
+              "repeat_note": "Source uses shared player hurt marker. hit_group distinguishes separated windows, not proof of once-per-group immunity."
+            },
+            {
+              "kind": "enemy_hit",
+              "from": 72,
+              "until": 73,
+              "damage": 3.5,
+              "rect": [
+                -309.1882752,
+                -241.799745,
+                68.3765504,
+                239.09949
+              ],
+              "hit_group": "ranged_2",
+              "knockback": 10.0,
+              "knockback_scope": "per overlapping source tick",
+              "source_shape_id": 7162,
+              "source_placement_twips": [
+                -5500,
+                -1017,
+                0.7424164,
+                1.732605
+              ],
+              "source_event": "frame_6/PlaceObject3_7176_458/CLIPACTIONRECORD onClipEvent(enterFrame)_33.as; _35/_36/_37.as",
+              "repeat_note": "Source uses shared player hurt marker. hit_group distinguishes separated windows, not proof of once-per-group immunity."
+            },
+            {
+              "kind": "enemy_hit",
+              "from": 76,
+              "until": 77,
+              "damage": 3.5,
+              "rect": [
+                -451.3882752,
+                -233.849745,
+                68.3765504,
+                239.09949
+              ],
+              "hit_group": "ranged_3",
+              "knockback": 10.0,
+              "knockback_scope": "per overlapping source tick",
+              "source_shape_id": 7162,
+              "source_placement_twips": [
+                -8344,
+                -858,
+                0.7424164,
+                1.732605
+              ],
+              "source_event": "frame_6/PlaceObject3_7176_458/CLIPACTIONRECORD onClipEvent(enterFrame)_33.as; _35/_36/_37.as",
+              "repeat_note": "Source uses shared player hurt marker. hit_group distinguishes separated windows, not proof of once-per-group immunity."
+            }
+          ],
+          "next_action": "idle",
+          "jump_note": "7170 frame91 gotoAndPlay113: frame91 is control node, excluded from default visible sequence pending native same-tick timing validation."
+        },
+        "hit": {
+          "animation": "boss7176_hit",
+          "source_sprite_id": 7170,
+          "source_frames": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109
+          ],
+          "loop": false,
+          "parent_offset": [
+            0,
+            -71.4
+          ],
+          "events": [],
+          "windows": [],
+          "next_action": "idle"
+        },
+        "evade": {
+          "animation": "boss7176_evade",
+          "source_sprite_id": 7168,
+          "source_frames": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "loop": false,
+          "parent_offset": [
+            -0.3,
+            -71.4
+          ],
+          "events": [
+            {
+              "kind": "timer_restart",
+              "frame": 2
+            }
+          ],
+          "windows": [],
+          "next_action": "idle",
+          "motion_note": "7168 embeds 7158 with scaleX=-1; no actor x displacement assigned in this action. Do not add arbitrary retreat speed."
+        },
+        "dead": {
+          "animation": "boss7176_dead",
+          "source_sprite_id": 7169,
+          "source_frames": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "loop": false,
+          "parent_offset": [
+            0,
+            -71.4
+          ],
+          "events": [
+            {
+              "kind": "death_settled",
+              "frame": 3
+            },
+            {
+              "kind": "sound",
+              "frame": 6,
+              "sound_id": 3896,
+              "sound": "enemy_death",
+              "envelope": [
+                {
+                  "pos44": 0,
+                  "left_level": 17122,
+                  "right_level": 18303
+                }
+              ]
+            }
+          ],
+          "windows": []
+        }
+      }
+    }
+  },
+  "dialogues": {
+    "root_2_open": {
+      "source_sprite_id": 7009,
+      "frames": [
+        {
+          "source_frame": 1,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 6989,
+              "text": "嗯...这里是哪里？我迷路了吗",
+              "source_path": "res/texts/6989.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 2,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 6993,
+              "text": "对了，怎么操作来着？？",
+              "source_path": "res/texts/6993.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 3,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 6994,
+              "text": "←,→:移动 ↓:后跳 Z:重击 X:普攻 C:跳跃 V:抓取技能 A,S,D,F,G,H,Q,W,E,R,T,Y:技能  ...应该是这样吧！",
+              "source_path": "res/texts/6994.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 4,
+          "texts": [
+            {
+              "source_text_id": 6997,
+              "text": "- 哥布林",
+              "source_path": "res/texts/6997.txt"
+            },
+            {
+              "source_text_id": 6998,
+              "text": "嗯？你是谁",
+              "source_path": "res/texts/6998.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 5,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 6999,
+              "text": "我是雷斯特瓦。我正在寻找非法改造重武器的枪炮师",
+              "source_path": "res/texts/6999.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 6,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7000,
+              "text": "也许你知道怎么走？",
+              "source_path": "res/texts/7000.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 7,
+          "texts": [
+            {
+              "source_text_id": 6997,
+              "text": "- 哥布林",
+              "source_path": "res/texts/6997.txt"
+            },
+            {
+              "source_text_id": 7001,
+              "text": "并不",
+              "source_path": "res/texts/7001.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 8,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7002,
+              "text": "那好吧...",
+              "source_path": "res/texts/7002.txt"
+            }
+          ]
+        }
+      ],
+      "entry_frame": 1,
+      "space_target": 9,
+      "click": "nextFrame",
+      "finish": "resume root2 battle; player actor1",
+      "source": "DefineSprite_7009/frame_1 and frame_9"
+    },
+    "root_2_clear": {
+      "source_sprite_id": 7009,
+      "frames": [
+        {
+          "source_frame": 10,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7005,
+              "text": "现在我该去找大枪了。",
+              "source_path": "res/texts/7005.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 11,
+          "texts": [
+            {
+              "source_text_id": 7006,
+              "text": "- 哥布林2",
+              "source_path": "res/texts/7006.txt"
+            },
+            {
+              "source_text_id": 7007,
+              "text": "嗯？你刚才杀了我的兄弟吗",
+              "source_path": "res/texts/7007.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 12,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7008,
+              "text": "你不需要知道",
+              "source_path": "res/texts/7008.txt"
+            }
+          ]
+        }
+      ],
+      "entry_frame": 10,
+      "space_target": 13,
+      "space_requires_item_window_frame": 1,
+      "click": "nextFrame",
+      "finish": "root.gotoAndPlay(3) then root4",
+      "source": "DefineSprite_7009/frame_10 and frame_13"
+    },
+    "root_4_clear": {
+      "source_sprite_id": 7142,
+      "frames": [
+        {
+          "source_frame": 2,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7134,
+              "text": "搞定了，继续前进吧？",
+              "source_path": "res/texts/7134.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 3,
+          "texts": [
+            {
+              "source_text_id": 7137,
+              "text": "- 十夫长",
+              "source_path": "res/texts/7137.txt"
+            },
+            {
+              "source_text_id": 7138,
+              "text": "给我站住",
+              "source_path": "res/texts/7138.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 4,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7139,
+              "text": "？？？",
+              "source_path": "res/texts/7139.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 5,
+          "texts": [
+            {
+              "source_text_id": 7137,
+              "text": "- 十夫长",
+              "source_path": "res/texts/7137.txt"
+            },
+            {
+              "source_text_id": 7140,
+              "text": "你竟敢把我的同胞杀了做好心理准备吧！",
+              "source_path": "res/texts/7140.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 6,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7141,
+              "text": "呵呵",
+              "source_path": "res/texts/7141.txt"
+            }
+          ]
+        }
+      ],
+      "entry_frame": 2,
+      "space_target": 7,
+      "space_requires_item_window_frame": 1,
+      "click": "nextFrame",
+      "finish": "root.gotoAndPlay(5) then root6",
+      "source": "DefineSprite_7142/frame_2 and frame_7"
+    },
+    "root_6_clear": {
+      "source_sprite_id": 7192,
+      "frames": [
+        {
+          "source_frame": 2,
+          "texts": [
+            {
+              "source_text_id": 7137,
+              "text": "- 十夫长",
+              "source_path": "res/texts/7137.txt"
+            },
+            {
+              "source_text_id": 7179,
+              "text": "T_T 是在下输了",
+              "source_path": "res/texts/7179.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 3,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7180,
+              "text": "哇，你真系猴~赛雷呀",
+              "source_path": "res/texts/7180.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 4,
+          "texts": [
+            {
+              "source_text_id": 7137,
+              "text": "- 十夫长",
+              "source_path": "res/texts/7137.txt"
+            },
+            {
+              "source_text_id": 7181,
+              "text": "放过我吧作为回报，我会告诉你怎么去赫顿玛尔。",
+              "source_path": "res/texts/7181.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 5,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7182,
+              "text": "听起来不错？",
+              "source_path": "res/texts/7182.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 6,
+          "texts": [
+            {
+              "source_text_id": 7137,
+              "text": "- 十夫长",
+              "source_path": "res/texts/7137.txt"
+            },
+            {
+              "source_text_id": 7183,
+              "text": "向右走，你会遇到一个疯狂的阿修罗打败他就可以去赫顿玛尔了。以前还需要暗号，但现在不用了。",
+              "source_path": "res/texts/7183.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 7,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7184,
+              "text": "但我还是想知道暗号是什么？",
+              "source_path": "res/texts/7184.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 8,
+          "texts": [
+            {
+              "source_text_id": 7137,
+              "text": "- 十夫长",
+              "source_path": "res/texts/7137.txt"
+            },
+            {
+              "source_text_id": 7185,
+              "text": "晓之车",
+              "source_path": "res/texts/7185.txt"
+            }
+          ]
+        }
+      ],
+      "entry_frame": 2,
+      "space_target": 9,
+      "space_requires_item_window_frame": 1,
+      "click": "nextFrame",
+      "finish": "7191 frame35 root.gotoAndStop(7)",
+      "outro": {
+        "source_sprite_id": 7191,
+        "frames": 35,
+        "sound_id": 1644,
+        "source_placement_twips": [
+          -16,
+          -2772
+        ]
+      },
+      "source": "DefineSprite_7192/frame_2; DefineSprite_7191/frame_35/DoAction.as"
+    }
+  },
+  "intermissions": {
+    "intermission_7": {
+      "source_root_frame": 7,
+      "source_title_text_id": 7336,
+      "title": "STAGE1 CLEAR",
+      "labels": {
+        "time": {
+          "text": "通关时间",
+          "source_text_id": 7330
+        },
+        "items": {
+          "text": "获得道具",
+          "source_text_id": 7342
+        }
+      },
+      "buttons": [
+        {
+          "text": "◀ 重新挑战",
+          "source_text_id": 7197,
+          "source_button_id": 7199,
+          "root_target": 2,
+          "trigger": "release"
+        },
+        {
+          "text": "进入下一关",
+          "source_text_id": 7339,
+          "source_button_id": 7341,
+          "root_target": 8,
+          "trigger": "release or Space",
+          "followup_root": 9
+        },
+        {
+          "text": "查看仓库",
+          "source_text_id": 7343,
+          "source_button_id": 7345,
+          "trigger": "release",
+          "inventory_frame": "2+crt",
+          "implementation_status": "not implied by this catalog"
+        }
+      ]
+    }
+  }
+}

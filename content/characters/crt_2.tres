@@ -1,0 +1,125 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://content/actions/crt2/idle.tres" id="1_220ru"]
+[ext_resource type="Resource" path="res://content/actions/crt2/move.tres" id="2_tavua"]
+[ext_resource type="Resource" path="res://content/actions/crt2/basic.tres" id="3_n0rpd"]
+[ext_resource type="Resource" path="res://content/actions/crt2/basic2.tres" id="4_d244t"]
+[ext_resource type="Resource" path="res://content/actions/crt2/basic3.tres" id="5_0wl7j"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_z.tres" id="6_r283a"]
+[ext_resource type="Resource" path="res://content/actions/crt2/down.tres" id="7_6ehmq"]
+[ext_resource type="Resource" path="res://content/actions/crt2/hit.tres" id="8_xh7bi"]
+[ext_resource type="Resource" path="res://content/actions/crt2/knockdown.tres" id="9_m4k6a"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_a.tres" id="10_07gec"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_s_start.tres" id="11_vtn1m"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_s_release.tres" id="12_vrv57"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_s_full.tres" id="13_8q2oa"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_d.tres" id="14_yft8o"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_g.tres" id="15_iesti"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_f.tres" id="16_aco1c"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_h.tres" id="17_8dwda"]
+[ext_resource type="Resource" path="res://content/actions/crt2/pren_basic1.tres" id="18_gf4lo"]
+[ext_resource type="Resource" path="res://content/actions/crt2/pren_basic2.tres" id="19_wlhc5"]
+[ext_resource type="Resource" path="res://content/actions/crt2/pren_basic3.tres" id="20_3fj1d"]
+[ext_resource type="Resource" path="res://content/actions/crt2/pren_basic4.tres" id="21_kb2f1"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_w.tres" id="22_7lnvf"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_e.tres" id="23_k7uka"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_r.tres" id="24_ak1ew"]
+[ext_resource type="Resource" path="res://content/actions/crt2/fallen.tres" id="25_xju8p"]
+[ext_resource type="Resource" path="res://content/actions/crt2/dead.tres" id="26_ascxx"]
+[ext_resource type="Resource" path="res://content/actions/crt2/jump.tres" id="27_vgkgi"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_v.tres" id="28_l06s8"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_q.tres" id="29_wmvv4"]
+[ext_resource type="Resource" path="res://content/actions/crt2/skill_h_close.tres" id="30_6kppf"]
+[ext_resource type="Resource" path="res://content/actions/crt2/hurt_z.tres" id="31_hcwa4"]
+[ext_resource type="Resource" path="res://content/actions/crt2/jump_z.tres" id="32_lt14k"]
+[ext_resource type="Resource" path="res://content/actions/crt2/air_x.tres" id="33_1rse6"]
+[ext_resource type="PackedScene" path="res://scenes/actors/crt2.tscn" id="34_luxg1"]
+[ext_resource type="Resource" path="res://content/components/crt2/frenzy.tres" id="35_o858b"]
+[ext_resource type="Resource" path="res://content/components/crt2/rage.tres" id="36_y7or6"]
+[ext_resource type="Resource" path="res://content/components/crt2/lust.tres" id="37_ya20t"]
+[ext_resource type="Resource" path="res://content/components/crt2/charge_s.tres" id="38_a1kev"]
+[ext_resource type="Resource" path="res://content/components/crt2/grab_d.tres" id="39_ad1b6"]
+[ext_resource type="Resource" path="res://content/components/crt2/grab_v.tres" id="40_ecfdr"]
+[ext_resource type="Resource" path="res://content/components/crt2/jump.tres" id="41_2w5ll"]
+[ext_resource type="Resource" path="res://content/components/crt2/hold_w.tres" id="42_n7erd"]
+[ext_resource type="Resource" path="res://content/components/crt2/f_object.tres" id="43_76nms"]
+[ext_resource type="Resource" path="res://content/components/crt2/f_second.tres" id="44_hnsj3"]
+[ext_resource type="Resource" path="res://content/components/crt2/e_quake.tres" id="45_8tahs"]
+[ext_resource type="Resource" path="res://content/components/crt2/r_air.tres" id="46_jyr11"]
+[ext_resource type="Resource" path="res://content/components/crt2/air_z_impact.tres" id="47_yfwhh"]
+[ext_resource type="Resource" path="res://content/components/crt2/q_dust.tres" id="48_mgu0h"]
+[ext_resource type="Resource" path="res://content/components/crt2/bleed_status.tres" id="49_qxj4t"]
+[ext_resource type="Resource" path="res://content/components/crt2/visuals.tres" id="50_tp574"]
+[ext_resource type="Script" path="res://scripts/content/character_definition.gd" id="51_hej1u"]
+
+[resource]
+script = ExtResource("51_hej1u")
+identifier = "crt_2"
+title = "角色编号2"
+source_crt = 2
+actor_scene = ExtResource("34_luxg1")
+actions = Array[Resource]([ExtResource("1_220ru"), ExtResource("2_tavua"), ExtResource("3_n0rpd"), ExtResource("4_d244t"), ExtResource("5_0wl7j"), ExtResource("6_r283a"), ExtResource("7_6ehmq"), ExtResource("8_xh7bi"), ExtResource("9_m4k6a"), ExtResource("10_07gec"), ExtResource("11_vtn1m"), ExtResource("12_vrv57"), ExtResource("13_8q2oa"), ExtResource("14_yft8o"), ExtResource("15_iesti"), ExtResource("16_aco1c"), ExtResource("17_8dwda"), ExtResource("18_gf4lo"), ExtResource("19_wlhc5"), ExtResource("20_3fj1d"), ExtResource("21_kb2f1"), ExtResource("22_7lnvf"), ExtResource("23_k7uka"), ExtResource("24_ak1ew"), ExtResource("25_xju8p"), ExtResource("26_ascxx"), ExtResource("27_vgkgi"), ExtResource("28_l06s8"), ExtResource("29_wmvv4"), ExtResource("30_6kppf"), ExtResource("31_hcwa4"), ExtResource("32_lt14k"), ExtResource("33_1rse6")])
+components = Array[Resource]([ExtResource("35_o858b"), ExtResource("36_y7or6"), ExtResource("37_ya20t"), ExtResource("38_a1kev"), ExtResource("39_ad1b6"), ExtResource("40_ecfdr"), ExtResource("41_2w5ll"), ExtResource("42_n7erd"), ExtResource("43_76nms"), ExtResource("44_hnsj3"), ExtResource("45_8tahs"), ExtResource("46_jyr11"), ExtResource("47_yfwhh"), ExtResource("48_mgu0h"), ExtResource("49_qxj4t"), ExtResource("50_tp574")])
+extra = {
+"calibration": "默认功能按AS/XML接通；源回调排队、重复命中总伤害及低血外观瞬态未宣称原生Flash一致。",
+"death_settlement_frame": 25,
+"default_locked_slots": [4209, 4213, 4221, 4227],
+"hit_fx_animation": "player_hit_fx",
+"movement_parent_end": 67,
+"movement_parent_start": 65,
+"skill_slot_actions": {
+"a": "skill_a",
+"air_z": "jump_z",
+"d": "skill_d",
+"e": "skill_e",
+"f": "skill_f",
+"g": "skill_g",
+"h": "skill_h",
+"q": "skill_q",
+"r": "skill_r",
+"s": "skill_s_start",
+"v": "skill_v",
+"w": "skill_w",
+"z": "skill_z"
+},
+"source_observers": [{
+"actor_parent": 84.0,
+"bonus": 2.0,
+"kind": "marker_observer",
+"marker_frame": 2.0,
+"requires_geometry": false,
+"source": "res/scripts/DefineSprite_6732/frame_84/PlaceObject2_4547_1019/CLIPACTIONRECORD onClipEvent(enterFrame).as"
+}, {
+"actor_parent": 90.0,
+"bonus": 3.0,
+"kind": "marker_observer",
+"marker_frame": 2.0,
+"requires_geometry": false,
+"source": "res/scripts/DefineSprite_6732/frame_90/PlaceObject3_5619_5/CLIPACTIONRECORD onClipEvent(enterFrame).as"
+}, {
+"bonus": 11.0,
+"component": "rage",
+"enemy_indices": [1.0, 2.0, 3.0, 4.0, 5.0],
+"kind": "marker_observer",
+"marker_frame": 2.0,
+"requires_geometry": false
+}, {
+"bonus": 11.0,
+"component": "lust",
+"enemy_indices": [1.0],
+"kind": "marker_observer",
+"marker_frame": 2.0,
+"requires_geometry": false
+}],
+"source_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"crt": 2.0,
+"extra_unlocks": 0.0,
+"master": 0.0,
+"source": "res/scripts/DefineSprite_3841/frame_1/DoAction.as",
+"starting_cubes": 200.0,
+"weapon_blaze": 0.0
+}
+}
+source = "原3841初始化、6732父64..112、4391页3；逐项来源见docs/LEBA-ACT-04_角色2与资源依据.md及data/act04_crt2_rules.json。"

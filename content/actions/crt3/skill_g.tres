@@ -1,0 +1,208 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_g.tres" id="1_8xbcg"]
+[ext_resource type="AudioStream" path="res://assets/audio/6089.wav" id="2_w2qe6"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_3av17"]
+[ext_resource type="AudioStream" path="res://assets/audio/6096.mp3" id="4_31hy0"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="5_vqbkl"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="6_ok0me"]
+
+[sub_resource type="Resource" id="Resource_e57ri"]
+script = ExtResource("3_3av17")
+frame = 2
+sound = "crt3_skill_g"
+audio_stream = ExtResource("2_w2qe6")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6089.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6124.0
+}
+
+[sub_resource type="Resource" id="Resource_m3e8e"]
+script = ExtResource("3_3av17")
+frame = 15
+sound = "crt3_skill_g_sound_2"
+audio_stream = ExtResource("4_31hy0")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6096.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6124.0
+}
+
+[sub_resource type="Resource" id="Resource_s6esk"]
+script = ExtResource("6_ok0me")
+from_frame = 17
+until_frame = 17
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-296.45624, -102.69789, 638.387, 188.72343)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 17,
+"source_depth": 244,
+"source_frame": 17,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 110.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_xec4s"]
+script = ExtResource("6_ok0me")
+from_frame = 18
+until_frame = 18
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-296.45624, -102.69789, 638.387, 188.72343)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 17,
+"source_depth": 244,
+"source_frame": 18,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 110.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_7wiep"]
+script = ExtResource("6_ok0me")
+from_frame = 19
+until_frame = 19
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-296.45624, -102.69789, 638.387, 188.72343)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 17,
+"source_depth": 244,
+"source_frame": 19,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 110.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("5_vqbkl")
+identifier = "skill_g"
+title = "skill_g"
+animation = ExtResource("1_8xbcg")
+animation_key = "crt3_skill_g"
+source_parent = 126
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35)
+input_id = "load_g"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+cost = 5.0
+required_mp = 5.0
+cubes = 1
+cooldown_ticks = 329
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_e57ri"), SubResource("Resource_m3e8e")])
+windows = Array[Resource]([SubResource("Resource_s6esk"), SubResource("Resource_xec4s"), SubResource("Resource_7wiep")])
+source = "Original AS/XML sprite6124 parent126; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [{
+"condition": "weapon!=2",
+"cost": 0.0,
+"from": 21.0,
+"keycode": 71.0,
+"kind": "keydown_held",
+"next": "skill_g_follow",
+"source_target_frame": 36.0,
+"terminal_frame_present": true,
+"until": 35.0
+}],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 17.2, -17.2],
+"physical_keys": [71.0],
+"reset_combo_counters": true,
+"slot_id": 4251.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 6124.0,
+"source_motion": []
+}

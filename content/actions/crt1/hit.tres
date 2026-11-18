@@ -1,0 +1,32 @@
+[gd_resource type="Resource" format=3 uid="uid://c27k8cbnhxcqw"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_hit.tres" id="1_n7vfj"]
+[ext_resource type="AudioStream" uid="uid://dnoujnq38penq" path="res://assets/audio/4688.mp3" id="2_s7vib"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_krhbl"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_hqs0x"]
+
+[sub_resource type="Resource" id="Resource_4ei1i"]
+script = ExtResource("3_krhbl")
+frame = 2
+sound = "player_hit_fx"
+audio_stream = ExtResource("2_s7vib")
+
+[resource]
+script = ExtResource("4_hqs0x")
+identifier = "hit"
+title = "hit"
+animation = ExtResource("1_n7vfj")
+animation_key = "crt1_hit"
+source_parent = 44
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+input_id = "hit"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_4ei1i")])
+source = "res/scripts/DefineSprite_6732/frame_44 + DefineSprite_4920；父矩阵/选帧见asset_catalog.animations.crt1_hit"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 4920
+}

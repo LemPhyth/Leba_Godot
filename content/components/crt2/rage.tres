@@ -1,0 +1,51 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_lfyy2"]
+[ext_resource type="AudioStream" path="res://assets/audio/3950.mp3" id="1_ygl1v"]
+
+[resource]
+script = ExtResource("1_lfyy2")
+identifier = "rage"
+parameters = {
+"activate_frame": 9.0,
+"end_frame": 407.0,
+"enemy_indices": [1.0, 2.0, 3.0, 4.0, 5.0],
+"loop": false,
+"marker_bonus": 11.0,
+"marker_frame": 2.0,
+"natural_wrap_frame": 1.0,
+"notes": "407 natural next1 runs stop/pok0. Observer ignores geometry; valid marker2 controls bonus.",
+"observer_active_frames": [9.0, 407.0],
+"off_frame": 1.0,
+"parent_name": "폭주시간",
+"sounds": [{
+"audio_stream": ExtResource("1_ygl1v"),
+"envelope": [{
+"left": 15941.0,
+"right": 15941.0,
+"sample": 0.0
+}],
+"frame": 2,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt2_g_timer",
+"sound_id": 3950.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4601.0
+}],
+"source": ["res/scripts/DefineSprite_4601/frame_1/DoAction.as", "res/scripts/DefineSprite_4601/frame_9/DoAction.as", "res/scripts/DefineSprite_4601/frame_9/PlaceObject2_1897_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_4601/frame_9/PlaceObject2_1897_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_4601/frame_9/PlaceObject2_1897_1/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_4601/frame_9/PlaceObject2_1897_1/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_4601/frame_9/PlaceObject2_1897_1/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_4601/frame_9/PlaceObject2_1897_1/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as"],
+"source_id": 4601.0,
+"start_frame": 2.0,
+"state_name": "pok"
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

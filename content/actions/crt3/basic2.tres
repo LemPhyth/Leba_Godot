@@ -1,0 +1,183 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_basic2.tres" id="1_xtou6"]
+[ext_resource type="AudioStream" path="res://assets/audio/5203.mp3" id="2_6mtyy"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_ifd7o"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_2gqrt"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_qsvwm"]
+
+[sub_resource type="Resource" id="Resource_jnvpb"]
+script = ExtResource("3_ifd7o")
+frame = 3
+sound = "crt3_basic2"
+audio_stream = ExtResource("2_6mtyy")
+audio_offset = 0.006802721088435374
+parameters = {
+"envelope": [{
+"left": 12694.0,
+"right": 10923.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 300.0,
+"out_point_samples_44100": 9063.0,
+"sound_id": 5203.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "300",
+"outPoint": "9063",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5821.0
+}
+
+[sub_resource type="Resource" id="Resource_bf7h2"]
+script = ExtResource("5_qsvwm")
+from_frame = 5
+until_frame = 5
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(28.982815, -38.83332, 127.26286, 102.86367)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 5,
+"source_depth": 56,
+"source_frame": 5,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_ssasl"]
+script = ExtResource("5_qsvwm")
+from_frame = 6
+until_frame = 6
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(28.982815, -38.83332, 127.26286, 102.86367)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 5,
+"source_depth": 56,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_d8yfv"]
+script = ExtResource("5_qsvwm")
+from_frame = 5
+until_frame = 5
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(28.982815, -38.83332, 127.26286, 102.86367)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 5,
+"source_depth": 58,
+"source_frame": 5,
+"source_helper": 439,
+"source_rule": {
+"category": "horizontal",
+"collision": "enemy.normal_body vs named helper",
+"kind": "named_common_slash",
+"note": "Use existing original common slash dispatch; named helper is independent from gravity helper; compare <= and >= independently when choosing left/right.",
+"once_gate": false,
+"source_effect_ids": [1489.0]
+}
+}
+
+[sub_resource type="Resource" id="Resource_v4apw"]
+script = ExtResource("5_qsvwm")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-132.26094, -38.83332, 265.2281, 102.86367)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 7,
+"source_depth": 56,
+"source_frame": 7,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_gevql"]
+script = ExtResource("5_qsvwm")
+from_frame = 8
+until_frame = 8
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-132.26094, -38.83332, 265.2281, 102.86367)])
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 7,
+"source_depth": 56,
+"source_frame": 8,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[resource]
+script = ExtResource("4_2gqrt")
+identifier = "basic2"
+title = "basic2"
+animation = ExtResource("1_xtou6")
+animation_key = "crt3_basic2"
+source_parent = 107
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19)
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_jnvpb")])
+windows = Array[Resource]([SubResource("Resource_bf7h2"), SubResource("Resource_ssasl"), SubResource("Resource_d8yfv"), SubResource("Resource_v4apw"), SubResource("Resource_gevql")])
+source = "Original AS/XML sprite5821 parent107; source hashes in asset_catalog and investigation facts."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 16.25, -17.8],
+"reset_combo_counters": false,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 5821.0
+}

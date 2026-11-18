@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_hlmv3"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_q_buff_icon.png" id="2_rxsds"]
+
+[resource]
+script = ExtResource("1_hlmv3")
+identifier = "crt1_q_buff_icon"
+texture = ExtResource("2_rxsds")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-17.9, -15.2, 36.0, 31.0],
+"pivot": [17.9, 15.2],
+"region": [2.0, 2.0, 36.0, 31.0],
+"source_frame": 1.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt1_q_buff_icon；派生图集；来源与pivot见catalog。"

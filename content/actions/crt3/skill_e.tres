@@ -1,0 +1,103 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_e.tres" id="1_bl05u"]
+[ext_resource type="AudioStream" path="res://assets/audio/5878.mp3" id="2_3aws4"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_1d8qa"]
+[ext_resource type="AudioStream" path="res://assets/audio/5240.mp3" id="4_ah33a"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="5_kox73"]
+
+[sub_resource type="Resource" id="Resource_kyuh0"]
+script = ExtResource("3_1d8qa")
+frame = 10
+sound = "crt3_skill_e"
+audio_stream = ExtResource("2_3aws4")
+parameters = {
+"envelope": [{
+"left": 13580.0,
+"right": 15056.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5878.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6300.0
+}
+
+[sub_resource type="Resource" id="Resource_yvkew"]
+script = ExtResource("3_1d8qa")
+frame = 10
+sound = "crt3_skill_e_sound_2"
+audio_stream = ExtResource("4_ah33a")
+parameters = {
+"envelope": [{
+"left": 11513.0,
+"right": 12399.0,
+"sample": 0.0
+}, {
+"left": 10332.0,
+"right": 12399.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5240.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6300.0
+}
+
+[sub_resource type="Resource" id="Resource_tdcxp"]
+script = ExtResource("3_1d8qa")
+kind = "crt3_cutin"
+
+[sub_resource type="Resource" id="Resource_m5d5x"]
+script = ExtResource("3_1d8qa")
+frame = 10
+kind = "crt3_e_start"
+
+[resource]
+script = ExtResource("5_kox73")
+identifier = "skill_e"
+title = "skill_e"
+animation = ExtResource("1_bl05u")
+animation_key = "crt3_skill_e"
+source_parent = 132
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+input_id = "skill_e"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+cost = 30.0
+required_mp = 30.0
+cubes = 5
+cooldown_ticks = 441
+hold = true
+hold_at = PackedInt32Array(10)
+events = Array[Resource]([SubResource("Resource_kyuh0"), SubResource("Resource_yvkew"), SubResource("Resource_tdcxp"), SubResource("Resource_m5d5x")])
+source = "Original AS/XML sprite6300 parent132; source hashes in asset_catalog and investigation facts."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [],
+"cooldown_deferred": true,
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.5412903, 0.0, 0.0, 1.5412903, 13.35, 23.2],
+"reset_combo_counters": false,
+"slot_id": 4266.0,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 6300.0
+}

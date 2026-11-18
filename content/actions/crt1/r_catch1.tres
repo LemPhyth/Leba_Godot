@@ -1,0 +1,122 @@
+[gd_resource type="Resource" format=3 uid="uid://dkyltkgy3ks8o"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_r_catch1.tres" id="1_2bsgg"]
+[ext_resource type="Resource" path="res://content/components/crt1/gunhawks.tres" id="2_3e6pv"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_iiajg"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_3e6pv"]
+[ext_resource type="AudioStream" uid="uid://cbbruln64o3jv" path="res://assets/audio/5165.mp3" id="4_y5mav"]
+[ext_resource type="AudioStream" uid="uid://ck8lm04jtocg3" path="res://assets/audio/5166.mp3" id="5_dp3mf"]
+
+[sub_resource type="Resource" id="Resource_y5mav"]
+script = ExtResource("2_iiajg")
+frame = 26
+kind = "crt1_gunhawk"
+parameters = {
+"stage": 2
+}
+
+[sub_resource type="Resource" id="Resource_dp3mf"]
+script = ExtResource("2_iiajg")
+kind = "root_offset"
+parameters = {
+"x": 3
+}
+
+[sub_resource type="Resource" id="Resource_14u38"]
+script = ExtResource("2_iiajg")
+frame = 2
+kind = "root_offset"
+parameters = {
+"x": -6
+}
+
+[sub_resource type="Resource" id="Resource_25b77"]
+script = ExtResource("2_iiajg")
+frame = 3
+kind = "root_offset"
+parameters = {
+"x": 0
+}
+
+[sub_resource type="Resource" id="Resource_1xfkj"]
+script = ExtResource("2_iiajg")
+frame = 2
+sound = "crt1_r_catch1"
+audio_stream = ExtResource("4_y5mav")
+parameters = {
+"envelope": [{
+"left": 17417.0,
+"right": 16827.0,
+"sample": 200.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5165.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5167.0
+}
+source = "原StartSound：sprite5167/frame2/Sound5165；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_x3s68"]
+script = ExtResource("2_iiajg")
+frame = 26
+sound = "crt1_r_catch1_sound_2"
+audio_stream = ExtResource("5_dp3mf")
+parameters = {
+"envelope": [{
+"left": 16827.0,
+"right": 16532.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5166.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5167.0
+}
+source = "原StartSound：sprite5167/frame26/Sound5166；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("3_3e6pv")
+identifier = "r_catch1"
+title = "r_catch1"
+animation = ExtResource("1_2bsgg")
+animation_key = "crt1_r_catch1"
+component_definition = ExtResource("2_3e6pv")
+source_parent = 57
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35)
+input_id = "r_catch1"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_y5mav"), SubResource("Resource_dp3mf"), SubResource("Resource_14u38"), SubResource("Resource_25b77"), SubResource("Resource_1xfkj"), SubResource("Resource_x3s68")])
+source = "res/scripts/DefineSprite_6732/frame_57 + DefineSprite_5167；父矩阵/选帧见asset_catalog.animations.crt1_r_catch1"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"controller": "crt1_gunhawk_catch",
+"follow_from": 5,
+"follow_inputs": ["attack", "skill_r"],
+"follow_source_frame": 26,
+"follow_until": 24,
+"held_direction_turn": true,
+"normal_end_source_frame": 25,
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 5167,
+"stage": 1
+}

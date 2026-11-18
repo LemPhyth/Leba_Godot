@@ -1,0 +1,241 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/314.mp3" id="1_clbao"]
+[ext_resource type="AudioStream" path="res://assets/audio/817.mp3" id="2_tnbcq"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="3_nyf1c"]
+
+[resource]
+script = ExtResource("3_nyf1c")
+identifier = "818"
+parameters = {
+"births": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"name": null,
+"source_id": 816.0
+}, {
+"depth": 1.0,
+"frame": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"name": null,
+"source_id": 816.0
+}],
+"clear_frame": 271.0,
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"flag": "saya",
+"flag_on_frame": 9.0,
+"ghost_select_frame": 9.0,
+"ghost_value": 3.0,
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "32",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "64",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "96",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "128",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "160",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "192",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "224",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"source_id": 816.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 22.5],
+"ratio": "8",
+"source_id": 816.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [],
+"source_frame": 271.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("1_clbao"),
+"envelope": [],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_818_sound_1",
+"sound_id": 314.0,
+"source_id": 818,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 818.0
+}, {
+"audio_stream": ExtResource("2_tnbcq"),
+"envelope": [],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_818_sound_2",
+"sound_id": 817.0,
+"source_id": 818,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 818.0
+}],
+"source": [{
+"frame": 271.0,
+"path": "res/scripts/DefineSprite_818_사야/frame_271/DoAction.as",
+"sha256": "4c214fd262a2a2c876694d4e449d50bcc76495e60f0f16c79cd3215114bda4bc"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_818_사야/frame_9/DoAction.as",
+"sha256": "3f0e8183807ab8bd2c6e5b2b09d94622560a218f9f9430fea7e02030c244634f"
+}, {
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_818_사야/frame_9/PlaceObject2_816_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "4908d550b57b89c9547bd9b4c8fdb2017c69b404471af961a47de3e013aac90e"
+}],
+"source_frame_count": 271.0,
+"source_id": 818.0,
+"stop_source_frames": [271.0]
+}
+source = "Original AS/XML source 818; res://data/act06_crt4_rules.json.components.818"

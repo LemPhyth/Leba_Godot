@@ -1,0 +1,23 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_2jy2g"]
+
+[resource]
+script = ExtResource("1_2jy2g")
+identifier = "d_chain"
+parameters = {
+"direction_poll_frames": {
+"6052": [1.0, 2.0],
+"6054": [1.0, 3.0],
+"6055": [1.0, 7.0],
+"6058": [1.0, 3.0]
+},
+"entries": [120.0, 121.0, 122.0, 123.0, 124.0],
+"entry_cost_only": 3.0,
+"input": "keydown callback evaluates held D; do not autochain held without keyboard event",
+"movement_overlap_additive": true,
+"source_frame6_dx": 25.0,
+"source_ids": [6050.0, 6052.0, 6054.0, 6055.0, 6058.0],
+"source_spd_twice_at6": true
+}
+source = "Original AS/XML default CRT3; reviewed rules in act05_crt3_rules.json"

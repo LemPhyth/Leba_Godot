@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/player_idle.tres" id="1_ukpbd"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_neold"]
+
+[resource]
+script = ExtResource("2_neold")
+title = "idle"
+animation = ExtResource("1_ukpbd")
+animation_key = "player_idle"
+sequence = PackedInt32Array()
+input_id = "idle"
+allowed_states = PackedStringArray("idle", "move", "basic")
+loop = true
+hold_at = PackedInt32Array()
+source = "已有AS/XML动作定义；动画player_idle"

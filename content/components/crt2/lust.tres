@@ -1,0 +1,24 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_88dt0"]
+
+[resource]
+script = ExtResource("1_88dt0")
+identifier = "lust"
+parameters = {
+"activate_frame": 9.0,
+"end_frame": 296.0,
+"enemy_indices": [1.0],
+"marker_bonus": 11.0,
+"marker_frame": 2.0,
+"natural_wrap_frame": 1.0,
+"notes": "Only _root.적 in original callback; no _root.적2..5 copies in4604.",
+"observer_active_frames": [9.0, 296.0],
+"off_frame": 1.0,
+"parent_name": "러스트시간",
+"source": ["res/scripts/DefineSprite_4604/frame_1/DoAction.as", "res/scripts/DefineSprite_4604/frame_9/DoAction.as", "res/scripts/DefineSprite_4604/frame_9/PlaceObject2_4603_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_4604/frame_9/PlaceObject2_4603_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_4604/frame_9/PlaceObject2_4603_1/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_4604/frame_9/PlaceObject2_4603_1/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_4604/frame_9/PlaceObject2_4603_1/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as"],
+"source_id": 4604.0,
+"start_frame": 2.0,
+"state_name": "lust"
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

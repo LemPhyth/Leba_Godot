@@ -1,0 +1,56 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_definition.gd" id="1_cyfpc"]
+
+[resource]
+script = ExtResource("1_cyfpc")
+identifier = "root_9"
+title = "巨剑阿修罗"
+source_root_frame = 9
+enemy_type = "goblin_7437"
+enemy_hp = 500.0
+player_max_hp = 100.0
+player_max_mp = 100.0
+next_stage = "root_10"
+reward = 300
+player_hurt_observers = PackedFloat32Array(4)
+extra = {
+"clear_counter_frame": 2,
+"clear_dialogue": "root_9_clear",
+"end_source": "7437 death7426/3 -> root9 count2/child2 -> 7469/17..21 ->22 ->root.gotoAndStop10",
+"knockdown_hurt_observers": [5.0],
+"open_dialogue": "root_9_open",
+"progress_gain": 1,
+"reset_hp": 100.0,
+"reset_mp": 100.0,
+"retry_source_root_frame": 8,
+"reward_by_difficulty": {
+"beast": 600,
+"expert": 300,
+"king": 400,
+"master": 350,
+"slayer": 450
+},
+"reward_by_nan": {
+"0": 300,
+"1": 350,
+"2": 400,
+"3": 450,
+"4": 600
+},
+"source_depths": {
+"enemies": [294],
+"ground": 999,
+"hp": 1009,
+"hud": 2832,
+"mp": 1007,
+"player": 1014,
+"skills": 595,
+"sniper": 2734,
+"y": 809
+},
+"source_map_id": 7370,
+"y_initial_matrix": [1.0, 0.0, 0.0, 1.0, -6.3, 320.55],
+"unimplemented_source_content": ["Random equipment drops source _70/_71 and password branch normally bypassed at7469/7"]
+}
+source = "res/scripts/frame_9; res/structure/game.xml root9; docs/LEBA-ACT-03_流程依据.md"

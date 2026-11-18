@@ -1,0 +1,62 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_move.tres" id="1_j1tl3"]
+[ext_resource type="AudioStream" path="res://assets/audio/4616.mp3" id="2_krknq"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_2fyj2"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_nxsow"]
+
+[sub_resource type="Resource" id="Resource_811pl"]
+script = ExtResource("3_2fyj2")
+frame = 11
+sound = "crt3_move"
+audio_stream = ExtResource("2_krknq")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5817.0
+}
+
+[resource]
+script = ExtResource("4_nxsow")
+identifier = "move"
+title = "move"
+animation = ExtResource("1_j1tl3")
+animation_key = "crt3_move"
+source_parent = 102
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+allowed_states = PackedStringArray()
+loop = true
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_811pl")])
+source = "Original AS/XML sprite5817 parent102; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [],
+"branches": [],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -33.25, 3.45],
+"reset_combo_counters": false,
+"slot_id": null,
+"slot_ready_frame": null,
+"slot_start_frame": null,
+&"source_allowed_parent_frames": [],
+"source_id": 5817.0,
+"source_motion": {
+"note": "Original parent101..104 invokes 이동.gotoAndPlay16; parent101 idle5818 has transitional16..18 with nested5817. Root does not switch to102 just for held movement.",
+"right_then_left": true,
+"root_speed_per_tick": 6.0,
+"source": "res/scripts/frame_41/PlaceObject3_6732_801/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as"
+}
+}

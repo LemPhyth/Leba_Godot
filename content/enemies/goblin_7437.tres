@@ -1,0 +1,78 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/idle.tres" id="1_wlyig"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/move.tres" id="2_ne2vu"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/recover.tres" id="3_mf0od"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/attack.tres" id="4_xhuqk"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/ranged.tres" id="5_qxkgf"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/melee.tres" id="6_jyme8"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/special.tres" id="7_ne1j7"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/hit.tres" id="8_2lf2p"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/evade.tres" id="9_taaga"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/dead.tres" id="10_1w2sf"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437_actions/frozen.tres" id="11_4upyf"]
+[ext_resource type="PackedScene" path="res://scenes/actors/enemy.tscn" id="12_brnok"]
+[ext_resource type="Script" path="res://scripts/content/character_definition.gd" id="13_v5w7w"]
+
+[resource]
+script = ExtResource("13_v5w7w")
+identifier = "goblin_7437"
+title = "巨剑阿修罗（7437）"
+source_crt = -1
+max_hp = 500.0
+max_mp = 0.0
+move_per_tick = 3.0
+actor_scene = ExtResource("12_brnok")
+actions = Array[Resource]([ExtResource("1_wlyig"), ExtResource("2_ne2vu"), ExtResource("3_mf0od"), ExtResource("4_xhuqk"), ExtResource("5_qxkgf"), ExtResource("6_jyme8"), ExtResource("7_ne1j7"), ExtResource("8_2lf2p"), ExtResource("9_taaga"), ExtResource("10_1w2sf"), ExtResource("11_4upyf")])
+extra = {
+"air_animation": "enemy7437_air",
+"air_hit_animation": "enemy7437_air_hit_marker",
+"air_hurt_rect": [-39.416603, -97.9236, 78.22977, 98.12195],
+"airborne_drift_per_tick": 0.8,
+"calibration": "Static AS/XML restoration; root9 natural Flash/Ruffle play not yet observed. Exact concurrent callback timing remains later calibration.",
+"freeze_duration": 145,
+"frozen_animation": "enemy7437_frozen",
+"gravity_rect": [-45.25, -118.95, 88.85, 113.35],
+"hurt_body_excluded_source_frames": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130],
+"hurt_child_seek": 0,
+"hurt_rect": [-43.75, -80.74618, 81.3, 81.592354],
+"knockdown_hurt_observer": 5.0,
+"knockdown_push_per_tick": 3.0,
+"melee_moving_rect": [-48.815308, -68.91728, 75.630615, 64.80786],
+"melee_rect": [-52.815308, -68.91728, 75.630615, 64.80786],
+"move_rect": [-483.35278, -86.05946, 451.9025, 86.91893],
+"move_source_frames": [1, 2, 3],
+"movement_status": "Source root9 EF5/6 conditional3; EF7/8 sniper5; mobsp unassigned, no unconditional chase.",
+"proximity_moving_rect": [-164.33096, -130.13773, 90.86193, 159.27565],
+"proximity_rect": [-171.33096, -130.13773, 90.86193, 159.27565],
+"ranged_moving_rect": [-249.25, -48.0, 31.0, 31.0],
+"ranged_rect": [-244.25, -47.0, 31.0, 31.0],
+"ranged_target_body": "normal",
+"reward_by_difficulty": {
+"beast": 600,
+"expert": 300,
+"king": 400,
+"master": 350,
+"slayer": 450
+},
+"source_facing": -1,
+"source_id": 7437,
+"source_player_knockdown_parents": {
+"crt_0": 15,
+"crt_1": 45
+},
+"timer": {
+"cycle_ticks": 215,
+"events": [{
+"action": "evade",
+"tick": 118
+}, {
+"action": "special",
+"tick": 215
+}],
+"source_id": 7440
+},
+"trigger_order": ["attack", "ranged", "melee"],
+"trigger_source_frames": [1, 2, 3]
+}
+source = "res/scripts/frame_9/PlaceObject3_7437_294/load/_2=HP500; source6968 difficulty multipliers; docs/LEBA-ACT-03_流程依据.md"

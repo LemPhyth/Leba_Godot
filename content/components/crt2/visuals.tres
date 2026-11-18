@@ -1,0 +1,8887 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_idle_pren.tres" id="1_ok076"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_move_pren.tres" id="2_du1uw"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_basic_pren.tres" id="3_6alp0"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_basic2_pren.tres" id="4_ei5eo"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_basic3_pren.tres" id="5_2bvq8"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_z_pren.tres" id="6_baory"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_down_pren.tres" id="7_y0hd3"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_hit_pren.tres" id="8_27exn"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_knockdown_pren.tres" id="9_4cem7"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_idle.tres" id="10_nn4hg"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_move.tres" id="11_rurn8"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_basic.tres" id="12_trvfg"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_basic2.tres" id="13_q0kby"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_basic3.tres" id="14_c25tf"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_z.tres" id="15_2rcw2"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_down.tres" id="16_u4wr4"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_hit.tres" id="17_2kfw2"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_knockdown.tres" id="18_uaxjs"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_a.tres" id="19_fbtwr"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_s_start.tres" id="20_hfpbm"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_s_release.tres" id="21_o47h2"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_s_full.tres" id="22_r40pp"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_d.tres" id="23_7f27o"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_g.tres" id="24_bq1sa"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_f.tres" id="25_8auay"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_h.tres" id="26_gehbh"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_w.tres" id="27_467ur"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_e.tres" id="28_pgp3l"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_r.tres" id="29_tvsdj"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_fallen.tres" id="30_2vbba"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_dead.tres" id="31_tn3hf"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_jump.tres" id="32_sby4m"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_v.tres" id="33_t0qby"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_q.tres" id="34_8yupu"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_jump_attack_right.tres" id="35_4cgf7"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_r_air.tres" id="36_8nh30"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_pren_basic1.tres" id="37_5jgum"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_pren_basic2.tres" id="38_w4lk2"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_pren_basic3.tres" id="39_few22"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_pren_basic4.tres" id="40_t5xxd"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_a_pren.tres" id="41_gjfwg"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_s_start_pren.tres" id="42_77pcc"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_s_release_pren.tres" id="43_w4al8"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_s_full_pren.tres" id="44_cqqwk"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_d_pren.tres" id="45_2omgp"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_g_pren.tres" id="46_db16g"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_f_pren.tres" id="47_m7lv5"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_h_pren.tres" id="48_e2rov"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_w_pren.tres" id="49_qqj6a"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_e_pren.tres" id="50_ucehc"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_r_pren.tres" id="51_t01f3"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_fallen_pren.tres" id="52_nlgg0"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_dead_pren.tres" id="53_y2ors"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_jump_pren.tres" id="54_mgs08"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_v_pren.tres" id="55_88oe3"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_q_pren.tres" id="56_1dk35"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_jump_attack_right_pren.tres" id="57_chi81"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_d_blood.tres" id="58_thebn"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_f_charge.tres" id="59_lyxgw"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_f_charge_core.tres" id="60_oakf0"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_f_burst.tres" id="61_gwosh"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_air_z_right.tres" id="62_dcb5k"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_air_z_left.tres" id="63_5jq4k"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_e_right.tres" id="64_mio7u"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_e_left.tres" id="65_6urkb"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_e_charge.tres" id="66_iuxhe"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_q_dust_right.tres" id="67_egwjn"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_q_dust_left.tres" id="68_x3orj"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_h_aura.tres" id="69_mp6a8"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_g_timer.tres" id="70_dwbh7"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_lust_timer.tres" id="71_3e6gw"]
+[ext_resource type="Resource" path="res://generated/animations/hud_crt2_r_cutin.tres" id="72_3mlx0"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_hit_slash_left.tres" id="73_cvs58"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_hit_slash_horizontal.tres" id="74_q4n5f"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_hit_slash_right.tres" id="75_inxyc"]
+[ext_resource type="Resource" path="res://generated/animations/enemy_bleed.tres" id="76_o67xg"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_r_air_back.tres" id="77_2bvq8"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="77_62bba"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_r_air_hit.tres" id="78_baory"]
+[ext_resource type="Resource" path="res://generated/animations/crt2_r_air_front.tres" id="79_y0hd3"]
+[ext_resource type="AudioStream" path="res://assets/audio/3950.mp3" id="80_27exn"]
+
+[resource]
+script = ExtResource("77_62bba")
+identifier = "visuals"
+parameters = {
+"geometry": {
+"bleed_helper": {
+"alpha_mult": 0.0,
+"constant_source_frame_range": [1.0, 140.0],
+"consumer": "CRT2 D5313 source28 helper5291 tests overlap against enemy status4021/frame20 피도우미4003",
+"inner_placement": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 4001.0
+},
+"lifetime_boundary": "140 stops only helper4003; this does not prove status4021 automatically returns.",
+"matrix_contract": "helper-local rect includes shape4001 placement once. For actor/status world collision compose enemy status4021 placement * status_placement, or use rect_status_local and apply only the enemy status4021 placement. Never substitute the enemy hurt_rect.",
+"rect_helper_local": [-6.4, -3.8, 12.8, 7.55],
+"rect_status_local": [-4.7, -5.4, 12.8, 7.55],
+"shape_bounds_twips": {
+"Xmax": 128.0,
+"Xmin": -128.0,
+"Ymax": 75.0,
+"Ymin": -76.0
+},
+"shape_rect_local": [-6.4, -3.8, 12.8, 7.55],
+"source": "res/structure/game.xml:4001/4003/4021;res/scripts/DefineSprite_4003/frame_140/DoAction.as",
+"source_chain": [4021.0, 4003.0, 4001.0],
+"source_frame_count": 140.0,
+"source_id": 4003.0,
+"source_name": "피도우미",
+"source_shape_id": 4001.0,
+"status_placement": {
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 1.7, -1.6],
+"name": "피도우미",
+"source_id": 4003.0
+},
+"status_source_frame": 20.0,
+"status_source_id": 4021.0,
+"stop_source_frame": 140.0
+},
+"calibration": "Static original display-list geometry and reviewed control scripts. Runtime scheduling is not certified by resource extraction.",
+"d_blood": {
+"animation": "crt2_d_blood",
+"empty_stop": 40.0,
+"initial_stop": 1.0,
+"offset_baked": false,
+"placements_by_source_frame": {
+"1": [],
+"10": [],
+"11": [],
+"12": [],
+"13": [],
+"14": [],
+"15": [],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"2": [],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"3": [],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"39": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"4": [],
+"40": [],
+"41": [],
+"42": [],
+"43": [],
+"44": [],
+"45": [],
+"46": [],
+"47": [],
+"48": [],
+"49": [],
+"5": [],
+"50": [],
+"51": [],
+"52": [],
+"53": [],
+"54": [],
+"55": [],
+"56": [],
+"57": [],
+"58": [],
+"59": [],
+"6": [],
+"60": [],
+"61": [],
+"62": [],
+"63": [],
+"64": [],
+"65": [],
+"66": [],
+"67": [],
+"68": [],
+"69": [],
+"7": [],
+"70": [],
+"71": [],
+"72": [],
+"73": [],
+"74": [],
+"75": [],
+"76": [],
+"77": [],
+"78": [],
+"79": [],
+"8": [],
+"80": [],
+"81": [],
+"82": [],
+"83": [],
+"84": [],
+"85": [],
+"86": [],
+"87": [],
+"88": [],
+"89": [],
+"9": [],
+"90": [],
+"91": [],
+"92": []
+},
+"source_id": 5289.0,
+"trigger_source_frame": 21.0
+},
+"derived_spawns": {
+"1023": {
+"controls": {
+"goto_by_source_frame": {
+"7": []
+},
+"scripts": ["res/scripts/DefineSprite_1023_먼지1/frame_7/DoAction.as"],
+"stop_frames": [7.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1020.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1020.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1021.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1021.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1022.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1022.0
+}],
+"7": []
+},
+"frame_count": 7.0,
+"source_id": 1023.0
+},
+"1077": {
+"controls": {
+"goto_by_source_frame": {
+"24": []
+},
+"scripts": ["res/scripts/DefineSprite_1077_리얼레퓨2/frame_24/DoAction.as"],
+"stop_frames": [24.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 1.9578705, -50.1, 31.55],
+"name": null,
+"source_id": 651.0
+}, {
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"10": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 3.0087738, -50.1, 12.75],
+"name": null,
+"source_id": 651.0
+}],
+"11": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 3.0087738, -50.1, 12.75],
+"name": null,
+"source_id": 651.0
+}],
+"12": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 1.9578705, -50.1, 31.55],
+"name": null,
+"source_id": 651.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 1.9578705, -50.1, 31.55],
+"name": null,
+"source_id": 651.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"2": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 1.9578705, -50.1, 31.55],
+"name": null,
+"source_id": 651.0
+}, {
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"24": [],
+"3": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"4": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"5": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 2.4874268, -50.1, 22.4],
+"name": null,
+"source_id": 651.0
+}],
+"6": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 2.4874268, -50.1, 22.4],
+"name": null,
+"source_id": 651.0
+}],
+"7": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"8": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"9": [{
+"alpha_mult": 0.0,
+"depth": 3.0,
+"matrix": [1.1415405, 0.0, 0.0, 1.0067749, 8.55, -141.85],
+"name": "공중공격",
+"source_id": 653.0
+}, {
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}, {
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.7613983, 0.0, 0.0, 3.0087738, -50.1, 12.75],
+"name": null,
+"source_id": 651.0
+}]
+},
+"frame_count": 24.0,
+"source_id": 1077.0
+},
+"574": {
+"controls": {
+"goto_by_source_frame": {
+"6": []
+},
+"scripts": ["res/scripts/DefineSprite_574_에쉔/frame_6/DoAction.as"],
+"stop_frames": [6.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 569.0
+}, {
+"alpha_mult": 0.0,
+"depth": 2.0,
+"matrix": [0.93878174, 0.0, 0.0, 0.35490417, 20.45, 23.9],
+"name": null,
+"source_id": 439.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 570.0
+}, {
+"alpha_mult": 0.0,
+"depth": 2.0,
+"matrix": [0.93878174, 0.0, 0.0, 0.35490417, 20.45, 23.9],
+"name": null,
+"source_id": 439.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 571.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 572.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 573.0
+}],
+"6": []
+},
+"frame_count": 6.0,
+"source_id": 574.0
+},
+"593": {
+"controls": {
+"goto_by_source_frame": {
+"7": []
+},
+"scripts": ["res/scripts/DefineSprite_593_먼지2/frame_7/DoAction.as"],
+"stop_frames": [7.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 590.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 590.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 591.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 591.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 592.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 592.0
+}],
+"7": []
+},
+"frame_count": 7.0,
+"source_id": 593.0
+},
+"676": {
+"controls": {
+"goto_by_source_frame": {
+"1": [],
+"20": [],
+"7": []
+},
+"scripts": ["res/scripts/DefineSprite_676_지진2/frame_1/DoAction.as", "res/scripts/DefineSprite_676_지진2/frame_20/DoAction.as", "res/scripts/DefineSprite_676_지진2/frame_7/DoAction.as"],
+"stop_frames": [1.0, 7.0, 20.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 8.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -175.2, 36.05],
+"name": null,
+"source_id": 665.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.0, 42.6],
+"name": null,
+"source_id": 671.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.0, 42.6],
+"name": null,
+"source_id": 669.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -181.05, 42.55],
+"name": null,
+"source_id": 667.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"14": [{
+"alpha_mult": 213.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"15": [{
+"alpha_mult": 171.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"16": [{
+"alpha_mult": 128.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"17": [{
+"alpha_mult": 85.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"18": [{
+"alpha_mult": 43.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"19": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 8.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -175.2, 36.05],
+"name": null,
+"source_id": 665.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -181.05, 42.55],
+"name": null,
+"source_id": 667.0
+}],
+"20": [],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 8.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -175.2, 36.05],
+"name": null,
+"source_id": 665.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.0, 42.6],
+"name": null,
+"source_id": 669.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.0, 42.6],
+"name": null,
+"source_id": 671.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.0, 42.6],
+"name": null,
+"source_id": 673.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.05, 42.65],
+"name": null,
+"source_id": 675.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.05, 42.65],
+"name": null,
+"source_id": 675.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.05, 42.65],
+"name": null,
+"source_id": 675.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [-0.5278473, 0.0, 0.0, 0.40634155, -182.8, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 6.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -182.0, 42.6],
+"name": null,
+"source_id": 673.0
+}]
+},
+"frame_count": 20.0,
+"source_id": 676.0
+},
+"685": {
+"controls": {
+"goto_by_source_frame": {
+"1": [],
+"20": [],
+"7": []
+},
+"scripts": ["res/scripts/DefineSprite_685_지진/frame_1/DoAction.as", "res/scripts/DefineSprite_685_지진/frame_20/DoAction.as", "res/scripts/DefineSprite_685_지진/frame_7/DoAction.as"],
+"stop_frames": [1.0, 7.0, 20.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.5, 0.0, 0.0, 0.1875, 304.1, 241.95],
+"name": null,
+"source_id": 677.0
+}, {
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 166.0, 40.0],
+"name": null,
+"source_id": 665.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 683.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.85, 42.6],
+"name": null,
+"source_id": 671.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 684.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.85, 42.6],
+"name": null,
+"source_id": 669.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.9, 42.55],
+"name": null,
+"source_id": 667.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"14": [{
+"alpha_mult": 213.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"15": [{
+"alpha_mult": 171.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"16": [{
+"alpha_mult": 128.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"17": [{
+"alpha_mult": 85.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"18": [{
+"alpha_mult": 43.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"19": [{
+"alpha_mult": 0.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 166.0, 40.0],
+"name": null,
+"source_id": 665.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.9, 42.55],
+"name": null,
+"source_id": 667.0
+}],
+"20": [],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 166.0, 40.0],
+"name": null,
+"source_id": 665.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 678.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.85, 42.6],
+"name": null,
+"source_id": 669.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 679.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.85, 42.6],
+"name": null,
+"source_id": 671.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 680.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.85, 42.6],
+"name": null,
+"source_id": 673.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.9, 42.65],
+"name": null,
+"source_id": 675.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.9, 42.65],
+"name": null,
+"source_id": 675.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 681.0
+}, {
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.9, 42.65],
+"name": null,
+"source_id": 675.0
+}, {
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 2.0,
+"matrix": [0.5278473, 0.0, 0.0, 0.40634155, 181.65, 37.9],
+"name": null,
+"source_id": 660.0
+}, {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 682.0
+}, {
+"alpha_mult": 256.0,
+"depth": 7.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 180.85, 42.6],
+"name": null,
+"source_id": 673.0
+}]
+},
+"frame_count": 20.0,
+"source_id": 685.0
+},
+"803": {
+"controls": {
+"goto_by_source_frame": {
+"1": [],
+"2": [],
+"23": [],
+"3": [],
+"4": [],
+"40": [],
+"5": [],
+"6": []
+},
+"scripts": ["res/scripts/DefineSprite_803_리얼레퓨/frame_1/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_2/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_23/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_3/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_4/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_40/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_5/DoAction.as", "res/scripts/DefineSprite_803_리얼레퓨/frame_6/DoAction.as"],
+"stop_frames": [40.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}, {
+"alpha_mult": 0.0,
+"depth": 6.0,
+"matrix": [0.825119, 0.0, 0.0, 0.62657166, 1.0, 40.4],
+"name": null,
+"source_id": 649.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}, {
+"alpha_mult": 0.0,
+"depth": 6.0,
+"matrix": [0.825119, 0.0, 0.0, 0.62657166, 1.0, 40.4],
+"name": null,
+"source_id": 649.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"39": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}, {
+"alpha_mult": 0.0,
+"depth": 6.0,
+"matrix": [0.825119, 0.0, 0.0, 0.62657166, 1.0, 40.4],
+"name": null,
+"source_id": 649.0
+}],
+"40": [],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}]
+},
+"frame_count": 40.0,
+"source_id": 803.0
+},
+"971": {
+"controls": {
+"goto_by_source_frame": {
+"6": []
+},
+"scripts": ["res/scripts/DefineSprite_971_에쉔2/frame_6/DoAction.as"],
+"stop_frames": [6.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 966.0
+}, {
+"alpha_mult": 0.0,
+"depth": 2.0,
+"matrix": [0.93878174, 0.0, 0.0, 0.35490417, -9.05, 18.05],
+"name": null,
+"source_id": 439.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 967.0
+}, {
+"alpha_mult": 0.0,
+"depth": 2.0,
+"matrix": [0.93878174, 0.0, 0.0, 0.35490417, -9.05, 18.05],
+"name": null,
+"source_id": 439.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 968.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 969.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 970.0
+}],
+"6": []
+},
+"frame_count": 6.0,
+"source_id": 971.0
+}
+},
+"e_charge": {
+"animation": "crt2_e_charge",
+"offset_baked": false,
+"placements_by_host": {
+"676": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 8.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -175.2, 36.05],
+"name": null,
+"source_id": 665.0
+}],
+"10": [],
+"11": [],
+"12": [],
+"13": [],
+"14": [],
+"15": [],
+"16": [],
+"17": [],
+"18": [],
+"19": [],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 8.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -175.2, 36.05],
+"name": null,
+"source_id": 665.0
+}],
+"20": [],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 8.0,
+"matrix": [-1.0, 0.0, 0.0, 1.0, -175.2, 36.05],
+"name": null,
+"source_id": 665.0
+}],
+"4": [],
+"5": [],
+"6": [],
+"7": [],
+"8": [],
+"9": []
+},
+"685": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 166.0, 40.0],
+"name": null,
+"source_id": 665.0
+}],
+"10": [],
+"11": [],
+"12": [],
+"13": [],
+"14": [],
+"15": [],
+"16": [],
+"17": [],
+"18": [],
+"19": [],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 166.0, 40.0],
+"name": null,
+"source_id": 665.0
+}],
+"20": [],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 9.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 166.0, 40.0],
+"name": null,
+"source_id": 665.0
+}],
+"4": [],
+"5": [],
+"6": [],
+"7": [],
+"8": [],
+"9": []
+}
+},
+"source_id": 665.0,
+"stop_source_frame": 9.0
+},
+"f": {
+"independent_child": {
+"animation": "crt2_f_charge",
+"frame_count": 36.0,
+"inner_charge": {
+"animation": "crt2_f_charge_core",
+"placements_by_source_frame": {
+"1": [],
+"10": [],
+"11": [],
+"12": [],
+"13": [],
+"14": [],
+"15": [],
+"16": [],
+"17": [],
+"18": [],
+"19": [],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 4.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.15, -0.85],
+"name": null,
+"source_id": 633.0
+}],
+"20": [],
+"21": [],
+"22": [],
+"23": [],
+"24": [],
+"25": [],
+"26": [],
+"27": [],
+"28": [],
+"29": [],
+"3": [],
+"30": [],
+"31": [],
+"32": [],
+"33": [],
+"34": [],
+"35": [],
+"36": [],
+"4": [],
+"5": [],
+"6": [],
+"7": [],
+"8": [],
+"9": []
+},
+"source_id": 633.0
+},
+"placements_by_source_frame": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"39": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"40": [],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0405731, 0.0, 0.0, 0.9944153, 1.25, 46.1],
+"name": null,
+"source_id": 802.0
+}]
+},
+"resume_trigger": {
+"child_frame": 23.0,
+"child_id": 633.0,
+"operation": "_parent.nextFrame()"
+},
+"source_id": 802.0,
+"stop_source_frame": 2.0
+},
+"source_id": 803.0,
+"spawned_child": {
+"animation": "crt2_f_burst",
+"attach_source_frame": 23.0,
+"inner_id": 1076.0,
+"inner_start_frame": 2.0,
+"inner_stop_frame": 21.0,
+"placements_by_source_frame": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"24": [],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 5.0,
+"matrix": [1.1403198, 0.0, 0.0, 1.0897522, 1.95, 42.25],
+"name": "rp",
+"source_id": 1076.0
+}]
+},
+"source_id": 1077.0
+}
+},
+"h_aura": {
+"animation": "crt2_h_aura",
+"frame_count": 35.0,
+"loop": "natural source timeline",
+"offset_baked": false,
+"parent_active_frame": 9.0,
+"parent_timer": 4600.0,
+"placement": {
+"alpha_mult": 256.0,
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -12.95, 58.7],
+"name": null,
+"source_id": 4599.0
+},
+"source_id": 4599.0
+},
+"hit_slash": {
+"animations": {
+"horizontal": "crt2_hit_slash_horizontal",
+"left": "crt2_hit_slash_left",
+"right": "crt2_hit_slash_right"
+},
+"audio": "crt2_hit_slash_sound6",
+"continuous_overlap": "Original root observer repeats attachMovie at fixed category depth, replacing that instance.",
+"parent_id": null,
+"source": "frame41/PlaceObject3_4030_111 load_3 and enterFrame_37/38/39; source1481/1489/1496 frame1 AS",
+"source_frames": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0],
+"source_ids": {
+"horizontal": 1489.0,
+"left": 1481.0,
+"right": 1496.0
+},
+"source_root_depths": {
+"horizontal": 1.0,
+"left_helper": 2.0,
+"right_helper": 3.0
+},
+"spawn_matrix": [1.0, 0.0, 0.0, 1.0, "enemy._x", "enemy._y"],
+"stop_source_frame": 7.0
+},
+"jump": {
+"parent_frame": 97.0,
+"parent_id": 6732.0,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -0.25, 26.1],
+"parts": [{
+"animation": "crt2_jump_attack_right",
+"loop_control_frame": 13.0,
+"loop_destination": 1.0,
+"offset_baked": false,
+"placements_by_source_frame": {
+"1": [],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -112.9],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -122.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -129.5],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -133.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -133.65],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.6, -129.5],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"2": [],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.5, -122.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.3, -113.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.1, -100.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.2, -85.5],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.5, -67.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.9, -46.95],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.3, -23.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.8, 2.55],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"28": [],
+"29": [],
+"3": [],
+"30": [],
+"31": [],
+"32": [],
+"33": [],
+"34": [],
+"35": [],
+"36": [],
+"37": [],
+"38": [],
+"39": [],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, 3.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"40": [],
+"41": [],
+"42": [],
+"43": [],
+"44": [],
+"45": [],
+"46": [],
+"47": [],
+"48": [],
+"49": [],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -23.2],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"50": [],
+"51": [],
+"52": [],
+"53": [],
+"54": [],
+"55": [],
+"56": [],
+"57": [],
+"58": [],
+"59": [],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -46.7],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"60": [],
+"61": [],
+"62": [],
+"63": [],
+"64": [],
+"65": [],
+"66": [],
+"67": [],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -67.4],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -85.3],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -100.5],
+"name": "점프중",
+"source_id": 5416.0
+}]
+},
+"source_frame_count": 13.0,
+"source_id": 5416.0,
+"stop_source_frame": 1.0
+}, {
+"animation": "",
+"loop_control_frame": 13.0,
+"loop_destination": 1.0,
+"offset_baked": false,
+"placements_by_source_frame": {
+"1": [],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -112.8],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -122.4],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -129.25],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -133.35],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -133.35],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.05, -129.25],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"2": [],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.15, -122.4],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.35, -112.8],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.55, -100.5],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.85, -85.45],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.15, -67.65],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.5, -47.15],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.95, -23.9],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.4, 2.1],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"28": [],
+"29": [],
+"3": [],
+"30": [],
+"31": [],
+"32": [],
+"33": [],
+"34": [],
+"35": [],
+"36": [],
+"37": [],
+"38": [],
+"39": [],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, 2.1],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"40": [],
+"41": [],
+"42": [],
+"43": [],
+"44": [],
+"45": [],
+"46": [],
+"47": [],
+"48": [],
+"49": [],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -23.9],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"50": [],
+"51": [],
+"52": [],
+"53": [],
+"54": [],
+"55": [],
+"56": [],
+"57": [],
+"58": [],
+"59": [],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -47.15],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"60": [],
+"61": [],
+"62": [],
+"63": [],
+"64": [],
+"65": [],
+"66": [],
+"67": [],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -67.65],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -85.45],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -100.5],
+"name": "왼대각",
+"source_id": 5417.0
+}]
+},
+"source_frame_count": 13.0,
+"source_id": 5417.0,
+"stop_source_frame": 1.0
+}],
+"source_id": 5649.0
+},
+"r_air": {
+"animation": "crt2_r_air",
+"clock_boundary": "5618 natural7, 5609 and5616 natural6 independently; do not reset child phase just because foreground wraps. Instance replacement still follows original timeline host behavior.",
+"draw_order": ["crt2_r_air_back", "crt2_r_air_hit", "crt2_r_air_front", "crt2_r_air"],
+"foreground_animation": "crt2_r_air",
+"loop": "natural source timeline 7->1",
+"offset_baked": false,
+"part_matrix_contract": "R5619 child5618 placement * removed_subtree5617 placement * part placement; part atlas has zero baked parent offset. Foreground uses original5618 placement only.",
+"parts": [{
+"alpha_mult": 256.0,
+"animation": "crt2_r_air_back",
+"depth": 1.0,
+"frame_count": 1.0,
+"loop": "natural",
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.4, -35.7],
+"name": null,
+"offset_baked": false,
+"source_id": 5601.0
+}, {
+"alpha_mult": 256.0,
+"animation": "crt2_r_air_hit",
+"depth": 5.0,
+"frame_count": 6.0,
+"loop": "natural",
+"matrix": [0.9866333, 0.0, 0.0, 1.1159058, -109.25, 15.15],
+"name": null,
+"offset_baked": false,
+"source_id": 5609.0
+}, {
+"alpha_mult": 256.0,
+"animation": "crt2_r_air_front",
+"depth": 8.0,
+"frame_count": 6.0,
+"loop": "natural",
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.3, 291.1],
+"name": null,
+"offset_baked": false,
+"source_id": 5616.0
+}],
+"placements_by_source_frame": {
+"1": [],
+"10": [],
+"100": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"101": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"102": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"103": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"104": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"105": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"106": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"107": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"108": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"109": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"11": [],
+"110": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"111": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"112": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"113": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"114": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"115": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"116": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"117": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"118": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"119": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"12": [],
+"120": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"121": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"122": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"123": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"124": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"125": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"126": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"127": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"128": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"129": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"13": [],
+"130": [],
+"131": [],
+"132": [],
+"133": [],
+"134": [],
+"135": [],
+"136": [],
+"137": [],
+"138": [],
+"14": [],
+"15": [],
+"16": [],
+"17": [],
+"18": [],
+"19": [],
+"2": [],
+"20": [],
+"21": [],
+"22": [],
+"23": [],
+"24": [],
+"25": [],
+"26": [],
+"27": [],
+"28": [],
+"29": [],
+"3": [],
+"30": [],
+"31": [],
+"32": [],
+"33": [],
+"34": [],
+"35": [],
+"36": [],
+"37": [],
+"38": [],
+"39": [],
+"4": [],
+"40": [],
+"41": [],
+"42": [],
+"43": [],
+"44": [],
+"45": [],
+"46": [],
+"47": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"48": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"49": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"5": [],
+"50": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"51": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"52": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"53": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"54": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"55": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"56": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"57": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"58": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"59": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"6": [],
+"60": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"61": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"62": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"63": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"64": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"65": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"66": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"67": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"68": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"69": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"7": [],
+"70": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"71": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"72": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"73": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"74": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"75": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"76": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"77": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"78": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"79": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"8": [],
+"80": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"81": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"82": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"83": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"84": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"85": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"86": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"87": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"88": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"89": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"9": [],
+"90": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"91": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"92": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"93": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"94": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"95": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"96": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"97": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"98": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}],
+"99": [{
+"alpha_mult": 256.0,
+"depth": 57.0,
+"matrix": [1.2107239, 0.0, 0.0, 0.9188843, 305.25, -274.1],
+"name": "공중공격",
+"source_id": 5618.0
+}]
+},
+"removed_subtree_id": 5617.0,
+"removed_subtree_placement": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+},
+"removed_subtree_placements_by_source_frame": {
+"1": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 6.95, 55.85],
+"name": null,
+"source_id": 5617.0
+}]
+},
+"source_frame_count": 7.0,
+"source_id": 5618.0
+},
+"r_cutin": {
+"animation": "hud_crt2_r_cutin",
+"end_control": 97.0,
+"entry": 66.0,
+"external_matrix_contract": "Atlas includes source6835 immediate parent translation[-771.15,16.6]. Apply ONLY the selected source-root6917 matrix externally; do not add placement.matrix again or replace the original slide-in path with centering.",
+"immediate_parent_translation_in_atlas_pivot": true,
+"initial_parent_offset_baked": true,
+"placement": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -771.15, 16.6],
+"name": "컷신",
+"source_id": 6835.0
+},
+"return": 1.0,
+"root_placements_by_source_frame": {
+"2": [{
+"depth": 2723.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 742.15, 284.6],
+"name": "게임오버",
+"source_id": 6917.0
+}],
+"4": [{
+"depth": 3466.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 742.15, 284.6],
+"name": "게임오버",
+"source_id": 6917.0
+}],
+"41": [{
+"depth": 2623.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 742.15, 284.6],
+"name": "게임오버",
+"source_id": 6917.0
+}],
+"6": [{
+"depth": 2749.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 742.15, 284.6],
+"name": "게임오버",
+"source_id": 6917.0
+}],
+"9": [{
+"depth": 2832.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 742.15, 284.6],
+"name": "게임오버",
+"source_id": 6917.0
+}]
+},
+"source_id": 6835.0,
+"trigger_frame": 4.0,
+"trigger_host": 5619.0
+},
+"timers": {
+"4600": {
+"controls": {
+"goto_by_source_frame": {
+"1": [],
+"9": []
+},
+"scripts": ["res/scripts/DefineSprite_4600/frame_1/DoAction.as", "res/scripts/DefineSprite_4600/frame_9/DoAction.as"],
+"stop_frames": [1.0, 9.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3947.0
+}],
+"2": [],
+"3": [],
+"4": [],
+"5": [],
+"6": [],
+"7": [],
+"8": [],
+"9": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.35, 4.35],
+"name": null,
+"source_id": 1901.0
+}, {
+"alpha_mult": 256.0,
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -12.95, 58.7],
+"name": null,
+"source_id": 4599.0
+}]
+},
+"frame_count": 9.0,
+"independent_clock": true,
+"parent_placement": {
+"alpha_mult": 256.0,
+"depth": 1046.0,
+"matrix": [1.6549683, 0.0, 0.0, 1.8181763, 0.95, -120.5],
+"name": "프렌지시간",
+"source_id": 4600.0
+},
+"source_id": 4600.0
+},
+"4601": {
+"animation": "crt2_g_timer",
+"constant_frame_range": [9.0, 399.0],
+"constant_visual_frame": 9.0,
+"controls": {
+"goto_by_source_frame": {
+"1": [],
+"9": []
+},
+"scripts": ["res/scripts/DefineSprite_4601/frame_1/DoAction.as", "res/scripts/DefineSprite_4601/frame_9/DoAction.as"],
+"stop_frames": [1.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3947.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"100": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"101": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"102": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"103": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"104": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"105": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"106": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"107": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"108": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"109": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"110": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"111": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"112": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"113": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"114": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"115": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"116": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"117": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"118": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"119": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"120": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"121": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"122": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"123": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"124": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"125": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"126": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"127": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"128": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"129": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"130": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"131": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"132": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"133": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"134": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"135": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"136": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"137": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"138": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"139": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"140": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"141": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"142": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"143": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"144": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"145": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"146": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"147": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"148": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"149": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"150": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"151": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"152": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"153": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"154": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"155": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"156": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"157": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"158": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"159": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"160": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"161": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"162": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"163": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"164": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"165": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"166": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"167": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"168": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"169": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"170": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"171": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"172": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"173": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"174": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"175": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"176": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"177": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"178": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"179": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"180": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"181": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"182": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"183": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"184": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"185": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"186": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"187": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"188": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"189": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"190": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"191": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"192": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"193": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"194": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"195": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"196": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"197": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"198": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"199": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [0.88056946, 0.0, 0.0, 0.7903137, -2.55, 3.65],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.60502625, 0.0, 0.0, 0.5282593, -3.35, 4.25],
+"name": null,
+"source_id": 3949.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"200": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"201": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"202": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"203": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"204": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"205": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"206": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"207": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"208": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"209": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"210": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"211": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"212": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"213": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"214": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"215": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"216": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"217": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"218": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"219": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"220": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"221": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"222": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"223": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"224": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"225": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"226": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"227": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"228": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"229": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"230": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"231": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"232": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"233": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"234": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"235": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"236": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"237": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"238": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"239": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"240": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"241": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"242": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"243": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"244": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"245": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"246": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"247": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"248": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"249": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"250": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"251": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"252": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"253": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"254": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"255": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"256": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"257": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"258": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"259": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"260": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"261": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"262": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"263": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"264": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"265": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"266": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"267": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"268": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"269": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"270": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"271": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"272": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"273": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"274": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"275": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"276": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"277": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"278": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"279": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"280": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"281": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"282": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"283": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"284": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"285": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"286": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"287": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"288": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"289": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"290": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"291": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"292": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"293": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"294": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"295": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"296": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"297": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"298": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"299": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [0.88056946, 0.0, 0.0, 0.7903137, -2.55, 3.65],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.60502625, 0.0, 0.0, 0.5282593, -3.35, 4.25],
+"name": null,
+"source_id": 3949.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"300": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"301": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"302": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"303": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"304": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"305": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"306": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"307": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"308": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"309": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"310": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"311": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"312": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"313": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"314": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"315": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"316": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"317": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"318": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"319": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"320": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"321": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"322": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"323": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"324": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"325": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"326": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"327": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"328": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"329": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"330": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"331": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"332": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"333": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"334": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"335": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"336": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"337": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"338": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"339": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"340": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"341": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"342": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"343": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"344": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"345": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"346": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"347": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"348": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"349": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"350": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"351": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"352": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"353": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"354": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"355": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"356": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"357": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"358": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"359": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"360": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"361": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"362": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"363": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"364": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"365": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"366": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"367": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"368": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"369": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"370": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"371": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"372": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"373": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"374": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"375": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"376": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"377": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"378": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"379": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"380": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"381": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"382": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"383": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"384": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"385": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"386": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"387": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"388": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"389": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"39": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"390": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"391": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"392": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"393": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"394": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"395": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"396": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"397": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"398": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"399": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [1.213974, 0.0, 0.0, 1.2492065, -1.2, 2.0],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.83410645, 0.0, 0.0, 0.83499146, -2.3, 2.95],
+"name": null,
+"source_id": 3949.0
+}],
+"40": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"400": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"401": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"402": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"403": [{
+"alpha_mult": 49.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"404": [{
+"alpha_mult": 164.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"405": [{
+"alpha_mult": 82.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"406": [{
+"alpha_mult": 166.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"407": [{
+"alpha_mult": 79.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"41": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"42": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"43": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"44": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"45": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"46": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"47": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"48": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"49": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [1.42276, 0.0, 0.0, 1.4803467, -1.2, 2.0],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.83410645, 0.0, 0.0, 0.83499146, -2.3, 2.95],
+"name": null,
+"source_id": 3949.0
+}],
+"50": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"51": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"52": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"53": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"54": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"55": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"56": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"57": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"58": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"59": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [1.6344299, 0.0, 0.0, 1.7929382, -2.2, 0.5],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.9582062, 0.0, 0.0, 1.0112915, -3.45, 1.65],
+"name": null,
+"source_id": 3949.0
+}],
+"60": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"61": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"62": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"63": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"64": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"65": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"66": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"67": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"68": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"69": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 41.0,
+"depth": 3.0,
+"matrix": [2.0872803, 0.0, 0.0, 2.1260223, -2.2, 0.5],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.9582062, 0.0, 0.0, 1.0112915, -3.45, 1.65],
+"name": null,
+"source_id": 3949.0
+}],
+"70": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"71": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"72": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"73": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"74": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"75": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"76": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"77": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"78": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"79": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}, {
+"alpha_mult": 23.0,
+"depth": 3.0,
+"matrix": [2.605774, 0.0, 0.0, 2.7537842, -2.2, 0.5],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 72.0,
+"depth": 5.0,
+"matrix": [1.3823853, 0.0, 0.0, 1.5030518, -3.45, 1.65],
+"name": null,
+"source_id": 3949.0
+}],
+"80": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"81": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"82": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"83": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"84": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"85": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"86": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"87": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"88": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"89": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"90": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"91": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"92": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"93": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"94": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"95": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"96": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"97": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"98": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}],
+"99": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 1897.0
+}]
+},
+"frame_count": 407.0,
+"independent_clock": true,
+"parent_placement": {
+"alpha_mult": 256.0,
+"depth": 1050.0,
+"matrix": [1.6555481, 0.0, 0.0, 1.8181763, 0.95, -120.4],
+"name": "폭주시간",
+"sounds": [{
+"audio_stream": ExtResource("80_27exn"),
+"envelope": [{
+"left": 15941.0,
+"right": 15941.0,
+"sample": 0.0
+}],
+"frame": 2,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt2_g_timer",
+"sound_id": 3950.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4601.0
+}],
+"source_id": 4601.0
+},
+"sounds": [{
+"audio_stream": ExtResource("80_27exn"),
+"envelope": [{
+"left": 15941.0,
+"right": 15941.0,
+"sample": 0.0
+}],
+"frame": 2,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt2_g_timer",
+"sound_id": 3950.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4601.0
+}],
+"source_id": 4601.0
+},
+"4604": {
+"animation": "crt2_lust_timer",
+"constant_frame_range": [9.0, 288.0],
+"constant_visual_frame": 9.0,
+"controls": {
+"goto_by_source_frame": {
+"1": [],
+"9": []
+},
+"scripts": ["res/scripts/DefineSprite_4604/frame_1/DoAction.as", "res/scripts/DefineSprite_4604/frame_9/DoAction.as"],
+"stop_frames": [1.0]
+},
+"display_lists": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 3947.0
+}],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"100": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"101": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"102": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"103": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"104": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"105": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"106": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"107": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"108": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"109": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"110": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"111": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"112": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"113": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"114": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"115": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"116": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"117": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"118": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"119": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"120": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"121": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"122": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"123": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"124": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"125": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"126": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"127": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"128": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"129": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"130": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"131": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"132": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"133": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"134": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"135": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"136": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"137": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"138": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"139": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"140": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"141": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"142": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"143": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"144": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"145": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"146": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"147": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"148": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"149": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"150": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"151": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"152": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"153": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"154": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"155": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"156": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"157": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"158": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"159": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"160": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"161": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"162": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"163": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"164": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"165": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"166": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"167": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"168": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"169": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"170": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"171": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"172": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"173": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"174": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"175": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"176": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"177": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"178": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"179": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"180": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"181": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"182": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"183": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"184": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"185": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"186": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"187": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"188": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"189": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"190": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"191": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"192": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"193": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"194": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"195": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"196": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"197": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"198": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"199": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [0.88056946, 0.0, 0.0, 0.7903137, -2.55, 3.65],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.60502625, 0.0, 0.0, 0.5282593, -3.35, 4.25],
+"name": null,
+"source_id": 3949.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"200": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"201": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"202": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"203": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"204": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"205": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"206": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"207": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"208": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"209": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"210": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"211": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"212": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"213": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"214": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"215": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"216": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"217": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"218": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"219": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"220": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"221": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"222": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"223": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"224": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"225": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"226": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"227": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"228": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"229": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"230": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"231": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"232": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"233": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"234": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"235": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"236": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"237": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"238": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"239": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"240": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"241": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"242": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"243": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"244": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"245": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"246": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"247": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"248": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"249": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"250": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"251": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"252": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"253": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"254": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"255": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"256": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"257": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"258": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"259": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"260": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"261": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"262": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"263": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"264": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"265": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"266": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"267": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"268": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"269": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"270": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"271": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"272": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"273": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"274": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"275": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"276": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"277": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"278": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"279": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"280": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"281": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"282": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"283": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"284": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"285": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"286": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"287": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"288": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"289": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"290": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"291": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"292": [{
+"alpha_mult": 49.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"293": [{
+"alpha_mult": 164.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"294": [{
+"alpha_mult": 82.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"295": [{
+"alpha_mult": 166.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"296": [{
+"alpha_mult": 79.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"3": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [0.88056946, 0.0, 0.0, 0.7903137, -2.55, 3.65],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.60502625, 0.0, 0.0, 0.5282593, -3.35, 4.25],
+"name": null,
+"source_id": 3949.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"39": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [1.213974, 0.0, 0.0, 1.2492065, -1.2, 2.0],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.83410645, 0.0, 0.0, 0.83499146, -2.3, 2.95],
+"name": null,
+"source_id": 3949.0
+}],
+"40": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"41": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"42": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"43": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"44": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"45": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"46": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"47": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"48": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"49": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [1.42276, 0.0, 0.0, 1.4803467, -1.2, 2.0],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.83410645, 0.0, 0.0, 0.83499146, -2.3, 2.95],
+"name": null,
+"source_id": 3949.0
+}],
+"50": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"51": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"52": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"53": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"54": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"55": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"56": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"57": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"58": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"59": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 82.0,
+"depth": 3.0,
+"matrix": [1.6344299, 0.0, 0.0, 1.7929382, -2.2, 0.5],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.9582062, 0.0, 0.0, 1.0112915, -3.45, 1.65],
+"name": null,
+"source_id": 3949.0
+}],
+"60": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"61": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"62": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"63": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"64": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"65": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"66": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"67": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"68": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"69": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 41.0,
+"depth": 3.0,
+"matrix": [2.0872803, 0.0, 0.0, 2.1260223, -2.2, 0.5],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 125.0,
+"depth": 5.0,
+"matrix": [0.9582062, 0.0, 0.0, 1.0112915, -3.45, 1.65],
+"name": null,
+"source_id": 3949.0
+}],
+"70": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"71": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"72": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"73": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"74": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"75": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"76": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"77": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"78": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"79": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}, {
+"alpha_mult": 23.0,
+"depth": 3.0,
+"matrix": [2.605774, 0.0, 0.0, 2.7537842, -2.2, 0.5],
+"name": null,
+"source_id": 3949.0
+}, {
+"alpha_mult": 72.0,
+"depth": 5.0,
+"matrix": [1.3823853, 0.0, 0.0, 1.5030518, -3.45, 1.65],
+"name": null,
+"source_id": 3949.0
+}],
+"80": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"81": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"82": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"83": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"84": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"85": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"86": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"87": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"88": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"89": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"90": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"91": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"92": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"93": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"94": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"95": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"96": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"97": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"98": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}],
+"99": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.1125488, 0.0, 0.0, 1.0, -1.7, 3.35],
+"name": null,
+"source_id": 4603.0
+}]
+},
+"frame_count": 296.0,
+"independent_clock": true,
+"parent_placement": {
+"alpha_mult": 256.0,
+"depth": 1056.0,
+"matrix": [1.6555481, 0.0, 0.0, 1.8181763, 0.95, -120.4],
+"name": "러스트시간",
+"source_id": 4604.0
+},
+"source_id": 4604.0
+}
+}
+},
+"variants": {
+"crt2_basic": "crt2_basic_pren",
+"crt2_basic2": "crt2_basic2_pren",
+"crt2_basic3": "crt2_basic3_pren",
+"crt2_dead": "crt2_dead_pren",
+"crt2_down": "crt2_down_pren",
+"crt2_fallen": "crt2_fallen_pren",
+"crt2_hit": "crt2_hit_pren",
+"crt2_idle": "crt2_idle_pren",
+"crt2_jump": "crt2_jump_pren",
+"crt2_jump_attack_right": "crt2_jump_attack_right_pren",
+"crt2_knockdown": "crt2_knockdown_pren",
+"crt2_move": "crt2_move_pren",
+"crt2_skill_a": "crt2_skill_a_pren",
+"crt2_skill_d": "crt2_skill_d_pren",
+"crt2_skill_e": "crt2_skill_e_pren",
+"crt2_skill_f": "crt2_skill_f_pren",
+"crt2_skill_g": "crt2_skill_g_pren",
+"crt2_skill_h": "crt2_skill_h_pren",
+"crt2_skill_q": "crt2_skill_q_pren",
+"crt2_skill_r": "crt2_skill_r_pren",
+"crt2_skill_s_full": "crt2_skill_s_full_pren",
+"crt2_skill_s_release": "crt2_skill_s_release_pren",
+"crt2_skill_s_start": "crt2_skill_s_start_pren",
+"crt2_skill_v": "crt2_skill_v_pren",
+"crt2_skill_w": "crt2_skill_w_pren",
+"crt2_skill_z": "crt2_skill_z_pren"
+}
+}
+animations = Array[Resource]([ExtResource("1_ok076"), ExtResource("2_du1uw"), ExtResource("3_6alp0"), ExtResource("4_ei5eo"), ExtResource("5_2bvq8"), ExtResource("6_baory"), ExtResource("7_y0hd3"), ExtResource("8_27exn"), ExtResource("9_4cem7"), ExtResource("10_nn4hg"), ExtResource("11_rurn8"), ExtResource("12_trvfg"), ExtResource("13_q0kby"), ExtResource("14_c25tf"), ExtResource("15_2rcw2"), ExtResource("16_u4wr4"), ExtResource("17_2kfw2"), ExtResource("18_uaxjs"), ExtResource("19_fbtwr"), ExtResource("20_hfpbm"), ExtResource("21_o47h2"), ExtResource("22_r40pp"), ExtResource("23_7f27o"), ExtResource("24_bq1sa"), ExtResource("25_8auay"), ExtResource("26_gehbh"), ExtResource("27_467ur"), ExtResource("28_pgp3l"), ExtResource("29_tvsdj"), ExtResource("30_2vbba"), ExtResource("31_tn3hf"), ExtResource("32_sby4m"), ExtResource("33_t0qby"), ExtResource("34_8yupu"), ExtResource("35_4cgf7"), ExtResource("36_8nh30"), ExtResource("37_5jgum"), ExtResource("38_w4lk2"), ExtResource("39_few22"), ExtResource("40_t5xxd"), ExtResource("41_gjfwg"), ExtResource("42_77pcc"), ExtResource("43_w4al8"), ExtResource("44_cqqwk"), ExtResource("45_2omgp"), ExtResource("46_db16g"), ExtResource("47_m7lv5"), ExtResource("48_e2rov"), ExtResource("49_qqj6a"), ExtResource("50_ucehc"), ExtResource("51_t01f3"), ExtResource("52_nlgg0"), ExtResource("53_y2ors"), ExtResource("54_mgs08"), ExtResource("55_88oe3"), ExtResource("56_1dk35"), ExtResource("57_chi81"), ExtResource("58_thebn"), ExtResource("59_lyxgw"), ExtResource("60_oakf0"), ExtResource("61_gwosh"), ExtResource("62_dcb5k"), ExtResource("63_5jq4k"), ExtResource("64_mio7u"), ExtResource("65_6urkb"), ExtResource("66_iuxhe"), ExtResource("67_egwjn"), ExtResource("68_x3orj"), ExtResource("69_mp6a8"), ExtResource("70_dwbh7"), ExtResource("71_3e6gw"), ExtResource("72_3mlx0"), ExtResource("73_cvs58"), ExtResource("74_q4n5f"), ExtResource("75_inxyc"), ExtResource("76_o67xg"), ExtResource("77_2bvq8"), ExtResource("78_baory"), ExtResource("79_y0hd3")])
+source = "按需运行素材与源矩阵；variant不重置动作或独立子时钟。"

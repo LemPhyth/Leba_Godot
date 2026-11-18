@@ -1,0 +1,121 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_u8ca2"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_h_up.png" id="2_uu8ju"]
+
+[resource]
+script = ExtResource("1_u8ca2")
+identifier = "crt1_h_up"
+texture = ExtResource("2_uu8ju")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-59.3, -84.2, 108.0, 153.0],
+"pivot": [140.3, 173.2],
+"region": [2.0, 2.0, 296.0, 242.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-48.3, -68.2, 97.0, 137.0],
+"pivot": [140.3, 173.2],
+"region": [302.0, 2.0, 296.0, 242.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-140.3, -130.2, 296.0, 199.0],
+"pivot": [140.3, 173.2],
+"region": [602.0, 2.0, 296.0, 242.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-140.3, -166.2, 296.0, 235.0],
+"pivot": [140.3, 173.2],
+"region": [902.0, 2.0, 296.0, 242.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-140.3, -173.2, 296.0, 242.0],
+"pivot": [140.3, 173.2],
+"region": [1202.0, 2.0, 296.0, 242.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-59.3, -160.2, 191.0, 229.0],
+"pivot": [140.3, 173.2],
+"region": [2.0, 248.0, 296.0, 242.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-68.3, -162.2, 221.0, 231.0],
+"pivot": [140.3, 173.2],
+"region": [302.0, 248.0, 296.0, 242.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-140.3, -163.2, 296.0, 232.0],
+"pivot": [140.3, 173.2],
+"region": [602.0, 248.0, 296.0, 242.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-140.3, -81.2, 296.0, 150.0],
+"pivot": [140.3, 173.2],
+"region": [902.0, 248.0, 296.0, 242.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-140.3, -130.2, 296.0, 199.0],
+"pivot": [140.3, 173.2],
+"region": [1202.0, 248.0, 296.0, 242.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-48.3, -166.2, 201.0, 235.0],
+"pivot": [140.3, 173.2],
+"region": [2.0, 494.0, 296.0, 242.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-59.3, -84.2, 108.0, 153.0],
+"pivot": [140.3, 173.2],
+"region": [302.0, 494.0, 296.0, 242.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-48.3, -68.2, 97.0, 137.0],
+"pivot": [140.3, 173.2],
+"region": [602.0, 494.0, 296.0, 242.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-59.3, -75.2, 114.0, 144.0],
+"pivot": [140.3, 173.2],
+"region": [902.0, 494.0, 296.0, 242.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-50.3, -80.2, 99.0, 149.0],
+"pivot": [140.3, 173.2],
+"region": [1202.0, 494.0, 296.0, 242.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-48.3, -75.2, 97.0, 144.0],
+"pivot": [140.3, 173.2],
+"region": [2.0, 740.0, 296.0, 242.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-48.3, -86.2, 97.0, 155.0],
+"pivot": [140.3, 173.2],
+"region": [302.0, 740.0, 296.0, 242.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-59.3, -84.2, 108.0, 153.0],
+"pivot": [140.3, 173.2],
+"region": [602.0, 740.0, 296.0, 242.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-48.3, -68.2, 97.0, 137.0],
+"pivot": [140.3, 173.2],
+"region": [902.0, 740.0, 296.0, 242.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-59.3, -75.2, 114.0, 144.0],
+"pivot": [140.3, 173.2],
+"region": [1202.0, 740.0, 296.0, 242.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-59.3, -84.2, 108.0, 153.0],
+"pivot": [140.3, 173.2],
+"region": [2.0, 986.0, 296.0, 242.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-59.3, -84.2, 108.0, 153.0],
+"pivot": [140.3, 173.2],
+"region": [302.0, 986.0, 296.0, 242.0],
+"source_frame": 22.0
+}])
+source = "asset_catalog.animations.crt1_h_up；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,128 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_cut3y"]
+[ext_resource type="Texture2D" path="res://assets/ui/title.png" id="2_nh2wy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f05fy"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Intermission" type="Control" unique_id=1495649462]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_cut3y")
+
+[node name="@TextureRect@52" type="TextureRect" parent="." unique_id=439911374]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 265.0
+mouse_filter = 2
+texture = ExtResource("2_nh2wy")
+expand_mode = 1
+
+[node name="@ColorRect@53" type="ColorRect" parent="." unique_id=1329501497]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+color = Color(0.025, 0.03, 0.04, 0.85)
+
+[node name="@Panel@54" type="Panel" parent="." unique_id=195969067]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 27.0
+offset_right = 505.0
+offset_bottom = 375.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_f05fy")
+
+[node name="Title" type="Label" parent="." unique_id=269486111]
+layout_mode = 0
+offset_left = 68.0
+offset_top = 43.0
+offset_right = 493.0
+offset_bottom = 69.0
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "阶段中转"
+autowrap_mode = 3
+
+[node name="Subtitle" type="Label" parent="." unique_id=1492604018]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 86.0
+offset_right = 475.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "森林阶段完成"
+autowrap_mode = 3
+
+[node name="Stats" type="Label" parent="." unique_id=1981685813]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 117.0
+offset_right = 480.0
+offset_bottom = 143.0
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "本场金币 +0  ·  本场用时 0.00 秒"
+autowrap_mode = 3
+
+[node name="Retry" type="Button" parent="." unique_id=453700571]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 162.0
+offset_right = 262.0
+offset_bottom = 198.0
+text = "◀ 重新挑战"
+
+[node name="Continue" type="Button" parent="." unique_id=1349154574]
+layout_mode = 0
+offset_left = 278.0
+offset_top = 162.0
+offset_right = 480.0
+offset_bottom = 198.0
+disabled = true
+text = "进入下一关 · 待还原"
+
+[node name="Inventory" type="Button" parent="." unique_id=1960683387]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 211.0
+offset_right = 480.0
+offset_bottom = 245.0
+disabled = true
+text = "查看仓库 · 待还原"
+
+[node name="Description" type="Label" parent="." unique_id=1388737379]
+layout_mode = 0
+offset_left = 71.0
+offset_top = 260.0
+offset_right = 479.0
+offset_bottom = 309.0
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "原作下一场与完整仓库暂未接入。
+可重新挑战森林，或返回菜单选择角色。"
+autowrap_mode = 3
+
+[node name="Menu" type="Button" parent="." unique_id=930098544]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 326.0
+offset_right = 262.0
+offset_bottom = 357.0
+text = "返回菜单"

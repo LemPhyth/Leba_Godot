@@ -1,0 +1,77 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_dgv68"]
+
+[resource]
+script = ExtResource("1_dgv68")
+identifier = "jump"
+parameters = {
+"air_child": {
+"active_frames": [4.0, 27.0],
+"attack_start": 2.0,
+"companion_depth": 39.0,
+"companion_id": 6309.0,
+"companion_trigger": 2.0,
+"depth": 1.0,
+"id": 6308.0,
+"initial_stop": 1.0,
+"input": "heldX while child.frame1",
+"return_control_frame": 11.0,
+"return_target": 1.0,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0]
+},
+"attachment_ash_ids": [574.0, 971.0],
+"body_default_during_z": "independent body age continues except source61 explicitly gotoStop7; source63 entry skips source61, so do not unconditionally force7 for every Z entry",
+"body_id": 4745.0,
+"body_independent_clock": true,
+"body_initial_matrix": [1.0, 0.0, 0.0, 1.0, 4.7, 3.45],
+"body_natural_stop_frame": 26.0,
+"body_stop7_on_source_frames": [31.0, 42.0, 55.0, 61.0],
+"default_excluded_ranges": [[31.0, 54.0]],
+"movement": {
+"both_keys_cancel_translation_left_facing": true,
+"held_left_dx": -4.0,
+"held_right_dx": 4.0,
+"helper4937_depth35": [4.0, 29.0],
+"turn_requires_child_frame": 1.0
+},
+"normal_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0],
+"parent": 139.0,
+"slot_id": 4229.0,
+"source_id": 6311.0,
+"z_branches": [{
+"child": "6308",
+"child_frame": 1.0,
+"from": 4.0,
+"target_frame": 63.0,
+"until": 27.0
+}, {
+"child": "4937_depth41",
+"from": 6.0,
+"target_frame": 61.0,
+"until": 8.0
+}, {
+"child": "4937_depth41",
+"from": 9.0,
+"immediate_slot_start": true,
+"target_frame": 59.0,
+"until": 10.0
+}, {
+"child": "4937_depth41",
+"from": 11.0,
+"target_frame": 57.0,
+"until": 19.0
+}, {
+"child": "4937_depth41",
+"from": 20.0,
+"target_frame": 59.0,
+"until": 23.0
+}, {
+"child": "4937_depth41",
+"from": 24.0,
+"target_frame": 61.0,
+"until": 26.0
+}],
+"z_callback_order": "Both placement callbacks exist; first successful jump may remove/reconstruct other placements. Exact queued ordering not dynamically verified. Do not double charge deliberately."
+}
+source = "Original AS/XML default CRT3; reviewed rules in act05_crt3_rules.json"

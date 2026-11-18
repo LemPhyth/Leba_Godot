@@ -1,0 +1,52 @@
+[gd_resource type="Resource" format=3 uid="uid://bsfpk7ppvdkt1"]
+
+[ext_resource type="Resource" path="res://generated/animations/player_basic.tres" id="1_1ko7x"]
+[ext_resource type="AudioStream" uid="uid://dog7wwmylwevv" path="res://assets/audio/4421.mp3" id="2_7os4s"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_c3yvr"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_txuxp"]
+
+[sub_resource type="Resource" id="Resource_rssmo"]
+script = ExtResource("3_c3yvr")
+frame = 7
+sound = "basic"
+audio_stream = ExtResource("2_7os4s")
+parameters = {
+"envelope": [{
+"left": 12399.0,
+"right": 13875.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 4421.0,
+"sprite_id": 4637.0
+}
+
+[sub_resource type="Resource" id="Resource_rh86g"]
+script = ExtResource("3_c3yvr")
+frame = 8
+kind = "projectile"
+parameters = {
+"damage_scope": "shared marker frame2; airborne marker3 is separate"
+}
+
+[resource]
+script = ExtResource("4_txuxp")
+identifier = "basic"
+title = "basic"
+animation = ExtResource("1_1ko7x")
+animation_key = "player_basic"
+source_parent = 7
+sequence = PackedInt32Array(1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19)
+input_id = "attack"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold_at = PackedInt32Array()
+combo_next = "basic2"
+combo_from = 10
+combo_until = 18
+events = Array[Resource]([SubResource("Resource_rssmo"), SubResource("Resource_rh86g")])
+source = "已有AS/XML动作定义；动画player_basic"
+extra = {
+"source_jump": {
+"4": 6
+}
+}

@@ -1,0 +1,88 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_layout.gd" id="1_sw715"]
+[ext_resource type="Resource" path="res://content/stages/root_6.tres" id="2_4fhj3"]
+[ext_resource type="Texture2D" path="res://assets/atlases/forest.png" id="3_k40yd"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_ground.png" id="4_56ca8"]
+[ext_resource type="PackedScene" path="res://scenes/actors/combatant.tscn" id="5_5s8hm"]
+[ext_resource type="PackedScene" path="res://scenes/actors/enemy.tscn" id="7_0qvs5"]
+[ext_resource type="PackedScene" path="res://scenes/ui/source_hud.tscn" id="8_quea1"]
+[ext_resource type="Resource" path="res://generated/animations/boss7176_idle.tres" id="9_hrxdw"]
+[ext_resource type="Resource" path="res://content/enemies/goblin7176_idle.tres" id="11_eu0gc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_117j2"]
+size = Vector2(761.05, 39)
+
+[node name="root_6" type="Node2D" unique_id=1894533474]
+script = ExtResource("1_sw715")
+rules = ExtResource("2_4fhj3")
+metadata/act03_layout_migrated = true
+metadata/act04_crt2_hud = true
+metadata/act05_crt3_hud = true
+metadata/act06_crt4_hud = true
+
+[node name="Map" type="Sprite2D" parent="." unique_id=938196956]
+position = Vector2(-132.75, -111.25)
+texture = ExtResource("3_k40yd")
+centered = false
+
+[node name="SourceGround" type="Sprite2D" parent="." unique_id=1598182115]
+z_index = 441
+position = Vector2(-74.65, 359.65)
+texture = ExtResource("4_56ca8")
+centered = false
+
+[node name="Bounds" type="Node2D" parent="." unique_id=409415352]
+
+[node name="Left" type="Marker2D" parent="Bounds" unique_id=952695679]
+
+[node name="Right" type="Marker2D" parent="Bounds" unique_id=1016291281]
+position = Vector2(550, 0)
+
+[node name="Floor" type="Area2D" parent="." unique_id=1737616405]
+position = Vector2(0, 360.15)
+monitoring = false
+
+[node name="Collision" type="CollisionShape2D" parent="Floor" unique_id=435989931]
+position = Vector2(305.875, 19)
+shape = SubResource("RectangleShape2D_117j2")
+
+[node name="PlayerSpawn" type="Marker2D" parent="." unique_id=1149945813]
+z_index = 933
+position = Vector2(101.95, 314.9)
+scale = Vector2(0.6369171, 0.65245056)
+
+[node name="Actor" parent="PlayerSpawn" unique_id=1186367400 instance=ExtResource("5_5s8hm")]
+
+[node name="EnemySpawns" type="Node2D" parent="." unique_id=786088758]
+
+[node name="Enemy0" type="Marker2D" parent="EnemySpawns" unique_id=1739879667]
+z_index = 458
+position = Vector2(345.45, 364.15)
+scale = Vector2(0.55415344, 0.54756165)
+
+[node name="Actor" parent="EnemySpawns/Enemy0" unique_id=758627098 instance=ExtResource("7_0qvs5")]
+
+[node name="Visual" parent="EnemySpawns/Enemy0/Actor/AuthorOffset" parent_id_path=PackedInt32Array(758627098, 1140351997) index="0" unique_id=1792764724]
+source_animation = ExtResource("9_hrxdw")
+
+[node name="ActionPreview" parent="EnemySpawns/Enemy0/Actor/AuthorOffset" parent_id_path=PackedInt32Array(758627098, 1140351997) index="1" unique_id=2109411041]
+action = ExtResource("11_eu0gc")
+
+[node name="HUD" parent="." unique_id=50973086 instance=ExtResource("8_quea1")]
+z_index = 227
+
+[node name="GrenadeFLayout" parent="HUD/Characters/CRT0" parent_id_path=PackedInt32Array(50973086, 551349561) index="18" unique_id=1599556980]
+z_index = 2749
+
+[node name="GrenadeGLayout" parent="HUD/Characters/CRT0" parent_id_path=PackedInt32Array(50973086, 551349561) index="19" unique_id=1440738170]
+z_index = 2749
+
+[node name="GrenadeHLayout" parent="HUD/Characters/CRT0" parent_id_path=PackedInt32Array(50973086, 551349561) index="20" unique_id=1725714457]
+z_index = 2749
+
+[node name="WAmmoLayout" parent="HUD/Characters/CRT1" parent_id_path=PackedInt32Array(50973086, 2117573010) index="24" unique_id=1651278291]
+z_index = 2749
+
+[editable path="EnemySpawns/Enemy0/Actor"]
+[editable path="HUD"]

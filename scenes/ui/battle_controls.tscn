@@ -1,0 +1,103 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_10s5u"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_menu_up.png" id="2_0ronx"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_instructions.png" id="3_dpbif"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_title.png" id="4_o7rh2"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_restore_up.png" id="5_i5fth"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_restore_down.png" id="6_mrecy"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_restore_over.png" id="7_7sm7c"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_storage_up.png" id="8_mqn3h"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_storage_down.png" id="9_ni0gm"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_storage_over.png" id="10_6lb1c"]
+
+[node name="BattleControls" type="Control" unique_id=1909001789]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_10s5u")
+
+[node name="Pause" type="TextureButton" parent="." unique_id=832154139]
+layout_mode = 0
+offset_left = 489.6
+offset_top = 67.2
+offset_right = 489.6
+offset_bottom = 67.2
+texture_normal = ExtResource("2_0ronx")
+
+[node name="Training" type="Control" parent="." unique_id=2001974839]
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="@TextureRect@74" type="TextureRect" parent="Training" unique_id=116556374]
+layout_mode = 0
+offset_left = 283.95
+offset_top = 30.65
+offset_right = 283.95
+offset_bottom = 30.65
+mouse_filter = 2
+texture = ExtResource("3_dpbif")
+
+[node name="@TextureRect@75" type="TextureRect" parent="Training" unique_id=1424807691]
+layout_mode = 0
+offset_left = 377.1
+offset_top = 32.3
+offset_right = 377.1
+offset_bottom = 32.3
+mouse_filter = 2
+texture = ExtResource("4_o7rh2")
+
+[node name="TrainingRestore" type="TextureButton" parent="Training" unique_id=1729260870]
+layout_mode = 0
+offset_left = 407.0
+offset_top = 95.95
+offset_right = 407.0
+offset_bottom = 95.95
+texture_normal = ExtResource("5_i5fth")
+texture_pressed = ExtResource("6_mrecy")
+texture_hover = ExtResource("7_7sm7c")
+
+[node name="TrainingStorage" type="TextureButton" parent="Training" unique_id=571292279]
+layout_mode = 0
+offset_left = 407.0
+offset_top = 67.2
+offset_right = 407.0
+offset_bottom = 67.2
+texture_normal = ExtResource("8_mqn3h")
+texture_pressed = ExtResource("9_ni0gm")
+texture_hover = ExtResource("10_6lb1c")
+
+[node name="Toast" type="Label" parent="." unique_id=1387808314]
+layout_mode = 0
+offset_left = 95.0
+offset_top = 365.0
+offset_right = 495.0
+offset_bottom = 391.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Debug" type="Label" parent="." unique_id=1592362823]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 205.0
+offset_right = 540.0
+offset_bottom = 231.0
+theme_override_font_sizes/font_size = 9
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+autowrap_mode = 3
+
+[node name="LabHint" type="Label" parent="." unique_id=1527967112]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 165.0
+offset_right = 542.0
+offset_bottom = 214.0
+theme_override_font_sizes/font_size = 9
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "动作检查 · 静音 · 不保存进度
+F1/F2角色 F4重置 F5停帧 F6单步 F7场景 F8导出 F9难度"
+autowrap_mode = 3

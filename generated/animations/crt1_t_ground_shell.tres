@@ -1,0 +1,31 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_5vlag"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_t_ground_shell.png" id="2_sgw63"]
+
+[resource]
+script = ExtResource("1_5vlag")
+identifier = "crt1_t_ground_shell"
+texture = ExtResource("2_sgw63")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-59.0, -86.95, 212.0, 114.0],
+"pivot": [59.0, 150.95],
+"region": [2.0, 2.0, 418.0, 178.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-53.0, -119.95, 321.0, 147.0],
+"pivot": [59.0, 150.95],
+"region": [424.0, 2.0, 418.0, 178.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-40.0, -141.95, 357.0, 169.0],
+"pivot": [59.0, 150.95],
+"region": [2.0, 184.0, 418.0, 178.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-36.0, -150.95, 395.0, 178.0],
+"pivot": [59.0, 150.95],
+"region": [424.0, 184.0, 418.0, 178.0],
+"source_frame": 4.0
+}])
+source = "asset_catalog.animations.crt1_t_ground_shell；派生图集；来源与pivot见catalog。"

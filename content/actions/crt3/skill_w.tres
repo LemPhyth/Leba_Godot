@@ -1,0 +1,701 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_w.tres" id="1_n6lvo"]
+[ext_resource type="AudioStream" path="res://assets/audio/6159.mp3" id="2_r37lr"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_qrmx5"]
+[ext_resource type="AudioStream" path="res://assets/audio/6161.mp3" id="4_1i12m"]
+[ext_resource type="AudioStream" path="res://assets/audio/13.mp3" id="5_c2j0a"]
+[ext_resource type="AudioStream" path="res://assets/audio/6170.mp3" id="6_fj6h0"]
+[ext_resource type="AudioStream" path="res://assets/audio/5494.mp3" id="7_433lo"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="8_q4evs"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="9_pknkg"]
+
+[sub_resource type="Resource" id="Resource_rnkki"]
+script = ExtResource("3_qrmx5")
+frame = 2
+sound = "crt3_skill_w"
+audio_stream = ExtResource("2_r37lr")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6159.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6177.0
+}
+
+[sub_resource type="Resource" id="Resource_7krqa"]
+script = ExtResource("3_qrmx5")
+frame = 5
+sound = "crt3_skill_w_sound_2"
+audio_stream = ExtResource("4_1i12m")
+parameters = {
+"envelope": [{
+"left": 17712.0,
+"right": 18893.0,
+"sample": 0.0
+}, {
+"left": 16827.0,
+"right": 18598.0,
+"sample": 121223.0
+}, {
+"left": 0.0,
+"right": 0.0,
+"sample": 123738.0
+}],
+"in_point_samples_44100": 0.0,
+"out_point_samples_44100": 123738.0,
+"sound_id": 6161.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"outPoint": "123738",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6177.0
+}
+
+[sub_resource type="Resource" id="Resource_dspdo"]
+script = ExtResource("3_qrmx5")
+frame = 58
+sound = "crt3_skill_w_sound_3"
+audio_stream = ExtResource("5_c2j0a")
+audio_offset = 0.07482993197278912
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 3300.0,
+"out_point_samples_44100": 49536.0,
+"sound_id": 13.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "3300",
+"outPoint": "49536",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6177.0
+}
+
+[sub_resource type="Resource" id="Resource_5x2q7"]
+script = ExtResource("3_qrmx5")
+frame = 64
+sound = "crt3_skill_w_sound_4"
+audio_stream = ExtResource("6_fj6h0")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6170.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6177.0
+}
+
+[sub_resource type="Resource" id="Resource_rogwg"]
+script = ExtResource("3_qrmx5")
+frame = 65
+sound = "crt3_skill_w_sound_5"
+audio_stream = ExtResource("7_433lo")
+parameters = {
+"envelope": [{
+"left": 15351.0,
+"right": 15351.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5494.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6177.0
+}
+
+[sub_resource type="Resource" id="Resource_apn12"]
+script = ExtResource("9_pknkg")
+from_frame = 58
+until_frame = 58
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-21.65307, -155.33704, 326.01474, 237.15666)])
+gravity = -7.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 58,
+"source_depth": 136,
+"source_frame": 58,
+"source_helper": 439,
+"source_rule": {
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -7.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_with_separate_observer",
+"marker_seek": 2.0,
+"max_mr_per_enemy": 2.0,
+"observer_collision_gate": false,
+"observer_damage": 4.0,
+"observer_marker_frame": 2.0,
+"superarmor": "seek2, same mr gate"
+}
+}
+
+[sub_resource type="Resource" id="Resource_ni587"]
+script = ExtResource("9_pknkg")
+from_frame = 59
+until_frame = 59
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-21.65307, -155.33704, 326.01474, 237.15666)])
+gravity = -7.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 58,
+"source_depth": 136,
+"source_frame": 59,
+"source_helper": 439,
+"source_rule": {
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -7.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_with_separate_observer",
+"marker_seek": 2.0,
+"max_mr_per_enemy": 2.0,
+"observer_collision_gate": false,
+"observer_damage": 4.0,
+"observer_marker_frame": 2.0,
+"superarmor": "seek2, same mr gate"
+}
+}
+
+[sub_resource type="Resource" id="Resource_3yuq6"]
+script = ExtResource("9_pknkg")
+from_frame = 60
+until_frame = 60
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-21.65307, -155.33704, 326.01474, 237.15666)])
+gravity = -7.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 58,
+"source_depth": 136,
+"source_frame": 60,
+"source_helper": 439,
+"source_rule": {
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -7.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_with_separate_observer",
+"marker_seek": 2.0,
+"max_mr_per_enemy": 2.0,
+"observer_collision_gate": false,
+"observer_damage": 4.0,
+"observer_marker_frame": 2.0,
+"superarmor": "seek2, same mr gate"
+}
+}
+
+[sub_resource type="Resource" id="Resource_f4pvk"]
+script = ExtResource("9_pknkg")
+from_frame = 61
+until_frame = 61
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-21.65307, -155.33704, 326.01474, 237.15666)])
+gravity = -7.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 58,
+"source_depth": 136,
+"source_frame": 61,
+"source_helper": 439,
+"source_rule": {
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -7.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_with_separate_observer",
+"marker_seek": 2.0,
+"max_mr_per_enemy": 2.0,
+"observer_collision_gate": false,
+"observer_damage": 4.0,
+"observer_marker_frame": 2.0,
+"superarmor": "seek2, same mr gate"
+}
+}
+
+[sub_resource type="Resource" id="Resource_sx5ef"]
+script = ExtResource("9_pknkg")
+from_frame = 64
+until_frame = 64
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 64,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_pg5di"]
+script = ExtResource("9_pknkg")
+from_frame = 65
+until_frame = 65
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 65,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ucmt3"]
+script = ExtResource("9_pknkg")
+from_frame = 66
+until_frame = 66
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 66,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ia51f"]
+script = ExtResource("9_pknkg")
+from_frame = 67
+until_frame = 67
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 67,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_0kfdo"]
+script = ExtResource("9_pknkg")
+from_frame = 68
+until_frame = 68
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 68,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_oba3s"]
+script = ExtResource("9_pknkg")
+from_frame = 69
+until_frame = 69
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 69,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_fp86w"]
+script = ExtResource("9_pknkg")
+from_frame = 70
+until_frame = 70
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 70,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_87auc"]
+script = ExtResource("9_pknkg")
+from_frame = 71
+until_frame = 71
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 71,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_0a604"]
+script = ExtResource("9_pknkg")
+from_frame = 72
+until_frame = 72
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 72,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_mjxd4"]
+script = ExtResource("9_pknkg")
+from_frame = 73
+until_frame = 73
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 73,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_15b74"]
+script = ExtResource("9_pknkg")
+from_frame = 74
+until_frame = 74
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 74,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ht87j"]
+script = ExtResource("9_pknkg")
+from_frame = 75
+until_frame = 75
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 75,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ridwr"]
+script = ExtResource("9_pknkg")
+from_frame = 76
+until_frame = 76
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 76,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_r3adj"]
+script = ExtResource("9_pknkg")
+from_frame = 77
+until_frame = 77
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 77,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ui5bi"]
+script = ExtResource("9_pknkg")
+from_frame = 78
+until_frame = 78
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 78,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_24psa"]
+script = ExtResource("9_pknkg")
+from_frame = 79
+until_frame = 79
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 79,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_6d0of"]
+script = ExtResource("9_pknkg")
+from_frame = 80
+until_frame = 80
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 80,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_bb7bd"]
+script = ExtResource("9_pknkg")
+from_frame = 81
+until_frame = 81
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 81,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_2u43a"]
+script = ExtResource("9_pknkg")
+from_frame = 82
+until_frame = 82
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 82,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_gex4l"]
+script = ExtResource("9_pknkg")
+from_frame = 83
+until_frame = 83
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 83,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_fs2q2"]
+script = ExtResource("9_pknkg")
+from_frame = 84
+until_frame = 84
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-91.05544, -119.473885, 219.13156, 207.74492)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 64,
+"source_depth": 1,
+"source_frame": 84,
+"source_helper": 1920,
+"source_rule": {
+"collision_gate": false,
+"damage": 7.0,
+"kind": "marker_observer",
+"marker_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("8_q4evs")
+identifier = "skill_w"
+title = "skill_w"
+animation = ExtResource("1_n6lvo")
+animation_key = "crt3_skill_w"
+source_parent = 131
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84)
+input_id = "skill_w"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+cost = 8.0
+required_mp = 8.0
+cubes = 2
+cooldown_ticks = 799
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_rnkki"), SubResource("Resource_7krqa"), SubResource("Resource_dspdo"), SubResource("Resource_5x2q7"), SubResource("Resource_rogwg")])
+windows = Array[Resource]([SubResource("Resource_apn12"), SubResource("Resource_ni587"), SubResource("Resource_3yuq6"), SubResource("Resource_f4pvk"), SubResource("Resource_sx5ef"), SubResource("Resource_pg5di"), SubResource("Resource_ucmt3"), SubResource("Resource_ia51f"), SubResource("Resource_0kfdo"), SubResource("Resource_oba3s"), SubResource("Resource_fp86w"), SubResource("Resource_87auc"), SubResource("Resource_0a604"), SubResource("Resource_mjxd4"), SubResource("Resource_15b74"), SubResource("Resource_ht87j"), SubResource("Resource_ridwr"), SubResource("Resource_r3adj"), SubResource("Resource_ui5bi"), SubResource("Resource_24psa"), SubResource("Resource_6d0of"), SubResource("Resource_bb7bd"), SubResource("Resource_2u43a"), SubResource("Resource_gex4l"), SubResource("Resource_fs2q2")])
+source = "Original AS/XML sprite6177 parent131; source hashes in asset_catalog and investigation facts."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0031128, 0.0, 0.0, 1.0031128, 2.5, -9.05],
+"reset_combo_counters": false,
+"slot_id": 4263.0,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 6177.0
+}

@@ -1,0 +1,112 @@
+[gd_resource type="Resource" format=3 uid="uid://cegbmbj58kopg"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_h.tres" id="1_uj7gs"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_ah8ej"]
+[ext_resource type="AudioStream" uid="uid://qqjstaveq4vt" path="res://assets/audio/5364.mp3" id="3_0j04g"]
+[ext_resource type="AudioStream" uid="uid://tjigbkwjfd4q" path="res://assets/audio/5368.mp3" id="4_i344a"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="5_53k4o"]
+
+[sub_resource type="Resource" id="Resource_wt82l"]
+script = ExtResource("2_ah8ej")
+frame = 12
+kind = "crt2_persistent_start"
+parameters = {
+"component": "frenzy",
+"source_frame": 12.0,
+"source_id": 4600.0,
+"start_frame": 2.0
+}
+
+[sub_resource type="Resource" id="Resource_aas4q"]
+script = ExtResource("2_ah8ej")
+frame = 2
+sound = "crt2_skill_h"
+audio_stream = ExtResource("3_0j04g")
+audio_offset = 0.10430839002267574
+parameters = {
+"envelope": [{
+"left": 14769.0,
+"right": 15384.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 4600.0,
+"sound_id": 5364.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "4600",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5375.0
+}
+
+[sub_resource type="Resource" id="Resource_341gd"]
+script = ExtResource("2_ah8ej")
+frame = 12
+sound = "crt2_skill_h_sound_2"
+audio_stream = ExtResource("4_i344a")
+parameters = {
+"envelope": [{
+"left": 13284.0,
+"right": 12399.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5368.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5375.0
+}
+
+[resource]
+script = ExtResource("5_53k4o")
+identifier = "skill_h"
+title = "skill_h"
+animation = ExtResource("1_uj7gs")
+animation_key = "crt2_skill_h"
+source_parent = 83
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+input_id = "load_h"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+cost = 4.0
+required_mp = 4.0
+cubes = 1
+cooldown_ticks = 259
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_wt82l"), SubResource("Resource_aas4q"), SubResource("Resource_341gd")])
+source = "res/scripts/DefineSprite_5375/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_skill_h",
+"1": "crt2_skill_h_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "action",
+"hit_callback_sources": [],
+"input_semantics": "onClipEvent(keyDown) then Key.isDown(key), not event key equality",
+"normal_end_source_frame": 20,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 11.4, 20.95],
+"physical_key": "H",
+"required_pren": 0.0,
+"slot_id": 4191.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+"slot_start_playing": true,
+"source_allowed_parent_frames": [64.0, 65.0, 66.0, 67.0, 69.0, 70.0, 71.0, 84.0, 85.0, 86.0, 87.0],
+"source_id": 5375.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

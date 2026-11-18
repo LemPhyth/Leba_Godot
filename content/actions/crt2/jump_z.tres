@@ -1,0 +1,208 @@
+[gd_resource type="Resource" format=3 uid="uid://dtpqygg3g7jww"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_jump.tres" id="1_7hodt"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_jtsrw"]
+[ext_resource type="AudioStream" uid="uid://4xnlqwdxi6sf" path="res://assets/audio/5648.mp3" id="3_k6xpt"]
+[ext_resource type="AudioStream" uid="uid://c18okjphyusvl" path="res://assets/audio/1156.mp3" id="4_akghb"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="5_dgxnn"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="6_u761o"]
+
+[sub_resource type="Resource" id="Resource_i4k61"]
+script = ExtResource("2_jtsrw")
+frame = 66
+kind = "crt2_attach"
+parameters = {
+"source_frame": 66.0,
+"source_ids_by_facing": {
+"left": 971.0,
+"right": 574.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_uejgx"]
+script = ExtResource("2_jtsrw")
+frame = 67
+kind = "crt2_slot_play"
+parameters = {
+"slot_id": 4229.0,
+"source_frame": 67.0,
+"target_frame": 2
+}
+
+[sub_resource type="Resource" id="Resource_r4jt2"]
+script = ExtResource("2_jtsrw")
+frame = 63
+sound = "crt2_jump_sound_3"
+audio_stream = ExtResource("3_k6xpt")
+parameters = {
+"envelope": [{
+"left": 17712.0,
+"right": 17712.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5648.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5649.0
+}
+
+[sub_resource type="Resource" id="Resource_65s51"]
+script = ExtResource("2_jtsrw")
+frame = 66
+sound = "crt2_jump_sound_4"
+audio_stream = ExtResource("4_akghb")
+parameters = {
+"envelope": [{
+"left": 16532.0,
+"right": 16532.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 1156.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5649.0
+}
+
+[sub_resource type="Resource" id="Resource_ov6bb"]
+script = ExtResource("6_u761o")
+from_frame = 61
+until_frame = 61
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-49.75625, -139.31923, 142.15292, 182.5263)])
+gravity = -6.0
+once_per_action = false
+parameters = {
+"source_depth": 18,
+"source_frame": 61,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -6.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 3.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_hg732"]
+script = ExtResource("6_u761o")
+from_frame = 62
+until_frame = 62
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-49.75625, -139.31923, 142.15292, 182.5263)])
+gravity = -6.0
+once_per_action = false
+parameters = {
+"source_depth": 18,
+"source_frame": 62,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -6.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 3.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("5_dgxnn")
+identifier = "jump_z"
+title = "jump_z"
+animation = ExtResource("1_7hodt")
+animation_key = "crt2_jump"
+source_parent = 97
+sequence = PackedInt32Array(57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67)
+input_id = "skill_z"
+allowed_states = PackedStringArray("jump")
+cost = 5.0
+required_mp = 5.0
+cooldown_ticks = 146
+hold_at = PackedInt32Array()
+next_action = "jump"
+events = Array[Resource]([SubResource("Resource_i4k61"), SubResource("Resource_uejgx"), SubResource("Resource_r4jt2"), SubResource("Resource_65s51")])
+windows = Array[Resource]([SubResource("Resource_ov6bb"), SubResource("Resource_hg732")])
+source = "res/scripts/DefineSprite_5649/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_jump",
+"1": "crt2_jump_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "crt2_jump_z",
+"cooldown_deferred": true,
+"hit_callback_sources": ["res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as"],
+"normal_end_source_frame": 67,
+"notes": "Entry62 for base<6; later polls enter61/59/57. Do not always start57.",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -0.25, 26.1],
+"physical_key": "Z",
+"slot_id": 4229.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+"source_allowed_parent_frames": [97.0],
+"source_id": 5649.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

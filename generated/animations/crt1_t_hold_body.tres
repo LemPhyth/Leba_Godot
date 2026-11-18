@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_tocu0"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_t_hold_body.png" id="2_yl1iv"]
+
+[resource]
+script = ExtResource("1_tocu0")
+identifier = "crt1_t_hold_body"
+texture = ExtResource("2_yl1iv")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-57.2, -75.9, 116.0, 161.0],
+"pivot": [57.2, 75.9],
+"region": [2.0, 2.0, 116.0, 161.0],
+"source_frame": 1.0
+}])
+source = "asset_catalog.animations.crt1_t_hold_body；派生图集；来源与pivot见catalog。"

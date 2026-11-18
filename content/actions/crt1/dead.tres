@@ -1,0 +1,31 @@
+[gd_resource type="Resource" format=3 uid="uid://d2cg4mgcfkc3g"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_dead.tres" id="1_kw8cq"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_0u6lf"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_ehds1"]
+
+[sub_resource type="Resource" id="Resource_r1ubd"]
+script = ExtResource("2_0u6lf")
+frame = 30
+kind = "stop_all_sounds"
+
+[resource]
+script = ExtResource("3_ehds1")
+identifier = "dead"
+title = "dead"
+animation = ExtResource("1_kw8cq")
+animation_key = "crt1_dead"
+source_parent = 62
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30)
+input_id = "dead"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold = true
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_r1ubd")])
+source = "res/scripts/DefineSprite_6732/frame_62 + DefineSprite_5174；父矩阵/选帧见asset_catalog.animations.crt1_dead"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 5174
+}

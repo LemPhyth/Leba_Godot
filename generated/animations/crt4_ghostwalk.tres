@@ -1,0 +1,132 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_uppii"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_ghostwalk.png" id="2_n3ilv"]
+
+[resource]
+script = ExtResource("1_uppii")
+identifier = "crt4_ghostwalk"
+texture = ExtResource("2_n3ilv")
+frames = Array[Dictionary]([{
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [77.1, 66.75],
+"region": [2.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-36.1, -43.75, 99.0, 81.0],
+"pivot": [36.1, 43.75],
+"region": [7.0, 2.0, 99.0, 81.0],
+"source_crop": [41.0, 23.0, 140.0, 104.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-48.1, -52.75, 117.0, 98.0],
+"pivot": [48.1, 52.75],
+"region": [110.0, 2.0, 117.0, 98.0],
+"source_crop": [29.0, 14.0, 146.0, 112.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-69.1, -61.75, 135.0, 117.0],
+"pivot": [69.1, 61.75],
+"region": [231.0, 2.0, 135.0, 117.0],
+"source_crop": [8.0, 5.0, 143.0, 122.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-74.1, -56.75, 152.0, 121.0],
+"pivot": [74.1, 56.75],
+"region": [370.0, 2.0, 152.0, 121.0],
+"source_crop": [3.0, 10.0, 155.0, 131.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-71.1, -43.75, 145.0, 111.0],
+"pivot": [71.1, 43.75],
+"region": [526.0, 2.0, 145.0, 111.0],
+"source_crop": [6.0, 23.0, 151.0, 134.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-61.1, -44.75, 109.0, 105.0],
+"pivot": [61.1, 44.75],
+"region": [675.0, 2.0, 109.0, 105.0],
+"source_crop": [16.0, 22.0, 125.0, 127.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 99.0, 103.0],
+"pivot": [56.1, 42.75],
+"region": [788.0, 2.0, 99.0, 103.0],
+"source_crop": [21.0, 24.0, 120.0, 127.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-62.1, -42.75, 114.0, 101.0],
+"pivot": [62.1, 42.75],
+"region": [891.0, 2.0, 114.0, 101.0],
+"source_crop": [15.0, 24.0, 129.0, 125.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 93.0, 108.0],
+"pivot": [56.1, 42.75],
+"region": [1009.0, 2.0, 93.0, 108.0],
+"source_crop": [21.0, 24.0, 114.0, 132.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 101.0, 110.0],
+"pivot": [56.1, 42.75],
+"region": [1106.0, 2.0, 101.0, 110.0],
+"source_crop": [21.0, 24.0, 122.0, 134.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 85.0, 117.0],
+"pivot": [56.1, 42.75],
+"region": [1211.0, 2.0, 85.0, 117.0],
+"source_crop": [21.0, 24.0, 106.0, 141.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1300.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1384.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1468.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1552.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1636.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1720.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-56.1, -42.75, 80.0, 100.0],
+"pivot": [56.1, 42.75],
+"region": [1804.0, 2.0, 80.0, 100.0],
+"source_crop": [21.0, 24.0, 101.0, 124.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-66.1, -41.75, 88.0, 83.0],
+"pivot": [66.1, 41.75],
+"region": [1888.0, 2.0, 88.0, 83.0],
+"source_crop": [11.0, 25.0, 99.0, 108.0],
+"source_frame": 20.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_ghostwalk；派生图集；来源与pivot见catalog。"

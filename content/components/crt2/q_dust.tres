@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_u73k6"]
+
+[resource]
+script = ExtResource("1_u73k6")
+identifier = "q_dust"
+parameters = {
+"end_empty_stop": true,
+"end_frame": 7.0,
+"facing_scale_applied": false,
+"source": ["res/scripts/DefineSprite_1023_먼지1/frame_7/DoAction.as", "res/scripts/DefineSprite_593_먼지2/frame_7/DoAction.as"],
+"source_ids": {
+"left": 593.0,
+"right": 1023.0
+},
+"timeline": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

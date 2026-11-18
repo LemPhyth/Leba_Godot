@@ -1,0 +1,258 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_qw0eh"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_jump.png" id="2_vdknp"]
+
+[resource]
+script = ExtResource("1_qw0eh")
+identifier = "crt3_jump"
+texture = ExtResource("2_vdknp")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-52.05, -62.5, 99.0, 181.0],
+"pivot": [51.599999999999994, 62.0],
+"region": [2.0, 2.0, 99.0, 181.0],
+"source_crop": [57.0, 252.0, 156.0, 433.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-52.05, -62.5, 99.0, 181.0],
+"pivot": [51.599999999999994, 62.0],
+"region": [105.0, 2.0, 99.0, 181.0],
+"source_crop": [57.0, 252.0, 156.0, 433.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-52.05, -62.5, 99.0, 181.0],
+"pivot": [51.599999999999994, 62.0],
+"region": [208.0, 2.0, 99.0, 181.0],
+"source_crop": [57.0, 252.0, 156.0, 433.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [311.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [316.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [321.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [326.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [331.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [336.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [341.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [346.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [351.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [356.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [361.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [366.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [371.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [376.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [381.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [386.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [391.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [396.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [401.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [406.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 23.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [411.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 24.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [416.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 25.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [421.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 26.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.6, 314.0],
+"region": [426.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 27.0
+}, {
+"alpha_bounds": [-52.05, -62.5, 99.0, 181.0],
+"pivot": [51.599999999999994, 62.0],
+"region": [431.0, 2.0, 99.0, 181.0],
+"source_crop": [57.0, 252.0, 156.0, 433.0],
+"source_frame": 28.0
+}, {
+"alpha_bounds": [-52.05, -62.5, 99.0, 181.0],
+"pivot": [51.599999999999994, 62.0],
+"region": [534.0, 2.0, 99.0, 181.0],
+"source_crop": [57.0, 252.0, 156.0, 433.0],
+"source_frame": 29.0
+}, {
+"alpha_bounds": [-52.05, -62.5, 99.0, 181.0],
+"pivot": [51.599999999999994, 62.0],
+"region": [637.0, 2.0, 99.0, 181.0],
+"source_crop": [57.0, 252.0, 156.0, 433.0],
+"source_frame": 30.0
+}, {
+"alpha_bounds": [-78.05, -201.5, 158.0, 184.0],
+"pivot": [77.6, 201.0],
+"region": [740.0, 2.0, 158.0, 184.0],
+"source_crop": [31.0, 113.0, 189.0, 297.0],
+"source_frame": 57.0
+}, {
+"alpha_bounds": [-78.05, -201.5, 158.0, 184.0],
+"pivot": [77.6, 201.0],
+"region": [902.0, 2.0, 158.0, 184.0],
+"source_crop": [31.0, 113.0, 189.0, 297.0],
+"source_frame": 58.0
+}, {
+"alpha_bounds": [-78.05, -201.5, 158.0, 184.0],
+"pivot": [77.6, 201.0],
+"region": [1064.0, 2.0, 158.0, 184.0],
+"source_crop": [31.0, 113.0, 189.0, 297.0],
+"source_frame": 59.0
+}, {
+"alpha_bounds": [-78.05, -201.5, 158.0, 184.0],
+"pivot": [77.6, 201.0],
+"region": [1226.0, 2.0, 158.0, 184.0],
+"source_crop": [31.0, 113.0, 189.0, 297.0],
+"source_frame": 60.0
+}, {
+"alpha_bounds": [-78.05, -196.5, 158.0, 183.0],
+"pivot": [77.6, 196.0],
+"region": [1388.0, 2.0, 158.0, 183.0],
+"source_crop": [31.0, 118.0, 189.0, 301.0],
+"source_frame": 61.0
+}, {
+"alpha_bounds": [-78.05, -170.5, 158.0, 184.0],
+"pivot": [77.6, 170.0],
+"region": [1550.0, 2.0, 158.0, 184.0],
+"source_crop": [31.0, 144.0, 189.0, 328.0],
+"source_frame": 62.0
+}, {
+"alpha_bounds": [-78.05, -143.5, 158.0, 183.0],
+"pivot": [77.6, 143.0],
+"region": [1712.0, 2.0, 158.0, 183.0],
+"source_crop": [31.0, 171.0, 189.0, 354.0],
+"source_frame": 63.0
+}, {
+"alpha_bounds": [-78.05, -116.5, 158.0, 183.0],
+"pivot": [77.6, 116.0],
+"region": [1874.0, 2.0, 158.0, 183.0],
+"source_crop": [31.0, 198.0, 189.0, 381.0],
+"source_frame": 64.0
+}, {
+"alpha_bounds": [-78.05, -90.5, 158.0, 183.0],
+"pivot": [77.6, 90.0],
+"region": [2036.0, 2.0, 158.0, 183.0],
+"source_crop": [31.0, 224.0, 189.0, 407.0],
+"source_frame": 65.0
+}, {
+"alpha_bounds": [-78.05, -63.5, 158.0, 183.0],
+"pivot": [77.6, 63.0],
+"region": [2198.0, 2.0, 158.0, 183.0],
+"source_crop": [31.0, 251.0, 189.0, 434.0],
+"source_frame": 66.0
+}, {
+"alpha_bounds": [-78.05, -63.5, 158.0, 183.0],
+"pivot": [77.6, 63.0],
+"region": [2360.0, 2.0, 158.0, 183.0],
+"source_crop": [31.0, 251.0, 189.0, 434.0],
+"source_frame": 67.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt3_jump；派生图集；来源与pivot见catalog。"

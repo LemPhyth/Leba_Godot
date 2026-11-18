@@ -1,0 +1,1511 @@
+{
+  "schema_version": 1,
+  "character_id": "crt_4",
+  "source_fps": 25,
+  "provenance": {
+    "derivation": "Finite selected fields; recursively removed source reference arrays; no AS or interpreter payload",
+    "input": "godot/artifacts/leba_act06_20261117/investigation/crt4_runtime_semantics.json",
+    "input_sha256": "2cfcd506b66e93246d00054bb6141b2c51c4c80ae8572cc6a6ac34bec47409c3",
+    "original_inputs": [
+      {
+        "path": "res/structure/game.xml",
+        "sha256": "1eeb18f9689139d0973a33e6144f408a262d81606a305fe6f34f2fa0766b0fb4"
+      },
+      {
+        "path": "res/shapes/1150.svg",
+        "sha256": "473d37eeebaf589e67469fc072efe7e5f12d264af31cdd9faeab7fec37afcb46"
+      },
+      {
+        "path": "res/shapes/974.svg",
+        "sha256": "0660fc1bb9d97d8af3692020ecb6778788a0fb5be9b718fa35a71e98dfaee5a8"
+      },
+      {
+        "path": "res/shapes/304.svg",
+        "sha256": "7812a52d28a4256dd5d0b2e8d4d37de0da3009ed2c90138494c308f43838a28c"
+      },
+      {
+        "path": "res/shapes/306.svg",
+        "sha256": "20da6851c51d27e014d808aebb403703c8aa17ce5bd20ab1b91d972430f800c0"
+      },
+      {
+        "path": "res/shapes/307.svg",
+        "sha256": "9c9be96f565189c2f85e554e9321f7550d28a8b510a8b42cd98072a0615a1f81"
+      },
+      {
+        "path": "res/shapes/308.svg",
+        "sha256": "7afa54e0ad37074d27b3215d798aada8ccb0889b50689e345ebec24cdda7b13e"
+      },
+      {
+        "path": "res/shapes/309.svg",
+        "sha256": "1afcd354e08f645282a086c3aab22520f5b3cac3e949e27491b810c0a7757a3a"
+      },
+      {
+        "path": "res/shapes/310.svg",
+        "sha256": "b875044b3994fb3aba6103fcca4abe61b29235de4066004f5db9765736f1ac4f"
+      },
+      {
+        "path": "res/shapes/311.svg",
+        "sha256": "b5593bc76deef4acc41cdef9b170795ed7bc63bdc457d17bc0e019ac5a50dd62"
+      }
+    ],
+    "original_as_hashes_checked": 186,
+    "as_reference_manifest_sha256": "8b16271d5f0a293c697421e4a81a1d5a709959fc43ee0d6fa3f7242c9d3fd79c",
+    "validation_kind": "original-source static comparison; not a final damage oracle or native gameplay timing proof",
+    "placement_addendum": {
+      "input": "godot/artifacts/leba_act06_20261117/investigation/crt4_source_symbols.json",
+      "input_sha256": "9a1715911c469b7b1cba0b56f5ebd846a31302723ece042a0cd145bcc9249551",
+      "original_xml_sha256": "1eeb18f9689139d0973a33e6144f408a262d81606a305fe6f34f2fa0766b0fb4",
+      "scope": "4021 source1/20, 3971 pages1..4, three1149 placements including terminal alpha0; original Y attach branches."
+    }
+  },
+  "flights": {
+    "1326": {
+      "source_id": 1326,
+      "owner": "root world object",
+      "outer_stop_pages": [
+        1,
+        2
+      ],
+      "birth_alpha_percent": 100,
+      "birth_xscale_percent": "100*facing",
+      "birth_yscale_percent": 100,
+      "flight": {
+        "visible_source": 1149,
+        "visible_loop_frames": 9,
+        "visible_matrix": [
+          0.625,
+          0.0,
+          0.0,
+          0.625,
+          -20.2,
+          -1.0
+        ],
+        "visible_alpha_mult": 256,
+        "helper": {
+          "source_id": 1151,
+          "depth": 3,
+          "matrix": [
+            1.6666718,
+            0.0,
+            0.0,
+            1.5714111,
+            44.4,
+            -0.85
+          ],
+          "shape_id": 1150,
+          "shape_rect": [
+            -12.0,
+            -10.5,
+            24.0,
+            21.0
+          ],
+          "local_aabb": [
+            24.399938399999996,
+            -17.34981655,
+            40.000123200000004,
+            32.9996331
+          ],
+          "alpha_mult": 0
+        },
+        "movement_order": [
+          "t++",
+          "x += 20*xscale/100",
+          "if t>26 outer.gotoStop2"
+        ],
+        "dx_per_tick_facing": 20,
+        "dy_per_tick": 0,
+        "initial_t": 0,
+        "timeout_callbacks": 27,
+        "contact_targets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "contact_bodies": [
+          "normal",
+          "frozen",
+          "super"
+        ],
+        "ground_contact": false,
+        "on_contact": "outer.gotoStop2",
+        "contact_before_after_movement": "Different original ClipActions; host execution phase not proved by this static table"
+      },
+      "impact": {
+        "source_id": 1153,
+        "entry_frame": 1,
+        "stop_frame": 8,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          50.55,
+          -1.1
+        ],
+        "alpha_mult": 256,
+        "color_filter_preserved": true,
+        "clock": "independent child, outer stays2",
+        "flight_removed": true,
+        "helper_removed": true,
+        "no_source_self_remove": true,
+        "late_flags_do_not_cancel": "No kalla/death/targetHP guards in flight scripts; Godot teardown is a separate lifecycle adaptation",
+        "hit_program": {
+          "source_id": 1153,
+          "frame_groups": [
+            {
+              "frames": [
+                1,
+                2
+              ],
+              "helper439_depth15": {
+                "gravity": -5,
+                "gacc_delta": 0.1,
+                "normal_air_marker_seek": 2,
+                "frozen_inner_seek": 2,
+                "super_marker_seek": 2,
+                "helper_seek_on_frozen_super": 2,
+                "clone_status_next_frame": 3971
+              },
+              "global_marker_observers": [
+                {
+                  "marker_path": "enemy.공중.타격",
+                  "marker_source_frame": 2,
+                  "damage": 21,
+                  "targets": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "independent_if": true,
+                  "requires_same_instance_contact": false
+                },
+                {
+                  "marker_path": "enemy.속.얼음.속",
+                  "marker_source_frame": 2,
+                  "damage": 21,
+                  "targets": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "independent_if": true,
+                  "requires_same_instance_contact": false
+                }
+              ],
+              "independent_fx_helper439_depth17": "Contact normal/frozen/super spawns578 using local i0 without increment; helper seeks2"
+            },
+            {
+              "frames": [
+                5,
+                6
+              ],
+              "helper224_depth15": {
+                "gravity": -2,
+                "gacc_delta": 0.1,
+                "normal_air_marker_seek": 2,
+                "frozen_to_normal_source_frame": 2,
+                "super_marker_seek": 2,
+                "frozen_inner_seek": 2,
+                "helper_seek_on_frozen_super": 2,
+                "frozen_callback_order": [
+                  "records6..10: frozen inner gotoPlay2; helper gotoStop2",
+                  "records16..20: if frozen body still overlaps, enemy inner gotoPlay2"
+                ]
+              },
+              "global_marker_observers": [
+                {
+                  "marker_path": "enemy.공중.타격",
+                  "marker_source_frame": 2,
+                  "damage": 3,
+                  "targets": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "independent_if": true,
+                  "requires_same_instance_contact": false
+                }
+              ]
+            },
+            {
+              "frames": [
+                8,
+                8
+              ],
+              "stop": true,
+              "empty": true
+            }
+          ],
+          "rectangles": "rules.hit_windows source1153 are1153-local; apply impact child matrix THEN rootflight transform once",
+          "observer_scope": "Each1153 instance own set, allfive targets; no fixed total damage"
+        }
+      },
+      "spawn_input": {
+        "parent_source": 166,
+        "action_source": 6527,
+        "observed_child_source_frame": 3,
+        "xy": "player.x,player.y"
+      }
+    },
+    "1154": {
+      "source_id": 1154,
+      "owner": "root world object",
+      "outer_stop_pages": [
+        1,
+        2
+      ],
+      "birth_alpha_percent": 100,
+      "birth_xscale_percent": "100*facing",
+      "birth_yscale_percent": 100,
+      "flight": {
+        "visible_source": 1149,
+        "visible_loop_frames": 9,
+        "visible_matrix": [
+          0.39901733,
+          0.40135193,
+          -0.40135193,
+          0.39901733,
+          -4.3,
+          -39.6
+        ],
+        "visible_alpha_mult": 256,
+        "helper": {
+          "source_id": 1151,
+          "depth": 3,
+          "matrix": [
+            1.5054932,
+            -0.01676941,
+            0.015838623,
+            1.4194946,
+            38.5,
+            -0.25
+          ],
+          "shape_id": 1150,
+          "shape_rect": [
+            -12.0,
+            -10.5,
+            24.0,
+            21.0
+          ],
+          "local_aabb": [
+            20.267776058499997,
+            -15.35592622,
+            36.464447883000005,
+            30.21185244
+          ],
+          "alpha_mult": 0
+        },
+        "movement_order": [
+          "x += 12*xscale/100",
+          "y += 7"
+        ],
+        "dx_per_tick_facing": 12,
+        "dy_per_tick": 7,
+        "initial_t": null,
+        "timeout_callbacks": null,
+        "contact_targets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "contact_bodies": [
+          "normal",
+          "frozen",
+          "super"
+        ],
+        "ground_contact": true,
+        "on_contact": "outer.gotoStop2",
+        "contact_before_after_movement": "Different original ClipActions; host execution phase not proved by this static table"
+      },
+      "impact": {
+        "source_id": 1153,
+        "entry_frame": 1,
+        "stop_frame": 8,
+        "matrix": [
+          0.80007935,
+          0.4271698,
+          -0.4271698,
+          0.80007935,
+          43.45,
+          4.0
+        ],
+        "alpha_mult": 256,
+        "color_filter_preserved": true,
+        "clock": "independent child, outer stays2",
+        "flight_removed": true,
+        "helper_removed": true,
+        "no_source_self_remove": true,
+        "late_flags_do_not_cancel": "No kalla/death/targetHP guards in flight scripts; Godot teardown is a separate lifecycle adaptation",
+        "hit_program": {
+          "source_id": 1153,
+          "frame_groups": [
+            {
+              "frames": [
+                1,
+                2
+              ],
+              "helper439_depth15": {
+                "gravity": -5,
+                "gacc_delta": 0.1,
+                "normal_air_marker_seek": 2,
+                "frozen_inner_seek": 2,
+                "super_marker_seek": 2,
+                "helper_seek_on_frozen_super": 2,
+                "clone_status_next_frame": 3971
+              },
+              "global_marker_observers": [
+                {
+                  "marker_path": "enemy.공중.타격",
+                  "marker_source_frame": 2,
+                  "damage": 21,
+                  "targets": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "independent_if": true,
+                  "requires_same_instance_contact": false
+                },
+                {
+                  "marker_path": "enemy.속.얼음.속",
+                  "marker_source_frame": 2,
+                  "damage": 21,
+                  "targets": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "independent_if": true,
+                  "requires_same_instance_contact": false
+                }
+              ],
+              "independent_fx_helper439_depth17": "Contact normal/frozen/super spawns578 using local i0 without increment; helper seeks2"
+            },
+            {
+              "frames": [
+                5,
+                6
+              ],
+              "helper224_depth15": {
+                "gravity": -2,
+                "gacc_delta": 0.1,
+                "normal_air_marker_seek": 2,
+                "frozen_to_normal_source_frame": 2,
+                "super_marker_seek": 2,
+                "frozen_inner_seek": 2,
+                "helper_seek_on_frozen_super": 2,
+                "frozen_callback_order": [
+                  "records6..10: frozen inner gotoPlay2; helper gotoStop2",
+                  "records16..20: if frozen body still overlaps, enemy inner gotoPlay2"
+                ]
+              },
+              "global_marker_observers": [
+                {
+                  "marker_path": "enemy.공중.타격",
+                  "marker_source_frame": 2,
+                  "damage": 3,
+                  "targets": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "independent_if": true,
+                  "requires_same_instance_contact": false
+                }
+              ]
+            },
+            {
+              "frames": [
+                8,
+                8
+              ],
+              "stop": true,
+              "empty": true
+            }
+          ],
+          "rectangles": "rules.hit_windows source1153 are1153-local; apply impact child matrix THEN rootflight transform once",
+          "observer_scope": "Each1153 instance own set, allfive targets; no fixed total damage"
+        }
+      },
+      "spawn_input": [
+        {
+          "parent_source": 167,
+          "action_source": 6530,
+          "child_source": 6528,
+          "observed_child_source_frame": 15,
+          "xy": "player.x,player.y-40",
+          "held_X_when_child1": "kalla1 seeks13 else2"
+        },
+        {
+          "parent_source": 168,
+          "action_source": 6532,
+          "child_source": 6531,
+          "observed_child_source_frame": 3,
+          "xy": "player.x,player.y-10"
+        }
+      ]
+    }
+  },
+  "field_316": {
+    "owner": "independent root world object",
+    "spawn": {
+      "x": "player.x + 100*facing",
+      "y": "player.y",
+      "scale_percent": [
+        100,
+        100
+      ],
+      "depth": "root.i",
+      "then_increment_root_i": true
+    },
+    "observer_scope": "Each live field instance independently; no once-per-attack or contact ownership",
+    "target_typos": "none: literal enemy1..5",
+    "source_removeMovieClip": false,
+    "source_id": 316,
+    "callback_this_source_id": 313,
+    "active_source_frames": [
+      9,
+      538
+    ],
+    "flags": [
+      {
+        "at": 2,
+        "set": {
+          "카잔": 1,
+          "귀신": 1
+        }
+      },
+      {
+        "at": 9,
+        "set": {
+          "귀신": 1
+        }
+      },
+      {
+        "at": 540,
+        "set": {
+          "카잔": 0
+        },
+        "stop": true
+      }
+    ],
+    "condition": {
+      "kind": "movieclip_bounds_overlap",
+      "left": "root.player.중력몸빵",
+      "right": "this=313",
+      "enemy_position_not_tested": true
+    },
+    "observers": [
+      {
+        "marker_path": "enemy.공중.타격",
+        "marker_source_frame": 2,
+        "damage": 10,
+        "targets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "independent_if": true,
+        "requires_same_instance_contact": false
+      },
+      {
+        "marker_path": "enemy.속.얼음.속",
+        "marker_source_frame": 2,
+        "damage": 10,
+        "targets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "independent_if": true,
+        "requires_same_instance_contact": false
+      },
+      {
+        "marker_path": "enemy.해골.귀영섬.속",
+        "marker_source_frame": 19,
+        "damage": 30,
+        "targets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "independent_if": true,
+        "requires_same_instance_contact": false
+      }
+    ],
+    "cancel": {
+      "while_source": [
+        9,
+        538
+      ],
+      "when_flag": "카잔",
+      "equals": 0,
+      "parent_seek_stop": 540
+    },
+    "terminal_edge": "539 replaces313 with no clipActions;540 removes313 and clears shared flag",
+    "geometry": {
+      "space": "316 local; world316 matrix applies once",
+      "bounds_method": "AABB union of source shape bounds, not disjoint collision pieces or a circle",
+      "aabb_by_child312_source_frame": {
+        "1": [
+          -202.3205952,
+          -37.5280146,
+          394.60082480000005,
+          106.91020412
+        ],
+        "2": [
+          -202.3205952,
+          -37.5280146,
+          394.60082480000005,
+          106.91020412
+        ],
+        "3": [
+          -202.3205952,
+          -40.9635004,
+          394.60082480000005,
+          110.34568992
+        ],
+        "4": [
+          -202.3205952,
+          -40.9635004,
+          394.60082480000005,
+          110.34568992
+        ],
+        "5": [
+          -202.3205952,
+          -34.13294628,
+          394.60082480000005,
+          103.5151358
+        ],
+        "6": [
+          -202.3205952,
+          -34.13294628,
+          394.60082480000005,
+          103.5151358
+        ],
+        "7": [
+          -202.3205952,
+          -39.1447138,
+          394.60082480000005,
+          108.52690332
+        ],
+        "8": [
+          -202.3205952,
+          -39.1447138,
+          394.60082480000005,
+          108.52690332
+        ],
+        "9": [
+          -202.3205952,
+          -40.9635004,
+          394.60082480000005,
+          110.34568992
+        ],
+        "10": [
+          -202.3205952,
+          -40.9635004,
+          394.60082480000005,
+          110.34568992
+        ],
+        "11": [
+          -202.3205952,
+          -32.51624708,
+          394.60082480000005,
+          101.8984366
+        ],
+        "12": [
+          -202.3205952,
+          -32.51624708,
+          394.60082480000005,
+          101.8984366
+        ]
+      },
+      "field_child_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        -5.0,
+        15.9
+      ],
+      "primitive_sources": [
+        304,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "host_filter_bounds_note": "Source stroke geometry; native filter contribution to MovieClip hitTest not dynamically measured"
+    }
+  },
+  "mummy_978": {
+    "source_id": 978,
+    "owner": "root world object; following a target does not reparent it",
+    "spawn": {
+      "owner_source_id": 1120,
+      "helper_source_id": 1119,
+      "helper_depth": 5,
+      "active_source_frames": [
+        2,
+        3
+      ],
+      "owner_natural_loop_frames": 99,
+      "targets_in_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "contact_bodies": [
+        "normal",
+        "frozen"
+      ],
+      "hit_scope": "Each callback per overlapping target; no once or counter guard",
+      "new_xy": "target.x,target.y",
+      "new_depth": "root.i",
+      "sequence": [
+        "attach978 at current i",
+        "assign new XY",
+        "root.i++",
+        "draw Math.random <= .5",
+        "if true multiply xscale of name using ALREADY incremented i by -1"
+      ],
+      "mirror_bug_preserved": true
+    },
+    "phases": [
+      {
+        "source_frames": [
+          1,
+          18
+        ],
+        "mode": "play",
+        "birth556": "independent1..10 stop; visuals do not define collision"
+      },
+      {
+        "source_frames": [
+          19,
+          19
+        ],
+        "mode": "stop",
+        "contact_owner": {
+          "source_id": 975,
+          "depth": 5,
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.1142883,
+            1.85,
+            -35.05
+          ],
+          "shape_id": 974,
+          "shape_rect": [
+            -13.6,
+            -26.75,
+            27.7,
+            53.0
+          ],
+          "local_aabb": [
+            -11.75,
+            -64.857212025,
+            27.7,
+            59.0572799
+          ],
+          "alpha_mult": 207
+        },
+        "contact_bodies": [
+          "normal",
+          "frozen"
+        ],
+        "targets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "on_contact_seek_play": 20,
+        "no_super_or_air_contact": true
+      },
+      {
+        "source_frames": [
+          20,
+          26
+        ],
+        "mode": "play"
+      },
+      {
+        "source_frames": [
+          27,
+          199
+        ],
+        "mode": "play",
+        "new_contact_owner": {
+          "source_id": 975,
+          "depth": 1,
+          "matrix": [
+            0.99380493,
+            -0.095947266,
+            0.106933594,
+            1.1073608,
+            1.9,
+            -35.05
+          ],
+          "shape_id": 974,
+          "shape_rect": [
+            -13.6,
+            -26.75,
+            27.7,
+            53.0
+          ],
+          "local_aabb": [
+            -14.476220687500001,
+            -66.0247578506,
+            33.195877043,
+            61.3478616682
+          ],
+          "alpha_mult": 207
+        },
+        "load": {
+          "helper_local_a": 0
+        },
+        "select": {
+          "guard": "a==0",
+          "ordered_targets": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "contact_bodies": [
+            "normal",
+            "frozen"
+          ],
+          "first_matching_target_wins": true,
+          "effects": [
+            "enemy.해골.gotoStop20",
+            "enemy.해골.피도우미.gotoPlay2",
+            "enemy.해골.슬로우.gotoPlay2",
+            "a=target_index"
+          ]
+        },
+        "follow": {
+          "condition": "a in1..5",
+          "world_x": "target[a].x",
+          "world_y": "target[a].y",
+          "offset": [
+            0,
+            0
+          ],
+          "no_alive_or_contact_recheck": true
+        },
+        "observer": {
+          "independent_of_a": true,
+          "targets": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "marker_path": "enemy.해골.피",
+          "marker_source_frame": 1,
+          "damage": 1,
+          "scope": "Every978 instance separately, not merely its chosen target"
+        }
+      },
+      {
+        "source_frames": [
+          200,
+          200
+        ],
+        "mode": "stop",
+        "visible_children": false,
+        "source_removeMovieClip": false
+      }
+    ],
+    "shared_flag_cancel": {
+      "control_source_id": 977,
+      "depth": 9,
+      "created_at": 19,
+      "effective_source_frames": [
+        19,
+        200
+      ],
+      "at_any_page_in_range_if_rhasa0": "parent.gotoStop200",
+      "still_present_at200_alpha0": true
+    },
+    "slow_status": {
+      "source_id": 3966,
+      "entry": 2,
+      "source_clock": 231,
+      "load_t": 0,
+      "active_source_frames": [
+        2,
+        229
+      ],
+      "guard": "enemy.속.얼음 == undefined",
+      "each_callback": [
+        "t++",
+        "t==1: enemy.속.stop()",
+        "t==2: t=0; enemy.속.play()"
+      ],
+      "unload": "if no ice and t!=0, enemy.속.play()",
+      "source230_replaces_callback_with_empty": true,
+      "source231_natural_wrap_to1_stop": true,
+      "note": "Not a multiplied velocity or fixed speed reduction"
+    }
+  },
+  "enemy_status_placements": {
+    "status_root_source_id": 4021,
+    "coordinate_contract": "Enemy status_root transform, then enemy visual scale, then the original nested matrices once; do not attach source-local art at unscaled world XY.",
+    "source_frames": {
+      "1": [
+        {
+          "source_id": 3951,
+          "depth": 103,
+          "name": "달커",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.65,
+            -0.95
+          ],
+          "alpha_mult": 256
+        },
+        {
+          "source_id": 3963,
+          "depth": 109,
+          "name": "귀영섬",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            2.5,
+            39.75
+          ],
+          "alpha_mult": 256
+        },
+        {
+          "source_id": 3966,
+          "depth": 112,
+          "name": "슬로우",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            2.0,
+            0.75,
+            62.8
+          ],
+          "alpha_mult": 0
+        },
+        {
+          "source_id": 3971,
+          "depth": 114,
+          "name": "분신",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.45,
+            -2.45
+          ],
+          "alpha_mult": 256
+        }
+      ],
+      "20": [
+        {
+          "source_id": 3951,
+          "depth": 103,
+          "name": "달커",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.65,
+            -0.95
+          ],
+          "alpha_mult": 256
+        },
+        {
+          "source_id": 3963,
+          "depth": 109,
+          "name": "귀영섬",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            2.5,
+            39.75
+          ],
+          "alpha_mult": 256
+        },
+        {
+          "source_id": 3966,
+          "depth": 112,
+          "name": "슬로우",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            2.0,
+            0.75,
+            62.8
+          ],
+          "alpha_mult": 0
+        },
+        {
+          "source_id": 3971,
+          "depth": 114,
+          "name": "분신",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.45,
+            -2.45
+          ],
+          "alpha_mult": 256
+        },
+        {
+          "source_id": 4000,
+          "depth": 1,
+          "name": "피",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            32.45,
+            -10.15
+          ],
+          "alpha_mult": 256
+        }
+      ]
+    },
+    "kalla_selector": {
+      "source_id": 3971,
+      "stop_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_frames": {
+        "1": [],
+        "2": [
+          {
+            "source_id": 3968,
+            "depth": 2,
+            "name": "일",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -5.45,
+              -13.65
+            ],
+            "alpha_mult": 256
+          }
+        ],
+        "3": [
+          {
+            "source_id": 3968,
+            "depth": 2,
+            "name": "일",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -5.45,
+              -13.65
+            ],
+            "alpha_mult": 256
+          },
+          {
+            "source_id": 3969,
+            "depth": 4,
+            "name": "이",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              6.45,
+              -10.2
+            ],
+            "alpha_mult": 256
+          }
+        ],
+        "4": [
+          {
+            "source_id": 3968,
+            "depth": 2,
+            "name": "일",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -5.45,
+              -13.65
+            ],
+            "alpha_mult": 256
+          },
+          {
+            "source_id": 3969,
+            "depth": 4,
+            "name": "이",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              6.45,
+              -10.2
+            ],
+            "alpha_mult": 256
+          },
+          {
+            "source_id": 3970,
+            "depth": 6,
+            "name": "삼",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -1.05,
+              -4.55
+            ],
+            "alpha_mult": 256
+          }
+        ]
+      },
+      "child_clock": "Each 3968/3969/3970 instance has its own clock; advancing the selector does not restart retained lower-depth instances.",
+      "inner_children": {
+        "3968": {
+          "source_id": 3968,
+          "stop_frame": 136,
+          "source_frame_ranges": [
+            {
+              "from": 1,
+              "until": 135,
+              "placements": [
+                {
+                  "source_id": 1149,
+                  "depth": 1,
+                  "name": "일",
+                  "matrix": [
+                    0.00019836426,
+                    0.3232422,
+                    -0.3232422,
+                    0.00019836426,
+                    -0.05,
+                    -28.25
+                  ],
+                  "alpha_mult": 223,
+                  "filters": [
+                    {
+                      "type": "COLORMATRIXFILTER",
+                      "id": "6",
+                      "matrix": [
+                        1.6868304,
+                        -0.8393526,
+                        1.9925221,
+                        0.0,
+                        25.160004,
+                        0.4893829,
+                        2.8733957,
+                        -0.52277863,
+                        0.0,
+                        25.160002,
+                        -1.4422684,
+                        2.1308208,
+                        2.1514473,
+                        0.0,
+                        25.160002,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 136,
+              "until": 136,
+              "placements": [
+                {
+                  "source_id": 1149,
+                  "depth": 1,
+                  "name": "일",
+                  "matrix": [
+                    0.00019836426,
+                    0.3232422,
+                    -0.3232422,
+                    0.00019836426,
+                    -0.05,
+                    -28.25
+                  ],
+                  "alpha_mult": 0,
+                  "filters": [
+                    {
+                      "type": "COLORMATRIXFILTER",
+                      "id": "6",
+                      "matrix": [
+                        1.6868304,
+                        -0.8393526,
+                        1.9925221,
+                        0.0,
+                        25.160004,
+                        0.4893829,
+                        2.8733957,
+                        -0.52277863,
+                        0.0,
+                        25.160002,
+                        -1.4422684,
+                        2.1308208,
+                        2.1514473,
+                        0.0,
+                        25.160002,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "visual_child_loop_frames": 9,
+          "filter_contract": "The original 1149 COLORMATRIX and alpha 223 must be preserved. At source136 alpha becomes0; the child still exists."
+        },
+        "3969": {
+          "source_id": 3969,
+          "stop_frame": 136,
+          "source_frame_ranges": [
+            {
+              "from": 1,
+              "until": 135,
+              "placements": [
+                {
+                  "source_id": 1149,
+                  "depth": 1,
+                  "name": "일",
+                  "matrix": [
+                    0.00019836426,
+                    0.3232422,
+                    -0.3232422,
+                    0.00019836426,
+                    -0.05,
+                    -28.25
+                  ],
+                  "alpha_mult": 223,
+                  "filters": [
+                    {
+                      "type": "COLORMATRIXFILTER",
+                      "id": "6",
+                      "matrix": [
+                        1.6868304,
+                        -0.8393526,
+                        1.9925221,
+                        0.0,
+                        25.160004,
+                        0.4893829,
+                        2.8733957,
+                        -0.52277863,
+                        0.0,
+                        25.160002,
+                        -1.4422684,
+                        2.1308208,
+                        2.1514473,
+                        0.0,
+                        25.160002,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 136,
+              "until": 136,
+              "placements": [
+                {
+                  "source_id": 1149,
+                  "depth": 1,
+                  "name": "일",
+                  "matrix": [
+                    0.00019836426,
+                    0.3232422,
+                    -0.3232422,
+                    0.00019836426,
+                    -0.05,
+                    -28.25
+                  ],
+                  "alpha_mult": 0,
+                  "filters": [
+                    {
+                      "type": "COLORMATRIXFILTER",
+                      "id": "6",
+                      "matrix": [
+                        1.6868304,
+                        -0.8393526,
+                        1.9925221,
+                        0.0,
+                        25.160004,
+                        0.4893829,
+                        2.8733957,
+                        -0.52277863,
+                        0.0,
+                        25.160002,
+                        -1.4422684,
+                        2.1308208,
+                        2.1514473,
+                        0.0,
+                        25.160002,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "visual_child_loop_frames": 9,
+          "filter_contract": "The original 1149 COLORMATRIX and alpha 223 must be preserved. At source136 alpha becomes0; the child still exists."
+        },
+        "3970": {
+          "source_id": 3970,
+          "stop_frame": 136,
+          "source_frame_ranges": [
+            {
+              "from": 1,
+              "until": 135,
+              "placements": [
+                {
+                  "source_id": 1149,
+                  "depth": 1,
+                  "name": "일",
+                  "matrix": [
+                    0.00019836426,
+                    0.3232422,
+                    -0.3232422,
+                    0.00019836426,
+                    -0.05,
+                    -28.25
+                  ],
+                  "alpha_mult": 223,
+                  "filters": [
+                    {
+                      "type": "COLORMATRIXFILTER",
+                      "id": "6",
+                      "matrix": [
+                        1.6868304,
+                        -0.8393526,
+                        1.9925221,
+                        0.0,
+                        25.160004,
+                        0.4893829,
+                        2.8733957,
+                        -0.52277863,
+                        0.0,
+                        25.160002,
+                        -1.4422684,
+                        2.1308208,
+                        2.1514473,
+                        0.0,
+                        25.160002,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 136,
+              "until": 136,
+              "placements": [
+                {
+                  "source_id": 1149,
+                  "depth": 1,
+                  "name": "일",
+                  "matrix": [
+                    0.00019836426,
+                    0.3232422,
+                    -0.3232422,
+                    0.00019836426,
+                    -0.05,
+                    -28.25
+                  ],
+                  "alpha_mult": 0,
+                  "filters": [
+                    {
+                      "type": "COLORMATRIXFILTER",
+                      "id": "6",
+                      "matrix": [
+                        1.6868304,
+                        -0.8393526,
+                        1.9925221,
+                        0.0,
+                        25.160004,
+                        0.4893829,
+                        2.8733957,
+                        -0.52277863,
+                        0.0,
+                        25.160002,
+                        -1.4422684,
+                        2.1308208,
+                        2.1514473,
+                        0.0,
+                        25.160002,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "visual_child_loop_frames": 9,
+          "filter_contract": "The original 1149 COLORMATRIX and alpha 223 must be preserved. At source136 alpha becomes0; the child still exists."
+        }
+      }
+    },
+    "provenance": {
+      "original_xml": "res/structure/game.xml",
+      "sprite_source_ids": [
+        4021,
+        3971,
+        3968,
+        3969,
+        3970
+      ],
+      "snapshot": "godot/artifacts/leba_act06_20261117/investigation/crt4_source_symbols.json",
+      "snapshot_sha256": "9a1715911c469b7b1cba0b56f5ebd846a31302723ece042a0cd145bcc9249551"
+    },
+    "validation": "Original effective display-list placements; no PNG bounds or inferred centering."
+  },
+  "y_world_spawn": {
+    "swamp": {
+      "source_id": 944,
+      "linkage": "블라슈늪",
+      "owner": "root",
+      "actor_parent_source_frame": 176,
+      "action_source_id": 6555,
+      "trigger_action_source_frame": 21,
+      "position": {
+        "x": "player.x",
+        "y": "player.y - 80"
+      },
+      "xscale_percent": "100 * root.bug1",
+      "yscale_percent": 200,
+      "depth_name_counter": "action-local q",
+      "initial_q": -16300,
+      "increment_after_attach": 1,
+      "source": {
+        "path": "res/scripts/DefineSprite_6732/frame_176/PlaceObject2_6555_41/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+        "sha256": "0d6141fe01da4de4c0d71c3b2b5bb14c965621bc42c23e91b2107942aaceaee9"
+      },
+      "load_source": {
+        "path": "res/scripts/DefineSprite_6732/frame_176/PlaceObject2_6555_41/CLIPACTIONRECORD onClipEvent(load).as",
+        "sha256": "3a058c01f8d54b25d1677bb601f2a83dc0d724cae538f1d800722466f0f62dad"
+      }
+    },
+    "beast": {
+      "source_id": 907,
+      "linkage": "블라슈",
+      "owner": "root",
+      "parent_source_id": 944,
+      "parent_source_frame": 20,
+      "observed_child_source_id": 943,
+      "trigger_child_source_frame": 65,
+      "position": {
+        "x": "swamp.x",
+        "y": "swamp.y + 100"
+      },
+      "source_scale_branches": [
+        {
+          "when_parent_xscale_percent": 100,
+          "xscale_percent": 150,
+          "yscale_percent": 150
+        },
+        {
+          "when_parent_xscale_percent": -100,
+          "xscale_percent": -150,
+          "yscale_percent": 150
+        }
+      ],
+      "other_parent_xscale_has_no_source_branch": true,
+      "depth_name_counter": "root.i",
+      "increment_after_attach": 1,
+      "source": {
+        "path": "res/scripts/DefineSprite_944_블라슈늪/frame_20/PlaceObject3_943_31/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+        "sha256": "c66833db0750003338eea1d04d89fb488ff96b3beb8790c1bf2d91bf2a93e280"
+      },
+      "mask_contract": "907 child861 is clipDepth30 mask; child906 local translation[-59.3,-99.8] is baked by the mask-wrapper atlas, not a visible black panel."
+    }
+  }
+}

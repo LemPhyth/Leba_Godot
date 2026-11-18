@@ -1,0 +1,61 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_gt01y"]
+
+[resource]
+script = ExtResource("1_gt01y")
+identifier = "overdrive"
+parameters = {
+"action_source_id": 6155.0,
+"active_global_over": [9.0, 407.0],
+"actual_timer_frames": 407.0,
+"audio": [{
+"frame": 2.0,
+"offset_seconds": 0.0,
+"sound_id": 3950.0,
+"sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"source_id": 4614.0
+}],
+"default_action_frames": [1.0, 19.0],
+"effect_is_direct_observer_not_global_multiplier": true,
+"idle_frame": 1.0,
+"lifetime": "Persistent player child; switching main action must not destroy/restart it. Source wrap407→1 stops and removes observer child. Scene/actor removal destroys it.",
+"loop_to_idle_clears_over": true,
+"observer_ranges": [{
+"child_id": 4613.0,
+"collision_required": false,
+"damage_per_observer_tick": 9.0,
+"depth": 1.0,
+"frames": [9.0, 400.0],
+"once_gate": false,
+"predicate": "for each of enemy1..5: enemy.air.hit._currentframe == 2"
+}, {
+"child_id": 4613.0,
+"collision_required": false,
+"damage_per_observer_tick": 5.0,
+"depth": 1.0,
+"frames": [401.0, 407.0],
+"once_gate": false,
+"predicate": "for each of enemy1..5: enemy.air.hit._currentframe == 2"
+}],
+"parent_placement": {
+"depth": 1062.0,
+"matrix": [1.654953, 0.0, 0.0, 1.8177948, 1.9, -121.5],
+"name": "오버시간",
+"parent_id": 6732.0
+},
+"root_variable_has_no_other_AS_reader_found": true,
+"start_timer_at_action_frame": 11.0,
+"timer_entry_frame": 2.0,
+"timer_source_id": 4614.0
+}
+source = "Original AS/XML default CRT3; reviewed rules in act05_crt3_rules.json"

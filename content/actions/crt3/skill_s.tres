@@ -1,0 +1,206 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_s1.tres" id="1_quxas"]
+[ext_resource type="AudioStream" path="res://assets/audio/5203.mp3" id="2_mo0up"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_rxeme"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_1no7v"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_layys"]
+
+[sub_resource type="Resource" id="Resource_n154c"]
+script = ExtResource("3_rxeme")
+frame = 3
+sound = "crt3_skill_s1"
+audio_stream = ExtResource("2_mo0up")
+parameters = {
+"envelope": [{
+"left": 16532.0,
+"right": 16236.0,
+"sample": 0.0
+}, {
+"left": 16827.0,
+"right": 16236.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5203.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6025.0
+}
+
+[sub_resource type="Resource" id="Resource_ts2j4"]
+script = ExtResource("5_layys")
+from_frame = 3
+until_frame = 3
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-74.71563, -115.00773, 233.96231, 189.9024)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 3,
+"source_depth": 86,
+"source_frame": 3,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_qrwmm"]
+script = ExtResource("5_layys")
+from_frame = 4
+until_frame = 4
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-74.71563, -115.00773, 233.96231, 189.9024)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 3,
+"source_depth": 86,
+"source_frame": 4,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_vic3q"]
+script = ExtResource("5_layys")
+from_frame = 3
+until_frame = 3
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-74.71563, -115.00773, 233.96231, 189.9024)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 3,
+"source_depth": 88,
+"source_frame": 3,
+"source_helper": 439,
+"source_rule": {
+"category": "left",
+"collision": "enemy.normal_body vs named helper",
+"kind": "named_common_slash",
+"note": "Use existing original common slash dispatch; named helper is independent from gravity helper; compare <= and >= independently when choosing left/right.",
+"once_gate": false,
+"source_effect_ids": [1481.0, 1496.0]
+}
+}
+
+[sub_resource type="Resource" id="Resource_byw5p"]
+script = ExtResource("5_layys")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-123.51562, -114.707726, 305.03268, 189.9024)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 7,
+"source_depth": 86,
+"source_frame": 7,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_q6yir"]
+script = ExtResource("5_layys")
+from_frame = 8
+until_frame = 8
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-123.51562, -114.707726, 305.03268, 189.9024)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 7,
+"source_depth": 86,
+"source_frame": 8,
+"source_helper": 439,
+"source_rule": {
+"direct_damage": null,
+"frozen": "freeze.inner2, helperstop2",
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"kind": "normal_contact_physics",
+"marker_seek": null,
+"mr_gate": null,
+"superarmor": "seek2, helperstop2"
+}
+}
+
+[sub_resource type="Resource" id="Resource_8ssla"]
+script = ExtResource("5_layys")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-123.51562, -114.707726, 305.03268, 189.9024)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 7,
+"source_depth": 88,
+"source_frame": 7,
+"source_helper": 439,
+"source_rule": {
+"category": "right",
+"collision": "enemy.normal_body vs named helper",
+"kind": "named_common_slash",
+"note": "Use existing original common slash dispatch; named helper is independent from gravity helper; compare <= and >= independently when choosing left/right.",
+"once_gate": false,
+"source_effect_ids": [1481.0, 1496.0]
+}
+}
+
+[resource]
+script = ExtResource("4_1no7v")
+identifier = "skill_s"
+title = "skill_s"
+animation = ExtResource("1_quxas")
+animation_key = "crt3_skill_s1"
+source_parent = 117
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)
+input_id = "skill_s"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_n154c")])
+windows = Array[Resource]([SubResource("Resource_ts2j4"), SubResource("Resource_qrwmm"), SubResource("Resource_vic3q"), SubResource("Resource_byw5p"), SubResource("Resource_q6yir"), SubResource("Resource_8ssla")])
+source = "Original AS/XML sprite6025 parent117; source hashes in asset_catalog and investigation facts."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 8.6, 22.15],
+"reset_combo_counters": false,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 6025.0
+}

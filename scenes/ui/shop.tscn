@@ -1,0 +1,170 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_8v20v"]
+[ext_resource type="Texture2D" path="res://assets/ui/title.png" id="2_2i61c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_85p0y"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Shop" type="Control" unique_id=1984539228]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_8v20v")
+
+[node name="@TextureRect@32" type="TextureRect" parent="." unique_id=1484807971]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 265.0
+mouse_filter = 2
+texture = ExtResource("2_2i61c")
+expand_mode = 1
+
+[node name="@ColorRect@33" type="ColorRect" parent="." unique_id=1600131391]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+color = Color(0.025, 0.03, 0.04, 0.85)
+
+[node name="@Panel@34" type="Panel" parent="." unique_id=1267619160]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 25.0
+offset_right = 515.0
+offset_bottom = 375.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_85p0y")
+
+[node name="Title" type="Label" parent="." unique_id=437378245]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 40.0
+offset_right = 385.0
+offset_bottom = 66.0
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "商店 / 装备"
+autowrap_mode = 3
+
+[node name="Gold" type="Label" parent="." unique_id=1243450007]
+layout_mode = 0
+offset_left = 365.0
+offset_top = 48.0
+offset_right = 500.0
+offset_bottom = 74.0
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "金币 0"
+autowrap_mode = 3
+
+[node name="Item" type="Label" parent="." unique_id=583752296]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 91.0
+offset_right = 447.0
+offset_bottom = 117.0
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "HP +10 戒指"
+autowrap_mode = 3
+
+[node name="Price" type="Label" parent="." unique_id=1482895357]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 125.0
+offset_right = 457.0
+offset_bottom = 151.0
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "购买 3000 金币  ·  出售 600 金币"
+autowrap_mode = 3
+
+[node name="Inventory" type="Label" parent="." unique_id=381212773]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 155.0
+offset_right = 482.0
+offset_bottom = 181.0
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "库存：未持有    当前角色 0：未装备"
+autowrap_mode = 3
+
+[node name="Buy" type="Button" parent="." unique_id=1593552095]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 195.0
+offset_right = 157.0
+offset_bottom = 228.0
+disabled = true
+text = "购买"
+
+[node name="Equip" type="Button" parent="." unique_id=1183627973]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 195.0
+offset_right = 270.0
+offset_bottom = 228.0
+disabled = true
+text = "装备"
+
+[node name="Unequip" type="Button" parent="." unique_id=955155317]
+layout_mode = 0
+offset_left = 281.0
+offset_top = 195.0
+offset_right = 383.0
+offset_bottom = 228.0
+disabled = true
+text = "卸下"
+
+[node name="Sell" type="Button" parent="." unique_id=239319020]
+layout_mode = 0
+offset_left = 394.0
+offset_top = 195.0
+offset_right = 496.0
+offset_bottom = 228.0
+disabled = true
+text = "出售"
+
+[node name="Rules" type="Label" parent="." unique_id=646512454]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 240.0
+offset_right = 487.0
+offset_bottom = 289.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "原作规则：出售保留已装备效果；卸下会清除四个
+角色的此戒指装备，并将戒指放回库存。"
+autowrap_mode = 3
+
+[node name="ShopMessage" type="Label" parent="." unique_id=1895006849]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 284.0
+offset_right = 487.0
+offset_bottom = 310.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+autowrap_mode = 3
+
+[node name="Back" type="Button" parent="." unique_id=1780535704]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 331.0
+offset_right = 180.0
+offset_bottom = 362.0
+text = "返回选人"

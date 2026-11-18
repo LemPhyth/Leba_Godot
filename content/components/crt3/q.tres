@@ -1,0 +1,33 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_3k3eb"]
+
+[resource]
+script = ExtResource("1_3k3eb")
+identifier = "q"
+parameters = {
+"counter": "맹룡포인트",
+"counter_increment_frame": 1.0,
+"counter_reset_parent127": true,
+"default_dash_count": 3.0,
+"directions": "6138 source1..6,6142 source1..4 heldright thenheldleft",
+"finish_id": 6142.0,
+"independent_effects": [959.0, 821.0, 1030.0, 1332.0, 1023.0, 593.0],
+"input": "heldQ poll",
+"nondefault_counts": {
+"weapon1_or_master": 6.0,
+"weapon2": 2.0
+},
+"per_helper_target_contact_limit": 3.0,
+"random_each_source4_entry": true,
+"repeat_window": [13.0, 21.0],
+"script_random_sounds": [{
+"export_name": "맹룡1",
+"id": 2.0
+}, {
+"export_name": "맹룡2",
+"id": 1.0
+}],
+"source_id": 6138.0
+}
+source = "Original AS/XML default CRT3; reviewed rules in act05_crt3_rules.json"

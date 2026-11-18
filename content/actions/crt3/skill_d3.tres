@@ -1,0 +1,280 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_d3.tres" id="1_qeplr"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_6rqfo"]
+[ext_resource type="AudioStream" path="res://assets/audio/6037.mp3" id="3_ch614"]
+[ext_resource type="AudioStream" path="res://assets/audio/6039.mp3" id="4_6rqfo"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_uirbf"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="5_n2bah"]
+
+[sub_resource type="Resource" id="Resource_gar5p"]
+script = ExtResource("2_6rqfo")
+kind = "crt3_goto_source"
+parameters = {
+"note": "same-source control, not an extra waiting tick",
+"source_frame": 1.0,
+"target_frame": 2.0
+}
+
+[sub_resource type="Resource" id="Resource_2e0g6"]
+script = ExtResource("2_6rqfo")
+frame = 2
+sound = "crt3_skill_d3"
+audio_stream = ExtResource("3_ch614")
+parameters = {
+"envelope": [{
+"left": 14465.0,
+"right": 13875.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 6037.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6054.0
+}
+
+[sub_resource type="Resource" id="Resource_5b00j"]
+script = ExtResource("5_n2bah")
+from_frame = 4
+until_frame = 4
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-73.1625, -127.247894, 256.0326, 188.72343)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 4,
+"source_depth": 44,
+"source_frame": 4,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_htrrl"]
+script = ExtResource("5_n2bah")
+from_frame = 5
+until_frame = 5
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-73.1625, -127.247894, 256.0326, 188.72343)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 4,
+"source_depth": 44,
+"source_frame": 5,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_m2cfe"]
+script = ExtResource("5_n2bah")
+from_frame = 6
+until_frame = 6
+kind = "crt3_hit"
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 44,
+"source_frame": 6,
+"source_helper": 6044,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_nuepy"]
+script = ExtResource("5_n2bah")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+gravity = -4.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 6,
+"source_depth": 44,
+"source_frame": 7,
+"source_helper": 6044,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -4.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 8.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("4_uirbf")
+identifier = "skill_d3"
+title = "skill_d3"
+animation = ExtResource("1_qeplr")
+animation_key = "crt3_skill_d3"
+source_parent = 122
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21)
+allowed_states = PackedStringArray()
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_gar5p"), SubResource("Resource_2e0g6")])
+windows = Array[Resource]([SubResource("Resource_5b00j"), SubResource("Resource_htrrl"), SubResource("Resource_m2cfe"), SubResource("Resource_nuepy")])
+source = "Original AS/XML sprite6054 parent122; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [],
+"branches": [{
+"cost": 0.0,
+"default_condition": "weapon!=2",
+"from": 7.0,
+"keycode": 68.0,
+"kind": "keydown_held",
+"next": "skill_d4",
+"terminal_frame_present": false,
+"until": 20.0
+}],
+"motion_overlap_additive": true,
+"nested_audio": [{
+"entry_frame": 1,
+"from_frame": 4,
+"identifier": "src6040_d42_f4",
+"sounds": [{
+"audio_stream": ExtResource("4_6rqfo"),
+"envelope": [{
+"left": 14170.0,
+"right": 15056.0,
+"sample": 0.0
+}],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt3_child_6040",
+"sound_id": 6039.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6040.0
+}],
+"source_id": 6040,
+"until_frame": 21
+}],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 3.9, 15.25],
+"physical_keys": [68.0],
+"reset_combo_counters": false,
+"slot_id": null,
+"slot_ready_frame": null,
+"slot_start_frame": null,
+&"source_allowed_parent_frames": [],
+"source_id": 6054.0,
+"source_motion": [{
+"add_spd": true,
+"dx": 15.0,
+"facing": true,
+"from": 4.0,
+"until": 6.0
+}, {
+"add_spd": true,
+"dx": 10.0,
+"facing": true,
+"from": 6.0,
+"until": 8.0
+}, {
+"add_spd": true,
+"dx": 7.0,
+"facing": true,
+"from": 9.0,
+"until": 11.0
+}]
+}

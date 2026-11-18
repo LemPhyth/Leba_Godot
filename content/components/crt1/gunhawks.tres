@@ -1,0 +1,3542 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_gunhawk1.tres" id="1_itu56"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_gunhawk2.tres" id="2_2p0aa"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_gunhawk3.tres" id="3_m4ogx"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="4_ycowc"]
+
+[resource]
+script = ExtResource("4_ycowc")
+identifier = "crt1_gunhawks"
+parameters = {
+"catch_detector_id": 6763.0,
+"child_audio": {
+"6752": "crt1_r_helper3",
+"6760": "crt1_r_helper2",
+"6771": "crt1_r_helper1"
+},
+"child_instances": {
+"6753": {
+"1": [],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.5, -7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.0, 6.25],
+"name": null,
+"source_id": 6752.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"3": [{
+"alpha_mult": 210.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.5, -7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 210.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.0, 6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.0, -6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, 7.75],
+"name": null,
+"source_id": 6752.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}],
+"39": [{
+"alpha_mult": 205.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 206.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 208.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}],
+"4": [{
+"alpha_mult": 154.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.5, -7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.0, 6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.0, -6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, 7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, -11.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, 17.75],
+"name": null,
+"source_id": 6752.0
+}],
+"40": [{
+"alpha_mult": 154.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 206.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 208.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 143.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}],
+"41": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 206.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 208.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 143.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 80.95, -3.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 82.45, 14.75],
+"name": null,
+"source_id": 6752.0
+}],
+"42": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 51.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 206.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 208.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 143.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 80.95, -3.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 82.45, 14.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 185.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 8.95, 3.7],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 208.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 10.45, 9.75],
+"name": null,
+"source_id": 6752.0
+}],
+"43": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 206.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 51.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 208.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 143.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 80.95, -3.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 82.45, 14.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 8.95, 3.7],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 10.45, 9.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 185.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -55.6, -6.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 208.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -52.1, 17.25],
+"name": null,
+"source_id": 6752.0
+}],
+"44": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.45, -13.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 51.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 143.45, 21.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 80.95, -3.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 82.45, 14.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 8.95, 3.7],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 10.45, 9.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -55.6, -6.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -52.1, 17.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 185.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, -14.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 208.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, 26.75],
+"name": null,
+"source_id": 6752.0
+}],
+"45": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 8.95, 3.7],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 51.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 10.45, 9.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -55.6, -6.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -52.1, 17.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, -14.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -203.65, -33.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -201.65, 41.75],
+"name": null,
+"source_id": 6752.0
+}],
+"46": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 8.95, 3.7],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 51.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 10.45, 9.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -55.6, -6.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -52.1, 17.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, -14.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 202.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -203.65, -33.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 202.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -201.65, 41.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 185.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -285.2, -53.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 208.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -288.2, 60.25],
+"name": null,
+"source_id": 6752.0
+}],
+"47": [{
+"alpha_mult": 154.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -55.6, -6.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -52.1, 17.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, -14.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -120.1, 26.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 202.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -203.65, -33.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 202.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -201.65, 41.75],
+"name": null,
+"source_id": 6752.0
+}],
+"48": [{
+"alpha_mult": 205.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -184.1, -28.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -184.1, 37.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 202.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -288.15, -58.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 202.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -285.2, 56.25],
+"name": null,
+"source_id": 6752.0
+}],
+"49": [],
+"5": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.5, -7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 89.0, 6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.0, -6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, 7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, -11.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 205.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, 17.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 139.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 162.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}],
+"6": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.0, -6.25],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 102.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, 7.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, -11.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 154.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, 17.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 93.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 116.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}],
+"7": [{
+"alpha_mult": 105.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, -11.8],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 105.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 200.5, 17.75],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 47.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -16.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 70.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 26.75],
+"name": null,
+"source_id": 6752.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 255.0, -20.3],
+"name": null,
+"source_id": 6752.0
+}, {
+"alpha_mult": 256.0,
+"depth": 24.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 257.0, 31.75],
+"name": null,
+"source_id": 6752.0
+}]
+},
+"6764": {
+"1": [],
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 60.0, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 61.0, 6.25],
+"name": null,
+"source_id": 6760.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"3": [{
+"alpha_mult": 205.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 60.0, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 61.0, 6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 93.0, -8.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 94.0, 9.75],
+"name": null,
+"source_id": 6760.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"37": [{
+"alpha_mult": 205.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 178.5, -20.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}],
+"38": [{
+"alpha_mult": 179.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 179.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 178.5, -20.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, -16.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.5, 11.25],
+"name": null,
+"source_id": 6760.0
+}],
+"39": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 178.5, -20.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, -16.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.5, 11.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 98.0, -12.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 99.0, 9.25],
+"name": null,
+"source_id": 6760.0
+}],
+"4": [{
+"alpha_mult": 154.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 60.0, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 61.0, 6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 93.0, -8.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 94.0, 9.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 125.5, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 126.5, 12.75],
+"name": null,
+"source_id": 6760.0
+}],
+"40": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 178.5, -20.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, -16.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.5, 11.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 98.0, -12.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 99.0, 9.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 57.0, -7.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 58.0, 5.75],
+"name": null,
+"source_id": 6760.0
+}],
+"41": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 178.5, -20.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 179.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, -16.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.5, 11.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 98.0, -12.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 99.0, 9.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 57.0, -7.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 58.0, 5.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 12.5, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 13.5, 0.25],
+"name": null,
+"source_id": 6760.0
+}],
+"42": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 140.5, -16.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 141.5, 11.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 98.0, -12.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 99.0, 9.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 57.0, -7.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 58.0, 5.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 12.5, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 13.5, 0.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -29.0, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -28.0, 6.75],
+"name": null,
+"source_id": 6760.0
+}],
+"43": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 57.0, -7.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 58.0, 5.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 12.5, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 13.5, 0.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -29.0, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -28.0, 6.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -75.0, -17.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -74.0, 11.75],
+"name": null,
+"source_id": 6760.0
+}],
+"44": [{
+"alpha_mult": 110.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 12.5, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 13.5, 0.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 110.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -29.0, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 110.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -28.0, 6.75],
+"name": null,
+"source_id": 6760.0
+}],
+"45": [],
+"5": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 60.0, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 61.0, 6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 93.0, -8.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 94.0, 9.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 125.5, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 126.5, 12.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 158.5, -19.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 159.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}],
+"6": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 60.0, -6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 61.0, 6.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 93.0, -8.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 102.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 94.0, 9.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 125.5, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 154.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 126.5, 12.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 158.5, -19.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 205.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 159.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 194.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 195.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"7": [{
+"alpha_mult": 18.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 93.0, -8.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 18.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 94.0, 9.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 108.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 125.5, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 108.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 126.5, 12.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 133.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 158.5, -19.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 133.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 159.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"8": [{
+"alpha_mult": 33.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 125.5, -11.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 33.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 126.5, 12.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 133.0,
+"depth": 45.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 158.5, -19.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 133.0,
+"depth": 67.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 159.5, 16.75],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 212.5, -25.25],
+"name": null,
+"source_id": 6760.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 213.5, 21.25],
+"name": null,
+"source_id": 6760.0
+}]
+},
+"6772": {
+"1": [],
+"10": [{
+"alpha_mult": 113.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 150.25, -7.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 113.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 148.75, 29.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"2": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 16.2],
+"name": null,
+"source_id": 6771.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"3": [{
+"alpha_mult": 205.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 16.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 80.5, 4.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 81.5, 21.2],
+"name": null,
+"source_id": 6771.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"38": [{
+"alpha_mult": 169.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 169.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 146.25, 0.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 144.75, 25.95],
+"name": null,
+"source_id": 6771.0
+}],
+"39": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 102.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 146.25, 0.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 144.75, 25.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 118.6, 5.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 117.1, 22.95],
+"name": null,
+"source_id": 6771.0
+}],
+"4": [{
+"alpha_mult": 179.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 16.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 80.5, 4.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 81.5, 21.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 105.25, 0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 106.75, 24.45],
+"name": null,
+"source_id": 6771.0
+}],
+"40": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 146.25, 0.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 144.75, 25.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 118.6, 5.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 117.1, 22.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.6, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.1, 17.95],
+"name": null,
+"source_id": 6771.0
+}],
+"41": [{
+"alpha_mult": 102.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 146.25, 0.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 102.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 144.75, 25.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 118.6, 5.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 117.1, 22.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.6, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.1, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 40.1, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 39.6, 17.95],
+"name": null,
+"source_id": 6771.0
+}],
+"42": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 146.25, 0.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 144.75, 25.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 77.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 118.6, 5.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 77.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 117.1, 22.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.6, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.1, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 40.1, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 39.6, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.4, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.9, 17.95],
+"name": null,
+"source_id": 6771.0
+}],
+"43": [{
+"alpha_mult": 31.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 118.6, 5.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 31.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 117.1, 22.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 100.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.6, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 100.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 77.1, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 125.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 40.1, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 125.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 39.6, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 174.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.4, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 174.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.9, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -45.4, 4.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -45.9, 21.45],
+"name": null,
+"source_id": 6771.0
+}],
+"44": [{
+"alpha_mult": 38.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 40.1, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 38.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 39.6, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.4, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.9, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 169.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -45.4, 4.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 169.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -45.9, 21.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -86.9, -0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -86.9, 28.45],
+"name": null,
+"source_id": 6771.0
+}],
+"45": [{
+"alpha_mult": 69.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.4, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 69.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -0.9, 17.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 100.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -45.4, 4.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 100.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -45.9, 21.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -92.9, -0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, -92.9, 28.45],
+"name": null,
+"source_id": 6771.0
+}],
+"46": [],
+"5": [{
+"alpha_mult": 128.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 16.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 80.5, 4.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 81.5, 21.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 105.25, 0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 106.75, 24.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 130.25, -4.0],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 129.75, 27.95],
+"name": null,
+"source_id": 6771.0
+}],
+"6": [{
+"alpha_mult": 77.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 8.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 77.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 58.25, 16.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 80.5, 4.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 81.5, 21.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 105.25, 0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 179.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 106.75, 24.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 130.25, -4.0],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 205.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 129.75, 27.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 150.25, -7.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 148.75, 29.45],
+"name": null,
+"source_id": 6771.0
+}],
+"7": [{
+"alpha_mult": 51.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 80.5, 4.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 51.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 81.5, 21.2],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 102.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 105.25, 0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 102.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 106.75, 24.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 130.25, -4.0],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 128.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 129.75, 27.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 150.25, -7.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 154.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 148.75, 29.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 177.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 199.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"8": [{
+"alpha_mult": 54.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 105.25, 0.25],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 54.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 106.75, 24.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 90.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 130.25, -4.0],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 90.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 129.75, 27.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 141.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 150.25, -7.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 141.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 148.75, 29.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 133.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 155.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}],
+"9": [{
+"alpha_mult": 38.0,
+"depth": 1.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 130.25, -4.0],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 38.0,
+"depth": 23.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 129.75, 27.95],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 113.0,
+"depth": 45.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 150.25, -7.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 113.0,
+"depth": 67.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 148.75, 29.45],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 89.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 174.25, -6.75],
+"name": null,
+"source_id": 6771.0
+}, {
+"alpha_mult": 256.0,
+"depth": 111.0,
+"matrix": [0.96743774, 0.0, 0.0, 1.0122986, 172.75, 30.45],
+"name": null,
+"source_id": 6771.0
+}]
+}
+},
+"helper_timelines": {
+"6752": {
+"active_by_source_frame": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 22.0,
+"matrix": [1.2007294, 0.0, 0.0, 2.27417, -2.55, -1.7],
+"name": null,
+"rect": [-133.06928578, -86.4128325, 255.69532573, 169.425665],
+"source_id": 4636.0
+}],
+"2": [{
+"alpha_mult": 0.0,
+"depth": 22.0,
+"matrix": [1.2007294, 0.0, 0.0, 2.27417, -2.55, -1.7],
+"name": null,
+"rect": [-133.06928578, -86.4128325, 255.69532573, 169.425665],
+"source_id": 4636.0
+}]
+},
+"calibration": "Presence and source geometry verified statically. Collision callback/marker contributions are separate; this is not a damage oracle.",
+"frame_count": 4.0,
+"inactive_source_frames": "Missing frames are empty; do not retain preceding shapes.",
+"space": "source sprite6752 local; multiply original actor action parent matrix once"
+},
+"6760": {
+"active_by_source_frame": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 21.0,
+"matrix": [0.83447266, 0.0, 0.0, 1.6502686, -2.55, -1.7],
+"name": null,
+"rect": [-93.257178142, -63.17250535, 177.700952947, 122.9450107],
+"source_id": 4636.0
+}],
+"2": [{
+"alpha_mult": 0.0,
+"depth": 21.0,
+"matrix": [0.83447266, 0.0, 0.0, 1.6502686, -2.55, -1.7],
+"name": null,
+"rect": [-93.257178142, -63.17250535, 177.700952947, 122.9450107],
+"source_id": 4636.0
+}]
+},
+"calibration": "Presence and source geometry verified statically. Collision callback/marker contributions are separate; this is not a damage oracle.",
+"frame_count": 4.0,
+"inactive_source_frames": "Missing frames are empty; do not retain preceding shapes.",
+"space": "source sprite6760 local; multiply original actor action parent matrix once"
+},
+"6771": {
+"active_by_source_frame": {
+"1": [{
+"alpha_mult": 0.0,
+"depth": 21.0,
+"matrix": [0.688385, 0.0, 0.0, 1.2849121, -0.4, -4.7],
+"name": null,
+"rect": [-75.2274495, -52.562975725, 146.59158575, 95.72595145],
+"source_id": 4636.0
+}],
+"2": [{
+"alpha_mult": 0.0,
+"depth": 21.0,
+"matrix": [0.688385, 0.0, 0.0, 1.2849121, -0.4, -4.7],
+"name": null,
+"rect": [-75.2274495, -52.562975725, 146.59158575, 95.72595145],
+"source_id": 4636.0
+}]
+},
+"calibration": "Presence and source geometry verified statically. Collision callback/marker contributions are separate; this is not a damage oracle.",
+"frame_count": 4.0,
+"inactive_source_frames": "Missing frames are empty; do not retain preceding shapes.",
+"space": "source sprite6771 local; multiply original actor action parent matrix once"
+}
+},
+"player_proxy_id": 4826.0,
+"root_placements": {
+"2": [{
+"depth": 1972.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 135.15, 318.6],
+"name": "건호크3",
+"source_id": 6753.0
+}, {
+"depth": 2181.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.0, 317.6],
+"name": "건호크2",
+"source_id": 6764.0
+}, {
+"depth": 2403.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.45, 307.65],
+"name": "건호크",
+"source_id": 6772.0
+}],
+"4": [{
+"depth": 2715.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 135.15, 318.6],
+"name": "건호크3",
+"source_id": 6753.0
+}, {
+"depth": 2924.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.0, 317.6],
+"name": "건호크2",
+"source_id": 6764.0
+}, {
+"depth": 3146.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.45, 307.65],
+"name": "건호크",
+"source_id": 6772.0
+}],
+"41": [{
+"depth": 1864.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 135.15, 318.6],
+"name": "건호크3",
+"source_id": 6753.0
+}, {
+"depth": 2081.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.0, 317.6],
+"name": "건호크2",
+"source_id": 6764.0
+}, {
+"depth": 2303.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.45, 307.65],
+"name": "건호크",
+"source_id": 6772.0
+}],
+"6": [{
+"depth": 1998.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 135.15, 318.6],
+"name": "건호크3",
+"source_id": 6753.0
+}, {
+"depth": 2207.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.0, 317.6],
+"name": "건호크2",
+"source_id": 6764.0
+}, {
+"depth": 2429.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.45, 307.65],
+"name": "건호크",
+"source_id": 6772.0
+}],
+"9": [{
+"depth": 2081.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 135.15, 318.6],
+"name": "건호크3",
+"source_id": 6753.0
+}, {
+"depth": 2290.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.0, 317.6],
+"name": "건호크2",
+"source_id": 6764.0
+}, {
+"depth": 2512.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 133.45, 307.65],
+"name": "건호크",
+"source_id": 6772.0
+}]
+},
+"root_spawn_x": "player._x",
+"root_timelines": {
+"6753": {
+"active_by_source_frame": {},
+"frame_count": 49,
+"inactive_source_frames": "All; original third gunhawk contains no6763 catch detector.",
+"space": "6753 root local"
+},
+"6764": {
+"active_by_source_frame": {
+"36": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 213.1, -3.05],
+"name": null,
+"rect": [192.4713376, -32.397045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"37": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 180.1, -2.05],
+"name": null,
+"rect": [159.4713376, -31.397045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"38": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 141.05, -4.05],
+"name": null,
+"rect": [120.4213376, -33.397045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"39": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 100.05, -5.65],
+"name": null,
+"rect": [79.4213376, -34.997045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"40": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 54.05, -5.65],
+"name": null,
+"rect": [33.4213376, -34.997045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"41": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 14.05, -5.65],
+"name": null,
+"rect": [-6.5786624, -34.997045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"42": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -27.95, -5.15],
+"name": null,
+"rect": [-48.5786624, -34.497045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"43": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -71.0, -5.15],
+"name": null,
+"rect": [-91.6286624, -34.497045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"44": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -71.0, -5.15],
+"name": null,
+"rect": [-91.6286624, -34.497045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"45": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -71.0, -5.15],
+"name": null,
+"rect": [-91.6286624, -34.497045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}]
+},
+"calibration": "Presence and source geometry verified statically. Collision callback/marker contributions are separate; this is not a damage oracle.",
+"frame_count": 45.0,
+"inactive_source_frames": "Missing frames are empty; do not retain preceding shapes.",
+"space": "source sprite6764 local; multiply original actor action parent matrix once"
+},
+"6772": {
+"active_by_source_frame": {
+"37": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 174.1, 7.95],
+"name": null,
+"rect": [153.4713376, -21.397045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"38": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 147.05, 10.0],
+"name": null,
+"rect": [126.4213376, -19.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"39": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 119.7, 10.0],
+"name": null,
+"rect": [99.0713376, -19.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"40": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 76.7, 10.0],
+"name": null,
+"rect": [56.0713376, -19.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"41": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 42.7, 10.0],
+"name": null,
+"rect": [22.0713376, -19.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"42": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, 1.7, 10.0],
+"name": null,
+"rect": [-18.9286624, -19.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"43": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -45.35, 9.85],
+"name": null,
+"rect": [-65.9786624, -19.497045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"44": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -84.35, 9.0],
+"name": null,
+"rect": [-104.9786624, -20.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}],
+"45": [{
+"alpha_mult": 0.0,
+"depth": 221.0,
+"matrix": [0.25785828, 0.0, 0.0, 1.5405273, -90.35, 9.0],
+"name": null,
+"rect": [-110.9786624, -20.347045065, 41.270217714, 58.617063765],
+"source_id": 6763.0
+}]
+},
+"calibration": "Presence and source geometry verified statically. Collision callback/marker contributions are separate; this is not a damage oracle.",
+"frame_count": 46.0,
+"inactive_source_frames": "Missing frames are empty; do not retain preceding shapes.",
+"space": "source sprite6772 local; multiply original actor action parent matrix once"
+}
+},
+"source_scale_direction": "abs(root._xscale)*bug1",
+"source_y_retained": true,
+"stages": {
+"1": {
+"animation": "crt1_gunhawk1",
+"catch_action": "r_catch1",
+"catch_actor_parent": 57.0,
+"catch_source_frame": 37.0,
+"end": 46.0,
+"entry": 2.0,
+"helper_active_frames": [1, 2],
+"helper_gravity": -5.0,
+"helper_loop_frames": 4,
+"helper_marker_bonus": 0.0,
+"source_id": 6772.0
+},
+"2": {
+"animation": "crt1_gunhawk2",
+"catch_action": "r_catch2",
+"catch_actor_parent": 58.0,
+"catch_source_frame": 36.0,
+"end": 45.0,
+"entry": 2.0,
+"helper_active_frames": [1, 2],
+"helper_gravity": -5.0,
+"helper_loop_frames": 4,
+"helper_marker_bonus": 0.0,
+"source_id": 6764.0
+},
+"3": {
+"animation": "crt1_gunhawk3",
+"end": 49.0,
+"entry": 2.0,
+"helper_active_frames": [1, 2],
+"helper_gravity": -5.0,
+"helper_loop_frames": 4,
+"helper_marker_bonus": 1.0,
+"source_id": 6753.0
+}
+}
+}
+animations = Array[Resource]([ExtResource("1_itu56"), ExtResource("2_2p0aa"), ExtResource("3_m4ogx")])
+source = "首次派生：asset_catalog.source_geometry.act03_crt1_components.gunhawks；此Resource自此为作者参数权威，普通资源导入不覆盖。来源原AS/XML及边界见docs/LEBA-ACT-03_角色1与资源依据.md。"

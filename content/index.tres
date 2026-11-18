@@ -1,0 +1,26 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/actors/combatant.tscn" id="1_k7sil"]
+[ext_resource type="Resource" path="res://content/characters/crt_0.tres" id="2_3bwsy"]
+[ext_resource type="Resource" path="res://content/characters/crt_1.tres" id="3_0j8un"]
+[ext_resource type="PackedScene" path="res://scenes/actors/enemy.tscn" id="3_nh8rw"]
+[ext_resource type="Resource" path="res://content/enemies/goblin_7437.tres" id="4_31q3r"]
+[ext_resource type="Resource" path="res://content/characters/crt_2.tres" id="4_fjuav"]
+[ext_resource type="Script" path="res://scripts/content/content_index.gd" id="4_jryn6"]
+[ext_resource type="PackedScene" path="res://scenes/stages/root_2.tscn" id="5_0j8un"]
+[ext_resource type="Resource" path="res://content/characters/crt_3.tres" id="5_fjuav"]
+[ext_resource type="Resource" path="res://content/characters/crt_4.tres" id="6_5c3sr"]
+[ext_resource type="PackedScene" path="res://scenes/stages/root_4.tscn" id="6_31q3r"]
+[ext_resource type="Resource" path="res://content/flow.tres" id="6_fjuav"]
+[ext_resource type="PackedScene" path="res://scenes/stages/root_6.tscn" id="7_fjuav"]
+[ext_resource type="PackedScene" path="res://scenes/stages/root_41.tscn" id="8_5c3sr"]
+[ext_resource type="PackedScene" path="res://scenes/stages/root_9.tscn" id="12_5c3sr"]
+
+[resource]
+script = ExtResource("4_jryn6")
+characters = Array[Resource]([ExtResource("2_3bwsy"), ExtResource("3_0j8un"), ExtResource("4_fjuav"), ExtResource("5_fjuav"), ExtResource("6_5c3sr")])
+stage_scenes = Array[PackedScene]([ExtResource("5_0j8un"), ExtResource("6_31q3r"), ExtResource("7_fjuav"), ExtResource("8_5c3sr"), ExtResource("12_5c3sr")])
+enemy_definitions = Array[Resource]([ExtResource("4_31q3r")])
+actor_scene = ExtResource("1_k7sil")
+enemy_scene = ExtResource("3_nh8rw")
+flow = ExtResource("6_fjuav")

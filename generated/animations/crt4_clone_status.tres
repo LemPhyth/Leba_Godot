@@ -1,0 +1,67 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_vhvu2"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_clone_status.png" id="2_yoegx"]
+
+[resource]
+script = ExtResource("1_vhvu2")
+identifier = "crt4_clone_status"
+texture = ExtResource("2_yoegx")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-15.8, 0.0, 32.0, 57.0],
+"pivot": [15.8, 0.0],
+"region": [2.0, 2.0, 32.0, 57.0],
+"source_crop": [0.0, 0.0, 32.0, 57.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-15.8, 0.0, 32.0, 57.0],
+"pivot": [15.8, 0.0],
+"region": [38.0, 2.0, 32.0, 57.0],
+"source_crop": [0.0, 0.0, 32.0, 57.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-15.8, 0.0, 32.0, 57.0],
+"pivot": [15.8, 0.0],
+"region": [74.0, 2.0, 32.0, 57.0],
+"source_crop": [0.0, 0.0, 32.0, 57.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-15.8, 0.0, 31.0, 58.0],
+"pivot": [15.8, 0.0],
+"region": [110.0, 2.0, 31.0, 58.0],
+"source_crop": [0.0, 0.0, 31.0, 58.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-15.8, 0.0, 31.0, 58.0],
+"pivot": [15.8, 0.0],
+"region": [145.0, 2.0, 31.0, 58.0],
+"source_crop": [0.0, 0.0, 31.0, 58.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-15.8, 0.0, 31.0, 58.0],
+"pivot": [15.8, 0.0],
+"region": [180.0, 2.0, 31.0, 58.0],
+"source_crop": [0.0, 0.0, 31.0, 58.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-14.8, 3.0, 29.0, 52.0],
+"pivot": [14.8, -3.0],
+"region": [215.0, 2.0, 29.0, 52.0],
+"source_crop": [1.0, 3.0, 30.0, 55.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-14.8, 3.0, 29.0, 52.0],
+"pivot": [14.8, -3.0],
+"region": [248.0, 2.0, 29.0, 52.0],
+"source_crop": [1.0, 3.0, 30.0, 55.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-14.8, 3.0, 29.0, 52.0],
+"pivot": [14.8, -3.0],
+"region": [281.0, 2.0, 29.0, 52.0],
+"source_crop": [1.0, 3.0, 30.0, 55.0],
+"source_frame": 9.0
+}])
+baked_placement_matrix = PackedFloat64Array(0.000198364258, 0.3232422, -0.3232422, 0.000198364258, 0, 0)
+baked_alpha_mult = 223.0
+source = "asset_catalog.animations.crt4_clone_status；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,66 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_c8nfj"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_mummy.png" id="2_vkswc"]
+
+[resource]
+script = ExtResource("1_c8nfj")
+identifier = "crt4_mummy"
+texture = ExtResource("2_vkswc")
+frames = Array[Dictionary]([{
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [81.45, 172.5],
+"region": [2.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-13.45, -37.5, 34.0, 33.0],
+"pivot": [13.45, 37.5],
+"region": [7.0, 2.0, 34.0, 33.0],
+"source_crop": [68.0, 135.0, 102.0, 168.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-15.45, -50.5, 37.0, 46.0],
+"pivot": [15.45, 50.5],
+"region": [45.0, 2.0, 37.0, 46.0],
+"source_crop": [66.0, 122.0, 103.0, 168.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-15.45, -66.5, 37.0, 62.0],
+"pivot": [15.45, 66.5],
+"region": [86.0, 2.0, 37.0, 62.0],
+"source_crop": [66.0, 106.0, 103.0, 168.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-15.45, -69.5, 37.0, 64.0],
+"pivot": [15.45, 69.5],
+"region": [127.0, 2.0, 37.0, 64.0],
+"source_crop": [66.0, 103.0, 103.0, 167.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-25.45, -71.5, 43.0, 67.0],
+"pivot": [25.45, 71.5],
+"region": [168.0, 2.0, 43.0, 67.0],
+"source_crop": [56.0, 101.0, 99.0, 168.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-15.45, -69.5, 43.0, 64.0],
+"pivot": [15.45, 69.5],
+"region": [215.0, 2.0, 43.0, 64.0],
+"source_crop": [66.0, 103.0, 109.0, 167.0],
+"source_frame": 25.0
+}, {
+"alpha_bounds": [-14.45, -69.5, 42.0, 65.0],
+"pivot": [14.45, 69.5],
+"region": [262.0, 2.0, 42.0, 65.0],
+"source_crop": [67.0, 103.0, 109.0, 168.0],
+"source_frame": 27.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [81.45, 172.5],
+"region": [308.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 200.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_mummy；派生图集；来源与pivot见catalog。"

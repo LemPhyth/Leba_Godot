@@ -1,0 +1,128 @@
+[gd_resource type="Resource" format=3 uid="uid://sgieltb158p5"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_g.tres" id="1_mqaol"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_dohg8"]
+[ext_resource type="AudioStream" uid="uid://c4ykkvchpm8cy" path="res://assets/audio/4868.mp3" id="3_62aed"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_tori0"]
+[ext_resource type="AudioStream" uid="uid://cqnhcn7ekt5w6" path="res://assets/audio/4859.mp3" id="4_4y7jn"]
+
+[sub_resource type="Resource" id="Resource_62aed"]
+script = ExtResource("2_dohg8")
+frame = 8
+kind = "crt1_head_projectile"
+projectile = "projectile_head"
+damage = 30.0
+
+[sub_resource type="Resource" id="Resource_4y7jn"]
+script = ExtResource("2_dohg8")
+frame = 2
+kind = "root_offset"
+parameters = {
+"y": 4
+}
+
+[sub_resource type="Resource" id="Resource_vhlto"]
+script = ExtResource("2_dohg8")
+frame = 3
+kind = "root_offset"
+parameters = {
+"y": -8
+}
+
+[sub_resource type="Resource" id="Resource_gctdv"]
+script = ExtResource("2_dohg8")
+frame = 4
+kind = "root_offset"
+parameters = {
+"y": 0
+}
+
+[sub_resource type="Resource" id="Resource_2bxw7"]
+script = ExtResource("2_dohg8")
+frame = 6
+sound = "crt1_skill_g"
+audio_stream = ExtResource("3_62aed")
+parameters = {
+"envelope": [{
+"left": 8266.0,
+"right": 7971.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"out_point_samples_44100": 64512.0,
+"sound_id": 4868.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"outPoint": "64512",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5889.0
+}
+source = "原StartSound：sprite5889/frame6/Sound4868；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_ebpmh"]
+script = ExtResource("2_dohg8")
+frame = 8
+sound = "crt1_skill_g_sound_2"
+audio_stream = ExtResource("4_4y7jn")
+audio_offset = 0.02040816326530612
+parameters = {
+"envelope": [{
+"left": 15351.0,
+"right": 15056.0,
+"sample": 0.0
+}, {
+"left": 15941.0,
+"right": 15056.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 900.0,
+"sound_id": 4859.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "900",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5889.0
+}
+source = "原StartSound：sprite5889/frame8/Sound4859；起播900 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("3_tori0")
+identifier = "skill_g"
+title = "skill_g"
+animation = ExtResource("1_mqaol")
+animation_key = "crt1_skill_g"
+source_parent = 111
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
+input_id = "load_g"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "skill_a", "skill")
+cost = 3.0
+required_mp = 3.0
+cooldown_ticks = 174
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_62aed"), SubResource("Resource_4y7jn"), SubResource("Resource_vhlto"), SubResource("Resource_gctdv"), SubResource("Resource_2bxw7"), SubResource("Resource_ebpmh")])
+source = "res/scripts/DefineSprite_6732/frame_111 + DefineSprite_5889；父矩阵/选帧见asset_catalog.animations.crt1_skill_g"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"shot_marker_bonus": 15.0,
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41, 35, 46],
+"source_id": 5889,
+"source_jump": {
+"1": 2
+},
+"turn_on_start": true
+}

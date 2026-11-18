@@ -1,0 +1,307 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_d_follow.tres" id="1_qn0mq"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_d_air.tres" id="2_7demt"]
+[ext_resource type="Resource" path="res://generated/animations/projectile_diagonal_two.tres" id="3_1vajw"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="4_nnjyp"]
+
+[resource]
+script = ExtResource("4_nnjyp")
+identifier = "crt1_d_follow"
+parameters = {
+"air_animation": "crt1_d_air",
+"air_id": 4935.0,
+"air_local_offset_baked": false,
+"air_overlay_by_frame": {
+"1": [],
+"10": [],
+"11": [],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -218.9],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -218.25],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -216.25],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -212.9],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -208.25],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -202.3],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -194.95],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -186.3],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"2": [],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -176.35],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -165.05],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -152.4],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -138.45],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -123.15],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -106.55],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -88.6],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -69.3],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -48.7],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -26.75],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"3": [],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -26.75],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.85, -26.75],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"32": [],
+"33": [],
+"34": [],
+"35": [],
+"36": [],
+"37": [],
+"38": [],
+"39": [],
+"4": [],
+"40": [],
+"41": [],
+"42": [],
+"43": [],
+"44": [],
+"45": [],
+"46": [],
+"47": [],
+"48": [],
+"49": [],
+"5": [],
+"50": [],
+"51": [],
+"52": [],
+"53": [],
+"54": [],
+"55": [],
+"56": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -246.2],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"57": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -244.95],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"58": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -241.15],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"59": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -234.8],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"6": [],
+"60": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -225.95],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"61": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -214.55],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"62": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -200.6],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"63": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -184.15],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"64": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -165.15],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"65": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -143.6],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"66": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -119.55],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"67": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -92.95],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"68": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -63.8],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"69": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -11.85, -32.15],
+"name": "점프중",
+"source_id": 4935.0
+}],
+"7": [],
+"70": [],
+"8": [],
+"9": []
+},
+"air_stop_frames": [1.0, 5.0],
+"end_root_x_delta": 10.0,
+"end_source_frame": 31.0,
+"fire_sub_frames": [2.0, 3.0],
+"held_move": 4.0,
+"held_x_restart_frames": [1.0, 5.0],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 3.6, -8.7],
+"projectile": "projectile_diagonal_two",
+"projectile_local_spawn": {
+"x": -50.0,
+"y": "160 + child._y"
+},
+"recoil_per_tick": -3.0,
+"sprite_id": 4954.0
+}
+animations = Array[Resource]([ExtResource("1_qn0mq"), ExtResource("2_7demt"), ExtResource("3_1vajw")])
+source = "首次派生：asset_catalog.source_geometry.act03_crt1_components.d_follow；此Resource自此为作者参数权威，普通资源导入不覆盖。来源原AS/XML及边界见docs/LEBA-ACT-03_角色1与资源依据.md。"

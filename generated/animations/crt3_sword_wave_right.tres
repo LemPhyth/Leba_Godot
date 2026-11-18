@@ -1,0 +1,144 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_wlbf5"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_sword_wave_right.png" id="2_g8n51"]
+
+[resource]
+script = ExtResource("1_wlbf5")
+identifier = "crt3_sword_wave_right"
+texture = ExtResource("2_g8n51")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-79.1, -116.05, 247.0, 192.0],
+"pivot": [79.1, 116.05],
+"region": [2.0, 2.0, 247.0, 192.0],
+"source_crop": [86.0, 70.0, 333.0, 262.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-79.1, -116.05, 265.0, 192.0],
+"pivot": [79.1, 116.05],
+"region": [253.0, 2.0, 265.0, 192.0],
+"source_crop": [86.0, 70.0, 351.0, 262.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-78.1, -116.05, 290.0, 191.0],
+"pivot": [78.1, 116.05],
+"region": [522.0, 2.0, 290.0, 191.0],
+"source_crop": [87.0, 70.0, 377.0, 261.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-78.1, -116.05, 309.0, 191.0],
+"pivot": [78.1, 116.05],
+"region": [816.0, 2.0, 309.0, 191.0],
+"source_crop": [87.0, 70.0, 396.0, 261.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-79.1, -116.05, 312.0, 193.0],
+"pivot": [79.1, 116.05],
+"region": [1129.0, 2.0, 312.0, 193.0],
+"source_crop": [86.0, 70.0, 398.0, 263.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-4.1, -116.05, 256.0, 193.0],
+"pivot": [4.1, 116.05],
+"region": [1445.0, 2.0, 256.0, 193.0],
+"source_crop": [161.0, 70.0, 417.0, 263.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-3.1, -116.05, 282.0, 192.0],
+"pivot": [3.1, 116.05],
+"region": [1705.0, 2.0, 282.0, 192.0],
+"source_crop": [162.0, 70.0, 444.0, 262.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-3.1, -116.05, 301.0, 192.0],
+"pivot": [3.1, 116.05],
+"region": [1991.0, 2.0, 301.0, 192.0],
+"source_crop": [162.0, 70.0, 463.0, 262.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-4.1, -116.05, 328.0, 194.0],
+"pivot": [4.1, 116.05],
+"region": [2296.0, 2.0, 328.0, 194.0],
+"source_crop": [161.0, 70.0, 489.0, 264.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [76.9, -116.05, 265.0, 193.0],
+"pivot": [-76.9, 116.05],
+"region": [2628.0, 2.0, 265.0, 193.0],
+"source_crop": [242.0, 70.0, 507.0, 263.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [77.9, -116.05, 267.0, 192.0],
+"pivot": [-77.9, 116.05],
+"region": [2897.0, 2.0, 267.0, 192.0],
+"source_crop": [243.0, 70.0, 510.0, 262.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [77.9, -116.05, 286.0, 192.0],
+"pivot": [-77.9, 116.05],
+"region": [3168.0, 2.0, 286.0, 192.0],
+"source_crop": [243.0, 70.0, 529.0, 262.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [76.9, -116.05, 314.0, 194.0],
+"pivot": [-76.9, 116.05],
+"region": [3458.0, 2.0, 314.0, 194.0],
+"source_crop": [242.0, 70.0, 556.0, 264.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [155.9, -116.05, 254.0, 192.0],
+"pivot": [-155.9, 116.05],
+"region": [3776.0, 2.0, 254.0, 192.0],
+"source_crop": [321.0, 70.0, 575.0, 262.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [156.9, -116.05, 278.0, 191.0],
+"pivot": [-156.9, 116.05],
+"region": [2.0, 200.0, 278.0, 191.0],
+"source_crop": [322.0, 70.0, 600.0, 261.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [156.9, -116.05, 297.0, 191.0],
+"pivot": [-156.9, 116.05],
+"region": [284.0, 200.0, 297.0, 191.0],
+"source_crop": [322.0, 70.0, 619.0, 261.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [155.9, -116.05, 300.0, 194.0],
+"pivot": [-155.9, 116.05],
+"region": [585.0, 200.0, 300.0, 194.0],
+"source_crop": [321.0, 70.0, 621.0, 264.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [213.9, -28.05, 135.0, 106.0],
+"pivot": [-213.9, 28.05],
+"region": [889.0, 200.0, 135.0, 106.0],
+"source_crop": [379.0, 158.0, 514.0, 264.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [214.9, -19.05, 137.0, 96.0],
+"pivot": [-214.9, 19.05],
+"region": [1028.0, 200.0, 137.0, 96.0],
+"source_crop": [380.0, 167.0, 517.0, 263.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [214.9, -19.05, 137.0, 96.0],
+"pivot": [-214.9, 19.05],
+"region": [1169.0, 200.0, 137.0, 96.0],
+"source_crop": [380.0, 167.0, 517.0, 263.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [213.9, -7.05, 139.0, 86.0],
+"pivot": [-213.9, 7.05],
+"region": [1310.0, 200.0, 139.0, 86.0],
+"source_crop": [379.0, 179.0, 518.0, 265.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [165.1, 186.05],
+"region": [1453.0, 200.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 22.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt3_sword_wave_right；派生图集；来源与pivot见catalog。"

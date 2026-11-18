@@ -1,0 +1,48 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_xyqyy"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_air_z_right.png" id="2_hbcyk"]
+
+[resource]
+script = ExtResource("1_xyqyy")
+identifier = "crt2_air_z_right"
+texture = ExtResource("2_hbcyk")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-74.3, 2.3, 187.0, 81.0],
+"pivot": [74.3, -2.3],
+"region": [2.0, 2.0, 187.0, 81.0],
+"source_crop": [17.0, 7.0, 204.0, 88.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-79.3, 0.3, 196.0, 84.0],
+"pivot": [79.3, -0.3],
+"region": [193.0, 2.0, 196.0, 84.0],
+"source_crop": [12.0, 5.0, 208.0, 89.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-87.3, -2.7, 213.0, 92.0],
+"pivot": [87.3, 2.7],
+"region": [393.0, 2.0, 213.0, 92.0],
+"source_crop": [4.0, 2.0, 217.0, 94.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-91.3, -4.7, 221.0, 95.0],
+"pivot": [91.3, 4.7],
+"region": [610.0, 2.0, 221.0, 95.0],
+"source_crop": [0.0, 0.0, 221.0, 95.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-91.3, -4.7, 221.0, 95.0],
+"pivot": [91.3, 4.7],
+"region": [835.0, 2.0, 221.0, 95.0],
+"source_crop": [0.0, 0.0, 221.0, 95.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [91.3, 4.7],
+"region": [1060.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 6.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_air_z_right；派生图集；来源与pivot见catalog。"

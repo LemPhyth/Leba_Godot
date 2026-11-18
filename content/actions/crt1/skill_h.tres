@@ -1,0 +1,68 @@
+[gd_resource type="Resource" format=3 uid="uid://cqb4sog3lara5"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_h.tres" id="1_nx2q0"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="2_3a7r8"]
+[ext_resource type="AudioStream" uid="uid://sbbb8qdhoeyx" path="res://assets/audio/5828.mp3" id="2_xm03c"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_kquh1"]
+
+[sub_resource type="Resource" id="Resource_7cmkh"]
+script = ExtResource("3_kquh1")
+frame = 2
+sound = "crt1_skill_h"
+audio_stream = ExtResource("2_xm03c")
+parameters = {
+"envelope": [{
+"left": 10332.0,
+"right": 7085.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5828.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6338.0
+}
+source = "原StartSound：sprite6338/frame2/Sound5828；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("2_3a7r8")
+identifier = "skill_h"
+title = "skill_h"
+animation = ExtResource("1_nx2q0")
+animation_key = "crt1_skill_h"
+source_parent = 145
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22)
+input_id = "load_h"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "skill_a", "skill")
+cost = 5.0
+required_mp = 5.0
+cubes = 1
+cooldown_ticks = 299
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_7cmkh")])
+source = "res/scripts/DefineSprite_6732/frame_145 + DefineSprite_6338；父矩阵/选帧见asset_catalog.animations.crt1_skill_h"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"chain_limit": 5,
+"controller": "crt1_h",
+"direction_actions": {
+"back": "h_back",
+"down": "h_down",
+"forward": "h_forward",
+"up": "h_up"
+},
+"direction_window_from": 3,
+"direction_window_until": 21,
+"hh_increment_source_frame": 0,
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41, 35, 46],
+"source_id": 6338
+}

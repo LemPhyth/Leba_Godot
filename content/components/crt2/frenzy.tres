@@ -1,0 +1,34 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_brdtr"]
+
+[resource]
+script = ExtResource("1_brdtr")
+identifier = "frenzy"
+parameters = {
+"activate_frame": 9.0,
+"active_value": 1.0,
+"drain_condition": "pren == 1 && necklace != 7",
+"hold_frame": 9.0,
+"hp_drain_per_source_tick": 0.01,
+"inactive_value": 0.0,
+"low_hp_parts_page": 2.0,
+"low_hp_threshold": 5.0,
+"manual_off_parts_page": 1.0,
+"off_frame": 1.0,
+"parent_matrix": [1.6549683, 0.0, 0.0, 1.8181763, 0.95, -120.5],
+"parent_name": "프렌지시간",
+"source": ["res/scripts/DefineSprite_4600/frame_1/DoAction.as", "res/scripts/DefineSprite_4600/frame_9/DoAction.as", "res/scripts/DefineSprite_4600/frame_9/PlaceObject2_1901_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_4600/frame_9/PlaceObject2_1901_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as"],
+"source_id": 4600.0,
+"start_frame": 2.0,
+"state_name": "pren",
+"tick_order": ["conditional HP -= 0.01", "independent HP <= 5 check", "lowHP parts1..6 seek2; pp seek1", "4600 gotoStop1 executes pren=0"],
+"unknown": "LowHP explicit part2 then pren0 visual persistence depends on recreated pieces; do not rewrite as source part1.",
+"visible_child": {
+"id": 4599.0,
+"loop": true,
+"matrix": [1.0, 0.0, 0.0, 1.0, -12.95, 58.7],
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0]
+}
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

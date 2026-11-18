@@ -1,0 +1,73 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_nk4p0"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_skill_e.png" id="2_lwv08"]
+
+[resource]
+script = ExtResource("1_nk4p0")
+identifier = "crt3_skill_e"
+texture = ExtResource("2_lwv08")
+parent_scale = Vector2(1.5412903, 1.5412903)
+frames = Array[Dictionary]([{
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [2.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [68.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [134.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [200.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [266.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [332.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [398.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [464.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-39.05387, -73.901289, 95.559999, 174.165804],
+"pivot": [25.538426, 47.497677],
+"region": [530.0, 2.0, 62.0, 113.0],
+"source_crop": [111.0, 114.0, 173.0, 227.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [136.538426, 161.497677],
+"region": [596.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 10.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt3_skill_e；派生图集；来源与pivot见catalog。"

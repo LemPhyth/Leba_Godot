@@ -1,0 +1,27 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_l1i4e"]
+
+[resource]
+script = ExtResource("1_l1i4e")
+identifier = "backstep"
+parameters = {
+"body_id": 4673.0,
+"body_initial_matrix": [1.0, 0.0, 0.0, 1.0, 4.7, 72.45],
+"child_active_frames": [1.0, 11.0],
+"child_active_restarts_cd_each_tick": true,
+"child_id": 6156.0,
+"child_initial_stop": 1.0,
+"child_return_at": 15.0,
+"child_return_to": 1.0,
+"child_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0],
+"child_x_start": 2.0,
+"companion_id": 6157.0,
+"cooldown_slot": 4268.0,
+"cooldown_slot_frames": 82.0,
+"input": "heldX and child.frame1 and slot4268.frame1; no MP cost",
+"normal_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0],
+"parent": 130.0,
+"source_id": 6158.0
+}
+source = "Original AS/XML default CRT3; reviewed rules in act05_crt3_rules.json"

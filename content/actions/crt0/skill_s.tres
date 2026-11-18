@@ -1,0 +1,64 @@
+[gd_resource type="Resource" format=3 uid="uid://cedxpdp7os6ln"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt0_skill_s.tres" id="1_jn6vj"]
+[ext_resource type="AudioStream" uid="uid://b1vg8oc1a7p8j" path="res://assets/audio/4649.mp3" id="2_v6d5v"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_5ms5q"]
+[ext_resource type="AudioStream" uid="uid://dog7wwmylwevv" path="res://assets/audio/4421.mp3" id="4_wgvp2"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="5_7n6x8"]
+
+[sub_resource type="Resource" id="Resource_lbcvp"]
+script = ExtResource("3_5ms5q")
+frame = 2
+sound = "crt0_skill_s_charge"
+audio_stream = ExtResource("2_v6d5v")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4649.0,
+"sprite_id": 4668.0
+}
+
+[sub_resource type="Resource" id="Resource_hce2w"]
+script = ExtResource("3_5ms5q")
+frame = 6
+sound = "crt0_skill_s"
+audio_stream = ExtResource("4_wgvp2")
+parameters = {
+"envelope": [{
+"left": 12694.0,
+"right": 11808.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 4421.0,
+"sprite_id": 4668.0
+}
+
+[sub_resource type="Resource" id="Resource_wxkq4"]
+script = ExtResource("3_5ms5q")
+frame = 7
+kind = "projectile"
+projectile = "projectile_rising"
+gravity = -12.0
+parameters = {
+"damage_scope": "shared marker frame2; airborne marker3 is separate"
+}
+
+[resource]
+script = ExtResource("5_7n6x8")
+identifier = "skill_s"
+title = "skill_s"
+animation = ExtResource("1_jn6vj")
+animation_key = "crt0_skill_s"
+source_parent = 11
+sequence = PackedInt32Array(1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)
+input_id = "skill_s"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "basic6")
+cost = 3.0
+cooldown_ticks = 79
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_lbcvp"), SubResource("Resource_hce2w"), SubResource("Resource_wxkq4")])
+source = "已有AS/XML动作定义；动画crt0_skill_s"
+extra = {
+"source_allowed_parent_frames": [1, 2, 3, 4, 7, 8, 9, 10, 16]
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_knockdown.tres" id="1_0tbmx"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_eysy8"]
+
+[resource]
+script = ExtResource("2_eysy8")
+identifier = "knockdown"
+title = "knockdown"
+animation = ExtResource("1_0tbmx")
+animation_key = "crt1_knockdown"
+source_parent = 45
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30)
+input_id = "knockdown"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold_at = PackedInt32Array()
+source = "res/scripts/DefineSprite_6732/frame_45 + DefineSprite_4923；父矩阵/选帧见asset_catalog.animations.crt1_knockdown"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+&"source_entry_frame": 2,
+"source_id": 4923
+}

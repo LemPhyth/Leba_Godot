@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/boss7176_idle.tres" id="1_wkrq0"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_ffsaw"]
+
+[resource]
+script = ExtResource("2_ffsaw")
+title = "idle"
+animation = ExtResource("1_wkrq0")
+animation_key = "boss7176_idle"
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6)
+input_id = "idle"
+allowed_states = PackedStringArray("idle", "move", "basic")
+loop = true
+hold_at = PackedInt32Array()
+source = "已有AS/XML动作定义；动画boss7176_idle"

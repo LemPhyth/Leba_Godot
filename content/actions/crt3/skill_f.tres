@@ -1,0 +1,1486 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_skill_f.tres" id="1_4vlc4"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_kpqd7"]
+[ext_resource type="AudioStream" path="res://assets/audio/6068.mp3" id="3_33krp"]
+[ext_resource type="AudioStream" path="res://assets/audio/6071.mp3" id="4_wtjbv"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="5_hcbuj"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="6_m2ccb"]
+
+[sub_resource type="Resource" id="Resource_sbdpo"]
+script = ExtResource("2_kpqd7")
+frame = 2
+kind = "crt3_spawn"
+parameters = {
+"left_id": 593,
+"right_id": 1023
+}
+
+[sub_resource type="Resource" id="Resource_xcaya"]
+script = ExtResource("2_kpqd7")
+frame = 2
+sound = "crt3_skill_f"
+audio_stream = ExtResource("3_33krp")
+audio_offset = 0.049886621315192746
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 2200.0,
+"sound_id": 6068.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "2200",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6088.0
+}
+
+[sub_resource type="Resource" id="Resource_ady76"]
+script = ExtResource("2_kpqd7")
+frame = 15
+sound = "crt3_skill_f_sound_2"
+audio_stream = ExtResource("4_wtjbv")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6071.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6088.0
+}
+
+[sub_resource type="Resource" id="Resource_s0xka"]
+script = ExtResource("6_m2ccb")
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 1,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_tq2s7"]
+script = ExtResource("6_m2ccb")
+from_frame = 2
+until_frame = 2
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 2,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_r3wlh"]
+script = ExtResource("6_m2ccb")
+from_frame = 3
+until_frame = 3
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 3,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_8jdes"]
+script = ExtResource("6_m2ccb")
+from_frame = 4
+until_frame = 4
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 4,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_mup6p"]
+script = ExtResource("6_m2ccb")
+from_frame = 5
+until_frame = 5
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 5,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_4tj37"]
+script = ExtResource("6_m2ccb")
+from_frame = 6
+until_frame = 6
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 6,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_g8rtl"]
+script = ExtResource("6_m2ccb")
+from_frame = 7
+until_frame = 7
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 7,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_oh01c"]
+script = ExtResource("6_m2ccb")
+from_frame = 8
+until_frame = 8
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 8,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_4fd87"]
+script = ExtResource("6_m2ccb")
+from_frame = 9
+until_frame = 9
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 9,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_a2ef8"]
+script = ExtResource("6_m2ccb")
+from_frame = 10
+until_frame = 10
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 10,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_k0jo2"]
+script = ExtResource("6_m2ccb")
+from_frame = 11
+until_frame = 11
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 11,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_5xxmi"]
+script = ExtResource("6_m2ccb")
+from_frame = 12
+until_frame = 12
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 12,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_gks2f"]
+script = ExtResource("6_m2ccb")
+from_frame = 13
+until_frame = 13
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 13,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_iop8f"]
+script = ExtResource("6_m2ccb")
+from_frame = 14
+until_frame = 14
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 1,
+"source_depth": 60,
+"source_frame": 14,
+"source_helper": 524,
+"source_rule": {
+"air_push_away": 3.5,
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"push_requires": "enemy.outer==2 and relative root x; two independent <=/>= tests",
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_34b2c"]
+script = ExtResource("6_m2ccb")
+from_frame = 2
+until_frame = 2
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-98.9, -61.920364, 229.28436, 155.13408)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 2,
+"source_depth": 26,
+"source_frame": 2,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 12.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": 1.0,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_mn1k6"]
+script = ExtResource("6_m2ccb")
+from_frame = 3
+until_frame = 3
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-98.9, -61.920364, 229.28436, 155.13408)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 2,
+"source_depth": 26,
+"source_frame": 3,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 12.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": 1.0,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_t3gac"]
+script = ExtResource("6_m2ccb")
+from_frame = 4
+until_frame = 4
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-98.9, -61.920364, 229.28436, 155.13408)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 2,
+"source_depth": 26,
+"source_frame": 4,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 12.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": 1.0,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_2x5cs"]
+script = ExtResource("6_m2ccb")
+from_frame = 8
+until_frame = 8
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-98.9, -61.920364, 229.28436, 155.13408)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 8,
+"source_depth": 26,
+"source_frame": 8,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 12.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": 1.0,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_qul7c"]
+script = ExtResource("6_m2ccb")
+from_frame = 9
+until_frame = 9
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-98.9, -61.920364, 229.28436, 155.13408)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 8,
+"source_depth": 26,
+"source_frame": 9,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 12.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": 1.0,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ax3na"]
+script = ExtResource("6_m2ccb")
+from_frame = 10
+until_frame = 10
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-98.9, -61.920364, 229.28436, 155.13408)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 8,
+"source_depth": 26,
+"source_frame": 10,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -5.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 12.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": 1.0,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ocpb6"]
+script = ExtResource("6_m2ccb")
+from_frame = 16
+until_frame = 16
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-34.749996, -145.50983, 209.0477, 224.15599)])
+gravity = -12.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 40,
+"source_frame": 16,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -12.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 18.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_0128x"]
+script = ExtResource("6_m2ccb")
+from_frame = 17
+until_frame = 17
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-34.749996, -145.50983, 209.0477, 224.15599)])
+gravity = -12.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 40,
+"source_frame": 17,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -12.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 18.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_5skv3"]
+script = ExtResource("6_m2ccb")
+from_frame = 16
+until_frame = 16
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 16,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_lmaup"]
+script = ExtResource("6_m2ccb")
+from_frame = 17
+until_frame = 17
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 17,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_rjx0a"]
+script = ExtResource("6_m2ccb")
+from_frame = 18
+until_frame = 18
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 18,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_ltysr"]
+script = ExtResource("6_m2ccb")
+from_frame = 19
+until_frame = 19
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 19,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_sdqhx"]
+script = ExtResource("6_m2ccb")
+from_frame = 20
+until_frame = 20
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 20,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_fog81"]
+script = ExtResource("6_m2ccb")
+from_frame = 21
+until_frame = 21
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 21,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_vmjcd"]
+script = ExtResource("6_m2ccb")
+from_frame = 22
+until_frame = 22
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 22,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_6aifm"]
+script = ExtResource("6_m2ccb")
+from_frame = 23
+until_frame = 23
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 23,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_oxi02"]
+script = ExtResource("6_m2ccb")
+from_frame = 24
+until_frame = 24
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 24,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_hof3r"]
+script = ExtResource("6_m2ccb")
+from_frame = 25
+until_frame = 25
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 25,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_517x8"]
+script = ExtResource("6_m2ccb")
+from_frame = 26
+until_frame = 26
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 26,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_nfsut"]
+script = ExtResource("6_m2ccb")
+from_frame = 27
+until_frame = 27
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 27,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_vwc72"]
+script = ExtResource("6_m2ccb")
+from_frame = 28
+until_frame = 28
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-15.750001, -163.9, 39, 18)])
+once_per_action = false
+parameters = {
+"source_birth_frame": 16,
+"source_depth": 50,
+"source_frame": 28,
+"source_helper": 524,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_stop2_on_frozen": false,
+"helper_stop2_on_super": false,
+"kind": "marker_observer",
+"marker_bonus": 15.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": false,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": null
+}
+}
+
+[resource]
+script = ExtResource("5_hcbuj")
+identifier = "skill_f"
+title = "skill_f"
+animation = ExtResource("1_4vlc4")
+animation_key = "crt3_skill_f"
+source_parent = 125
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28)
+input_id = "load_f"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "skill_s", "skill_s2", "skill_s3")
+cost = 3.0
+required_mp = 3.0
+cooldown_ticks = 269
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_sbdpo"), SubResource("Resource_xcaya"), SubResource("Resource_ady76")])
+windows = Array[Resource]([SubResource("Resource_s0xka"), SubResource("Resource_tq2s7"), SubResource("Resource_r3wlh"), SubResource("Resource_8jdes"), SubResource("Resource_mup6p"), SubResource("Resource_4tj37"), SubResource("Resource_g8rtl"), SubResource("Resource_oh01c"), SubResource("Resource_4fd87"), SubResource("Resource_a2ef8"), SubResource("Resource_k0jo2"), SubResource("Resource_5xxmi"), SubResource("Resource_gks2f"), SubResource("Resource_iop8f"), SubResource("Resource_34b2c"), SubResource("Resource_mn1k6"), SubResource("Resource_t3gac"), SubResource("Resource_2x5cs"), SubResource("Resource_qul7c"), SubResource("Resource_ax3na"), SubResource("Resource_ocpb6"), SubResource("Resource_0128x"), SubResource("Resource_5skv3"), SubResource("Resource_lmaup"), SubResource("Resource_rjx0a"), SubResource("Resource_ltysr"), SubResource("Resource_sdqhx"), SubResource("Resource_fog81"), SubResource("Resource_vmjcd"), SubResource("Resource_6aifm"), SubResource("Resource_oxi02"), SubResource("Resource_hof3r"), SubResource("Resource_517x8"), SubResource("Resource_nfsut"), SubResource("Resource_vwc72")])
+source = "Original AS/XML sprite6088 parent125; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"branches": [],
+"excluded_branch": {
+"condition": "weapon==2 or weaponmaster==1",
+"default_enabled": false,
+"from": 25.0,
+"goto": 29.0,
+"keycode": 70.0,
+"until": 28.0
+},
+"nested_audio": [],
+"next": "idle",
+"normal_end_source_frame": 28.0,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 2.2, 30.25],
+"physical_keys": [70.0],
+"reset_combo_counters": true,
+"slot_id": 4246.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+&"source_allowed_parent_frames": [101.0, 102.0, 103.0, 106.0, 107.0, 108.0, 117.0, 118.0, 119.0],
+"source_id": 6088.0,
+"source_motion": [{
+"add_spd": true,
+"dx": 12.0,
+"facing": true,
+"from": 2.0,
+"until": 4.0
+}, {
+"add_spd": true,
+"dx": 9.0,
+"facing": true,
+"from": 5.0,
+"until": 7.0
+}, {
+"add_spd": true,
+"dx": 5.0,
+"facing": true,
+"from": 8.0,
+"until": 10.0
+}, {
+"add_spd": true,
+"dx": 3.0,
+"facing": true,
+"from": 11.0,
+"until": 13.0
+}, {
+"add_spd": true,
+"dx": 1.0,
+"facing": true,
+"from": 14.0,
+"until": 16.0
+}]
+}

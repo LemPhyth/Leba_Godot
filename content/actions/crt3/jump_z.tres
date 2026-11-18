@@ -1,0 +1,269 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt3_jump.tres" id="1_coloi"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_7jm1e"]
+[ext_resource type="AudioStream" path="res://assets/audio/4616.mp3" id="3_h4g7j"]
+[ext_resource type="AudioStream" path="res://assets/audio/5648.mp3" id="4_trss2"]
+[ext_resource type="AudioStream" path="res://assets/audio/1156.mp3" id="5_mumk6"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="6_edb8c"]
+[ext_resource type="Script" path="res://scripts/content/hit_window.gd" id="7_mse3m"]
+
+[sub_resource type="Resource" id="Resource_r8ba7"]
+script = ExtResource("2_7jm1e")
+frame = 61
+kind = "crt3_body_goto_stop"
+parameters = {
+"source_frame": 61.0,
+"target_frame": 7.0
+}
+
+[sub_resource type="Resource" id="Resource_5v4fw"]
+script = ExtResource("2_7jm1e")
+frame = 66
+kind = "crt3_spawn"
+parameters = {
+"depth": 1000.0,
+"host": "root",
+"left_id": 971.0,
+"name_prefixes": ["에쉔", "에쉔2"],
+"right_id": 574.0,
+"source_frame": 66.0,
+"source_local_counter_e_not_incremented": true,
+"xy": "actor root x/y"
+}
+
+[sub_resource type="Resource" id="Resource_r883t"]
+script = ExtResource("2_7jm1e")
+frame = 67
+kind = "crt3_slot_start"
+parameters = {
+"source_frame": 67.0,
+"target_frame": 2.0
+}
+
+[sub_resource type="Resource" id="Resource_saqu5"]
+script = ExtResource("2_7jm1e")
+frame = 67
+kind = "crt3_goto_source"
+parameters = {
+"source_frame": 67.0,
+"target_frame": 28.0
+}
+
+[sub_resource type="Resource" id="Resource_ip04n"]
+script = ExtResource("2_7jm1e")
+frame = 28
+sound = "crt3_jump_sound_2"
+audio_stream = ExtResource("3_h4g7j")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6311.0
+}
+
+[sub_resource type="Resource" id="Resource_ice2w"]
+script = ExtResource("2_7jm1e")
+frame = 63
+sound = "crt3_jump_sound_3"
+audio_stream = ExtResource("4_trss2")
+parameters = {
+"envelope": [{
+"left": 17712.0,
+"right": 17712.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5648.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6311.0
+}
+
+[sub_resource type="Resource" id="Resource_ugg7l"]
+script = ExtResource("2_7jm1e")
+frame = 66
+sound = "crt3_jump_sound_4"
+audio_stream = ExtResource("5_mumk6")
+parameters = {
+"envelope": [{
+"left": 16532.0,
+"right": 16532.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 1156.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6311.0
+}
+
+[sub_resource type="Resource" id="Resource_euhid"]
+script = ExtResource("7_mse3m")
+from_frame = 61
+until_frame = 61
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-50.556248, -138.91924, 142.15292, 182.5263)])
+gravity = -6.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 61,
+"source_depth": 25,
+"source_frame": 61,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -6.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_nssd7"]
+script = ExtResource("7_mse3m")
+from_frame = 62
+until_frame = 62
+kind = "crt3_hit"
+rectangles = Array[Rect2]([Rect2(-50.556248, -138.91924, 142.15292, 182.5263)])
+gravity = -6.0
+once_per_action = false
+parameters = {
+"source_birth_frame": 61,
+"source_depth": 25,
+"source_frame": 62,
+"source_helper": 439,
+"source_rule": {
+"damage_semantics": "marker_bonus is callback observation of enemy marker frame2, not a once-per-overlap final damage. Shared root/marker observers are additional.",
+"default_context": {
+"accessories": 0.0,
+"armor": 1.0,
+"weapon": 0.0,
+"weaponmaster": 0.0
+},
+"direct_damage": 0.0,
+"frozen_reaction_frame": 2.0,
+"gravity": -6.0,
+"gravity_acceleration_add": 0.1,
+"helper_stop2_on_frozen": true,
+"helper_stop2_on_super": true,
+"kind": "lift",
+"marker_bonus": 10.0,
+"marker_observer_requires_geometry": false,
+"normal_contact_limit_per_target": null,
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("6_edb8c")
+identifier = "jump_z"
+title = "jump_z"
+animation = ExtResource("1_coloi")
+animation_key = "crt3_jump"
+source_parent = 139
+sequence = PackedInt32Array(57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 28, 29, 30)
+input_id = "skill_z"
+allowed_states = PackedStringArray("jump")
+cost = 5.0
+required_mp = 5.0
+cooldown_ticks = 146
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_r8ba7"), SubResource("Resource_5v4fw"), SubResource("Resource_r883t"), SubResource("Resource_saqu5"), SubResource("Resource_ip04n"), SubResource("Resource_ice2w"), SubResource("Resource_ugg7l")])
+windows = Array[Resource]([SubResource("Resource_euhid"), SubResource("Resource_nssd7")])
+source = "Original AS/XML sprite6311 parent139; source hashes in asset_catalog and investigation facts."
+calibration = "AS/XML static fact; source callback ordering and exact final damage not dynamically verified."
+extra = {
+"allowed_parents": [139.0],
+"branches": [],
+"component": "jump",
+"cooldown_deferred": true,
+"entry_source_frame_by_window": [{
+"child": "6308",
+"child_frame": 1.0,
+"from": 4.0,
+"target_frame": 63.0,
+"until": 27.0
+}, {
+"child": "4937_depth41",
+"from": 6.0,
+"target_frame": 61.0,
+"until": 8.0
+}, {
+"child": "4937_depth41",
+"from": 9.0,
+"immediate_slot_start": true,
+"target_frame": 59.0,
+"until": 10.0
+}, {
+"child": "4937_depth41",
+"from": 11.0,
+"target_frame": 57.0,
+"until": 19.0
+}, {
+"child": "4937_depth41",
+"from": 20.0,
+"target_frame": 59.0,
+"until": 23.0
+}, {
+"child": "4937_depth41",
+"from": 24.0,
+"target_frame": 61.0,
+"until": 26.0
+}],
+"nested_audio": [],
+"next": "idle",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -1.05, 26.5],
+"reset_combo_counters": false,
+"slot_id": 4229.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+&"source_allowed_parent_frames": [139.0],
+"source_id": 6311.0,
+"source_motion": []
+}

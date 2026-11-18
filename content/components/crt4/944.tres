@@ -1,0 +1,157 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_ex7g2"]
+
+[resource]
+script = ExtResource("1_ex7g2")
+identifier = "944"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0238342, 21.25, 35.5],
+"name": null,
+"source_id": 932.0
+}, {
+"depth": 7.0,
+"frame": 8.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 256.4, 37.0],
+"name": null,
+"source_id": 932.0
+}, {
+"depth": 13.0,
+"frame": 8.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -195.8, 37.0],
+"name": null,
+"source_id": 932.0
+}, {
+"depth": 19.0,
+"frame": 15.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -85.3, 37.0],
+"name": null,
+"source_id": 932.0
+}, {
+"depth": 25.0,
+"frame": 15.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 141.5, 37.85],
+"name": null,
+"source_id": 932.0
+}, {
+"depth": 31.0,
+"frame": 20.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -4.45, 48.9],
+"name": "조절",
+"source_id": 943.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0238342, 21.25, 35.5],
+"source_id": 932.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0238342, 21.25, 35.5],
+"source_id": 932.0
+}, {
+"depth": 7.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 256.4, 37.0],
+"ratio": "7",
+"source_id": 932.0
+}, {
+"depth": 13.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -195.8, 37.0],
+"ratio": "7",
+"source_id": 932.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0238342, 21.25, 35.5],
+"source_id": 932.0
+}, {
+"depth": 7.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 256.4, 37.0],
+"ratio": "7",
+"source_id": 932.0
+}, {
+"depth": 13.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -195.8, 37.0],
+"ratio": "7",
+"source_id": 932.0
+}, {
+"depth": 19.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -85.3, 37.0],
+"ratio": "14",
+"source_id": 932.0
+}, {
+"depth": 25.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 141.5, 37.85],
+"ratio": "14",
+"source_id": 932.0
+}],
+"source_frame": 15.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0238342, 21.25, 35.5],
+"source_id": 932.0
+}, {
+"depth": 7.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 256.4, 37.0],
+"ratio": "7",
+"source_id": 932.0
+}, {
+"depth": 13.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -195.8, 37.0],
+"ratio": "7",
+"source_id": 932.0
+}, {
+"depth": 19.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, -85.3, 37.0],
+"ratio": "14",
+"source_id": 932.0
+}, {
+"depth": 25.0,
+"matrix": [0.90971375, 0.0, 0.0, 0.9313965, 141.5, 37.85],
+"ratio": "14",
+"source_id": 932.0
+}, {
+"depth": 31.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -4.45, 48.9],
+"name": "조절",
+"ratio": "19",
+"source_id": 943.0
+}],
+"source_frame": 20.0
+}, {
+"placements": [],
+"source_frame": 21.0
+}],
+"sounds": [],
+"source": [{
+"frame": 20.0,
+"path": "res/scripts/DefineSprite_944_블라슈늪/frame_20/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 20.0,
+"path": "res/scripts/DefineSprite_944_블라슈늪/frame_20/PlaceObject3_943_31/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "c66833db0750003338eea1d04d89fb488ff96b3beb8790c1bf2d91bf2a93e280"
+}, {
+"frame": 20.0,
+"path": "res/scripts/DefineSprite_944_블라슈늪/frame_20/PlaceObject3_943_31/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "4a3a096916b5be63ea0d839f4a74ce2ec5c1ffc1cd17de899a467bc77eaf3ab9"
+}, {
+"frame": 21.0,
+"path": "res/scripts/DefineSprite_944_블라슈늪/frame_21/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 21.0,
+"source_id": 944.0,
+"stop_source_frames": [20.0, 21.0]
+}
+source = "Original AS/XML source 944; res://data/act06_crt4_rules.json.components.944"

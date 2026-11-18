@@ -1,0 +1,222 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_c7w2l"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_ghost_move_timer.png" id="2_w3rxf"]
+
+[resource]
+script = ExtResource("1_c7w2l")
+identifier = "crt4_ghost_move_timer"
+texture = ExtResource("2_w3rxf")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [144.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [286.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [428.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [570.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [712.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [854.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [996.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1138.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1280.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1422.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1564.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1706.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1848.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [1990.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2132.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2274.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2416.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2558.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2700.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2842.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2984.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [3126.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 23.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [3268.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 24.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [3410.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 25.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [3552.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 26.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [3694.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 27.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [3836.0, 2.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 28.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [2.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 29.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [144.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 30.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [286.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 31.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [428.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 32.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [570.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 33.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [712.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 34.0
+}, {
+"alpha_bounds": [-69.1, -67.45, 138.0, 135.0],
+"pivot": [69.1, 67.45],
+"region": [854.0, 141.0, 138.0, 135.0],
+"source_crop": [0.0, 0.0, 138.0, 135.0],
+"source_frame": 35.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_ghost_move_timer；派生图集；来源与pivot见catalog。"

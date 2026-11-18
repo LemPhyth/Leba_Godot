@@ -1,0 +1,46 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_rol0l"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_t_air_fire2.png" id="2_ins7p"]
+
+[resource]
+script = ExtResource("1_rol0l")
+identifier = "crt1_t_air_fire2"
+texture = ExtResource("2_ins7p")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-205.9, -145.8, 409.0, 323.0],
+"pivot": [262.9, 177.8],
+"region": [2.0, 2.0, 530.0, 382.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-206.9, -144.8, 409.0, 319.0],
+"pivot": [262.9, 177.8],
+"region": [536.0, 2.0, 530.0, 382.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-255.9, -148.8, 514.0, 328.0],
+"pivot": [262.9, 177.8],
+"region": [1070.0, 2.0, 530.0, 382.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-255.9, -34.8, 512.0, 72.0],
+"pivot": [262.9, 177.8],
+"region": [2.0, 388.0, 530.0, 382.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-262.9, -171.8, 530.0, 372.0],
+"pivot": [262.9, 177.8],
+"region": [536.0, 388.0, 530.0, 382.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-186.9, -171.8, 362.0, 370.0],
+"pivot": [262.9, 177.8],
+"region": [1070.0, 388.0, 530.0, 382.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-191.9, -177.8, 373.0, 382.0],
+"pivot": [262.9, 177.8],
+"region": [2.0, 774.0, 530.0, 382.0],
+"source_frame": 7.0
+}])
+source = "asset_catalog.animations.crt1_t_air_fire2；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,52 @@
+[gd_resource type="Resource" format=3 uid="uid://bklbd8xyp2yy8"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_basic.tres" id="1_dd1kk"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_cen7r"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_5eoon"]
+[ext_resource type="AudioStream" uid="uid://cqnhcn7ekt5w6" path="res://assets/audio/4859.mp3" id="3_cen7r"]
+
+[sub_resource type="Resource" id="Resource_n4nno"]
+script = ExtResource("2_cen7r")
+frame = 8
+kind = "projectile"
+
+[sub_resource type="Resource" id="Resource_5eoon"]
+script = ExtResource("2_cen7r")
+frame = 6
+sound = "crt1_basic"
+audio_stream = ExtResource("3_cen7r")
+audio_offset = 0.01360544217687074
+parameters = {
+"envelope": [{
+"left": 16532.0,
+"right": 16236.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 600.0,
+"sound_id": 4859.0,
+"sprite_id": 4860.0
+}
+source = "原StartSound：sprite4860/frame6/Sound4859；起播600 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("3_5eoon")
+identifier = "basic"
+title = "basic"
+animation = ExtResource("1_dd1kk")
+animation_key = "crt1_basic"
+source_parent = 37
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
+input_id = "attack"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold_at = PackedInt32Array()
+combo_next = "basic2"
+combo_from = 10
+combo_until = 17
+events = Array[Resource]([SubResource("Resource_n4nno"), SubResource("Resource_5eoon")])
+source = "res/scripts/DefineSprite_6732/frame_37 + DefineSprite_4860；父矩阵/选帧见asset_catalog.animations.crt1_basic"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 4860
+}

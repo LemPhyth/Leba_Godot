@@ -1,0 +1,121 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_07l47"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_skill_h.png" id="2_40vx2"]
+
+[resource]
+script = ExtResource("1_07l47")
+identifier = "crt1_skill_h"
+texture = ExtResource("2_40vx2")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [2.0, 2.0, 105.0, 164.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [111.0, 2.0, 105.0, 164.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [220.0, 2.0, 105.0, 164.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [329.0, 2.0, 105.0, 164.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [438.0, 2.0, 105.0, 164.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [547.0, 2.0, 105.0, 164.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [2.0, 170.0, 105.0, 164.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [111.0, 170.0, 105.0, 164.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [220.0, 170.0, 105.0, 164.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [329.0, 170.0, 105.0, 164.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [438.0, 170.0, 105.0, 164.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [547.0, 170.0, 105.0, 164.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [2.0, 338.0, 105.0, 164.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [111.0, 338.0, 105.0, 164.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [220.0, 338.0, 105.0, 164.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [329.0, 338.0, 105.0, 164.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [438.0, 338.0, 105.0, 164.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [547.0, 338.0, 105.0, 164.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [2.0, 506.0, 105.0, 164.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [111.0, 506.0, 105.0, 164.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [220.0, 506.0, 105.0, 164.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-54.95, -90.55, 105.0, 164.0],
+"pivot": [54.95, 90.55],
+"region": [329.0, 506.0, 105.0, 164.0],
+"source_frame": 22.0
+}])
+source = "asset_catalog.animations.crt1_skill_h；派生图集；来源与pivot见catalog。"

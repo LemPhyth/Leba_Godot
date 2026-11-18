@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_kp7a6"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_field_f_base.png" id="2_2kwok"]
+
+[resource]
+script = ExtResource("1_kp7a6")
+identifier = "crt4_field_f_base"
+texture = ExtResource("2_2kwok")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-197.3, 15.65, 395.0, 40.0],
+"pivot": [197.3, -15.65],
+"region": [2.0, 2.0, 395.0, 40.0],
+"source_crop": [13.0, 13.0, 408.0, 53.0],
+"source_frame": 1.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_field_f_base；派生图集；来源与pivot见catalog。"

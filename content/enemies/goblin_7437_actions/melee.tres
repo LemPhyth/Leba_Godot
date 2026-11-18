@@ -1,0 +1,64 @@
+[gd_resource type="Resource" format=3 uid="uid://bma3etcoodk0c"]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_melee.tres" id="1_2r1st"]
+[ext_resource type="AudioStream" uid="uid://b4ewte36c0fwl" path="res://assets/audio/5209.mp3" id="2_2rdgi"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_eonqv"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_nhua5"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="5_5tknj"]
+
+[sub_resource type="Resource" id="Resource_jua1k"]
+script = ExtResource("3_eonqv")
+frame = 106
+sound = "enemy7437_melee"
+audio_stream = ExtResource("2_2rdgi")
+parameters = {
+"source_sound_id": 5209
+}
+
+[sub_resource type="Resource" id="Resource_cm1bv"]
+script = ExtResource("5_5tknj")
+from_frame = 108
+until_frame = 108
+kind = "enemy_knockdown"
+rectangles = Array[Rect2]([Rect2(-130.74802, -102.4718, 98.28294, 107.44324)])
+damage = 5.0
+knockback = 3.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 108..108; root9 observer 34/38",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_84wps"]
+script = ExtResource("5_5tknj")
+from_frame = 109
+until_frame = 111
+kind = "enemy_knockdown"
+rectangles = Array[Rect2]([Rect2(-129.08395, -128.40988, 160.61008, 131.31941)])
+damage = 5.0
+knockback = 3.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 109..111; root9 observer 34/38",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[resource]
+script = ExtResource("4_nhua5")
+identifier = "melee"
+title = "melee"
+animation = ExtResource("1_2r1st")
+animation_key = "enemy7437_melee"
+source_parent = 101
+sequence = PackedInt32Array(101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120)
+input_id = "melee"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold_at = PackedInt32Array()
+next_action = "recover"
+events = Array[Resource]([SubResource("Resource_jua1k")])
+windows = Array[Resource]([SubResource("Resource_cm1bv"), SubResource("Resource_84wps")])
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."
+extra = {
+"parent_from_source_frame": true
+}

@@ -1,0 +1,91 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_3jaia"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_t_move_body.png" id="2_jwtiu"]
+
+[resource]
+script = ExtResource("1_3jaia")
+identifier = "crt1_t_move_body"
+texture = ExtResource("2_jwtiu")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-57.2, -76.4, 116.0, 161.0],
+"pivot": [57.2, 78.4],
+"region": [2.0, 2.0, 116.0, 163.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 161.0],
+"pivot": [57.2, 78.4],
+"region": [122.0, 2.0, 116.0, 163.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-57.2, -78.4, 115.0, 162.0],
+"pivot": [57.2, 78.4],
+"region": [242.0, 2.0, 116.0, 163.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-57.2, -78.4, 115.0, 162.0],
+"pivot": [57.2, 78.4],
+"region": [362.0, 2.0, 116.0, 163.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-57.2, -77.4, 115.0, 160.0],
+"pivot": [57.2, 78.4],
+"region": [482.0, 2.0, 116.0, 163.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 159.0],
+"pivot": [57.2, 78.4],
+"region": [2.0, 169.0, 116.0, 163.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-57.2, -75.4, 116.0, 157.0],
+"pivot": [57.2, 78.4],
+"region": [122.0, 169.0, 116.0, 163.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 158.0],
+"pivot": [57.2, 78.4],
+"region": [242.0, 169.0, 116.0, 163.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 158.0],
+"pivot": [57.2, 78.4],
+"region": [362.0, 169.0, 116.0, 163.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-57.2, -77.4, 115.0, 159.0],
+"pivot": [57.2, 78.4],
+"region": [482.0, 169.0, 116.0, 163.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-57.2, -78.4, 115.0, 160.0],
+"pivot": [57.2, 78.4],
+"region": [2.0, 336.0, 116.0, 163.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-57.2, -77.4, 115.0, 160.0],
+"pivot": [57.2, 78.4],
+"region": [122.0, 336.0, 116.0, 163.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 116.0, 159.0],
+"pivot": [57.2, 78.4],
+"region": [242.0, 336.0, 116.0, 163.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 159.0],
+"pivot": [57.2, 78.4],
+"region": [362.0, 336.0, 116.0, 163.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 159.0],
+"pivot": [57.2, 78.4],
+"region": [482.0, 336.0, 116.0, 163.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-57.2, -76.4, 115.0, 159.0],
+"pivot": [57.2, 78.4],
+"region": [2.0, 503.0, 116.0, 163.0],
+"source_frame": 16.0
+}])
+source = "asset_catalog.animations.crt1_t_move_body；派生图集；来源与pivot见catalog。"

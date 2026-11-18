@@ -1,0 +1,308 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_urnht"]
+
+[resource]
+script = ExtResource("1_urnht")
+identifier = "combo"
+parameters = {
+"actions": [{
+"default_frames": [1.0, 18.0],
+"parent_enterframe_overrides": {},
+"parent_frame": 106.0,
+"phase_caveat": "Page table is source-script target after all relevant callbacks; exact same-tick visual phase has not been dynamically probed. Terminal control frame returns parent immediately.",
+"return_control_frame": 18.0,
+"return_parent": 101.0,
+"source_id": 5820.0,
+"weapon_b_changes": {
+"5": 2.0,
+"6": 2.0,
+"7": 3.0,
+"8": 4.0,
+"9": 1.0
+},
+"weapon_b_pages_by_main_frame": {
+"1": 1.0,
+"10": 1.0,
+"11": 1.0,
+"12": 1.0,
+"13": 1.0,
+"14": 1.0,
+"15": 1.0,
+"16": 1.0,
+"17": 1.0,
+"18": 1.0,
+"2": 1.0,
+"3": 1.0,
+"4": 1.0,
+"5": 2.0,
+"6": 2.0,
+"7": 3.0,
+"8": 4.0,
+"9": 1.0
+},
+"weapon_b_source_id": 74.0
+}, {
+"default_frames": [1.0, 19.0],
+"parent_enterframe_overrides": {},
+"parent_frame": 107.0,
+"phase_caveat": "Page table is source-script target after all relevant callbacks; exact same-tick visual phase has not been dynamically probed. Terminal control frame returns parent immediately.",
+"return_control_frame": 19.0,
+"return_parent": 101.0,
+"source_id": 5821.0,
+"weapon_b_changes": {
+"10": 1.0,
+"6": 4.0,
+"7": 4.0,
+"8": 5.0,
+"9": 4.0
+},
+"weapon_b_pages_by_main_frame": {
+"1": 1.0,
+"10": 1.0,
+"11": 1.0,
+"12": 1.0,
+"13": 1.0,
+"14": 1.0,
+"15": 1.0,
+"16": 1.0,
+"17": 1.0,
+"18": 1.0,
+"19": 1.0,
+"2": 1.0,
+"3": 1.0,
+"4": 1.0,
+"5": 1.0,
+"6": 4.0,
+"7": 4.0,
+"8": 5.0,
+"9": 4.0
+},
+"weapon_b_source_id": 74.0
+}, {
+"default_frames": [1.0, 21.0],
+"parent_enterframe_overrides": {},
+"parent_frame": 108.0,
+"phase_caveat": "Page table is source-script target after all relevant callbacks; exact same-tick visual phase has not been dynamically probed. Terminal control frame returns parent immediately.",
+"return_control_frame": 21.0,
+"return_parent": 101.0,
+"source_id": 5822.0,
+"weapon_b_changes": {
+"6": 3.0,
+"7": 5.0,
+"8": 6.0,
+"9": 1.0
+},
+"weapon_b_pages_by_main_frame": {
+"1": 1.0,
+"10": 1.0,
+"11": 1.0,
+"12": 1.0,
+"13": 1.0,
+"14": 1.0,
+"15": 1.0,
+"16": 1.0,
+"17": 1.0,
+"18": 1.0,
+"19": 1.0,
+"2": 1.0,
+"20": 1.0,
+"21": 1.0,
+"3": 1.0,
+"4": 1.0,
+"5": 1.0,
+"6": 3.0,
+"7": 5.0,
+"8": 6.0,
+"9": 1.0
+},
+"weapon_b_source_id": 74.0
+}, {
+"default_frames": [1.0, 17.0],
+"parent_enterframe_overrides": {
+"7": 4.0,
+"8": 1.0
+},
+"parent_frame": 117.0,
+"phase_caveat": "Page table is source-script target after all relevant callbacks; exact same-tick visual phase has not been dynamically probed. Terminal control frame returns parent immediately.",
+"return_control_frame": 17.0,
+"return_parent": 101.0,
+"source_id": 6025.0,
+"weapon_b_changes": {
+"3": 2.0,
+"4": 3.0,
+"5": 3.0,
+"6": 3.0,
+"7": 4.0,
+"8": 1.0
+},
+"weapon_b_pages_by_main_frame": {
+"1": 1.0,
+"10": 1.0,
+"11": 1.0,
+"12": 1.0,
+"13": 1.0,
+"14": 1.0,
+"15": 1.0,
+"16": 1.0,
+"17": 1.0,
+"2": 1.0,
+"3": 2.0,
+"4": 3.0,
+"5": 3.0,
+"6": 3.0,
+"7": 4.0,
+"8": 1.0,
+"9": 1.0
+},
+"weapon_b_source_id": 74.0
+}, {
+"default_frames": [1.0, 17.0],
+"parent_enterframe_overrides": {
+"4": 3.0,
+"6": 4.0
+},
+"parent_frame": 118.0,
+"phase_caveat": "Page table is source-script target after all relevant callbacks; exact same-tick visual phase has not been dynamically probed. Terminal control frame returns parent immediately.",
+"return_control_frame": 17.0,
+"return_parent": 101.0,
+"source_id": 6026.0,
+"weapon_b_changes": {
+"3": 2.0,
+"4": 3.0,
+"5": 3.0,
+"6": 4.0,
+"7": 1.0
+},
+"weapon_b_pages_by_main_frame": {
+"1": 1.0,
+"10": 1.0,
+"11": 1.0,
+"12": 1.0,
+"13": 1.0,
+"14": 1.0,
+"15": 1.0,
+"16": 1.0,
+"17": 1.0,
+"2": 1.0,
+"3": 2.0,
+"4": 3.0,
+"5": 3.0,
+"6": 4.0,
+"7": 1.0,
+"8": 1.0,
+"9": 1.0
+},
+"weapon_b_source_id": 74.0
+}, {
+"default_frames": [1.0, 19.0],
+"parent_enterframe_overrides": {
+"5": 3.0,
+"7": 4.0
+},
+"parent_frame": 119.0,
+"phase_caveat": "Page table is source-script target after all relevant callbacks; exact same-tick visual phase has not been dynamically probed. Terminal control frame returns parent immediately.",
+"return_control_frame": 19.0,
+"return_parent": 101.0,
+"source_id": 6032.0,
+"weapon_b_changes": {
+"10": 1.0,
+"4": 2.0,
+"5": 3.0,
+"6": 3.0,
+"7": 4.0,
+"8": 1.0
+},
+"weapon_b_pages_by_main_frame": {
+"1": 1.0,
+"10": 1.0,
+"11": 1.0,
+"12": 1.0,
+"13": 1.0,
+"14": 1.0,
+"15": 1.0,
+"16": 1.0,
+"17": 1.0,
+"18": 1.0,
+"19": 1.0,
+"2": 1.0,
+"3": 1.0,
+"4": 2.0,
+"5": 3.0,
+"6": 3.0,
+"7": 4.0,
+"8": 1.0,
+"9": 1.0
+},
+"weapon_b_source_id": 74.0
+}],
+"branches": [{
+"input": "keydown X held",
+"listener_from": 9.0,
+"listener_until_control": 18.0,
+"note": "Same parent, NOT inferred107. Whether same-parent frame script re-executes needs controlled host probe.",
+"source_id": 5820.0,
+"target_parent": 106.0
+}, {
+"input": "keydown S held",
+"listener_from": 9.0,
+"listener_until_control": 18.0,
+"source_id": 5820.0,
+"target_by_rigui": {
+"0": 117.0,
+"1": 118.0,
+"2": 119.0
+}
+}, {
+"input": "keydown X held",
+"listener_from": 8.0,
+"listener_until_control": 19.0,
+"source_id": 5821.0,
+"target_parent": 108.0
+}, {
+"input": "keydown S held",
+"listener_from": 8.0,
+"listener_until_control": 19.0,
+"source_id": 5821.0,
+"target_by_rigui": {
+"0": 117.0,
+"1": 118.0,
+"2": 119.0
+}
+}, {
+"condition": "child_frame>8 && child_frame<18",
+"input": "enterFrame held S then held X (two independent ifs)",
+"listener_owner": 6732.0,
+"parent": 117.0,
+"source_id": 6025.0,
+"targets": {
+"S": 118.0,
+"X": "106+평타"
+}
+}, {
+"input": "keydown S then X held",
+"listener_from": 9.0,
+"listener_until_control": 17.0,
+"source_id": 6026.0,
+"targets": {
+"S": 119.0,
+"X": "106+평타"
+}
+}],
+"counters": {
+"6138f1": "맹룡포인트+=1;once+=1",
+"6138f22_6142f22": "맹룡포인트=0",
+"parent101": "리귀=평타=단공참=맹룡포인트=0",
+"parent106_107": "평타+=1",
+"parent108_119": "no increment",
+"parent117_118": "리귀+=1",
+"parent120_131": "단공참=1",
+"parent127": "맹룡포인트=0"
+},
+"q_default_limit": 3.0,
+"q_equipment_limits_excluded": {
+"weapon1_or_master": 6.0,
+"weapon2": 2.0
+}
+}
+source = "Original AS/XML default CRT3; reviewed rules in act05_crt3_rules.json"

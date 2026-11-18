@@ -1,0 +1,151 @@
+[gd_resource type="Resource" format=3 uid="uid://bf2tll77njmvh"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_d.tres" id="1_kflyi"]
+[ext_resource type="AudioStream" uid="uid://cmhbstr72s7ou" path="res://assets/audio/4926.mp3" id="2_ijicf"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="2_l7ats"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_f2e4h"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="3_f8qo0"]
+[ext_resource type="AudioStream" uid="uid://bivmgj05180e8" path="res://assets/audio/4927.mp3" id="4_dnyx7"]
+
+[sub_resource type="Resource" id="Resource_u2poc"]
+script = ExtResource("3_f2e4h")
+frame = 6
+sound = "crt1_skill_d"
+audio_stream = ExtResource("2_ijicf")
+parameters = {
+"envelope": [{
+"left": 16827.0,
+"right": 16532.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 4926.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4928.0
+}
+source = "原StartSound：sprite4928/frame6/Sound4926；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_h12vb"]
+script = ExtResource("3_f2e4h")
+frame = 12
+sound = "crt1_skill_d_sound_2"
+audio_stream = ExtResource("4_dnyx7")
+parameters = {
+"envelope": [{
+"left": 9447.0,
+"right": 9742.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"out_point_samples_44100": 49797.0,
+"sound_id": 4927.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"outPoint": "49797",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4928.0
+}
+source = "原StartSound：sprite4928/frame12/Sound4927；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_ijicf"]
+script = ExtResource("3_f8qo0")
+until_frame = 5
+kind = "crt1_d_contact"
+rectangles = Array[Rect2]([Rect2(-140.73486, -49.410995, 289.46973, 119.96006)])
+gravity = 0.0
+parameters = {
+"calibration": "伤害字段仅本动作已知观察器贡献；公共marker分期另计。",
+"helper_id": 858,
+"source_depth": -1,
+"source_frame": 1,
+"source_geometry": "act03_crt1_hit_windows",
+"source_id": 4928,
+"source_matrix_applied": true
+}
+
+[sub_resource type="Resource" id="Resource_f2e4h"]
+script = ExtResource("3_f8qo0")
+from_frame = 12
+until_frame = 13
+kind = "crt1_lift"
+rectangles = Array[Rect2]([Rect2(-150.04579, -72.41373, 289.49158, 175.73643)])
+damage = 20.0
+parameters = {
+"calibration": "伤害字段仅本动作已知观察器贡献；公共marker分期另计。",
+"helper_id": 1234,
+"source_depth": -1,
+"source_frame": 12,
+"source_geometry": "act03_crt1_hit_windows",
+"source_id": 4928,
+"source_matrix_applied": true
+}
+
+[sub_resource type="Resource" id="Resource_dnyx7"]
+script = ExtResource("3_f8qo0")
+from_frame = 19
+until_frame = 20
+kind = "crt1_lift"
+rectangles = Array[Rect2]([Rect2(-152.41672, -69.310104, 294.231, 169.43246)])
+damage = 20.0
+parameters = {
+"calibration": "伤害字段仅本动作已知观察器贡献；公共marker分期另计。",
+"helper_id": 1234,
+"source_depth": -1,
+"source_frame": 19,
+"source_geometry": "act03_crt1_hit_windows",
+"source_id": 4928,
+"source_matrix_applied": true
+}
+
+[resource]
+script = ExtResource("2_l7ats")
+identifier = "skill"
+title = "skill"
+animation = ExtResource("1_kflyi")
+animation_key = "crt1_skill_d"
+source_parent = 46
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29)
+input_id = "skill"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "move_z")
+cost = 3.0
+required_mp = 3.0
+cooldown_ticks = 109
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_u2poc"), SubResource("Resource_h12vb")])
+windows = Array[Resource]([SubResource("Resource_ijicf"), SubResource("Resource_f2e4h"), SubResource("Resource_dnyx7")])
+source = "res/scripts/DefineSprite_6732/frame_46 + DefineSprite_4928；父矩阵/选帧见asset_catalog.animations.crt1_skill_d"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"contact_end_frame": 29,
+"contact_start_frame": 12,
+"controller": "crt1_d",
+"follow_action": "d_follow",
+"follow_from": 12,
+"follow_key": "skill_z",
+"follow_until": 28,
+"held_move_per_tick": 5.0,
+"normal_end_source_frame": 11,
+"source_allowed_parent_frames": [30, 31, 32, 33, 36, 37, 38, 39, 40, 41],
+"source_id": 4928,
+"source_ignored_special_branch": {
+"condition": "ring3",
+"frames": [30, 37]
+}
+}

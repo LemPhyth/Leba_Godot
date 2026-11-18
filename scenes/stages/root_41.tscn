@@ -1,0 +1,66 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_layout.gd" id="1_i6gyy"]
+[ext_resource type="Resource" path="res://content/stages/root_41.tres" id="2_qfa4t"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_map.png" id="3_p3x44"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_ground.png" id="4_oiwm7"]
+[ext_resource type="PackedScene" path="res://scenes/actors/combatant.tscn" id="5_503yj"]
+[ext_resource type="PackedScene" path="res://scenes/actors/enemy.tscn" id="7_p8eym"]
+[ext_resource type="PackedScene" path="res://scenes/ui/source_hud.tscn" id="8_pk6w1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rplk0"]
+size = Vector2(761.05, 39)
+
+[node name="root_41" type="Node2D" unique_id=1809755820]
+script = ExtResource("1_i6gyy")
+rules = ExtResource("2_qfa4t")
+metadata/act03_layout_migrated = true
+metadata/act04_crt2_hud = true
+metadata/act05_crt3_hud = true
+metadata/act06_crt4_hud = true
+
+[node name="Map" type="Sprite2D" parent="." unique_id=2112211326]
+position = Vector2(-35, 1.45)
+texture = ExtResource("3_p3x44")
+centered = false
+
+[node name="SourceGround" type="Sprite2D" parent="." unique_id=1796304968]
+z_index = 781
+position = Vector2(-74.65, 359.65)
+texture = ExtResource("4_oiwm7")
+centered = false
+
+[node name="Bounds" type="Node2D" parent="." unique_id=1606109776]
+
+[node name="Left" type="Marker2D" parent="Bounds" unique_id=2088734751]
+
+[node name="Right" type="Marker2D" parent="Bounds" unique_id=752524012]
+position = Vector2(550, 0)
+
+[node name="Floor" type="Area2D" parent="." unique_id=258341031]
+position = Vector2(0, 360.15)
+monitoring = false
+
+[node name="Collision" type="CollisionShape2D" parent="Floor" unique_id=1663197115]
+position = Vector2(305.875, 19)
+shape = SubResource("RectangleShape2D_rplk0")
+
+[node name="PlayerSpawn" type="Marker2D" parent="." unique_id=1926285974]
+z_index = 801
+position = Vector2(132.4, 314.9)
+scale = Vector2(0.6369171, 0.65245056)
+
+[node name="Actor" parent="PlayerSpawn" unique_id=1186367400 instance=ExtResource("5_503yj")]
+
+[node name="EnemySpawns" type="Node2D" parent="." unique_id=2005536314]
+
+[node name="Enemy0" type="Marker2D" parent="EnemySpawns" unique_id=199799068]
+z_index = 111
+position = Vector2(412.1, 361)
+scale = Vector2(0.52941895, 0.51246643)
+
+[node name="Actor" parent="EnemySpawns/Enemy0" unique_id=758627098 instance=ExtResource("7_p8eym")]
+
+[node name="HUD" parent="." unique_id=50973086 instance=ExtResource("8_pk6w1")]
+
+[editable path="HUD"]

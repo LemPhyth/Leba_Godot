@@ -1,0 +1,33 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_fallen.tres" id="1_fyide"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_vhe4s"]
+
+[resource]
+script = ExtResource("2_vhe4s")
+identifier = "fallen"
+title = "fallen"
+animation = ExtResource("1_fyide")
+animation_key = "crt2_fallen"
+source_parent = 93
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6)
+allowed_states = PackedStringArray()
+hold = true
+hold_at = PackedInt32Array(1)
+source = "res/scripts/DefineSprite_5624/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_fallen",
+"1": "crt2_fallen_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "fallen",
+"hit_callback_sources": [],
+"hold_source_frame": 1.0,
+"normal_end_source_frame": 6,
+"notes": "5624 source1 stop; recovery driven by outer observer, not six-frame automatic return",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -5.6, 49.55],
+"source_id": 5624.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

@@ -1,0 +1,161 @@
+[gd_resource type="Resource" format=3 uid="uid://bv1h64hikxa3a"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_z.tres" id="1_d3lyu"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_3xc7u"]
+[ext_resource type="AudioStream" uid="uid://b4ewte36c0fwl" path="res://assets/audio/5209.mp3" id="3_b6lhu"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_yrf82"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="5_nfvbp"]
+
+[sub_resource type="Resource" id="Resource_d5u1v"]
+script = ExtResource("2_3xc7u")
+frame = 17
+kind = "crt2_transfer_child"
+
+[sub_resource type="Resource" id="Resource_l0462"]
+script = ExtResource("2_3xc7u")
+frame = 3
+sound = "crt2_skill_z"
+audio_stream = ExtResource("3_b6lhu")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"out_point_samples_44100": 30753.0,
+"sound_id": 5209.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"outPoint": "30753",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5210.0
+}
+
+[sub_resource type="Resource" id="Resource_ppja8"]
+script = ExtResource("5_nfvbp")
+from_frame = 5
+until_frame = 5
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(7.9921894, -164.08437, 181.66103, 226.15195)])
+gravity = -12.0
+once_per_action = false
+parameters = {
+"source_depth": 29,
+"source_frame": 5,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -12.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_f1346"]
+script = ExtResource("5_nfvbp")
+from_frame = 6
+until_frame = 6
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(7.9921894, -164.08437, 181.66103, 226.15195)])
+gravity = -12.0
+once_per_action = false
+parameters = {
+"source_depth": 29,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -12.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("4_yrf82")
+identifier = "skill_z"
+title = "skill_z"
+animation = ExtResource("1_d3lyu")
+animation_key = "crt2_skill_z"
+source_parent = 72
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)
+input_id = "skill_z"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+cost = 2.0
+required_mp = 2.0
+cooldown_ticks = 81
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_d5u1v"), SubResource("Resource_l0462")])
+windows = Array[Resource]([SubResource("Resource_ppja8"), SubResource("Resource_f1346")])
+source = "res/scripts/DefineSprite_5210/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_skill_z",
+"1": "crt2_skill_z_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "action",
+"end_x_transfer": true,
+"hit_callback_sources": ["res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5210/frame_5/PlaceObject2_439_29/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as"],
+"input_semantics": "onClipEvent(keyDown) then Key.isDown(key), not event key equality",
+"motion": [{
+"frames": [5.0, 7.0],
+"multiply_facing": true,
+"root_delta_x": 5.0
+}, {
+"frames": [8.0, 10.0],
+"multiply_facing": true,
+"root_delta_x": 2.0
+}],
+"normal_end_source_frame": 17,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 8.95, 5.55],
+"physical_key": "Z",
+"slot_id": 4201.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+"slot_start_playing": true,
+"source_allowed_parent_frames": [64.0, 65.0, 66.0, 67.0, 69.0, 70.0, 71.0, 84.0, 85.0, 86.0, 87.0],
+"source_id": 5210.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

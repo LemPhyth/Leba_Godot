@@ -1,0 +1,322 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/6396.mp3" id="1_xkr1h"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_um6gc"]
+
+[resource]
+script = ExtResource("2_um6gc")
+identifier = "6397"
+parameters = {
+"births": [{
+"depth": 3.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 4.0,
+"matrix": [0.70477295, 0.0, 0.0, 0.70477295, 40.0, -2.75],
+"name": null,
+"source_id": 6395.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "256",
+"blueAddTerm": "85",
+"blueMultTerm": "171",
+"greenAddTerm": "85",
+"greenMultTerm": "171",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "10",
+"redAddTerm": "85",
+"redMultTerm": "171"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "256",
+"blueAddTerm": "170",
+"blueMultTerm": "85",
+"greenAddTerm": "170",
+"greenMultTerm": "85",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "10",
+"redAddTerm": "170",
+"redMultTerm": "85"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "256",
+"blueAddTerm": "255",
+"blueMultTerm": "0",
+"greenAddTerm": "255",
+"greenMultTerm": "0",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "10",
+"redAddTerm": "255",
+"redMultTerm": "0"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [0.70477295, 0.0, 0.0, 0.70477295, 40.0, -2.75],
+"ratio": "3",
+"source_id": 6395.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "236",
+"blueAddTerm": "204",
+"blueMultTerm": "51",
+"greenAddTerm": "204",
+"greenMultTerm": "51",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "204",
+"redMultTerm": "51"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [0.8031769, 0.0, 0.0, 0.8031769, 40.0, -2.75],
+"ratio": "3",
+"source_id": 6395.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "215",
+"blueAddTerm": "153",
+"blueMultTerm": "102",
+"greenAddTerm": "153",
+"greenMultTerm": "102",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "153",
+"redMultTerm": "102"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [0.90159607, 0.0, 0.0, 0.90159607, 40.0, -2.75],
+"ratio": "3",
+"source_id": 6395.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "195",
+"blueAddTerm": "102",
+"blueMultTerm": "154",
+"greenAddTerm": "102",
+"greenMultTerm": "154",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "102",
+"redMultTerm": "154"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 40.0, -2.75],
+"ratio": "3",
+"source_id": 6395.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "174",
+"blueAddTerm": "51",
+"blueMultTerm": "205",
+"greenAddTerm": "51",
+"greenMultTerm": "205",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "51",
+"redMultTerm": "205"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 40.0, -2.75],
+"ratio": "3",
+"source_id": 6395.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "200",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 40.0, -2.75],
+"ratio": "3",
+"source_id": 6395.0
+}],
+"source_frame": 9.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("1_xkr1h"),
+"envelope": [],
+"frame": 4,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_6397_sound_1",
+"sound_id": 6396.0,
+"source_id": 6397,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6397.0
+}],
+"source": [{
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_6397/frame_9/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 9.0,
+"source_id": 6397.0,
+"stop_source_frames": [9.0]
+}
+source = "Original AS/XML source 6397; res://data/act06_crt4_rules.json.components.6397"

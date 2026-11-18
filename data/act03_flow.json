@@ -1,0 +1,351 @@
+{
+  "schema": 1,
+  "evidence_date": "2026-11-16",
+  "scope": "ACT03 source flow and text only; layouts are authored PackedScenes; no full-game completion claim",
+  "dialogues": {
+    "root_9_open": {
+      "source_sprite_id": 7469,
+      "entry_frame": 1,
+      "frames": [
+        {
+          "source_frame": 1,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7441,
+              "text": "应该就是这里了",
+              "source_path": "res/texts/7441.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 2,
+          "texts": [
+            {
+              "source_text_id": 7443,
+              "text": "- 巨剑阿修罗",
+              "source_path": "res/texts/7443.txt"
+            },
+            {
+              "source_text_id": 7444,
+              "text": "库库咔咔咔>???ㄲ?!@$!@%@",
+              "source_path": "res/texts/7444.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 3,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7445,
+              "text": "所以别人才叫他疯狂的巨剑阿修罗",
+              "source_path": "res/texts/7445.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 4,
+          "texts": [
+            {
+              "source_text_id": 7443,
+              "text": "- 巨剑阿修罗",
+              "source_path": "res/texts/7443.txt"
+            },
+            {
+              "source_text_id": 7446,
+              "text": "此路不通！我不会让任何人通过这里前往赫顿玛尔。",
+              "source_path": "res/texts/7446.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 5,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7447,
+              "text": "闭嘴！别说废话了。",
+              "source_path": "res/texts/7447.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 6,
+          "texts": [
+            {
+              "source_text_id": 7443,
+              "text": "- 巨剑阿修罗",
+              "source_path": "res/texts/7443.txt"
+            },
+            {
+              "source_text_id": 7448,
+              "text": "嘤嘤嘤 T T",
+              "source_path": "res/texts/7448.txt"
+            }
+          ]
+        }
+      ],
+      "space_target": 7,
+      "redirect_frame": 16,
+      "click": "nextFrame",
+      "finish": "resume_battle",
+      "source": "res/scripts/DefineSprite_7469/frame_1,frame_7,frame_16",
+      "source_clock_note": "source pauses player17, not first enemy or timer7440; Godot full pause is an explicit adaptation"
+    },
+    "root_9_clear": {
+      "source_sprite_id": 7469,
+      "entry_frame": 17,
+      "frames": [
+        {
+          "source_frame": 17,
+          "texts": [
+            {
+              "source_text_id": 7464,
+              "text": "哇，这么厉害",
+              "source_path": "res/texts/7464.txt"
+            },
+            {
+              "source_text_id": 7443,
+              "text": "- 巨剑阿修罗",
+              "source_path": "res/texts/7443.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 18,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7465,
+              "text": "告诉我赫顿玛尔怎么走",
+              "source_path": "res/texts/7465.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 19,
+          "texts": [
+            {
+              "source_text_id": 7466,
+              "text": "实际上，这后面就是赫顿玛尔了诶嘿嘿",
+              "source_path": "res/texts/7466.txt"
+            },
+            {
+              "source_text_id": 7443,
+              "text": "- 巨剑阿修罗",
+              "source_path": "res/texts/7443.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 20,
+          "texts": [
+            {
+              "source_text_id": 6988,
+              "text": "- 雷巴",
+              "source_path": "res/texts/6988.txt"
+            },
+            {
+              "source_text_id": 7467,
+              "text": "哈啊？但我不认识路，你还是跟我来吧",
+              "source_path": "res/texts/7467.txt"
+            }
+          ]
+        },
+        {
+          "source_frame": 21,
+          "texts": [
+            {
+              "source_text_id": 7468,
+              "text": "不要，我为什么要当你的导游.......也不是不行",
+              "source_path": "res/texts/7468.txt"
+            },
+            {
+              "source_text_id": 7443,
+              "text": "- 巨剑阿修罗",
+              "source_path": "res/texts/7443.txt"
+            }
+          ]
+        }
+      ],
+      "space_target": 22,
+      "space_requires_item_window_frame": 1,
+      "click": "nextFrame",
+      "finish": "root.gotoAndStop(10)",
+      "next_stage": "root_10",
+      "source": "res/scripts/DefineSprite_7469/frame_17,frame_21,frame_22"
+    }
+  },
+  "intermissions": {
+    "intermission_7": {
+      "source_root_frame": 7,
+      "source_title_text_id": 7336,
+      "title": "STAGE1 CLEAR",
+      "labels": {
+        "time": {
+          "text": "通关时间",
+          "source_text_id": 7330
+        },
+        "items": {
+          "text": "获得道具",
+          "source_text_id": 7342
+        }
+      },
+      "buttons": [
+        {
+          "text": "◀ 重新挑战",
+          "source_text_id": 7197,
+          "source_button_id": 7199,
+          "root_target": 2,
+          "trigger": "release"
+        },
+        {
+          "text": "进入下一关",
+          "source_text_id": 7339,
+          "source_button_id": 7341,
+          "root_target": 8,
+          "trigger": "release or Space",
+          "followup_root": 9
+        },
+        {
+          "text": "查看仓库",
+          "source_text_id": 7343,
+          "source_button_id": 7345,
+          "trigger": "release",
+          "inventory_frame": "2+crt",
+          "implementation_status": "not implied by this catalog"
+        }
+      ],
+      "id": "root_7",
+      "retry_stage": "root_2",
+      "continue_stage": "root_9",
+      "source_continue_cleanup_frame": 8,
+      "inventory_page_expression": "2+crt",
+      "supported_characters": [
+        "crt_0",
+        "crt_1"
+      ],
+      "next_stage": "root_9",
+      "allow_inventory": true,
+      "allow_retry": true,
+      "description": "可进入原作根8清理后的根9，或打开当前角色仓库整备。",
+      "subtitle": "十夫长战斗结束"
+    },
+    "intermission_10": {
+      "id": "root_10",
+      "source_root_frame": 10,
+      "source_title_text_id": 7475,
+      "title": "STAGE2 CLEAR",
+      "source_note_text_id": 7472,
+      "note": "-  '巨剑阿修罗' 成为了同伴.",
+      "labels": {
+        "time": {
+          "text": "通关时间",
+          "source_text_id": 7330
+        },
+        "items": {
+          "text": "获得道具",
+          "source_text_id": 7342
+        }
+      },
+      "retry_stage": "root_9",
+      "source_retry_cleanup_frame": 8,
+      "continue_stage": "root_12",
+      "source_continue_cleanup_frame": 11,
+      "continue_implemented": false,
+      "continue_boundary_message": "原作下一段为根11→12，尚未恢复；此处不是全游戏结局。",
+      "inventory_page_expression": "2+crt",
+      "supported_characters": [
+        "crt_0",
+        "crt_1"
+      ],
+      "buttons": [
+        {
+          "text": "◀ 重新挑战",
+          "source_button_id": 7473,
+          "root_target": 8,
+          "followup_root": 9,
+          "trigger": "release"
+        },
+        {
+          "text": "进入下一关",
+          "source_button_id": 7476,
+          "root_target": 11,
+          "followup_root": 12,
+          "trigger": "release or Space"
+        },
+        {
+          "text": "查看仓库",
+          "source_button_id": 7345,
+          "inventory_frame": "2+crt",
+          "trigger": "release"
+        }
+      ],
+      "next_stage": "",
+      "source_next_stage": "root_12",
+      "allow_inventory": true,
+      "allow_retry": true,
+      "description": "原作下一段为根11→12，尚未恢复；此处不是全游戏结局。",
+      "subtitle": "-  '巨剑阿修罗' 成为了同伴."
+    }
+  },
+  "routes": {
+    "root_7": {
+      "continue": "root_9",
+      "retry": "root_2",
+      "cleanup_source_frame": 8
+    },
+    "root_9": {
+      "open_dialogue": "root_9_open",
+      "clear_dialogue": "root_9_clear",
+      "next_stage": "root_10",
+      "retry": "root_9",
+      "retry_cleanup_source_frame": 8
+    },
+    "root_10": {
+      "continue": "root_12",
+      "retry": "root_9",
+      "cleanup_source_frame": 11,
+      "unimplemented_continue": true
+    }
+  },
+  "inactive_source_branches": {
+    "root_9_password": {
+      "source_sprite_id": 7469,
+      "frames": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reason": "source7469frame7 immediately gotoAndStop16; input field/button exists but default path does not hold",
+      "source_button_id": 7453,
+      "correct_password": "낚였음",
+      "correct_target": 12,
+      "incorrect_target": 8,
+      "incorrect_death_frame": 11
+    }
+  }
+}

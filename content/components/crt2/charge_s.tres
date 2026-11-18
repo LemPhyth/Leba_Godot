@@ -1,0 +1,38 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_r85oy"]
+
+[resource]
+script = ExtResource("1_r85oy")
+identifier = "charge_s"
+parameters = {
+"full": {
+"body_x_target": 100.0,
+"child_x_target": 140.0,
+"divisor": 2.0,
+"end_x_transfer": true,
+"id": 5258.0,
+"parent": 79.0,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0]
+},
+"full_control_frame": 8.0,
+"full_parent": 79.0,
+"held_key": 83.0,
+"held_operation": "play",
+"poll_child": 5235.0,
+"poll_depth": 16.0,
+"release_parent": 78.0,
+"release_poll_frames": [1.0, 5.0],
+"short": {
+"body_x_target": 35.0,
+"child_x_target": 35.0,
+"divisor": 2.0,
+"end_x_transfer": true,
+"id": 5257.0,
+"parent": 78.0,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0]
+},
+"source": ["res/scripts/DefineSprite_5236/frame_1/PlaceObject2_5235_16/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5236/frame_8/DoAction.as"],
+"source_id": 5236.0
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

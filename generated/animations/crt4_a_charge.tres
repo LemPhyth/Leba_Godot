@@ -1,0 +1,48 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_1g2lf"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_a_charge.png" id="2_6jeg2"]
+
+[resource]
+script = ExtResource("1_1g2lf")
+identifier = "crt4_a_charge"
+texture = ExtResource("2_6jeg2")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-65.2, -64.5, 131.0, 128.0],
+"pivot": [65.2, 64.5],
+"region": [2.0, 2.0, 131.0, 128.0],
+"source_crop": [49.0, 47.0, 180.0, 175.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-81.2, -79.5, 162.0, 159.0],
+"pivot": [81.2, 79.5],
+"region": [137.0, 2.0, 162.0, 159.0],
+"source_crop": [33.0, 32.0, 195.0, 191.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-97.2, -94.5, 194.0, 189.0],
+"pivot": [97.2, 94.5],
+"region": [303.0, 2.0, 194.0, 189.0],
+"source_crop": [17.0, 17.0, 211.0, 206.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-113.2, -110.5, 226.0, 220.0],
+"pivot": [113.2, 110.5],
+"region": [501.0, 2.0, 226.0, 220.0],
+"source_crop": [1.0, 1.0, 227.0, 221.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-114.2, -111.5, 230.0, 224.0],
+"pivot": [114.2, 111.5],
+"region": [731.0, 2.0, 230.0, 224.0],
+"source_crop": [0.0, 0.0, 230.0, 224.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [114.2, 111.5],
+"region": [965.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 6.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_a_charge；派生图集；来源与pivot见catalog。"

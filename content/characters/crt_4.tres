@@ -1,0 +1,128 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://content/actions/crt4/idle.tres" id="1_scog0"]
+[ext_resource type="Resource" path="res://content/actions/crt4/basic.tres" id="2_3lf4q"]
+[ext_resource type="Resource" path="res://content/actions/crt4/basic2.tres" id="3_gls5l"]
+[ext_resource type="Resource" path="res://content/actions/crt4/basic3.tres" id="4_poasi"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_a.tres" id="5_gm51f"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_s.tres" id="6_a62rs"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_q.tres" id="7_11r43"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_w.tres" id="8_n22f8"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_e.tres" id="9_obj6u"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_d.tres" id="10_1d6ok"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_f.tres" id="11_6fdbm"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_g.tres" id="12_838lu"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_r.tres" id="13_sv2u0"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_h.tres" id="14_hwyag"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_z.tres" id="15_44e40"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_t.tres" id="16_c3tti"]
+[ext_resource type="Resource" path="res://content/actions/crt4/t_finish.tres" id="17_70prw"]
+[ext_resource type="Resource" path="res://content/actions/crt4/kalla_basic.tres" id="18_uoji0"]
+[ext_resource type="Resource" path="res://content/actions/crt4/jump.tres" id="19_v7sjq"]
+[ext_resource type="Resource" path="res://content/actions/crt4/backstep.tres" id="20_67v4h"]
+[ext_resource type="Resource" path="res://content/actions/crt4/hit.tres" id="21_li3ue"]
+[ext_resource type="Resource" path="res://content/actions/crt4/knockdown.tres" id="22_s7n4b"]
+[ext_resource type="Resource" path="res://content/actions/crt4/fallen.tres" id="23_0j8c2"]
+[ext_resource type="Resource" path="res://content/actions/crt4/dead.tres" id="24_h1fga"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_v.tres" id="25_xwl0n"]
+[ext_resource type="Resource" path="res://content/actions/crt4/skill_y.tres" id="26_htajt"]
+[ext_resource type="Resource" path="res://content/actions/crt4/move.tres" id="27_hqcop"]
+[ext_resource type="PackedScene" path="res://scenes/actors/crt4.tscn" id="28_f2fd2"]
+[ext_resource type="Resource" path="res://content/components/crt4/316.tres" id="29_yy7nq"]
+[ext_resource type="Resource" path="res://content/components/crt4/313.tres" id="30_6d8hc"]
+[ext_resource type="Resource" path="res://content/components/crt4/956.tres" id="31_valcr"]
+[ext_resource type="Resource" path="res://content/components/crt4/954.tres" id="32_80tkr"]
+[ext_resource type="Resource" path="res://content/components/crt4/818.tres" id="33_x1kvs"]
+[ext_resource type="Resource" path="res://content/components/crt4/816.tres" id="34_g1kgs"]
+[ext_resource type="Resource" path="res://content/components/crt4/1121.tres" id="35_glrka"]
+[ext_resource type="Resource" path="res://content/components/crt4/1120.tres" id="36_aiesn"]
+[ext_resource type="Resource" path="res://content/components/crt4/978.tres" id="37_p1bo0"]
+[ext_resource type="Resource" path="res://content/components/crt4/1273.tres" id="38_c5le7"]
+[ext_resource type="Resource" path="res://content/components/crt4/6360.tres" id="39_t20j6"]
+[ext_resource type="Resource" path="res://content/components/crt4/6359.tres" id="40_hjwuw"]
+[ext_resource type="Resource" path="res://content/components/crt4/6384.tres" id="41_we006"]
+[ext_resource type="Resource" path="res://content/components/crt4/6380.tres" id="42_4nmgw"]
+[ext_resource type="Resource" path="res://content/components/crt4/1326.tres" id="43_bimjm"]
+[ext_resource type="Resource" path="res://content/components/crt4/1154.tres" id="44_5540p"]
+[ext_resource type="Resource" path="res://content/components/crt4/1153.tres" id="45_ag6gi"]
+[ext_resource type="Resource" path="res://content/components/crt4/3971.tres" id="46_nqx01"]
+[ext_resource type="Resource" path="res://content/components/crt4/3968.tres" id="47_87xcp"]
+[ext_resource type="Resource" path="res://content/components/crt4/3969.tres" id="48_35a82"]
+[ext_resource type="Resource" path="res://content/components/crt4/3970.tres" id="49_7nks6"]
+[ext_resource type="Resource" path="res://content/components/crt4/3963.tres" id="50_66kyc"]
+[ext_resource type="Resource" path="res://content/components/crt4/3962.tres" id="51_pjbvl"]
+[ext_resource type="Resource" path="res://content/components/crt4/3966.tres" id="52_442r6"]
+[ext_resource type="Resource" path="res://content/components/crt4/944.tres" id="53_fuimx"]
+[ext_resource type="Resource" path="res://content/components/crt4/932.tres" id="54_s5aco"]
+[ext_resource type="Resource" path="res://content/components/crt4/943.tres" id="55_am8ma"]
+[ext_resource type="Resource" path="res://content/components/crt4/942.tres" id="56_6deb3"]
+[ext_resource type="Resource" path="res://content/components/crt4/907.tres" id="57_xh04h"]
+[ext_resource type="Resource" path="res://content/components/crt4/906.tres" id="58_fksvc"]
+[ext_resource type="Resource" path="res://content/components/crt4/578.tres" id="59_6y5a7"]
+[ext_resource type="Resource" path="res://content/components/crt4/3951.tres" id="60_vtnh1"]
+[ext_resource type="Resource" path="res://content/components/crt4/4318.tres" id="61_ko40d"]
+[ext_resource type="Resource" path="res://content/components/crt4/6397.tres" id="62_b7a5j"]
+[ext_resource type="Resource" path="res://content/components/crt4/6395.tres" id="63_50hvl"]
+[ext_resource type="Resource" path="res://content/components/crt4/6404.tres" id="64_5q5e8"]
+[ext_resource type="Resource" path="res://content/components/crt4/6402.tres" id="65_iwq48"]
+[ext_resource type="Resource" path="res://content/components/crt4/6418.tres" id="66_7cgkl"]
+[ext_resource type="Resource" path="res://content/components/crt4/6505.tres" id="67_35d01"]
+[ext_resource type="Resource" path="res://content/components/crt4/6528.tres" id="68_3hmkr"]
+[ext_resource type="Resource" path="res://content/components/crt4/6531.tres" id="69_u8072"]
+[ext_resource type="Resource" path="res://content/components/crt4/556.tres" id="70_h7s7r"]
+[ext_resource type="Resource" path="res://content/components/crt4/6405.tres" id="71_vspcy"]
+[ext_resource type="Resource" path="res://content/components/crt4/visuals.tres" id="72_mh6nk"]
+[ext_resource type="Script" path="res://scripts/content/character_definition.gd" id="73_54pa8"]
+
+[ext_resource type="Resource" path="res://content/components/crt4/5417.tres" id="nested_component5417"]
+
+[resource]
+script = ExtResource("73_54pa8")
+identifier = "crt_4"
+title = "角色编号4"
+source_crt = 4
+move_per_tick = 10.5
+actor_scene = ExtResource("28_f2fd2")
+actions = Array[Resource]([ExtResource("1_scog0"), ExtResource("2_3lf4q"), ExtResource("3_gls5l"), ExtResource("4_poasi"), ExtResource("5_gm51f"), ExtResource("6_a62rs"), ExtResource("7_11r43"), ExtResource("8_n22f8"), ExtResource("9_obj6u"), ExtResource("10_1d6ok"), ExtResource("11_6fdbm"), ExtResource("12_838lu"), ExtResource("13_sv2u0"), ExtResource("14_hwyag"), ExtResource("15_44e40"), ExtResource("16_c3tti"), ExtResource("17_70prw"), ExtResource("18_uoji0"), ExtResource("19_v7sjq"), ExtResource("20_67v4h"), ExtResource("21_li3ue"), ExtResource("22_s7n4b"), ExtResource("23_0j8c2"), ExtResource("24_h1fga"), ExtResource("25_xwl0n"), ExtResource("26_htajt"), ExtResource("27_hqcop")])
+components = Array[Resource]([ExtResource("29_yy7nq"), ExtResource("30_6d8hc"), ExtResource("31_valcr"), ExtResource("32_80tkr"), ExtResource("33_x1kvs"), ExtResource("34_g1kgs"), ExtResource("35_glrka"), ExtResource("36_aiesn"), ExtResource("37_p1bo0"), ExtResource("38_c5le7"), ExtResource("39_t20j6"), ExtResource("40_hjwuw"), ExtResource("41_we006"), ExtResource("42_4nmgw"), ExtResource("43_bimjm"), ExtResource("44_5540p"), ExtResource("45_ag6gi"), ExtResource("46_nqx01"), ExtResource("47_87xcp"), ExtResource("48_35a82"), ExtResource("49_7nks6"), ExtResource("50_66kyc"), ExtResource("51_pjbvl"), ExtResource("52_442r6"), ExtResource("53_fuimx"), ExtResource("54_s5aco"), ExtResource("55_am8ma"), ExtResource("56_6deb3"), ExtResource("57_xh04h"), ExtResource("58_fksvc"), ExtResource("59_6y5a7"), ExtResource("60_vtnh1"), ExtResource("61_ko40d"), ExtResource("62_b7a5j"), ExtResource("63_50hvl"), ExtResource("64_5q5e8"), ExtResource("65_iwq48"), ExtResource("66_7cgkl"), ExtResource("67_35d01"), ExtResource("68_3hmkr"), ExtResource("69_u8072"), ExtResource("70_h7s7r"), ExtResource("71_vspcy"), ExtResource("72_mh6nk"), ExtResource("nested_component5417")])
+extra = {
+"death_settlement_frame": 25,
+"hit_fx_animation": "player_hit_fx",
+"movement_parent_end": 146,
+"movement_parent_start": 146,
+"skill_slot_actions": {
+"a": "skill_a",
+"d": "skill_d",
+"e": "skill_e",
+"f": "skill_f",
+"g": "skill_g",
+"h": "skill_h",
+"q": "skill_q",
+"r": "skill_r",
+"s": "skill_s",
+"t": "skill_t",
+"v": "skill_v",
+"w": "skill_w",
+"y": "skill_y",
+"z": "skill_z"
+},
+"source_equipment_character_id": "crt_3",
+"source_profile": {
+"equipment_family": "crt_3",
+"initialized_values": {
+"armor": 1.0,
+"blaze": 0.0,
+"weapon": 0.0,
+"weapon_master": 0.0
+},
+"scope": "shared original Weaponmaster-family fields; no invented fifth equipment slot",
+"source_equipment_character_id": "crt_3",
+"source_fields": {
+"armor": "웨펀압",
+"blaze": "블레이즈",
+"weapon": "웨펀무기",
+"weapon_master": "weaponmaster"
+}
+}
+}
+source = "Original shared CRT3 equipment fields,6732 parents146..176,4391 page5,2728 page6; source paths and uncertainties in act06_crt4_rules.json. No independent fifth equipment/ring family."

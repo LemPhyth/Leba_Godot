@@ -1,0 +1,2453 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_0qovf"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_rings_panel.png" id="2_d3yip"]
+[ext_resource type="Script" path="res://scripts/ui/source_button.gd" id="3_kmsk4"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_close_up.png" id="4_ol83t"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_close_over.png" id="5_res75"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_close_down.png" id="6_kxtlx"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_weapons_up.png" id="7_ij8br"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_weapons_over.png" id="8_0jn4p"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_weapons_down.png" id="9_an43m"]
+[ext_resource type="FontFile" path="res://assets/fonts/inventory.ttf" id="10_e8ai4"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_owned.png" id="11_26qwc"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_unequip_up.png" id="12_ud4ny"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_unequip_over.png" id="13_kifpk"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_unequip_down.png" id="14_064up"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_choose_panel.png" id="15_x0wai"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_cancel_up.png" id="16_8w5hp"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_cancel_over.png" id="17_wwt2v"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_cancel_down.png" id="18_04yub"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt0_up.png" id="19_6yqjp"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt0_over.png" id="20_ryahf"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt0_down.png" id="21_mkm8i"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt1_up.png" id="22_8fxvv"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt1_over.png" id="23_urehx"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt1_down.png" id="24_5ht4n"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt2_up.png" id="25_lwhf3"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt2_over.png" id="26_mw5bi"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt2_down.png" id="27_cakvs"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt3_up.png" id="28_3v0p0"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt3_over.png" id="29_th5v8"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_ring_equip_crt3_down.png" id="30_08fyr"]
+
+[node name="Warehouse8" type="Control" unique_id=1831147307]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+theme = ExtResource("1_0qovf")
+
+[node name="WarehouseRoot" type="Node2D" parent="." unique_id=875348173]
+position = Vector2(202.4, 45.3)
+metadata/source_depth = 9999
+
+[node name="InventoryRoot" type="Node2D" parent="WarehouseRoot" unique_id=533965554]
+position = Vector2(80.3, 154.5)
+metadata/source_depth = 0
+metadata/panel_root = true
+
+[node name="source_warehouse_rings_panel" type="Sprite2D" parent="WarehouseRoot/InventoryRoot" unique_id=1881165551]
+position = Vector2(-160.95, -196.75)
+texture = ExtResource("2_d3yip")
+centered = false
+metadata/panel_sprite = true
+
+[node name="PanelMouseSurface" type="Control" parent="WarehouseRoot/InventoryRoot" unique_id=144824998]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -160.95
+offset_top = -196.75
+offset_right = 153.05
+offset_bottom = 166.25
+tooltip_text = "当前仅接入武器页浏览和HP +10戒指；其他装备分类、兑换及翻页尚未接入。"
+
+[node name="warehouse_closeRegistration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=794904139]
+position = Vector2(140.65, -184)
+metadata/source_depth = 5
+
+[node name="warehouse_close" type="BaseButton" parent="WarehouseRoot/InventoryRoot/warehouse_closeRegistration" unique_id=1302526570]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -11.0
+offset_top = -11.0
+offset_right = 24.297855
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "关闭仓库"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("4_ol83t")
+hover_texture = ExtResource("5_res75")
+pressed_texture = ExtResource("6_kxtlx")
+normal_pivot = Vector2(10.5, 10.5)
+hover_pivot = Vector2(10.5, 10.5)
+pressed_pivot = Vector2(10.5, 10.5)
+metadata/button_key = "warehouse_close"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/warehouse_closeRegistration/warehouse_close" unique_id=1235166845]
+position = Vector2(0.5, 0.5)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/warehouse_closeRegistration/warehouse_close/ArtworkLayout" unique_id=591052675]
+texture = ExtResource("4_ol83t")
+centered = false
+
+[node name="warehouse_weaponsRegistration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=774628799]
+position = Vector2(-115.4, -150.8)
+metadata/source_depth = 10
+
+[node name="warehouse_weapons" type="BaseButton" parent="WarehouseRoot/InventoryRoot/warehouse_weaponsRegistration" unique_id=230177567]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -42.4
+offset_top = -15.2
+offset_right = 38.1
+offset_bottom = 11.3
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "武器"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("7_ij8br")
+hover_texture = ExtResource("8_0jn4p")
+pressed_texture = ExtResource("9_an43m")
+normal_pivot = Vector2(24.9, 7.2)
+hover_pivot = Vector2(24.9, 7.2)
+pressed_pivot = Vector2(24.9, 7.2)
+metadata/button_key = "warehouse_weapons"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/warehouse_weaponsRegistration/warehouse_weapons" unique_id=1362870589]
+position = Vector2(17.500002, 8)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/warehouse_weaponsRegistration/warehouse_weapons/ArtworkLayout" unique_id=1107127393]
+texture = ExtResource("7_ij8br")
+centered = false
+
+[node name="Field2671_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=2000198067]
+position = Vector2(89.1, 144.15)
+metadata/source_depth = 106
+
+[node name="Field2671_0" type="Label" parent="WarehouseRoot/InventoryRoot/Field2671_0Registration" unique_id=1074099300]
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 53.5
+offset_bottom = 21.0
+mouse_filter = 1
+theme = ExtResource("1_0qovf")
+theme_override_fonts/font = ExtResource("10_e8ai4")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "0"
+horizontal_alignment = 2
+metadata/storage_field = "gold"
+
+[node name="Field2672_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=411402173]
+position = Vector2(-123.55, 144.4)
+metadata/source_depth = 254
+
+[node name="Field2672_0" type="Label" parent="WarehouseRoot/InventoryRoot/Field2672_0Registration" unique_id=459425078]
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 64.05
+offset_bottom = 24.0
+mouse_filter = 1
+theme = ExtResource("1_0qovf")
+theme_override_fonts/font = ExtResource("10_e8ai4")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "200"
+metadata/storage_field = "clear_cubes"
+
+[node name="Field2673_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1182375368]
+position = Vector2(-40.3, 144.5)
+metadata/source_depth = 256
+
+[node name="Field2673_0" type="Label" parent="WarehouseRoot/InventoryRoot/Field2673_0Registration" unique_id=1152348916]
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 30.95
+offset_bottom = 21.0
+tooltip_text = "装备材料尚未接入，当前显示默认0。"
+mouse_filter = 0
+theme = ExtResource("1_0qovf")
+theme_override_fonts/font = ExtResource("10_e8ai4")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "0"
+metadata/storage_field = "pama_stones"
+
+[node name="Unsupported0" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1881125554]
+position = Vector2(50.323753, 39.3)
+rotation = 3.1415927
+scale = Vector2(1.0006104, -1)
+metadata/source_depth = 3
+
+[node name="unsupported_0" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported0" unique_id=603144632]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_0"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported0/unsupported_0" unique_id=1024671637]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported0/unsupported_0/ArtworkLayout" unique_id=677574905]
+visible = false
+centered = false
+
+[node name="Unsupported1" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=185162932]
+position = Vector2(51.3, 102.05)
+rotation = 3.1415927
+scale = Vector2(1, -1)
+metadata/source_depth = 3
+
+[node name="unsupported_1" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported1" unique_id=2038404475]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_1"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported1/unsupported_1" unique_id=1640530168]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported1/unsupported_1/ArtworkLayout" unique_id=229544268]
+visible = false
+centered = false
+
+[node name="Unsupported2" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=715021398]
+position = Vector2(-109.45459, 39.95)
+rotation = 3.1415927
+scale = Vector2(1.0001068, -1)
+metadata/source_depth = 3
+
+[node name="unsupported_2" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported2" unique_id=469176441]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_2"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported2/unsupported_2" unique_id=948960825]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported2/unsupported_2/ArtworkLayout" unique_id=1085411284]
+visible = false
+centered = false
+
+[node name="Unsupported3" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1770835326]
+position = Vector2(-109.42625, 104.6)
+rotation = 3.1415927
+scale = Vector2(1.0006104, -1)
+metadata/source_depth = 3
+
+[node name="unsupported_3" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported3" unique_id=1923083715]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_3"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported3/unsupported_3" unique_id=1659366766]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported3/unsupported_3/ArtworkLayout" unique_id=2013560927]
+visible = false
+centered = false
+
+[node name="Unsupported4" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1930953063]
+position = Vector2(-62.3, 144.7)
+metadata/source_depth = 257
+
+[node name="unsupported_4" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported4" unique_id=736169725]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -18.25
+offset_top = -17.35
+offset_right = 18.75
+offset_bottom = 19.65
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_4"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported4/unsupported_4" unique_id=564711580]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported4/unsupported_4/ArtworkLayout" unique_id=1097295051]
+visible = false
+centered = false
+
+[node name="Unsupported5" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=2123007792]
+position = Vector2(-145.7, 148.4)
+metadata/source_depth = 264
+
+[node name="unsupported_5" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported5" unique_id=51168534]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -15.05
+offset_top = -15.3
+offset_right = 14.95
+offset_bottom = 14.7
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_5"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported5/unsupported_5" unique_id=1762506285]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported5/unsupported_5/ArtworkLayout" unique_id=1054113723]
+visible = false
+centered = false
+
+[node name="Unsupported6" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=894265019]
+position = Vector2(-121.15, -126.8)
+metadata/source_depth = 25
+
+[node name="unsupported_6" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported6" unique_id=690298899]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -38.65
+offset_top = -12.2
+offset_right = 41.85
+offset_bottom = 13.3
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_6"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported6/unsupported_6" unique_id=208962055]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported6/unsupported_6/ArtworkLayout" unique_id=1300396339]
+visible = false
+centered = false
+
+[node name="Unsupported7" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1899103858]
+position = Vector2(-120.85, -102.8)
+metadata/source_depth = 13
+
+[node name="unsupported_7" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported7" unique_id=5185293]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -39.95
+offset_top = -16.2
+offset_right = 42.55
+offset_bottom = 12.299999
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_7"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported7/unsupported_7" unique_id=1275443166]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported7/unsupported_7/ArtworkLayout" unique_id=120076688]
+visible = false
+centered = false
+
+[node name="Unsupported8" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1303155737]
+position = Vector2(-115.6, -79.8)
+scale = Vector2(1.0009766, 1)
+metadata/source_depth = 28
+
+[node name="unsupported_8" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported8" unique_id=167781061]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -23.05
+offset_top = -7.25
+offset_right = 34.25
+offset_bottom = 6.1499996
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_8"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported8/unsupported_8" unique_id=1887980834]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported8/unsupported_8/ArtworkLayout" unique_id=1355927947]
+visible = false
+centered = false
+
+[node name="Unsupported9" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=885390619]
+position = Vector2(-108.65, -56.8)
+metadata/source_depth = 30
+
+[node name="unsupported_9" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported9" unique_id=1687124979]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -51.15
+offset_top = -14.2
+offset_right = 30.349998
+offset_bottom = 13.3
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_9"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported9/unsupported_9" unique_id=1930898897]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported9/unsupported_9/ArtworkLayout" unique_id=2011457329]
+visible = false
+centered = false
+
+[node name="Unsupported10" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1009983628]
+position = Vector2(-103.25, -33.35)
+metadata/source_depth = 33
+
+[node name="unsupported_10" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported10" unique_id=1661697605]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -56.55
+offset_top = -14.65
+offset_right = 24.95
+offset_bottom = 10.85
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "unsupported_10"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported10/unsupported_10" unique_id=1320268260]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported10/unsupported_10/ArtworkLayout" unique_id=213339098]
+visible = false
+centered = false
+
+[node name="OwnedRing" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1179428977]
+position = Vector2(-32.3, -131.45)
+metadata/source_depth = 43
+
+[node name="Icon" type="Node2D" parent="WarehouseRoot/InventoryRoot/OwnedRing" unique_id=2130939658]
+position = Vector2(-0.2, 2)
+metadata/source_depth = 3
+
+[node name="source_ring_owned" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/OwnedRing/Icon" unique_id=1279666208]
+position = Vector2(-20.05, -19.7)
+texture = ExtResource("11_26qwc")
+centered = false
+
+[node name="ClickTarget" type="Node2D" parent="WarehouseRoot/InventoryRoot/OwnedRing" unique_id=1754605847]
+position = Vector2(-0.55, -0.2)
+metadata/source_depth = 10
+
+[node name="ring_owned" type="BaseButton" parent="WarehouseRoot/InventoryRoot/OwnedRing/ClickTarget" unique_id=1369179839]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -34.45
+offset_top = -24.95
+offset_right = 35.55
+offset_bottom = 25.349998
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "选择角色装备HP +10戒指；生命增益在重新进入场景时生效。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+metadata/button_key = "ring_owned"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/OwnedRing/ClickTarget/ring_owned" unique_id=864744125]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/OwnedRing/ClickTarget/ring_owned/ArtworkLayout" unique_id=306996179]
+visible = false
+centered = false
+
+[node name="Equipmentcrt_2" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=590527530]
+position = Vector2(93.35, 39.25)
+scale = Vector2(1.0006104, 1)
+metadata/source_depth = 175
+
+[node name="RingSlot" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_2" unique_id=900261610]
+position = Vector2(0, -5.25)
+metadata/source_depth = 6
+
+[node name="ring_unequip_crt_2Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_2/RingSlot" unique_id=924863458]
+position = Vector2(0.25, 6.05)
+metadata/source_depth = 4
+
+[node name="ring_unequip_crt_2" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_2/RingSlot/ring_unequip_crt_2Registration" unique_id=1174331483]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "卸下此戒指；按原作清除四角色的同款记录，生命增益在重入场景时更新。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("12_ud4ny")
+hover_texture = ExtResource("13_kifpk")
+pressed_texture = ExtResource("14_064up")
+normal_pivot = Vector2(21.05, 20.7)
+hover_pivot = Vector2(100.45, 200)
+pressed_pivot = Vector2(100.45, 200)
+metadata/button_key = "ring_unequip_crt_2"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_2/RingSlot/ring_unequip_crt_2Registration/ring_unequip_crt_2" unique_id=1606685241]
+position = Vector2(12.825169, 2.5499992)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_2/RingSlot/ring_unequip_crt_2Registration/ring_unequip_crt_2/ArtworkLayout" unique_id=1625241242]
+texture = ExtResource("12_ud4ny")
+centered = false
+
+[node name="Equipmentcrt_3" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1755213224]
+position = Vector2(94.3, 102)
+metadata/source_depth = 187
+
+[node name="RingSlot" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_3" unique_id=1875272321]
+position = Vector2(0, -5.25)
+metadata/source_depth = 6
+
+[node name="ring_unequip_crt_3Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_3/RingSlot" unique_id=1821881571]
+position = Vector2(0.25, 6.05)
+metadata/source_depth = 4
+
+[node name="ring_unequip_crt_3" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_3/RingSlot/ring_unequip_crt_3Registration" unique_id=1331398704]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "卸下此戒指；按原作清除四角色的同款记录，生命增益在重入场景时更新。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("12_ud4ny")
+hover_texture = ExtResource("13_kifpk")
+pressed_texture = ExtResource("14_064up")
+normal_pivot = Vector2(21.05, 20.7)
+hover_pivot = Vector2(100.45, 200)
+pressed_pivot = Vector2(100.45, 200)
+metadata/button_key = "ring_unequip_crt_3"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_3/RingSlot/ring_unequip_crt_3Registration/ring_unequip_crt_3" unique_id=2139837593]
+position = Vector2(12.825169, 2.5499992)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_3/RingSlot/ring_unequip_crt_3Registration/ring_unequip_crt_3/ArtworkLayout" unique_id=794207547]
+texture = ExtResource("12_ud4ny")
+centered = false
+
+[node name="Equipmentcrt_0" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=115380275]
+position = Vector2(-66.45, 39.9)
+scale = Vector2(1.0001068, 1)
+metadata/source_depth = 195
+
+[node name="RingSlot" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_0" unique_id=1078590661]
+position = Vector2(0, -5.25)
+metadata/source_depth = 6
+
+[node name="ring_unequip_crt_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_0/RingSlot" unique_id=1222353787]
+position = Vector2(0.25, 6.05)
+metadata/source_depth = 4
+
+[node name="ring_unequip_crt_0" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_0/RingSlot/ring_unequip_crt_0Registration" unique_id=847744422]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "卸下此戒指；按原作清除四角色的同款记录，生命增益在重入场景时更新。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("12_ud4ny")
+hover_texture = ExtResource("13_kifpk")
+pressed_texture = ExtResource("14_064up")
+normal_pivot = Vector2(21.05, 20.7)
+hover_pivot = Vector2(100.45, 200)
+pressed_pivot = Vector2(100.45, 200)
+metadata/button_key = "ring_unequip_crt_0"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_0/RingSlot/ring_unequip_crt_0Registration/ring_unequip_crt_0" unique_id=306697733]
+position = Vector2(12.825169, 2.5499992)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_0/RingSlot/ring_unequip_crt_0Registration/ring_unequip_crt_0/ArtworkLayout" unique_id=1574031195]
+texture = ExtResource("12_ud4ny")
+centered = false
+
+[node name="Equipmentcrt_1" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=723058745]
+position = Vector2(-66.4, 104.55)
+scale = Vector2(1.0006104, 1)
+metadata/source_depth = 203
+
+[node name="RingSlot" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_1" unique_id=1560215761]
+position = Vector2(0, -5.25)
+metadata/source_depth = 6
+
+[node name="ring_unequip_crt_1Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_1/RingSlot" unique_id=12452389]
+position = Vector2(0.25, 6.05)
+metadata/source_depth = 4
+
+[node name="ring_unequip_crt_1" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_1/RingSlot/ring_unequip_crt_1Registration" unique_id=2142512682]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "卸下此戒指；按原作清除四角色的同款记录，生命增益在重入场景时更新。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("12_ud4ny")
+hover_texture = ExtResource("13_kifpk")
+pressed_texture = ExtResource("14_064up")
+normal_pivot = Vector2(21.05, 20.7)
+hover_pivot = Vector2(100.45, 200)
+pressed_pivot = Vector2(100.45, 200)
+metadata/button_key = "ring_unequip_crt_1"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_1/RingSlot/ring_unequip_crt_1Registration/ring_unequip_crt_1" unique_id=177555608]
+position = Vector2(12.825169, 2.5499992)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_1/RingSlot/ring_unequip_crt_1Registration/ring_unequip_crt_1/ArtworkLayout" unique_id=143374639]
+texture = ExtResource("12_ud4ny")
+centered = false
+
+[node name="RingChoice" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=38850282]
+position = Vector2(-1.8, -21)
+metadata/source_depth = 211
+
+[node name="source_ring_choose_panel" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=593011762]
+position = Vector2(-141, -75.55)
+texture = ExtResource("15_x0wai")
+centered = false
+
+[node name="PanelMouseSurface" type="Control" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=1938979181]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -141.0
+offset_top = -75.55
+offset_right = 141.0
+offset_bottom = 75.45
+
+[node name="ring_cancelRegistration" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=1694329544]
+position = Vector2(116.25, 57.55)
+metadata/source_depth = 5
+
+[node name="ring_cancel" type="BaseButton" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_cancelRegistration" unique_id=1358201976]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -14.05
+offset_top = -9.15
+offset_right = 29.100002
+offset_bottom = 8.050001
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "取消选择"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("16_8w5hp")
+hover_texture = ExtResource("17_wwt2v")
+pressed_texture = ExtResource("18_04yub")
+normal_pivot = Vector2(17.05, 9.15)
+hover_pivot = Vector2(17.05, 9.15)
+pressed_pivot = Vector2(17.05, 9.15)
+metadata/button_key = "ring_cancel"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_cancelRegistration/ring_cancel" unique_id=253704072]
+position = Vector2(-2.999999, 0)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_cancelRegistration/ring_cancel/ArtworkLayout" unique_id=875310586]
+texture = ExtResource("16_8w5hp")
+centered = false
+
+[node name="ring_equip_crt0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=360932311]
+position = Vector2(-100.9, 24)
+metadata/source_depth = 7
+
+[node name="ring_equip_crt0" type="BaseButton" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt0Registration" unique_id=260387749]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -29.1
+offset_top = -26.827482
+offset_right = 35.4
+offset_bottom = 25.499998
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "为编号0装备HP +10戒指；重新进入场景生效。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("19_6yqjp")
+hover_texture = ExtResource("20_ryahf")
+pressed_texture = ExtResource("21_mkm8i")
+normal_pivot = Vector2(23.45, 25.55)
+hover_pivot = Vector2(23.45, 25.55)
+pressed_pivot = Vector2(23.45, 25.55)
+metadata/button_key = "ring_equip_crt0"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt0Registration/ring_equip_crt0" unique_id=1520111926]
+position = Vector2(5.6499996, 1.277483)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt0Registration/ring_equip_crt0/ArtworkLayout" unique_id=803511805]
+texture = ExtResource("19_6yqjp")
+centered = false
+
+[node name="ring_equip_crt1Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=1663001194]
+position = Vector2(-33.8, 23.65)
+metadata/source_depth = 14
+
+[node name="ring_equip_crt1" type="BaseButton" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt1Registration" unique_id=765429396]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -29.2
+offset_top = -25.22634
+offset_right = 28.938377
+offset_bottom = 24.817533
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "为编号1装备HP +10戒指；重新进入场景生效。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("22_8fxvv")
+hover_texture = ExtResource("23_urehx")
+pressed_texture = ExtResource("24_5ht4n")
+normal_pivot = Vector2(25.8, 19.95)
+hover_pivot = Vector2(25.8, 19.95)
+pressed_pivot = Vector2(25.8, 19.95)
+metadata/button_key = "ring_equip_crt1"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt1Registration/ring_equip_crt1" unique_id=1246759794]
+position = Vector2(3.4000015, 5.2763386)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt1Registration/ring_equip_crt1/ArtworkLayout" unique_id=1898715224]
+texture = ExtResource("22_8fxvv")
+centered = false
+
+[node name="ring_equip_crt2Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=1009797915]
+position = Vector2(37.1, 24.9)
+metadata/source_depth = 18
+
+[node name="ring_equip_crt2" type="BaseButton" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt2Registration" unique_id=1718244155]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -30.269587
+offset_top = -32.722523
+offset_right = 33.35
+offset_bottom = 32.785923
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "为编号2装备HP +10戒指；重新进入场景生效。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("25_lwhf3")
+hover_texture = ExtResource("26_mw5bi")
+pressed_texture = ExtResource("27_cakvs")
+normal_pivot = Vector2(27.45, 19.25)
+hover_pivot = Vector2(27.45, 19.25)
+pressed_pivot = Vector2(27.45, 19.25)
+metadata/button_key = "ring_equip_crt2"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt2Registration/ring_equip_crt2" unique_id=1520360853]
+position = Vector2(2.8195858, 13.472523)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt2Registration/ring_equip_crt2/ArtworkLayout" unique_id=1817080851]
+texture = ExtResource("25_lwhf3")
+centered = false
+
+[node name="ring_equip_crt3Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice" unique_id=1066244850]
+position = Vector2(75.8, 28.1)
+metadata/source_depth = 30
+
+[node name="ring_equip_crt3" type="BaseButton" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt3Registration" unique_id=2094457143]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -3.85
+offset_top = -26.1
+offset_right = 55.65
+offset_bottom = 24.506353
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "为编号3装备HP +10戒指；重新进入场景生效。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_kmsk4")
+normal_texture = ExtResource("28_3v0p0")
+hover_texture = ExtResource("29_th5v8")
+pressed_texture = ExtResource("30_08fyr")
+normal_pivot = Vector2(3.6, 21.4)
+hover_pivot = Vector2(3.6, 21.4)
+pressed_pivot = Vector2(3.6, 21.4)
+metadata/button_key = "ring_equip_crt3"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt3Registration/ring_equip_crt3" unique_id=875423793]
+position = Vector2(0.25, 4.700001)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/RingChoice/ring_equip_crt3Registration/ring_equip_crt3/ArtworkLayout" unique_id=1097438481]
+texture = ExtResource("28_3v0p0")
+centered = false
+
+[node name="ring_unknown_crt_0" type="Button" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_0/RingSlot/ring_unequip_crt_0Registration"]
+visible = false
+layout_mode = 0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+disabled = true
+text = "未接入"
+tooltip_text = "此装备编号尚未接入，原记录保留。"
+metadata/button_key = "ring_unknown_crt_0"
+
+[node name="ring_unknown_crt_1" type="Button" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_1/RingSlot/ring_unequip_crt_1Registration"]
+visible = false
+layout_mode = 0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+disabled = true
+text = "未接入"
+tooltip_text = "此装备编号尚未接入，原记录保留。"
+metadata/button_key = "ring_unknown_crt_1"
+
+[node name="ring_unknown_crt_2" type="Button" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_2/RingSlot/ring_unequip_crt_2Registration"]
+visible = false
+layout_mode = 0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+disabled = true
+text = "未接入"
+tooltip_text = "此装备编号尚未接入，原记录保留。"
+metadata/button_key = "ring_unknown_crt_2"
+
+[node name="ring_unknown_crt_3" type="Button" parent="WarehouseRoot/InventoryRoot/Equipmentcrt_3/RingSlot/ring_unequip_crt_3Registration"]
+visible = false
+layout_mode = 0
+offset_left = -33.875168
+offset_top = -23.25
+offset_right = 35.571808
+offset_bottom = 21.25
+disabled = true
+text = "未接入"
+tooltip_text = "此装备编号尚未接入，原记录保留。"
+metadata/button_key = "ring_unknown_crt_3"

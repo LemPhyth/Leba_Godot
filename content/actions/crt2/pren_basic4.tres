@@ -1,0 +1,302 @@
+[gd_resource type="Resource" format=3 uid="uid://dnllw3pyg2fsk"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_pren_basic4.tres" id="1_dl4yi"]
+[ext_resource type="AudioStream" uid="uid://bodvma27ttngi" path="res://assets/audio/5203.mp3" id="2_sciwk"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_o8i3f"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_eoa0m"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="5_dmetw"]
+
+[sub_resource type="Resource" id="Resource_yx8u2"]
+script = ExtResource("3_o8i3f")
+frame = 6
+sound = "crt2_pren_basic4"
+audio_stream = ExtResource("2_sciwk")
+audio_offset = 0.00907029478458049
+parameters = {
+"envelope": [{
+"left": 15941.0,
+"right": 17712.0,
+"sample": 500.0
+}],
+"in_point_samples_44100": 400.0,
+"sound_id": 5203.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "400",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5431.0
+}
+
+[sub_resource type="Resource" id="Resource_1xs47"]
+script = ExtResource("5_dmetw")
+from_frame = 5
+until_frame = 5
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-170.4375, -153.37567, 352.81036, 247.99799)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_depth": 33,
+"source_frame": 5,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_xksbm"]
+script = ExtResource("5_dmetw")
+from_frame = 6
+until_frame = 6
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-170.4375, -153.37567, 352.81036, 247.99799)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_depth": 33,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_xj2lg"]
+script = ExtResource("5_dmetw")
+from_frame = 5
+until_frame = 5
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-107.46562, -66.46403, 225.15111, 149.97313)])
+once_per_action = false
+parameters = {
+"source_depth": 35,
+"source_frame": 5,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_goto_stop2_on_frozen_or_super": false,
+"kind": "status",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"status": {
+"container_id": 4021.0,
+"frame": 20.0,
+"name": "source_bleed"
+},
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_4v7vg"]
+script = ExtResource("5_dmetw")
+from_frame = 6
+until_frame = 6
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-107.46562, -66.46403, 225.15111, 149.97313)])
+once_per_action = false
+parameters = {
+"source_depth": 35,
+"source_frame": 6,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": null,
+"gravity": null,
+"gravity_acceleration_add": 0.0,
+"helper_goto_stop2_on_frozen_or_super": false,
+"kind": "status",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"status": {
+"container_id": 4021.0,
+"frame": 20.0,
+"name": "source_bleed"
+},
+"super_armor_reaction_frame": null
+}
+}
+
+[sub_resource type="Resource" id="Resource_t6kry"]
+script = ExtResource("5_dmetw")
+from_frame = 10
+until_frame = 10
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-170.4375, -153.37567, 352.81036, 247.99799)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_depth": 33,
+"source_frame": 10,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_p3dh5"]
+script = ExtResource("5_dmetw")
+from_frame = 11
+until_frame = 11
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-170.4375, -153.37567, 352.81036, 247.99799)])
+gravity = -3.0
+once_per_action = false
+parameters = {
+"source_depth": 33,
+"source_frame": 11,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -3.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 0.0,
+"marker_observer": null,
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("4_eoa0m")
+identifier = "pren_basic4"
+title = "pren_basic4"
+animation = ExtResource("1_dl4yi")
+animation_key = "crt2_pren_basic4"
+source_parent = 87
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22)
+input_id = "attack"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_yx8u2")])
+windows = Array[Resource]([SubResource("Resource_1xs47"), SubResource("Resource_xksbm"), SubResource("Resource_xj2lg"), SubResource("Resource_4v7vg"), SubResource("Resource_t6kry"), SubResource("Resource_p3dh5")])
+source = "res/scripts/DefineSprite_5431/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"body_metadata": "act04_crt2_body",
+"controller": "combo",
+"hit_callback_sources": ["res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5431/frame_10/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_33/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_35/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_35/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_35/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_35/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5431/frame_5/PlaceObject2_439_35/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as"],
+"motion": [{
+"frames": [5.0, 7.0],
+"multiply_facing": true,
+"root_delta_x": 2.0
+}],
+"normal_end_source_frame": 22,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -0.2, -10.85],
+"physical_key": "X",
+"source_id": 5431.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

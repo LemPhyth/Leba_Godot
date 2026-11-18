@@ -1,0 +1,91 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_i2slu"]
+[ext_resource type="Texture2D" path="res://assets/ui/title.png" id="2_j6b1i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5xbi"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Intro" type="Control" unique_id=1098808957]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_i2slu")
+
+[node name="@TextureRect@42" type="TextureRect" parent="." unique_id=984607295]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 265.0
+mouse_filter = 2
+texture = ExtResource("2_j6b1i")
+expand_mode = 1
+
+[node name="@ColorRect@43" type="ColorRect" parent="." unique_id=1128663875]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 400.0
+mouse_filter = 2
+color = Color(0.025, 0.03, 0.04, 0.85)
+
+[node name="@Panel@44" type="Panel" parent="." unique_id=510539933]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 75.0
+offset_right = 490.0
+offset_bottom = 330.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_i5xbi")
+
+[node name="Title" type="Label" parent="." unique_id=646108262]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 94.0
+offset_right = 474.0
+offset_bottom = 120.0
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "哥布林之森 · 第一场"
+autowrap_mode = 3
+
+[node name="Details" type="Label" parent="." unique_id=1125376672]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 140.0
+offset_right = 465.0
+offset_bottom = 267.0
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "敌人：1
+
+← → 移动  ·  X 普通攻击 / 连段
+技能按键与可用状态见战斗界面。
+Esc 打开菜单。"
+autowrap_mode = 3
+
+[node name="Back" type="Button" parent="." unique_id=1849037507]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 279.0
+offset_right = 215.0
+offset_bottom = 311.0
+text = "返回选择"
+
+[node name="EnterBattle" type="Button" parent="." unique_id=350910235]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 279.0
+offset_right = 460.0
+offset_bottom = 311.0
+text = "进入战斗"

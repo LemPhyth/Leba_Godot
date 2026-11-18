@@ -1,0 +1,1406 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/source_hud.gd" id="1_ahdke"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_panel_ready.png" id="2_pqi11"]
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="3_r0xth"]
+[ext_resource type="FontFile" path="res://assets/fonts/inventory.ttf" id="4_3inff"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_combo_label.png" id="5_bfnhh"]
+[ext_resource type="FontFile" path="res://assets/fonts/combo.ttf" id="6_fqcys"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_hp_hover.png" id="7_fl0ky"]
+[ext_resource type="FontFile" path="res://assets/fonts/numeric.ttf" id="8_djnom"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_mp_hover.png" id="9_02o00"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_f_panel.png" id="10_h6scj"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_f_icon.png" id="11_4xqwn"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_cooldown.png" id="12_ad5n3"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_g_panel.png" id="13_0kk15"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_g_icon.png" id="14_gqlbt"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_h_panel.png" id="15_gr410"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_grenade_h_icon.png" id="16_jt5yq"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_hp_fill.png" id="17_sk8yb"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_mp_fill.png" id="18_q0kvq"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_panel_crt1_ready.png" id="19_tjtfi"]
+[ext_resource type="Script" path="res://scripts/ui/hud_frame.gd" id="20_w_frame"]
+[ext_resource type="Resource" path="res://generated/animations/hud_crt1_w_ammo.tres" id="21_w_animation"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_panel_crt2_ready.png" id="22_3inff"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_panel_crt3_ready.png" id="23_bfnhh"]
+[ext_resource type="Texture2D" path="res://assets/ui/hud_panel_crt4_ready.png" id="24_fqcys"]
+
+[node name="SourceHUD" type="Node2D" unique_id=50973086]
+z_index = 567
+script = ExtResource("1_ahdke")
+
+[node name="Characters" type="Node2D" parent="." unique_id=2097897889]
+
+[node name="CRT0" type="Node2D" parent="Characters" unique_id=551349561]
+metadata/character_id = 0
+
+[node name="SkillPanel" type="Sprite2D" parent="Characters/CRT0" unique_id=494761639]
+position = Vector2(10.05, 31.35)
+texture = ExtResource("2_pqi11")
+centered = false
+metadata/ui_role = "panel"
+
+[node name="Cooldown_a" type="Polygon2D" parent="Characters/CRT0" unique_id=1176833435]
+visible = false
+position = Vector2(20.7, 77.1)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "a"
+
+[node name="Cooldown_s" type="Polygon2D" parent="Characters/CRT0" unique_id=2034471716]
+visible = false
+position = Vector2(57.25, 77.75)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "s"
+
+[node name="Cooldown_d" type="Polygon2D" parent="Characters/CRT0" unique_id=1640291443]
+visible = false
+position = Vector2(95.5, 77.4)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "d"
+
+[node name="Cooldown_f" type="Polygon2D" parent="Characters/CRT0" unique_id=1922031508]
+visible = false
+position = Vector2(150.55, 78.55)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-17.35, -13.45, -17.35, 11.55, 10.65, 11.55, 10.65, -13.45, -17.35, -13.45)
+metadata/skill_key = "f"
+
+[node name="Cooldown_g" type="Polygon2D" parent="Characters/CRT0" unique_id=1667306543]
+visible = false
+position = Vector2(184.25, 76.9)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-12.95, -12.05, -12.95, 12.95, 15.05, 12.95, 15.05, -12.05, -12.95, -12.05)
+metadata/skill_key = "g"
+
+[node name="Cooldown_h" type="Polygon2D" parent="Characters/CRT0" unique_id=1149742171]
+visible = false
+position = Vector2(222.3, 77.5)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-13.85, -12.55, -13.85, 12.45, 14.15, 12.45, 14.15, -12.55, -13.85, -12.55)
+metadata/skill_key = "h"
+
+[node name="Cooldown_q" type="Polygon2D" parent="Characters/CRT0" unique_id=39016894]
+visible = false
+position = Vector2(34.95, 107.75)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "q"
+
+[node name="Cooldown_w" type="Polygon2D" parent="Characters/CRT0" unique_id=1638806717]
+visible = false
+position = Vector2(71.95, 108.15)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "w"
+
+[node name="Cooldown_e" type="Polygon2D" parent="Characters/CRT0" unique_id=998257824]
+visible = false
+position = Vector2(109.7, 108)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "e"
+
+[node name="Cooldown_r" type="Polygon2D" parent="Characters/CRT0" unique_id=633034763]
+visible = false
+position = Vector2(147.2, 107.4)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "r"
+
+[node name="Cooldown_t" type="Polygon2D" parent="Characters/CRT0" unique_id=1027353433]
+visible = false
+position = Vector2(184.85, 107.9)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "t"
+
+[node name="Cooldown_y" type="Polygon2D" parent="Characters/CRT0" unique_id=1993423219]
+visible = false
+position = Vector2(208.6, 107.4)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "y"
+
+[node name="Gold" type="Label" parent="Characters/CRT0" unique_id=764497443]
+offset_left = 22.25
+offset_top = 130.2
+offset_right = 77.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "0"
+horizontal_alignment = 2
+metadata/ui_role = "gold"
+
+[node name="ClearCubes" type="Label" parent="Characters/CRT0" unique_id=1208246666]
+offset_left = 112.25
+offset_top = 130.2
+offset_right = 156.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "200"
+metadata/ui_role = "cubes"
+
+[node name="ComboLayout" type="Node2D" parent="Characters/CRT0" unique_id=1426942333]
+visible = false
+z_index = 4095
+z_as_relative = false
+metadata/ui_role = "combo"
+
+[node name="@Sprite2D@22" type="Sprite2D" parent="Characters/CRT0/ComboLayout" unique_id=700677987]
+position = Vector2(418.3, 115.45)
+texture = ExtResource("5_bfnhh")
+centered = false
+
+[node name="NumberMotion" type="Node2D" parent="Characters/CRT0/ComboLayout" unique_id=1193935634]
+metadata/ui_role = "combo_motion"
+
+[node name="Number" type="Label" parent="Characters/CRT0/ComboLayout/NumberMotion" unique_id=461452312]
+offset_right = 102.6
+offset_bottom = 40.55
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0, 0.4, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("6_fqcys")
+theme_override_font_sizes/font_size = 35
+text = "1"
+horizontal_alignment = 2
+metadata/ui_role = "combo_number"
+
+[node name="HPHoverLayout" type="Node2D" parent="Characters/CRT0" unique_id=1496419337]
+visible = false
+z_index = 300
+metadata/hover_key = "hp"
+
+[node name="@Sprite2D@25" type="Sprite2D" parent="Characters/CRT0/HPHoverLayout" unique_id=1524097328]
+position = Vector2(72.5, 41.95)
+texture = ExtResource("7_fl0ky")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT0/HPHoverLayout" unique_id=627417836]
+offset_left = 115.87411
+offset_top = 42.47411
+offset_right = 136.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT0/HPHoverLayout" unique_id=1862357675]
+offset_left = 140.87411
+offset_top = 42.47411
+offset_right = 161.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="MPHoverLayout" type="Node2D" parent="Characters/CRT0" unique_id=1360001270]
+visible = false
+z_index = 300
+metadata/hover_key = "mp"
+
+[node name="@Sprite2D@29" type="Sprite2D" parent="Characters/CRT0/MPHoverLayout" unique_id=43507568]
+position = Vector2(72.55, 53.4)
+texture = ExtResource("9_02o00")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT0/MPHoverLayout" unique_id=1441857936]
+offset_left = 115.92411
+offset_top = 54.17411
+offset_right = 136.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT0/MPHoverLayout" unique_id=1506213142]
+offset_left = 140.9241
+offset_top = 54.17411
+offset_right = 161.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="GrenadeFLayout" type="Node2D" parent="Characters/CRT0" unique_id=1599556980]
+visible = false
+z_index = 2623
+z_as_relative = false
+metadata/grenade_key = "f"
+
+[node name="@Sprite2D@33" type="Sprite2D" parent="Characters/CRT0/GrenadeFLayout" unique_id=768615294]
+position = Vector2(3.4, 358.4)
+texture = ExtResource("10_h6scj")
+centered = false
+
+[node name="@Sprite2D@34" type="Sprite2D" parent="Characters/CRT0/GrenadeFLayout" unique_id=106095503]
+position = Vector2(8.05, 363.45)
+texture = ExtResource("11_4xqwn")
+centered = false
+
+[node name="Cooldown" type="Sprite2D" parent="Characters/CRT0/GrenadeFLayout" unique_id=478009644]
+modulate = Color(1, 1, 1, 0.69921875)
+position = Vector2(2.75, 357.95)
+texture = ExtResource("12_ad5n3")
+centered = false
+
+[node name="Stock" type="Label" parent="Characters/CRT0/GrenadeFLayout" unique_id=1624692068]
+offset_left = 41.79254
+offset_top = 372.88452
+offset_right = 54.59253
+offset_bottom = 395.88452
+scale = Vector2(0.88275146, 0.88275146)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0.92941177, 0.84705883, 0.105882354, 1)
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 1
+
+[node name="GrenadeGLayout" type="Node2D" parent="Characters/CRT0" unique_id=1440738170]
+visible = false
+z_index = 2623
+z_as_relative = false
+metadata/grenade_key = "g"
+
+[node name="@Sprite2D@38" type="Sprite2D" parent="Characters/CRT0/GrenadeGLayout" unique_id=1170890050]
+position = Vector2(66.4, 359.35)
+texture = ExtResource("13_0kk15")
+centered = false
+
+[node name="@Sprite2D@39" type="Sprite2D" parent="Characters/CRT0/GrenadeGLayout" unique_id=584946216]
+position = Vector2(72.6, 365.65)
+texture = ExtResource("14_gqlbt")
+centered = false
+
+[node name="Cooldown" type="Sprite2D" parent="Characters/CRT0/GrenadeGLayout" unique_id=1832529049]
+modulate = Color(1, 1, 1, 0.69921875)
+position = Vector2(65.4, 359.35)
+texture = ExtResource("12_ad5n3")
+centered = false
+
+[node name="Stock" type="Label" parent="Characters/CRT0/GrenadeGLayout" unique_id=701219929]
+offset_left = 104.79254
+offset_top = 373.83453
+offset_right = 117.59253
+offset_bottom = 396.83453
+scale = Vector2(0.88275146, 0.88275146)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0.92941177, 0.84705883, 0.105882354, 1)
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 1
+
+[node name="GrenadeHLayout" type="Node2D" parent="Characters/CRT0" unique_id=1725714457]
+visible = false
+z_index = 2623
+z_as_relative = false
+metadata/grenade_key = "h"
+
+[node name="@Sprite2D@43" type="Sprite2D" parent="Characters/CRT0/GrenadeHLayout" unique_id=238970048]
+position = Vector2(130.2, 360.1)
+texture = ExtResource("15_gr410")
+centered = false
+
+[node name="@Sprite2D@44" type="Sprite2D" parent="Characters/CRT0/GrenadeHLayout" unique_id=1270572552]
+position = Vector2(135.85, 366.1)
+texture = ExtResource("16_jt5yq")
+centered = false
+
+[node name="Cooldown" type="Sprite2D" parent="Characters/CRT0/GrenadeHLayout" unique_id=1297853729]
+modulate = Color(1, 1, 1, 0.69921875)
+position = Vector2(129.3, 360.25)
+texture = ExtResource("12_ad5n3")
+centered = false
+
+[node name="Stock" type="Label" parent="Characters/CRT0/GrenadeHLayout" unique_id=15783702]
+offset_left = 168.59253
+offset_top = 374.58447
+offset_right = 181.39252
+offset_bottom = 397.58447
+scale = Vector2(0.88275146, 0.88275146)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0.92941177, 0.84705883, 0.105882354, 1)
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 1
+
+[node name="HPLayout" type="Node2D" parent="Characters/CRT0" unique_id=1927781068]
+z_index = 224
+position = Vector2(24.05, 39.2)
+metadata/ui_role = "hp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT0/HPLayout" unique_id=851100503]
+metadata/ui_role = "hp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT0/HPLayout/FillState" unique_id=292892174]
+texture = ExtResource("17_sk8yb")
+centered = false
+
+[node name="MPLayout" type="Node2D" parent="Characters/CRT0" unique_id=149234238]
+z_index = 222
+position = Vector2(23.9, 50.65)
+metadata/ui_role = "mp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT0/MPLayout" unique_id=1384915013]
+metadata/ui_role = "mp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT0/MPLayout/FillState" unique_id=297663312]
+texture = ExtResource("18_q0kvq")
+centered = false
+
+[node name="HPHoverArea" type="Control" parent="Characters/CRT0" unique_id=679349671]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.25
+offset_top = 38.0
+offset_right = 121.5
+offset_bottom = 46.75
+mouse_filter = 2
+metadata/hover_target = "hp"
+
+[node name="MPHoverArea" type="Control" parent="Characters/CRT0" unique_id=1589449505]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.3
+offset_top = 49.45
+offset_right = 121.55
+offset_bottom = 58.2
+mouse_filter = 2
+metadata/hover_target = "mp"
+
+[node name="CRT1" type="Node2D" parent="Characters" unique_id=2117573010]
+visible = false
+metadata/character_id = 1
+
+[node name="SkillPanel" type="Sprite2D" parent="Characters/CRT1" unique_id=238724667]
+position = Vector2(9.5, 30.55)
+texture = ExtResource("19_tjtfi")
+centered = false
+metadata/ui_role = "panel"
+
+[node name="Cooldown_s" type="Polygon2D" parent="Characters/CRT1" unique_id=496587520]
+visible = false
+position = Vector2(57.95, 77.6)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "s"
+
+[node name="Cooldown_a" type="Polygon2D" parent="Characters/CRT1" unique_id=1890912]
+visible = false
+position = Vector2(20.95, 77.6)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "a"
+metadata/source_id = 4121
+
+[node name="Cooldown_d" type="Polygon2D" parent="Characters/CRT1" unique_id=603297966]
+visible = false
+position = Vector2(109.9, 78.45)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-13.8, -13.35, -13.8, 11.65, 14.2, 11.65, 14.2, -13.35, -13.8, -13.35)
+metadata/skill_key = "d"
+metadata/source_id = 4125
+
+[node name="Cooldown_f" type="Polygon2D" parent="Characters/CRT1" unique_id=93104345]
+visible = false
+position = Vector2(147.55, 77.75)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "f"
+metadata/source_id = 4128
+
+[node name="Cooldown_q" type="Polygon2D" parent="Characters/CRT1" unique_id=1846505410]
+visible = false
+position = Vector2(35.05, 109.1)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14.1, -13, -14.1, 12, 13.9, 12, 13.9, -13, -14.1, -13)
+metadata/skill_key = "q"
+metadata/source_id = 4130
+
+[node name="Cooldown_h" type="Polygon2D" parent="Characters/CRT1" unique_id=1019049178]
+visible = false
+position = Vector2(222.75, 78.1)
+color = Color(0, 0, 0, 0.6117647)
+polygon = PackedVector2Array(-14.1, -13, -14.1, 12, 13.9, 12, 13.9, -13, -14.1, -13)
+metadata/skill_key = "h"
+metadata/source_id = 4133
+
+[node name="Cooldown_w" type="Polygon2D" parent="Characters/CRT1" unique_id=626493069]
+visible = false
+position = Vector2(72.5, 109.2)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14.55, -13.1, -14.55, 11.9, 13.45, 11.9, 13.45, -13.1, -14.55, -13.1)
+metadata/skill_key = "w"
+metadata/source_id = 4136
+
+[node name="Cooldown_e" type="Polygon2D" parent="Characters/CRT1" unique_id=1104329287]
+visible = false
+position = Vector2(110.65, 109.5)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14.55, -13.1, -14.55, 11.9, 13.45, 11.9, 13.45, -13.1, -14.55, -13.1)
+metadata/skill_key = "e"
+metadata/source_id = 4138
+
+[node name="Cooldown_r" type="Polygon2D" parent="Characters/CRT1" unique_id=1234245391]
+visible = false
+position = Vector2(147.4, 109.75)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-13.55, -13.3, -13.55, 11.65, 14.45, 11.65, 14.45, -13.3, -13.55, -13.3)
+metadata/skill_key = "r"
+metadata/source_id = 4140
+
+[node name="Cooldown_revenger" type="Polygon2D" parent="Characters/CRT1" unique_id=938621928]
+visible = false
+position = Vector2(-13.5, 111.6)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "revenger"
+metadata/source_id = 4142
+
+[node name="Cooldown_v" type="Polygon2D" parent="Characters/CRT1" unique_id=1216182488]
+visible = false
+position = Vector2(-16.05, 78.1)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "v"
+metadata/source_id = 4144
+
+[node name="Cooldown_t" type="Polygon2D" parent="Characters/CRT1" unique_id=1799435636]
+visible = false
+position = Vector2(185.15, 109.35)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-13.75, -13.25, -13.75, 11.75, 14.25, 11.75, 14.25, -13.25, -13.75, -13.25)
+metadata/skill_key = "t"
+metadata/source_id = 4147
+
+[node name="Cooldown_g" type="Polygon2D" parent="Characters/CRT1" unique_id=1648418911]
+visible = false
+position = Vector2(185.15, 77.6)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(-14.1, -12.5, -14.1, 12.5, 13.9, 12.5, 13.9, -12.5, -14.1, -12.5)
+metadata/skill_key = "g"
+metadata/source_id = 4149
+
+[node name="Cooldown_z" type="Polygon2D" parent="Characters/CRT1" unique_id=930264096]
+visible = false
+position = Vector2(-96.5, 172)
+color = Color(0, 0, 0, 0.6)
+polygon = PackedVector2Array(0, -12.5, 0, 12.5, 28, 12.5, 28, -12.5, 0, -12.5)
+metadata/skill_key = "z"
+metadata/source_id = 4157
+
+[node name="Gold" type="Label" parent="Characters/CRT1" unique_id=1997908752]
+offset_left = 22.25
+offset_top = 130.2
+offset_right = 77.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "0"
+horizontal_alignment = 2
+metadata/ui_role = "gold"
+
+[node name="ClearCubes" type="Label" parent="Characters/CRT1" unique_id=1883801414]
+offset_left = 112.25
+offset_top = 130.2
+offset_right = 156.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "200"
+metadata/ui_role = "cubes"
+
+[node name="ComboLayout" type="Node2D" parent="Characters/CRT1" unique_id=1781441282]
+visible = false
+z_index = 4095
+z_as_relative = false
+metadata/ui_role = "combo"
+
+[node name="@Sprite2D@55" type="Sprite2D" parent="Characters/CRT1/ComboLayout" unique_id=727682800]
+position = Vector2(418.3, 115.45)
+texture = ExtResource("5_bfnhh")
+centered = false
+
+[node name="NumberMotion" type="Node2D" parent="Characters/CRT1/ComboLayout" unique_id=751138328]
+metadata/ui_role = "combo_motion"
+
+[node name="Number" type="Label" parent="Characters/CRT1/ComboLayout/NumberMotion" unique_id=393476312]
+offset_right = 102.6
+offset_bottom = 40.55
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0, 0.4, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("6_fqcys")
+theme_override_font_sizes/font_size = 35
+text = "1"
+horizontal_alignment = 2
+metadata/ui_role = "combo_number"
+
+[node name="HPHoverLayout" type="Node2D" parent="Characters/CRT1" unique_id=1104647278]
+visible = false
+z_index = 300
+metadata/hover_key = "hp"
+
+[node name="@Sprite2D@58" type="Sprite2D" parent="Characters/CRT1/HPHoverLayout" unique_id=2144007093]
+position = Vector2(72.5, 41.95)
+texture = ExtResource("7_fl0ky")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT1/HPHoverLayout" unique_id=415625149]
+offset_left = 115.87411
+offset_top = 42.47411
+offset_right = 136.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT1/HPHoverLayout" unique_id=2079240593]
+offset_left = 140.87411
+offset_top = 42.47411
+offset_right = 161.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="MPHoverLayout" type="Node2D" parent="Characters/CRT1" unique_id=1277196474]
+visible = false
+z_index = 300
+metadata/hover_key = "mp"
+
+[node name="@Sprite2D@62" type="Sprite2D" parent="Characters/CRT1/MPHoverLayout" unique_id=1738084817]
+position = Vector2(72.55, 53.4)
+texture = ExtResource("9_02o00")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT1/MPHoverLayout" unique_id=298486804]
+offset_left = 115.92411
+offset_top = 54.17411
+offset_right = 136.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT1/MPHoverLayout" unique_id=2064333727]
+offset_left = 140.9241
+offset_top = 54.17411
+offset_right = 161.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="HPLayout" type="Node2D" parent="Characters/CRT1" unique_id=1509922019]
+z_index = 224
+position = Vector2(24.05, 39.2)
+metadata/ui_role = "hp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT1/HPLayout" unique_id=754353740]
+metadata/ui_role = "hp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT1/HPLayout/FillState" unique_id=1031599890]
+texture = ExtResource("17_sk8yb")
+centered = false
+
+[node name="MPLayout" type="Node2D" parent="Characters/CRT1" unique_id=1822812713]
+z_index = 222
+position = Vector2(23.9, 50.65)
+metadata/ui_role = "mp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT1/MPLayout" unique_id=467493226]
+metadata/ui_role = "mp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT1/MPLayout/FillState" unique_id=1682714519]
+texture = ExtResource("18_q0kvq")
+centered = false
+
+[node name="HPHoverArea" type="Control" parent="Characters/CRT1" unique_id=1108235779]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.25
+offset_top = 38.0
+offset_right = 121.5
+offset_bottom = 46.75
+mouse_filter = 2
+metadata/hover_target = "hp"
+
+[node name="MPHoverArea" type="Control" parent="Characters/CRT1" unique_id=1795105846]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.3
+offset_top = 49.45
+offset_right = 121.55
+offset_bottom = 58.2
+mouse_filter = 2
+metadata/hover_target = "mp"
+
+[node name="WAmmoLayout" type="Node2D" parent="Characters/CRT1" unique_id=1651278291]
+z_index = 2623
+z_as_relative = false
+position = Vector2(742.15, 284.6)
+metadata/ui_role = "w_ammo_layout"
+metadata/source_parent_id = 6917
+metadata/source_child_id = 6884
+metadata/child_offset_in_atlas_pivot = true
+
+[node name="FrameState" type="Node2D" parent="Characters/CRT1/WAmmoLayout" unique_id=122250246]
+script = ExtResource("20_w_frame")
+source_animation = ExtResource("21_w_animation")
+metadata/ui_role = "w_ammo"
+
+[node name="CRT2" type="Node2D" parent="Characters" unique_id=426364538]
+visible = false
+metadata/character_id = 2
+
+[node name="SkillPanel" type="Sprite2D" parent="Characters/CRT2" unique_id=632523904]
+position = Vector2(9.5, 30.55)
+texture = ExtResource("22_3inff")
+centered = false
+metadata/ui_role = "panel"
+
+[node name="Gold" type="Label" parent="Characters/CRT2" unique_id=2112321282]
+offset_left = 22.25
+offset_top = 130.2
+offset_right = 77.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "0"
+horizontal_alignment = 2
+metadata/ui_role = "gold"
+
+[node name="ClearCubes" type="Label" parent="Characters/CRT2" unique_id=1986215455]
+offset_left = 112.25
+offset_top = 130.2
+offset_right = 156.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "200"
+metadata/ui_role = "cubes"
+
+[node name="ComboLayout" type="Node2D" parent="Characters/CRT2" unique_id=542377808]
+visible = false
+z_index = 4095
+z_as_relative = false
+metadata/ui_role = "combo"
+
+[node name="_Sprite2D_55" type="Sprite2D" parent="Characters/CRT2/ComboLayout" unique_id=35625488]
+position = Vector2(418.3, 115.45)
+texture = ExtResource("5_bfnhh")
+centered = false
+
+[node name="NumberMotion" type="Node2D" parent="Characters/CRT2/ComboLayout" unique_id=776727227]
+metadata/ui_role = "combo_motion"
+
+[node name="Number" type="Label" parent="Characters/CRT2/ComboLayout/NumberMotion" unique_id=2055864970]
+offset_right = 102.6
+offset_bottom = 40.55
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0, 0.4, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("6_fqcys")
+theme_override_font_sizes/font_size = 35
+text = "1"
+horizontal_alignment = 2
+metadata/ui_role = "combo_number"
+
+[node name="HPHoverLayout" type="Node2D" parent="Characters/CRT2" unique_id=2021438624]
+visible = false
+z_index = 300
+metadata/hover_key = "hp"
+
+[node name="_Sprite2D_58" type="Sprite2D" parent="Characters/CRT2/HPHoverLayout" unique_id=345517918]
+position = Vector2(72.5, 41.95)
+texture = ExtResource("7_fl0ky")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT2/HPHoverLayout" unique_id=1660666369]
+offset_left = 115.87411
+offset_top = 42.47411
+offset_right = 136.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT2/HPHoverLayout" unique_id=368663877]
+offset_left = 140.87411
+offset_top = 42.47411
+offset_right = 161.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="MPHoverLayout" type="Node2D" parent="Characters/CRT2" unique_id=1700327134]
+visible = false
+z_index = 300
+metadata/hover_key = "mp"
+
+[node name="_Sprite2D_62" type="Sprite2D" parent="Characters/CRT2/MPHoverLayout" unique_id=1317074811]
+position = Vector2(72.55, 53.4)
+texture = ExtResource("9_02o00")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT2/MPHoverLayout" unique_id=1910793077]
+offset_left = 115.92411
+offset_top = 54.17411
+offset_right = 136.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT2/MPHoverLayout" unique_id=1075326162]
+offset_left = 140.9241
+offset_top = 54.17411
+offset_right = 161.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="HPLayout" type="Node2D" parent="Characters/CRT2" unique_id=684691569]
+z_index = 224
+position = Vector2(24.05, 39.2)
+metadata/ui_role = "hp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT2/HPLayout" unique_id=74045164]
+metadata/ui_role = "hp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT2/HPLayout/FillState" unique_id=821165909]
+texture = ExtResource("17_sk8yb")
+centered = false
+
+[node name="MPLayout" type="Node2D" parent="Characters/CRT2" unique_id=945290257]
+z_index = 222
+position = Vector2(23.9, 50.65)
+metadata/ui_role = "mp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT2/MPLayout" unique_id=724520047]
+metadata/ui_role = "mp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT2/MPLayout/FillState" unique_id=211970670]
+texture = ExtResource("18_q0kvq")
+centered = false
+
+[node name="HPHoverArea" type="Control" parent="Characters/CRT2" unique_id=1059471666]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.25
+offset_top = 38.0
+offset_right = 121.5
+offset_bottom = 46.75
+mouse_filter = 2
+metadata/hover_target = "hp"
+
+[node name="MPHoverArea" type="Control" parent="Characters/CRT2" unique_id=1486499521]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.3
+offset_top = 49.45
+offset_right = 121.55
+offset_bottom = 58.2
+mouse_filter = 2
+metadata/hover_target = "mp"
+
+[node name="Cooldown_a" type="Polygon2D" parent="Characters/CRT2" unique_id=474521576]
+position = Vector2(35.15, 78.1)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "a"
+
+[node name="Cooldown_s" type="Polygon2D" parent="Characters/CRT2" unique_id=1610230989]
+position = Vector2(72.4, 79.55)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.15, -14.75, -14.15, 10.25, 13.85, 10.25, 13.85, -14.75, -14.15, -14.75)
+metadata/skill_key = "s"
+
+[node name="Cooldown_d" type="Polygon2D" parent="Characters/CRT2" unique_id=386032667]
+position = Vector2(110.1, 78.4)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.3, -13.35, -14.3, 11.65, 13.7, 11.65, 13.7, -13.35, -14.3, -13.35)
+metadata/skill_key = "d"
+
+[node name="Cooldown_g" type="Polygon2D" parent="Characters/CRT2" unique_id=1568367331]
+position = Vector2(185.5, 77.7)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.5, -14, 12.5, 14, 12.5, 14, -12.5, -14, -12.5)
+metadata/skill_key = "g"
+
+[node name="Cooldown_f" type="Polygon2D" parent="Characters/CRT2" unique_id=794673231]
+position = Vector2(147.55, 77.95)
+color = Color(0.004, 0.004, 0.004, 0.6313726)
+polygon = PackedVector2Array(-14.1, -13, -14.1, 12, 13.9, 12, 13.9, -13, -14.1, -13)
+metadata/skill_key = "f"
+
+[node name="Cooldown_h" type="Polygon2D" parent="Characters/CRT2" unique_id=643854160]
+position = Vector2(223.8, 79.05)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.1, -13, -14.1, 12, 13.9, 12, 13.9, -13, -14.1, -13)
+metadata/skill_key = "h"
+
+[node name="Cooldown_w" type="Polygon2D" parent="Characters/CRT2" unique_id=1502123893]
+position = Vector2(72, 109.9)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.05, -13.1, -14.05, 11.9, 13.95, 11.9, 13.95, -13.1, -14.05, -13.1)
+metadata/skill_key = "w"
+
+[node name="Cooldown_e" type="Polygon2D" parent="Characters/CRT2" unique_id=2117548957]
+position = Vector2(110, 109.05)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.05, -12.35, -14.05, 12.65, 13.95, 12.65, 13.95, -12.35, -14.05, -12.35)
+metadata/skill_key = "e"
+
+[node name="Cooldown_r" type="Polygon2D" parent="Characters/CRT2" unique_id=581016935]
+position = Vector2(147.1, 109.1)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.25, -12.4, -14.25, 12.6, 13.75, 12.6, 13.75, -12.4, -14.25, -12.4)
+metadata/skill_key = "r"
+
+[node name="Cooldown_q" type="Polygon2D" parent="Characters/CRT2" unique_id=2015024569]
+position = Vector2(35.15, 109.1)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.15, -11.75, -14.15, 13.25, 13.85, 13.25, 13.85, -11.75, -14.15, -11.75)
+metadata/skill_key = "q"
+
+[node name="CRT3" type="Node2D" parent="Characters" unique_id=1108294900]
+visible = false
+metadata/character_id = 3
+
+[node name="SkillPanel" type="Sprite2D" parent="Characters/CRT3" unique_id=2135573706]
+position = Vector2(9.5, 30.55)
+texture = ExtResource("23_bfnhh")
+centered = false
+metadata/ui_role = "panel"
+
+[node name="Gold" type="Label" parent="Characters/CRT3" unique_id=567064125]
+offset_left = 22.25
+offset_top = 130.2
+offset_right = 77.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "0"
+horizontal_alignment = 2
+metadata/ui_role = "gold"
+
+[node name="ClearCubes" type="Label" parent="Characters/CRT3" unique_id=1259439001]
+offset_left = 112.25
+offset_top = 130.2
+offset_right = 156.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "200"
+metadata/ui_role = "cubes"
+
+[node name="ComboLayout" type="Node2D" parent="Characters/CRT3" unique_id=1365023628]
+visible = false
+z_index = 4095
+z_as_relative = false
+metadata/ui_role = "combo"
+
+[node name="_Sprite2D_55" type="Sprite2D" parent="Characters/CRT3/ComboLayout" unique_id=489262230]
+position = Vector2(418.3, 115.45)
+texture = ExtResource("5_bfnhh")
+centered = false
+
+[node name="NumberMotion" type="Node2D" parent="Characters/CRT3/ComboLayout" unique_id=1139468020]
+metadata/ui_role = "combo_motion"
+
+[node name="Number" type="Label" parent="Characters/CRT3/ComboLayout/NumberMotion" unique_id=708212614]
+offset_right = 102.6
+offset_bottom = 40.55
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0, 0.4, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("6_fqcys")
+theme_override_font_sizes/font_size = 35
+text = "1"
+horizontal_alignment = 2
+metadata/ui_role = "combo_number"
+
+[node name="HPHoverLayout" type="Node2D" parent="Characters/CRT3" unique_id=1656006885]
+visible = false
+z_index = 300
+metadata/hover_key = "hp"
+
+[node name="_Sprite2D_58" type="Sprite2D" parent="Characters/CRT3/HPHoverLayout" unique_id=1796773632]
+position = Vector2(72.5, 41.95)
+texture = ExtResource("7_fl0ky")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT3/HPHoverLayout" unique_id=917175699]
+offset_left = 115.87411
+offset_top = 42.47411
+offset_right = 136.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT3/HPHoverLayout" unique_id=1156164647]
+offset_left = 140.87411
+offset_top = 42.47411
+offset_right = 161.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="MPHoverLayout" type="Node2D" parent="Characters/CRT3" unique_id=12013552]
+visible = false
+z_index = 300
+metadata/hover_key = "mp"
+
+[node name="_Sprite2D_62" type="Sprite2D" parent="Characters/CRT3/MPHoverLayout" unique_id=322639532]
+position = Vector2(72.55, 53.4)
+texture = ExtResource("9_02o00")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT3/MPHoverLayout" unique_id=2108727629]
+offset_left = 115.92411
+offset_top = 54.17411
+offset_right = 136.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT3/MPHoverLayout" unique_id=1371673934]
+offset_left = 140.9241
+offset_top = 54.17411
+offset_right = 161.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="HPLayout" type="Node2D" parent="Characters/CRT3" unique_id=895419582]
+z_index = 224
+position = Vector2(24.05, 39.2)
+metadata/ui_role = "hp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT3/HPLayout" unique_id=1066274519]
+metadata/ui_role = "hp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT3/HPLayout/FillState" unique_id=1371322149]
+texture = ExtResource("17_sk8yb")
+centered = false
+
+[node name="MPLayout" type="Node2D" parent="Characters/CRT3" unique_id=119800847]
+z_index = 222
+position = Vector2(23.9, 50.65)
+metadata/ui_role = "mp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT3/MPLayout" unique_id=569903282]
+metadata/ui_role = "mp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT3/MPLayout/FillState" unique_id=1496960521]
+texture = ExtResource("18_q0kvq")
+centered = false
+
+[node name="HPHoverArea" type="Control" parent="Characters/CRT3" unique_id=556273221]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.25
+offset_top = 38.0
+offset_right = 121.5
+offset_bottom = 46.75
+mouse_filter = 2
+metadata/hover_target = "hp"
+
+[node name="MPHoverArea" type="Control" parent="Characters/CRT3" unique_id=416631796]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.3
+offset_top = 49.45
+offset_right = 121.55
+offset_bottom = 58.2
+mouse_filter = 2
+metadata/hover_target = "mp"
+
+[node name="Cooldown_a" type="Polygon2D" parent="Characters/CRT3" unique_id=357771806]
+position = Vector2(34.75, 77.65)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "a"
+
+[node name="Cooldown_d" type="Polygon2D" parent="Characters/CRT3" unique_id=1106595405]
+position = Vector2(110.25, 78.3)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "d"
+
+[node name="Cooldown_f" type="Polygon2D" parent="Characters/CRT3" unique_id=170541865]
+position = Vector2(147, 78)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-13.5, -12.95, -13.5, 12.05, 14.5, 12.05, 14.5, -12.95, -13.5, -12.95)
+metadata/skill_key = "f"
+
+[node name="Cooldown_g" type="Polygon2D" parent="Characters/CRT3" unique_id=1078375060]
+position = Vector2(185.45, 80.15)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.2, -14.8, -14.2, 10.2, 13.8, 10.2, 13.8, -14.8, -14.2, -14.8)
+metadata/skill_key = "g"
+
+[node name="Cooldown_q" type="Polygon2D" parent="Characters/CRT3" unique_id=1004868416]
+position = Vector2(35.65, 111.05)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.05, -13.9, -14.05, 11.1, 13.95, 11.1, 13.95, -13.9, -14.05, -13.9)
+metadata/skill_key = "q"
+
+[node name="Cooldown_h" type="Polygon2D" parent="Characters/CRT3" unique_id=915646167]
+position = Vector2(224, 77.55)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.8, -12.75, -14.8, 12.25, 13.2, 12.25, 13.2, -12.75, -14.8, -12.75)
+metadata/skill_key = "h"
+
+[node name="Cooldown_w" type="Polygon2D" parent="Characters/CRT3" unique_id=1733043462]
+position = Vector2(72.85, 109.85)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-13.8, -12.5, -13.8, 12.5, 14.2, 12.5, 14.2, -12.5, -13.8, -12.5)
+metadata/skill_key = "w"
+
+[node name="Cooldown_e" type="Polygon2D" parent="Characters/CRT3" unique_id=409066111]
+position = Vector2(108.95, 109.4)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.25, -12.4, -14.25, 12.6, 13.75, 12.6, 13.75, -12.4, -14.25, -12.4)
+metadata/skill_key = "e"
+
+[node name="Cooldown_locked_weapon" type="Polygon2D" parent="Characters/CRT3" unique_id=1847383102]
+position = Vector2(221.6, 145.5)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-13.5, -12.95, -13.5, 12.05, 14.5, 12.05, 14.5, -12.95, -13.5, -12.95)
+metadata/skill_key = "locked_weapon"
+
+[node name="Cooldown_locked_b" type="Polygon2D" parent="Characters/CRT3" unique_id=380536186]
+position = Vector2(185.95, 147.25)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14.2, -14.8, -14.2, 10.2, 13.8, 10.2, 13.8, -14.8, -14.2, -14.8)
+metadata/skill_key = "locked_b"
+
+[node name="Cooldown_locked_master" type="Polygon2D" parent="Characters/CRT3" unique_id=1748802986]
+position = Vector2(269.4, 77.8)
+color = Color(0.004, 0.004, 0.004, 0.6117647)
+polygon = PackedVector2Array(-14.1, -13, -14.1, 12, 13.9, 12, 13.9, -13, -14.1, -13)
+metadata/skill_key = "locked_master"
+
+[node name="Cooldown_locked_awakening" type="Polygon2D" parent="Characters/CRT3" unique_id=1396519440]
+position = Vector2(269.6, 109.55)
+color = Color(0.004, 0.004, 0.004, 0.6117647)
+polygon = PackedVector2Array(-14.1, -12.95, -14.1, 12, 13.9, 12, 13.9, -12.95, -14.1, -12.95)
+metadata/skill_key = "locked_awakening"
+
+[node name="CRT4" type="Node2D" parent="Characters" unique_id=873569203]
+visible = false
+metadata/character_id = 4
+
+[node name="SkillPanel" type="Sprite2D" parent="Characters/CRT4" unique_id=747760416]
+position = Vector2(9.5, 30.55)
+texture = ExtResource("24_fqcys")
+centered = false
+metadata/ui_role = "panel"
+
+[node name="Gold" type="Label" parent="Characters/CRT4" unique_id=1009999396]
+offset_left = 22.25
+offset_top = 130.2
+offset_right = 77.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "0"
+horizontal_alignment = 2
+metadata/ui_role = "gold"
+
+[node name="ClearCubes" type="Label" parent="Characters/CRT4" unique_id=139946080]
+offset_left = 112.25
+offset_top = 130.2
+offset_right = 156.75
+offset_bottom = 153.2
+theme = ExtResource("3_r0xth")
+theme_override_fonts/font = ExtResource("4_3inff")
+theme_override_font_sizes/font_size = 10
+text = "200"
+metadata/ui_role = "cubes"
+
+[node name="ComboLayout" type="Node2D" parent="Characters/CRT4" unique_id=1465348412]
+visible = false
+z_index = 4095
+z_as_relative = false
+metadata/ui_role = "combo"
+
+[node name="_Sprite2D_55" type="Sprite2D" parent="Characters/CRT4/ComboLayout" unique_id=57734101]
+position = Vector2(418.3, 115.45)
+texture = ExtResource("5_bfnhh")
+centered = false
+
+[node name="NumberMotion" type="Node2D" parent="Characters/CRT4/ComboLayout" unique_id=1006432398]
+metadata/ui_role = "combo_motion"
+
+[node name="Number" type="Label" parent="Characters/CRT4/ComboLayout/NumberMotion" unique_id=842677495]
+offset_right = 102.6
+offset_bottom = 40.55
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(0, 0.4, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("6_fqcys")
+theme_override_font_sizes/font_size = 35
+text = "1"
+horizontal_alignment = 2
+metadata/ui_role = "combo_number"
+
+[node name="HPHoverLayout" type="Node2D" parent="Characters/CRT4" unique_id=1067456534]
+visible = false
+z_index = 300
+metadata/hover_key = "hp"
+
+[node name="_Sprite2D_58" type="Sprite2D" parent="Characters/CRT4/HPHoverLayout" unique_id=1309031355]
+position = Vector2(72.5, 41.95)
+texture = ExtResource("7_fl0ky")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT4/HPHoverLayout" unique_id=171596134]
+offset_left = 115.87411
+offset_top = 42.47411
+offset_right = 136.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT4/HPHoverLayout" unique_id=977858264]
+offset_left = 140.87411
+offset_top = 42.47411
+offset_right = 161.87411
+offset_bottom = 65.474106
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="MPHoverLayout" type="Node2D" parent="Characters/CRT4" unique_id=2107482788]
+visible = false
+z_index = 300
+metadata/hover_key = "mp"
+
+[node name="_Sprite2D_62" type="Sprite2D" parent="Characters/CRT4/MPHoverLayout" unique_id=528144271]
+position = Vector2(72.55, 53.4)
+texture = ExtResource("9_02o00")
+centered = false
+
+[node name="Value0" type="Label" parent="Characters/CRT4/MPHoverLayout" unique_id=303767189]
+offset_left = 115.92411
+offset_top = 54.17411
+offset_right = 136.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="Value1" type="Label" parent="Characters/CRT4/MPHoverLayout" unique_id=1794327316]
+offset_left = 140.9241
+offset_top = 54.17411
+offset_right = 161.9241
+offset_bottom = 77.17411
+scale = Vector2(1.2379456, 1.2379456)
+theme = ExtResource("3_r0xth")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_djnom")
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+
+[node name="HPLayout" type="Node2D" parent="Characters/CRT4" unique_id=1356838125]
+z_index = 224
+position = Vector2(24.05, 39.2)
+metadata/ui_role = "hp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT4/HPLayout" unique_id=1560920593]
+metadata/ui_role = "hp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT4/HPLayout/FillState" unique_id=665828338]
+texture = ExtResource("17_sk8yb")
+centered = false
+
+[node name="MPLayout" type="Node2D" parent="Characters/CRT4" unique_id=732376077]
+z_index = 222
+position = Vector2(23.9, 50.65)
+metadata/ui_role = "mp_layout"
+
+[node name="FillState" type="Node2D" parent="Characters/CRT4/MPLayout" unique_id=801108144]
+metadata/ui_role = "mp_fill"
+
+[node name="Artwork" type="Sprite2D" parent="Characters/CRT4/MPLayout/FillState" unique_id=1957420466]
+texture = ExtResource("18_q0kvq")
+centered = false
+
+[node name="HPHoverArea" type="Control" parent="Characters/CRT4" unique_id=1648081562]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.25
+offset_top = 38.0
+offset_right = 121.5
+offset_bottom = 46.75
+mouse_filter = 2
+metadata/hover_target = "hp"
+
+[node name="MPHoverArea" type="Control" parent="Characters/CRT4" unique_id=536141593]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 23.3
+offset_top = 49.45
+offset_right = 121.55
+offset_bottom = 58.2
+mouse_filter = 2
+metadata/hover_target = "mp"
+
+[node name="Cooldown_a" type="Polygon2D" parent="Characters/CRT4" unique_id=540790133]
+position = Vector2(35.9, 79.55)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "a"
+
+[node name="Cooldown_s" type="Polygon2D" parent="Characters/CRT4" unique_id=1774139230]
+position = Vector2(73.6, 79.95)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "s"
+
+[node name="Cooldown_d" type="Polygon2D" parent="Characters/CRT4" unique_id=1591526343]
+position = Vector2(110.65, 79.2)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "d"
+
+[node name="Cooldown_f" type="Polygon2D" parent="Characters/CRT4" unique_id=56760566]
+position = Vector2(148.25, 79.05)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "f"
+
+[node name="Cooldown_g" type="Polygon2D" parent="Characters/CRT4" unique_id=810946649]
+position = Vector2(185.6, 77.6)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "g"
+
+[node name="Cooldown_h" type="Polygon2D" parent="Characters/CRT4" unique_id=561235944]
+position = Vector2(223.35, 77.65)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "h"
+
+[node name="Cooldown_q" type="Polygon2D" parent="Characters/CRT4" unique_id=1758655094]
+position = Vector2(36.75, 110.85)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "q"
+
+[node name="Cooldown_w" type="Polygon2D" parent="Characters/CRT4" unique_id=951024134]
+position = Vector2(74.55, 111)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-16, -13.7, -16, 11.3, 12, 11.3, 12, -13.7, -16, -13.7)
+metadata/skill_key = "w"
+
+[node name="Cooldown_e" type="Polygon2D" parent="Characters/CRT4" unique_id=931595900]
+position = Vector2(109.65, 111)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "e"
+
+[node name="Cooldown_r" type="Polygon2D" parent="Characters/CRT4" unique_id=279175191]
+position = Vector2(148.8, 110)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-14, -12.7, -14, 12.3, 14, 12.3, 14, -12.7, -14, -12.7)
+metadata/skill_key = "r"
+
+[node name="Cooldown_t" type="Polygon2D" parent="Characters/CRT4" unique_id=894797703]
+position = Vector2(186.25, 111.5)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-15, -14.7, -15, 10.3, 13, 10.3, 13, -14.7, -15, -14.7)
+metadata/skill_key = "t"
+
+[node name="Cooldown_y" type="Polygon2D" parent="Characters/CRT4" unique_id=2097430818]
+position = Vector2(224.25, 111.5)
+color = Color(0.004, 0.004, 0.004, 0.6)
+polygon = PackedVector2Array(-15, -13.7, -15, 11.3, 13, 11.3, 13, -13.7, -15, -13.7)
+metadata/skill_key = "y"

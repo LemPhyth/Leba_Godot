@@ -1,0 +1,36 @@
+[gd_resource type="Resource" format=3 uid="uid://cyjf1voigqu85"]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_dead.tres" id="1_pv3d4"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_nf6bs"]
+[ext_resource type="AudioStream" uid="uid://b6xnslt6bfc14" path="res://assets/audio/5625.mp3" id="3_335t8"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_haty3"]
+
+[sub_resource type="Resource" id="Resource_r6cb3"]
+script = ExtResource("2_nf6bs")
+frame = 3
+kind = "death_settled"
+
+[sub_resource type="Resource" id="Resource_ouckc"]
+script = ExtResource("2_nf6bs")
+frame = 7
+sound = "enemy7437_death"
+audio_stream = ExtResource("3_335t8")
+parameters = {
+"source_sound_id": 5625
+}
+
+[resource]
+script = ExtResource("4_haty3")
+identifier = "dead"
+title = "dead"
+animation = ExtResource("1_pv3d4")
+animation_key = "enemy7437_dead"
+source_parent = 151
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8)
+input_id = "dead"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold = true
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_r6cb3"), SubResource("Resource_ouckc")])
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."

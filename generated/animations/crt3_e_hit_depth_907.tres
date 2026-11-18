@@ -1,0 +1,36 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_5p3pw"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_e_hit_depth_907.png" id="2_3t5t8"]
+
+[resource]
+script = ExtResource("1_5p3pw")
+identifier = "crt3_e_hit_depth_907"
+texture = ExtResource("2_3t5t8")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-216.85, -260.5, 415.0, 539.0],
+"pivot": [216.85, 260.5],
+"region": [2.0, 2.0, 415.0, 539.0],
+"source_crop": [45.0, 33.0, 460.0, 572.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-209.85, -248.5, 401.0, 519.0],
+"pivot": [209.85, 248.5],
+"region": [421.0, 2.0, 401.0, 519.0],
+"source_crop": [52.0, 45.0, 453.0, 564.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-191.85, -225.5, 378.0, 487.0],
+"pivot": [191.85, 225.5],
+"region": [826.0, 2.0, 378.0, 487.0],
+"source_crop": [70.0, 68.0, 448.0, 555.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [261.85, 293.5],
+"region": [1208.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 4.0
+}])
+baked_placement_matrix = PackedFloat64Array(0.7935486, 1.0769348, -1.9158325, 1.4118042, 0, 0)
+source = "asset_catalog.animations.crt3_e_hit_depth_907；派生图集；来源与pivot见catalog。"

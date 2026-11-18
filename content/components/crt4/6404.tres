@@ -1,0 +1,549 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/6403.mp3" id="1_3wrae"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_r7mlo"]
+
+[resource]
+script = ExtResource("2_r7mlo")
+identifier = "6404"
+parameters = {
+"births": [{
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"name": null,
+"source_id": 6402.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "154",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "174",
+"blueAddTerm": "51",
+"blueMultTerm": "205",
+"greenAddTerm": "51",
+"greenMultTerm": "205",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "51",
+"redMultTerm": "205"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "195",
+"blueAddTerm": "102",
+"blueMultTerm": "154",
+"greenAddTerm": "102",
+"greenMultTerm": "154",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "102",
+"redMultTerm": "154"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "215",
+"blueAddTerm": "153",
+"blueMultTerm": "102",
+"greenAddTerm": "153",
+"greenMultTerm": "102",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "153",
+"redMultTerm": "102"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "236",
+"blueAddTerm": "204",
+"blueMultTerm": "51",
+"greenAddTerm": "204",
+"greenMultTerm": "51",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "9",
+"redAddTerm": "204",
+"redMultTerm": "51"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "256",
+"blueAddTerm": "255",
+"blueMultTerm": "0",
+"greenAddTerm": "255",
+"greenMultTerm": "0",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "10",
+"redAddTerm": "255",
+"redMultTerm": "0"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "256",
+"blueAddTerm": "170",
+"blueMultTerm": "85",
+"greenAddTerm": "170",
+"greenMultTerm": "85",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "10",
+"redAddTerm": "170",
+"redMultTerm": "85"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaAddTerm": "0",
+"alphaMultTerm": "256",
+"blueAddTerm": "85",
+"blueMultTerm": "171",
+"greenAddTerm": "85",
+"greenMultTerm": "171",
+"hasAddTerms": "true",
+"hasMultTerms": "true",
+"nbits": "10",
+"redAddTerm": "85",
+"redMultTerm": "171"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"color_transform": {
+"hasAddTerms": "false",
+"hasMultTerms": "false",
+"nbits": "1"
+},
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}, {
+"depth": 24.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "28.0",
+"blurY": "28.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5976562"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 37.6, -14.0],
+"source_id": 6402.0
+}],
+"source_frame": 9.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("1_3wrae"),
+"envelope": [],
+"frame": 6,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_6404_sound_1",
+"sound_id": 6403.0,
+"source_id": 6404,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6404.0
+}],
+"source": [{
+"frame": 9.0,
+"path": "res/scripts/DefineSprite_6404/frame_9/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 9.0,
+"source_id": 6404.0,
+"stop_source_frames": [9.0]
+}
+source = "Original AS/XML source 6404; res://data/act06_crt4_rules.json.components.6404"

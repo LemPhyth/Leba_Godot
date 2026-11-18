@@ -1,0 +1,895 @@
+{
+  "schema": 1,
+  "evidence_kind": "Independent finite expected values curated from original static AS2/XML, not copied from runtime author data",
+  "source_fps": 25,
+  "source_summary_sha256": "fd8ea06bd2cec6dd864d3caa07600b76657db0ec9684598e2ae5408790b21b84",
+  "slots": {
+    "v": {
+      "source_id": 4291,
+      "parent_frame": 175,
+      "mp": 5,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 218,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_v",
+      "input": "skill_v",
+      "source_path": "res/scripts/DefineSprite_4291/frame_1/PlaceObject2_4051_1/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "02cfc3bf611bf733b7abeb4f7886af1568252a6d809e759c77529f9236975277"
+    },
+    "z": {
+      "source_id": 4292,
+      "parent_frame": 163,
+      "mp": 2,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 82,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166,
+        169
+      ],
+      "action": "skill_z",
+      "input": "skill_z",
+      "source_path": "res/scripts/DefineSprite_4292/frame_1/PlaceObject2_4051_1/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "d9f98975643d08914a556d3fb309285a7cd7ed82c81d67a7ea533f2e80127861"
+    },
+    "a": {
+      "source_id": 4296,
+      "parent_frame": 153,
+      "mp": 3,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 163,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166,
+        154
+      ],
+      "action": "skill_a",
+      "input": "skill_a",
+      "source_path": "res/scripts/DefineSprite_4296/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "a0c7a98fdfcd11c68e4dee72ecc478e31a2fa91023fae59bd84f75d78c625d7c"
+    },
+    "s": {
+      "source_id": 4300,
+      "parent_frame": 154,
+      "mp": 3,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 109,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_s",
+      "input": "skill_s",
+      "source_path": "res/scripts/DefineSprite_4300/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "6f38eb03cf9047ba2a6c26ab760e9fa5e2f1dccbb6b3a32ea9cf2c64419881fb"
+    },
+    "d": {
+      "source_id": 4304,
+      "parent_frame": 158,
+      "mp": 3,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 541,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_d",
+      "input": "skill",
+      "source_path": "res/scripts/DefineSprite_4304/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "008c3bae1cbdd5ea3c899c0f79442b95a5fd1283806532695e05dd0ac1481e9a"
+    },
+    "f": {
+      "source_id": 4308,
+      "parent_frame": 159,
+      "mp": 4,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 560,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_f",
+      "input": "load_f",
+      "source_path": "res/scripts/DefineSprite_4308/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "1650b256d73ac14793e55363a5e0e9e7907d3d4b4563ff1ccd5657b46b6e3cbc"
+    },
+    "g": {
+      "source_id": 4312,
+      "parent_frame": 160,
+      "mp": 5,
+      "cubes": 1,
+      "ready_source_frame": 1,
+      "actual_source_frames": 555,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_g",
+      "input": "load_g",
+      "source_path": "res/scripts/DefineSprite_4312/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "c49eb45e3ed38193df6e3560c8d06a5774c22b3577453cbc2188240447e66580"
+    },
+    "h": {
+      "source_id": 4316,
+      "parent_frame": 162,
+      "mp": 5,
+      "cubes": 1,
+      "ready_source_frame": 1,
+      "actual_source_frames": 805,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_h",
+      "input": "load_h",
+      "source_path": "res/scripts/DefineSprite_4316/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "570c738ca77f629ef52cb6e74378f39f92cd76eecad5ff3f1b8f629612a9bb4c"
+    },
+    "q": {
+      "source_id": 4318,
+      "parent_frame": 155,
+      "mp": 3,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 278,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_q",
+      "input": "skill_q",
+      "source_path": "res/scripts/DefineSprite_4318/frame_1/PlaceObject2_4051_4/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "38cecb2bce3bcf25b8d30ee82d3c175a4d590bb2a18efac15ac45f29440073de"
+    },
+    "w": {
+      "source_id": 4322,
+      "parent_frame": 156,
+      "mp": 5,
+      "cubes": 0,
+      "ready_source_frame": 1,
+      "actual_source_frames": 815,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_w",
+      "input": "skill_w",
+      "source_path": "res/scripts/DefineSprite_4322/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "d99b53ae5a7ae6e38ab54d47b8b5c0441f692ed29604dcd853728cbde1055038"
+    },
+    "e": {
+      "source_id": 4326,
+      "parent_frame": 157,
+      "mp": 7,
+      "cubes": 1,
+      "ready_source_frame": 1,
+      "actual_source_frames": 544,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_e",
+      "input": "skill_e",
+      "source_path": "res/scripts/DefineSprite_4326/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "a7d39c89e3c5265a6f4ebf86b058d8ef010c3815980a0523a2a5455e2f007609"
+    },
+    "r": {
+      "source_id": 4330,
+      "parent_frame": 161,
+      "mp": 5,
+      "cubes": 1,
+      "ready_source_frame": 1,
+      "actual_source_frames": 556,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_r",
+      "input": "skill_r",
+      "source_path": "res/scripts/DefineSprite_4330/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "d1dfba77b6109b867f31f34bb0e2451ff6f6d8956bdadd7414a0bf1685711e08"
+    },
+    "t": {
+      "source_id": 4334,
+      "parent_frame": 164,
+      "mp": 8,
+      "cubes": 2,
+      "ready_source_frame": 1,
+      "actual_source_frames": 1385,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_t",
+      "input": "skill_t",
+      "source_path": "res/scripts/DefineSprite_4334/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "b33db35b5a67841e1ff87d2500babbefbc49e473972be4f0df34cfd7752bbb70"
+    },
+    "y": {
+      "source_id": 4337,
+      "parent_frame": 176,
+      "mp": 20,
+      "cubes": 5,
+      "ready_source_frame": 291,
+      "actual_source_frames": 291,
+      "allowed_parent_frames": [
+        146,
+        150,
+        151,
+        152,
+        166
+      ],
+      "action": "skill_y",
+      "input": "skill_y",
+      "source_path": "res/scripts/DefineSprite_4337/frame_291/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+      "source_sha256": "ef5ede363cb397bb9313d0fc12ae252cc2a6dab1f7cb7b795e258d82ef50680a"
+    }
+  },
+  "actions": {
+    "idle": {
+      "parent": 146,
+      "source_id": 6406,
+      "source_ranges": [
+        [
+          1,
+          15
+        ],
+        [
+          16,
+          18
+        ]
+      ],
+      "body_ids": [
+        4546,
+        6407
+      ],
+      "source_path": "res/scripts/DefineSprite_6406",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_146"
+    },
+    "basic": {
+      "parent": 150,
+      "source_id": 6408,
+      "source_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6408",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_150"
+    },
+    "basic2": {
+      "parent": 151,
+      "source_id": 6409,
+      "source_ranges": [
+        [
+          1,
+          19
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6409",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_151"
+    },
+    "basic3": {
+      "parent": 152,
+      "source_id": 6413,
+      "source_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6413",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_152"
+    },
+    "skill_a": {
+      "parent": 153,
+      "source_id": 6446,
+      "source_ranges": [
+        [
+          1,
+          15
+        ],
+        [
+          26,
+          76
+        ],
+        [
+          86,
+          104
+        ],
+        [
+          114,
+          132
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6446",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_153"
+    },
+    "skill_s": {
+      "parent": 154,
+      "source_id": 6458,
+      "source_ranges": [
+        [
+          1,
+          40
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6458",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_154"
+    },
+    "skill_q": {
+      "parent": 155,
+      "source_id": 6487,
+      "source_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6487",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_155"
+    },
+    "skill_w": {
+      "parent": 156,
+      "source_id": 6489,
+      "source_ranges": [
+        [
+          1,
+          19
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6489",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_156"
+    },
+    "skill_e": {
+      "parent": 157,
+      "source_id": 6506,
+      "source_ranges": [
+        [
+          1,
+          65
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6506",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_157"
+    },
+    "skill_d": {
+      "parent": 158,
+      "source_id": 6507,
+      "source_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6507",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_158"
+    },
+    "skill_f": {
+      "parent": 159,
+      "source_id": 6507,
+      "source_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6507",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_159"
+    },
+    "skill_g": {
+      "parent": 160,
+      "source_id": 6507,
+      "source_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6507",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_160"
+    },
+    "skill_r": {
+      "parent": 161,
+      "source_id": 6509,
+      "source_ranges": [
+        [
+          1,
+          87
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6509",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_161"
+    },
+    "skill_h": {
+      "parent": 162,
+      "source_id": 6507,
+      "source_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6507",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_162"
+    },
+    "skill_z": {
+      "parent": 163,
+      "source_id": 6511,
+      "source_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6511",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_163"
+    },
+    "skill_t": {
+      "parent": 164,
+      "source_id": 6513,
+      "source_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6513",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_164"
+    },
+    "t_finish": {
+      "parent": 165,
+      "source_id": 6525,
+      "source_ranges": [
+        [
+          1,
+          42
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6525",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_165"
+    },
+    "kalla_basic": {
+      "parent": 166,
+      "source_id": 6527,
+      "source_ranges": [
+        [
+          1,
+          11
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6527",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_166"
+    },
+    "jump": {
+      "parent": 167,
+      "source_id": 6530,
+      "source_ranges": [
+        [
+          1,
+          30
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4745
+      ],
+      "source_path": "res/scripts/DefineSprite_6530",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_167"
+    },
+    "backstep": {
+      "parent": 168,
+      "source_id": 6532,
+      "source_ranges": [
+        [
+          1,
+          12
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4673
+      ],
+      "source_path": "res/scripts/DefineSprite_6532",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_168"
+    },
+    "hit": {
+      "parent": 169,
+      "source_id": 6533,
+      "source_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4689,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6533",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_169"
+    },
+    "knockdown": {
+      "parent": 170,
+      "source_id": 6534,
+      "source_ranges": [
+        [
+          1,
+          30
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4689,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6534",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_170"
+    },
+    "fallen": {
+      "parent": 173,
+      "source_id": 6539,
+      "source_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "body_ids": [
+        4546,
+        4547
+      ],
+      "source_path": "res/scripts/DefineSprite_6539",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_173"
+    },
+    "dead": {
+      "parent": 174,
+      "source_id": 6540,
+      "source_ranges": [
+        [
+          1,
+          25
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6540",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_174"
+    },
+    "skill_v": {
+      "parent": 175,
+      "source_id": 6541,
+      "source_ranges": [
+        [
+          1,
+          79
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6541",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_175"
+    },
+    "skill_y": {
+      "parent": 176,
+      "source_id": 6555,
+      "source_ranges": [
+        [
+          1,
+          31
+        ]
+      ],
+      "body_ids": [
+        4546
+      ],
+      "source_path": "res/scripts/DefineSprite_6555",
+      "parent_source_path": "res/scripts/DefineSprite_6732/frame_176"
+    }
+  },
+  "combo": {
+    "first_window": [
+      9,
+      16
+    ],
+    "first_target_parent": 151,
+    "second_window": [
+      10,
+      18
+    ],
+    "literal_second_target": 151,
+    "natural_next_parent": 152,
+    "same_parent_contract": "Current child/identity kept in input tick; following source tick advances parent naturally; P0 dynamic same-parent semantics applied, CRT4 original dynamic input remains untested"
+  },
+  "a": {
+    "charge_listener_from": 4,
+    "early_release_frame": 27,
+    "charge_hold_frame": 26,
+    "full_release_frame": 49,
+    "branch_selector_frame": 57,
+    "ghost_branches": {
+      "1": [
+        58,
+        76
+      ],
+      "2": [
+        86,
+        104
+      ],
+      "3": [
+        114,
+        132
+      ]
+    },
+    "early_end": 48,
+    "setup_keys": {
+      "1": "d",
+      "2": "f",
+      "3": "g"
+    },
+    "source_paths": [
+      "res/scripts/DefineSprite_6446/frame_4/PlaceObject3_6114_104/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+      "res/scripts/DefineSprite_6446/frame_26/PlaceObject2_6418_104/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+      "res/scripts/DefineSprite_6446/frame_57/PlaceObject2_6392_76/CLIPACTIONRECORD onClipEvent(load).as"
+    ]
+  },
+  "s": {
+    "windows": [
+      [
+        5,
+        9,
+        11
+      ],
+      [
+        17,
+        22,
+        24
+      ]
+    ],
+    "end_frames": [
+      10,
+      23,
+      40
+    ],
+    "root_motion": [
+      [
+        3,
+        7,
+        4
+      ],
+      [
+        11,
+        16,
+        4
+      ],
+      [
+        26,
+        33,
+        4
+      ]
+    ]
+  },
+  "air": {
+    "parent": 167,
+    "main_end": 30,
+    "component_from": 4,
+    "normal_start": 2,
+    "normal_end": 12,
+    "kalla_start": 13,
+    "kalla_fire": 15,
+    "kalla_end": 21,
+    "held_poll_only_when_child1": true,
+    "back_parent": 168,
+    "back_end": 12,
+    "back_move_through": 11,
+    "back_dx": -5,
+    "back_kalla_fire": 3
+  },
+  "v": {
+    "parent": 175,
+    "grab_window": [
+      5,
+      7
+    ],
+    "success_frame": 17,
+    "empty_end": 16,
+    "release_frame": 66,
+    "success_end": 79,
+    "hit_windows": [
+      [
+        36,
+        37
+      ],
+      [
+        43,
+        44
+      ],
+      [
+        50,
+        51
+      ],
+      [
+        57,
+        58
+      ],
+      [
+        64,
+        65
+      ]
+    ],
+    "parent_offset": [
+      -11.25,
+      1.45
+    ]
+  },
+  "kalla": {
+    "start_action_frame": 7,
+    "enabled_outer_frame": 3,
+    "hold_outer_frame": 12,
+    "finish_parent": 165,
+    "finish_mp": 8,
+    "finish_cubes": 0,
+    "finish_end": 42,
+    "finish_source_path": "res/scripts/DefineSprite_6384/frame_12/PlaceObject2_6380_1/CLIPACTIONRECORD onClipEvent(keyDown).as"
+  },
+  "world_births": {
+    "skill_d": 316,
+    "skill_f": 956,
+    "skill_g": 818,
+    "skill_h": 1121
+  },
+  "coverage": [
+    {
+      "group": "all_default_entries",
+      "method": "normal Main selection plus actual keys; exact source parent and MP/cube charge, ready gate and natural return",
+      "kind": "functional"
+    },
+    {
+      "group": "pure_X",
+      "method": "new press/echo/held/early/late/left/right/repeated/interruption; preserve same151 identity then next152",
+      "kind": "functional"
+    },
+    {
+      "group": "A/S",
+      "method": "early release, held26, D/F/G-created ghost1/2/3 branches; S two continuations and A cancel permission",
+      "kind": "functional"
+    },
+    {
+      "group": "Kalla",
+      "method": "real T startup, X chooses166, air/back split, secondT8MP/0cube while first cooldown still active",
+      "kind": "functional"
+    },
+    {
+      "group": "body/reaction/grab",
+      "method": "empty body pages not idle fallback; public receive_damage only labelled hurt/death fixture, legitimate V contact without marker/action injection",
+      "kind": "functional"
+    },
+    {
+      "group": "cleanup",
+      "method": "return/reenter while real state and world objects exist; previous encounter teardown, fresh defaults and source IDs",
+      "kind": "functional"
+    }
+  ],
+  "fixtures": [
+    "manual25Hz source clock",
+    "one-time enemy position and finite HP with AI active thereafter",
+    "initial resource refusal boundary",
+    "public receive_damage isolated reaction/death fixture",
+    "Godot AI RNG seed40617 per case; no original-randomness equivalence claim"
+  ],
+  "not_claimed": [
+    "no CRT4 original dynamic input oracle yet",
+    "no exact all-skill HP totals",
+    "no audio listening",
+    "no user acceptance",
+    "fallen173/air_grab171/landing172 natural enemy branch outside this initial ordinary-input suite",
+    "detailed field/Y/R object semantics owned by separate source/world validation"
+  ]
+}

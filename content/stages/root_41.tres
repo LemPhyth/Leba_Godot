@@ -1,0 +1,28 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_definition.gd" id="1_5bfuy"]
+
+[resource]
+script = ExtResource("1_5bfuy")
+title = "STAGE0 - 练习模式"
+training = true
+enemy_hp = 1e+22
+music = "training"
+reward = 0
+player_hurt_observers = PackedFloat32Array(2)
+difficulty_observer = false
+extra = {
+"bounds": [0.0, 550.0],
+"end_source": "训练根41没有남은수/难度实例，无普通胜利推进；6917失败→角色父29/重试40",
+"source_depths": {
+"enemies": [111],
+"ground": 781,
+"hp": 791,
+"hud": 2623,
+"mp": 789,
+"player": 801,
+"skills": 567,
+"sniper": 2525,
+"y": 358
+}
+}

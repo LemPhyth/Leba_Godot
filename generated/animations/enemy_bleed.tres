@@ -1,0 +1,84 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_uiyxw"]
+[ext_resource type="Texture2D" path="res://assets/atlases/enemy_bleed.png" id="2_bijpe"]
+
+[resource]
+script = ExtResource("1_uiyxw")
+identifier = "enemy_bleed"
+texture = ExtResource("2_bijpe")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-20.5, -29.05, 39.0, 43.0],
+"pivot": [20.5, 29.05],
+"region": [2.0, 2.0, 39.0, 43.0],
+"source_crop": [0.0, 5.0, 39.0, 48.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-20.5, -29.05, 39.0, 43.0],
+"pivot": [20.5, 29.05],
+"region": [45.0, 2.0, 39.0, 43.0],
+"source_crop": [0.0, 5.0, 39.0, 48.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-15.5, -33.05, 40.0, 43.0],
+"pivot": [15.5, 33.05],
+"region": [88.0, 2.0, 40.0, 43.0],
+"source_crop": [5.0, 1.0, 45.0, 44.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-15.5, -33.05, 40.0, 43.0],
+"pivot": [15.5, 33.05],
+"region": [132.0, 2.0, 40.0, 43.0],
+"source_crop": [5.0, 1.0, 45.0, 44.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-2.5, -33.05, 35.0, 42.0],
+"pivot": [2.5, 33.05],
+"region": [176.0, 2.0, 35.0, 42.0],
+"source_crop": [18.0, 1.0, 53.0, 43.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-2.5, -33.05, 35.0, 42.0],
+"pivot": [2.5, 33.05],
+"region": [215.0, 2.0, 35.0, 42.0],
+"source_crop": [18.0, 1.0, 53.0, 43.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-2.5, -33.05, 35.0, 42.0],
+"pivot": [2.5, 33.05],
+"region": [254.0, 2.0, 35.0, 42.0],
+"source_crop": [18.0, 1.0, 53.0, 43.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [0.5, -34.05, 35.0, 43.0],
+"pivot": [-0.5, 34.05],
+"region": [293.0, 2.0, 35.0, 43.0],
+"source_crop": [21.0, 0.0, 56.0, 43.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [0.5, -34.05, 35.0, 43.0],
+"pivot": [-0.5, 34.05],
+"region": [332.0, 2.0, 35.0, 43.0],
+"source_crop": [21.0, 0.0, 56.0, 43.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [0.5, -34.05, 35.0, 43.0],
+"pivot": [-0.5, 34.05],
+"region": [371.0, 2.0, 35.0, 43.0],
+"source_crop": [21.0, 0.0, 56.0, 43.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [20.5, 34.05],
+"region": [410.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [20.5, 34.05],
+"region": [415.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 12.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.enemy_bleed；派生图集；来源与pivot见catalog。"

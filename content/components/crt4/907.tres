@@ -1,0 +1,65 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_t8wo8"]
+
+[resource]
+script = ExtResource("1_t8wo8")
+identifier = "907"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 861.0
+}, {
+"depth": 2.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -59.3, -99.8],
+"name": null,
+"source_id": 906.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"mask": {
+"child_depth": 2.0,
+"child_source_id": 906.0,
+"clip_depth": 30.0,
+"clipped_depth_range": [2.0, 30.0],
+"correction": "Earlier black-background interpretation omitted clipDepth30; original opaque fill defines coverage only.",
+"depth": 1.0,
+"draw_as_visible_fill": false,
+"fill_rule": "evenodd",
+"geometry_source": "res/structure/game.xml DefineShape861 and res/shapes/861.svg original path; not PNG bounds",
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"polygon": [[415.0, -366.45], [415.0, 63.7], [-484.5, 63.7], [-484.5, -366.45]],
+"rect": [-484.5, -366.45, 899.5, 430.15],
+"source_frame": 1.0,
+"source_id": 861.0,
+"source_parent": 907.0,
+"source_shape_sha256": "7bfffa9ddd1115918619d4c7a9d2e1f4d2b09bc735d913513d42619db6a665ae",
+"stroke": "none"
+},
+"placement_tracks": [{
+"placements": [{
+"clipDepth": "30",
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 861.0
+}, {
+"depth": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -59.3, -99.8],
+"source_id": 906.0
+}],
+"source_frame": 1.0
+}],
+"sounds": [],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_907_블라슈/frame_1/PlaceObject3_906_2/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "a0849decdf03d0a8d022ae87526266808d47507d3987b9ce9fa1a00f5a4a72d1"
+}],
+"source_frame_count": 1.0,
+"source_id": 907.0,
+"stop_source_frames": []
+}
+source = "Original AS/XML source 907; res://data/act06_crt4_rules.json.components.907"

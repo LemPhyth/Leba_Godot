@@ -1,0 +1,124 @@
+[gd_resource type="Resource" format=3 uid="uid://k4x28c3pkleu"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_v.tres" id="1_a0scp"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="2_gr0ft"]
+[ext_resource type="Resource" path="res://content/components/crt1/grab.tres" id="2_l50fu"]
+[ext_resource type="AudioStream" uid="uid://fklulu6ogl32" path="res://assets/audio/4620.mp3" id="3_e13ir"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="4_hfq16"]
+[ext_resource type="AudioStream" uid="uid://c4ro1hebhv0bg" path="res://assets/audio/5650.mp3" id="5_2bmeh"]
+[ext_resource type="AudioStream" uid="uid://b2mjxyfb41an3" path="res://assets/audio/5655.mp3" id="6_20xxu"]
+
+[sub_resource type="Resource" id="Resource_adkxj"]
+script = ExtResource("4_hfq16")
+frame = 6
+sound = "crt1_skill_v"
+audio_stream = ExtResource("3_e13ir")
+audio_offset = 0.05442176870748299
+parameters = {
+"envelope": [{
+"left": 10923.0,
+"right": 9447.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 2400.0,
+"sound_id": 4620.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "2400",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5679.0
+}
+source = "原StartSound：sprite5679/frame6/Sound4620；起播2400 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_40gcl"]
+script = ExtResource("4_hfq16")
+frame = 6
+sound = "crt1_skill_v_sound_2"
+audio_stream = ExtResource("5_2bmeh")
+parameters = {
+"envelope": [{
+"left": 9151.0,
+"right": 7971.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"out_point_samples_44100": 56604.0,
+"sound_id": 5650.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"outPoint": "56604",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5679.0
+}
+source = "原StartSound：sprite5679/frame6/Sound5650；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_lrdup"]
+script = ExtResource("4_hfq16")
+frame = 21
+sound = "crt1_skill_v_sound_3"
+audio_stream = ExtResource("6_20xxu")
+audio_offset = 0.2789115646258503
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 12300.0,
+"sound_id": 5655.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "12300",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5679.0
+}
+source = "原StartSound：sprite5679/frame21/Sound5655；起播12300 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("2_gr0ft")
+identifier = "skill_v"
+title = "skill_v"
+animation = ExtResource("1_a0scp")
+animation_key = "crt1_skill_v"
+component_definition = ExtResource("2_l50fu")
+source_parent = 99
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71)
+input_id = "skill_v"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+cost = 5.0
+required_mp = 5.0
+cooldown_ticks = 215
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_adkxj"), SubResource("Resource_40gcl"), SubResource("Resource_lrdup")])
+source = "res/scripts/DefineSprite_6732/frame_99 + DefineSprite_5679；父矩阵/选帧见asset_catalog.animations.crt1_skill_v"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"controller": "crt1_v",
+"end_frame": 71,
+"grab_release_frame": 68,
+"grab_source_id": 5679,
+"grab_start_source_frame": 15,
+"normal_end_source_frame": 14,
+"pren_clear_frame": 70,
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_geometry": "act03_crt1_hit_windows",
+"source_id": 5679
+}

@@ -1,0 +1,2808 @@
+{
+  "schema_version": 1,
+  "evidence": "Independently extracted original AS2/XML static oracle, not generated from Runtime or data/act06. No new wave dynamic Flash probe.",
+  "source_xml": {
+    "path": "res/structure/game.xml",
+    "sha256": "1eeb18f9689139d0973a33e6144f408a262d81606a305fe6f34f2fa0766b0fb4"
+  },
+  "source_sha256": {
+    "res/scripts/DefineSprite_1254/frame_6/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+    "res/scripts/DefineSprite_1267_검풍/frame_18/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+    "res/scripts/DefineSprite_1311_검풍2/frame_18/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+    "res/scripts/DefineSprite_6732/frame_130/PlaceObject2_6158_47/CLIPACTIONRECORD onClipEvent(enterFrame).as": "9e3041770f939e5d16321d26f3235140c5af5468eb8b813c3fc513e374df020d",
+    "res/scripts/DefineSprite_6732/frame_130/PlaceObject2_6158_47/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as": "b6aa8e452b361751d4bc716909967b3e98807b023abf6a99f18d7d2d6cdc4dd9",
+    "res/scripts/DefineSprite_6732/frame_130/PlaceObject2_6158_47/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as": "b34c648d567b11fbdf631cca5b30b52bb8a143f254d53b5e128888d1283bf181",
+    "res/scripts/DefineSprite_6732/frame_130/PlaceObject2_6158_47/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as": "33653ba910ba97e1442ba4fffd7fdcea3000f7a9558da2b9087ca8059c1f92e2",
+    "res/scripts/DefineSprite_6732/frame_130/PlaceObject2_6158_47/CLIPACTIONRECORD onClipEvent(load).as": "1d9c47d6993b6c26413e798caa592aa4c931099363fdf071285bee9685d7140f",
+    "res/scripts/DefineSprite_6732/frame_131/PlaceObject3_6177_47/CLIPACTIONRECORD onClipEvent(enterFrame).as": "bd37f470a7523e8ed1b1284a1eef81917747c8a8423333bae60c7f8b81f469af",
+    "res/scripts/DefineSprite_6732/frame_131/PlaceObject3_6177_47/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as": "b37c837247dfe223c9d7e11f6506f242be0c4cdceb931ebde5ebd54260ae0079",
+    "res/scripts/DefineSprite_6732/frame_131/PlaceObject3_6177_47/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as": "dae475f9b65dbcf91f1bdf536f02fc0cb66d4400c3e85f739471eedecda8377c",
+    "res/scripts/DefineSprite_6732/frame_131/PlaceObject3_6177_47/CLIPACTIONRECORD onClipEvent(keyDown).as": "076fcb1cd3c378b160581484c025b97a123bc804b428bcb8fb6a0b6f69c267ba",
+    "res/scripts/DefineSprite_6732/frame_131/PlaceObject3_6177_47/CLIPACTIONRECORD onClipEvent(load).as": "27d3c8d1689943b449dcfdcb719d39efd1080e0da39a763ac90be7361cf525b3",
+    "res/scripts/DefineSprite_6732/frame_131/PlaceObject3_6177_47/CLIPACTIONRECORD onClipEvent(load)_2.as": "ddec48e287b519e28de2306ab71933d187287b2d62b63925b69fd6a6b5e330fc",
+    "res/scripts/frame_1/DoAction_2.as": "f9e5e779ddee4b550dcd824bd48264dcafc636d64efebf3fbd5d7021a8df07a6"
+  },
+  "objects": {
+    "1267": {
+      "timeline": {
+        "1": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                54.15,
+                -43.2
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -56.743752320000006,
+                -79.83676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "2": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                72.5,
+                -43.15
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -38.393752320000004,
+                -79.78676587999999,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "3": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                90.8,
+                -43.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -20.093752320000007,
+                -79.68676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "4": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                109.15,
+                -43.0
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -1.7437523199999987,
+                -79.63676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "5": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                127.5,
+                -42.95
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                16.606247679999996,
+                -79.58676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "6": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                145.85,
+                -42.9
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                34.95624767999999,
+                -79.53676587999999,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "7": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                164.2,
+                -42.8
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                53.306247679999984,
+                -79.43676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "8": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                182.5,
+                -42.75
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                71.60624768,
+                -79.38676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "9": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                200.85,
+                -42.7
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                89.95624767999999,
+                -79.33676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "10": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                219.2,
+                -42.65
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                108.30624767999998,
+                -79.28676587999999,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "11": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                237.5,
+                -42.55
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                126.60624768,
+                -79.18676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "12": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                255.85,
+                -42.5
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                144.95624768,
+                -79.13676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "13": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                274.2,
+                -42.45
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                163.30624767999998,
+                -79.08676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "14": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                292.55,
+                -42.4
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                181.65624768,
+                -79.03676587999999,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "15": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                310.85,
+                -42.3
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                199.95624768000002,
+                -78.93676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "16": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                329.2,
+                -42.25
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                218.30624767999998,
+                -78.88676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "17": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                347.55,
+                -42.2
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                236.65624768,
+                -78.83676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                51.45,
+                -139.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                31.950000000000003,
+                -148.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "18": {
+          "helpers": []
+        }
+      }
+    },
+    "1311": {
+      "timeline": {
+        "1": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -51.25,
+                -47.2
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -155.10459812,
+                -83.83676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "2": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -69.65,
+                -47.15
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -173.50459812000003,
+                -83.78676587999999,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "3": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -87.95,
+                -47.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -191.80459812,
+                -83.68676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "4": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -106.3,
+                -47.0
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -210.15459812,
+                -83.63676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "5": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -124.65,
+                -46.95
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -228.50459812000003,
+                -83.58676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "6": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -143.0,
+                -46.9
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -246.85459812,
+                -83.53676587999999,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "7": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -161.35,
+                -46.8
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -265.20459812,
+                -83.43676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "8": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -179.65,
+                -46.75
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -283.50459812,
+                -83.38676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "9": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -198.0,
+                -46.7
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -301.85459812,
+                -83.33676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "10": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -216.35,
+                -46.65
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -320.20459812,
+                -83.28676587999999,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "11": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -234.65,
+                -46.55
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -338.50459812,
+                -83.18676588,
+                214.74835044000002,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "12": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -253.0,
+                -46.5
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -356.85459812,
+                -83.13676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "13": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -271.35,
+                -46.45
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -375.20459812,
+                -83.08676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "14": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -289.7,
+                -46.4
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -393.55459812,
+                -83.03676587999999,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "15": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -308.0,
+                -46.3
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -411.85459812,
+                -82.93676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "16": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -326.35,
+                -46.25
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -430.20459812,
+                -82.88676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "17": {
+          "helpers": [
+            {
+              "source_id": 439,
+              "source_shape": 299,
+              "depth": 23,
+              "matrix": [
+                -1.0829468,
+                0.0,
+                0.0,
+                0.6405029,
+                -344.65,
+                -46.2
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -102.4,
+                -57.2,
+                198.3,
+                217.65
+              ],
+              "local_edge_rect": [
+                -100.9,
+                -55.7,
+                195.3,
+                214.65
+              ],
+              "wave_local_aabb": [
+                -448.50459811999997,
+                -82.83676588,
+                214.74835044,
+                139.405456185
+              ],
+              "birth_frame": 1
+            },
+            {
+              "source_id": 524,
+              "source_shape": 523,
+              "depth": 25,
+              "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -48.55,
+                -143.05
+              ],
+              "alpha_mult": 0,
+              "local_stroke_rect": [
+                -19.5,
+                -9.0,
+                39.0,
+                18.0
+              ],
+              "local_edge_rect": [
+                -19.0,
+                -8.5,
+                38.0,
+                17.0
+              ],
+              "wave_local_aabb": [
+                -68.05,
+                -152.05,
+                39.0,
+                18.0
+              ],
+              "birth_frame": 1
+            }
+          ]
+        },
+        "18": {
+          "helpers": []
+        }
+      }
+    }
+  },
+  "default_w_frames": [
+    64
+  ],
+  "conditional_w_frames": [
+    6,
+    21,
+    36,
+    51
+  ],
+  "backstep_frame": 4,
+  "condition_weapon": 3,
+  "condition_weaponmaster": 1,
+  "parent_stop_frame": 18,
+  "last_dust_pixel_age": 21,
+  "empty_render_age": 22,
+  "helper439_contact_limit": 7,
+  "helper439_marker_damage": 4,
+  "helper524_marker_damage": 15,
+  "sound_ids": {
+    "w64": 6170,
+    "back4": 5181,
+    "normal_slash": 4
+  },
+  "dynamic_observer_probe": {
+    "evidence": "Observed original Ruffle W64 attach with untouched original callbacks. Direct original parent131 start and one bounded W62 target fixture; not original keyboard or complete W/global damage oracle.",
+    "source_log_sha256": "95a1295ca20d8324af077734f846dd02fb6a782cc344782bf51fb585083a0952",
+    "original_swf_sha256": "afef4c43153780e9140eca7234b5af26c4a751596efefeb071d35428435a909d",
+    "fixture": {
+      "when_player_frame": 62,
+      "enemy_hp": 2000,
+      "enemy_relative_x": 80,
+      "enemy_y": 361,
+      "no_later_position_or_marker_writes": true
+    },
+    "expected_local_observers_by_wave_frame": {
+      "1": [],
+      "2": [],
+      "3": [
+        {
+          "helper": 524,
+          "damage": 15
+        },
+        {
+          "helper": 439,
+          "damage": 4
+        }
+      ],
+      "4": [
+        {
+          "helper": 439,
+          "damage": 4
+        }
+      ],
+      "5": [
+        {
+          "helper": 439,
+          "damage": 4
+        }
+      ],
+      "6": [
+        {
+          "helper": 439,
+          "damage": 4
+        }
+      ],
+      "7": [
+        {
+          "helper": 439,
+          "damage": 4
+        }
+      ],
+      "8": [
+        {
+          "helper": 439,
+          "damage": 4
+        }
+      ],
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": [],
+      "13": [],
+      "14": [],
+      "15": [],
+      "16": [],
+      "17": [],
+      "18": []
+    },
+    "source_phase_rows": {
+      "right_W64": [
+        {
+          "seq": 54,
+          "line": 66,
+          "phase": "helper524_dynamic_EF",
+          "parent": 2,
+          "ehp": 2000,
+          "mr": 0,
+          "marker": null
+        },
+        {
+          "seq": 55,
+          "line": 67,
+          "phase": "helper439_dynamic_EF",
+          "parent": 2,
+          "ehp": 2000,
+          "mr": 1,
+          "marker": null
+        },
+        {
+          "seq": 59,
+          "line": 71,
+          "phase": "helper524_dynamic_EF",
+          "parent": 3,
+          "ehp": 1985,
+          "mr": 1,
+          "marker": 2
+        },
+        {
+          "seq": 61,
+          "line": 73,
+          "phase": "helper439_dynamic_EF",
+          "parent": 3,
+          "ehp": 1981,
+          "mr": 2,
+          "marker": 2
+        },
+        {
+          "seq": 65,
+          "line": 78,
+          "phase": "helper524_dynamic_EF",
+          "parent": 4,
+          "ehp": 1969,
+          "mr": 2,
+          "marker": 3
+        },
+        {
+          "seq": 67,
+          "line": 80,
+          "phase": "helper439_dynamic_EF",
+          "parent": 4,
+          "ehp": 1965,
+          "mr": 3,
+          "marker": 2
+        },
+        {
+          "seq": 71,
+          "line": 85,
+          "phase": "helper524_dynamic_EF",
+          "parent": 5,
+          "ehp": 1953,
+          "mr": 3,
+          "marker": 3
+        },
+        {
+          "seq": 73,
+          "line": 87,
+          "phase": "helper439_dynamic_EF",
+          "parent": 5,
+          "ehp": 1949,
+          "mr": 4,
+          "marker": 2
+        },
+        {
+          "seq": 77,
+          "line": 92,
+          "phase": "helper524_dynamic_EF",
+          "parent": 6,
+          "ehp": 1937,
+          "mr": 4,
+          "marker": 3
+        },
+        {
+          "seq": 79,
+          "line": 94,
+          "phase": "helper439_dynamic_EF",
+          "parent": 6,
+          "ehp": 1933,
+          "mr": 5,
+          "marker": 2
+        },
+        {
+          "seq": 83,
+          "line": 99,
+          "phase": "helper524_dynamic_EF",
+          "parent": 7,
+          "ehp": 1921,
+          "mr": 5,
+          "marker": 3
+        },
+        {
+          "seq": 85,
+          "line": 101,
+          "phase": "helper439_dynamic_EF",
+          "parent": 7,
+          "ehp": 1917,
+          "mr": 6,
+          "marker": 2
+        },
+        {
+          "seq": 89,
+          "line": 106,
+          "phase": "helper524_dynamic_EF",
+          "parent": 8,
+          "ehp": 1905,
+          "mr": 6,
+          "marker": 3
+        },
+        {
+          "seq": 91,
+          "line": 108,
+          "phase": "helper439_dynamic_EF",
+          "parent": 8,
+          "ehp": 1901,
+          "mr": 7,
+          "marker": 2
+        },
+        {
+          "seq": 95,
+          "line": 113,
+          "phase": "helper524_dynamic_EF",
+          "parent": 9,
+          "ehp": 1889,
+          "mr": 7,
+          "marker": 3
+        },
+        {
+          "seq": 97,
+          "line": 115,
+          "phase": "helper439_dynamic_EF",
+          "parent": 9,
+          "ehp": 1889,
+          "mr": 7,
+          "marker": 3
+        }
+      ],
+      "left_W64": [
+        {
+          "seq": 515,
+          "line": 540,
+          "phase": "helper524_dynamic_EF",
+          "parent": 2,
+          "ehp": 2000,
+          "mr": 0,
+          "marker": null
+        },
+        {
+          "seq": 516,
+          "line": 541,
+          "phase": "helper439_dynamic_EF",
+          "parent": 2,
+          "ehp": 2000,
+          "mr": 1,
+          "marker": null
+        },
+        {
+          "seq": 522,
+          "line": 547,
+          "phase": "helper524_dynamic_EF",
+          "parent": 3,
+          "ehp": 1985,
+          "mr": 1,
+          "marker": 2
+        },
+        {
+          "seq": 523,
+          "line": 548,
+          "phase": "helper439_dynamic_EF",
+          "parent": 3,
+          "ehp": 1981,
+          "mr": 2,
+          "marker": 2
+        },
+        {
+          "seq": 529,
+          "line": 554,
+          "phase": "helper524_dynamic_EF",
+          "parent": 4,
+          "ehp": 1969,
+          "mr": 2,
+          "marker": 3
+        },
+        {
+          "seq": 530,
+          "line": 555,
+          "phase": "helper439_dynamic_EF",
+          "parent": 4,
+          "ehp": 1965,
+          "mr": 3,
+          "marker": 2
+        },
+        {
+          "seq": 536,
+          "line": 561,
+          "phase": "helper524_dynamic_EF",
+          "parent": 5,
+          "ehp": 1953,
+          "mr": 3,
+          "marker": 3
+        },
+        {
+          "seq": 537,
+          "line": 562,
+          "phase": "helper439_dynamic_EF",
+          "parent": 5,
+          "ehp": 1949,
+          "mr": 4,
+          "marker": 2
+        },
+        {
+          "seq": 543,
+          "line": 568,
+          "phase": "helper524_dynamic_EF",
+          "parent": 6,
+          "ehp": 1937,
+          "mr": 4,
+          "marker": 3
+        },
+        {
+          "seq": 545,
+          "line": 570,
+          "phase": "helper439_dynamic_EF",
+          "parent": 6,
+          "ehp": 1933,
+          "mr": 5,
+          "marker": 2
+        },
+        {
+          "seq": 551,
+          "line": 577,
+          "phase": "helper524_dynamic_EF",
+          "parent": 7,
+          "ehp": 1921,
+          "mr": 5,
+          "marker": 3
+        },
+        {
+          "seq": 553,
+          "line": 579,
+          "phase": "helper439_dynamic_EF",
+          "parent": 7,
+          "ehp": 1917,
+          "mr": 6,
+          "marker": 2
+        },
+        {
+          "seq": 559,
+          "line": 586,
+          "phase": "helper524_dynamic_EF",
+          "parent": 8,
+          "ehp": 1905,
+          "mr": 6,
+          "marker": 3
+        },
+        {
+          "seq": 560,
+          "line": 587,
+          "phase": "helper439_dynamic_EF",
+          "parent": 8,
+          "ehp": 1901,
+          "mr": 7,
+          "marker": 2
+        },
+        {
+          "seq": 566,
+          "line": 593,
+          "phase": "helper524_dynamic_EF",
+          "parent": 9,
+          "ehp": 1889,
+          "mr": 7,
+          "marker": 3
+        },
+        {
+          "seq": 568,
+          "line": 595,
+          "phase": "helper439_dynamic_EF",
+          "parent": 9,
+          "ehp": 1889,
+          "mr": 7,
+          "marker": 3
+        }
+      ]
+    },
+    "boundaries": [
+      "Only local helper observer contributions asserted. Original global/root HP12 observer differs from existing Godot shared chain; total1889 is not an expected game constant.",
+      "Player reaches viewing point via real movement; fixture is same relative80 distance, not exact original worldX250. Random slash draws are not golden expected."
+    ]
+  }
+}

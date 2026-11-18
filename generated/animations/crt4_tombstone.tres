@@ -1,0 +1,198 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_ylno1"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_tombstone.png" id="2_rveh5"]
+
+[resource]
+script = ExtResource("1_ylno1")
+identifier = "crt4_tombstone"
+texture = ExtResource("2_rveh5")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-24.15, -252.4, 56.0, 180.0],
+"pivot": [24.15, 252.4],
+"region": [2.0, 2.0, 56.0, 180.0],
+"source_crop": [47.0, 28.0, 103.0, 208.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-25.15, -242.4, 57.0, 186.0],
+"pivot": [25.15, 242.4],
+"region": [62.0, 2.0, 57.0, 186.0],
+"source_crop": [46.0, 38.0, 103.0, 224.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-25.15, -189.4, 56.0, 180.0],
+"pivot": [25.15, 189.4],
+"region": [123.0, 2.0, 56.0, 180.0],
+"source_crop": [46.0, 91.0, 102.0, 271.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-21.15, -75.4, 51.0, 116.0],
+"pivot": [21.15, 75.4],
+"region": [183.0, 2.0, 51.0, 116.0],
+"source_crop": [50.0, 205.0, 101.0, 321.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-48.15, -70.4, 95.0, 132.0],
+"pivot": [48.15, 70.4],
+"region": [238.0, 2.0, 95.0, 132.0],
+"source_crop": [23.0, 210.0, 118.0, 342.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-48.15, -70.4, 95.0, 132.0],
+"pivot": [48.15, 70.4],
+"region": [337.0, 2.0, 95.0, 132.0],
+"source_crop": [23.0, 210.0, 118.0, 342.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-49.15, -70.4, 97.0, 132.0],
+"pivot": [49.15, 70.4],
+"region": [436.0, 2.0, 97.0, 132.0],
+"source_crop": [22.0, 210.0, 119.0, 342.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-49.15, -70.4, 97.0, 132.0],
+"pivot": [49.15, 70.4],
+"region": [537.0, 2.0, 97.0, 132.0],
+"source_crop": [22.0, 210.0, 119.0, 342.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-53.15, -70.4, 105.0, 131.0],
+"pivot": [53.15, 70.4],
+"region": [638.0, 2.0, 105.0, 131.0],
+"source_crop": [18.0, 210.0, 123.0, 341.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-53.15, -70.4, 105.0, 131.0],
+"pivot": [53.15, 70.4],
+"region": [747.0, 2.0, 105.0, 131.0],
+"source_crop": [18.0, 210.0, 123.0, 341.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [856.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [908.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [960.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1012.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1064.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1116.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1168.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1220.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1272.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1324.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1376.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1428.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1480.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 23.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1532.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 24.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1584.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 25.0
+}, {
+"alpha_bounds": [-26.15, -70.4, 48.0, 121.0],
+"pivot": [26.15, 70.4],
+"region": [1636.0, 2.0, 48.0, 121.0],
+"source_crop": [45.0, 210.0, 93.0, 331.0],
+"source_frame": 26.0
+}, {
+"alpha_bounds": [-25.15, -42.4, 47.0, 93.0],
+"pivot": [25.15, 42.4],
+"region": [1688.0, 2.0, 47.0, 93.0],
+"source_crop": [46.0, 238.0, 93.0, 331.0],
+"source_frame": 27.0
+}, {
+"alpha_bounds": [-25.15, -20.4, 47.0, 71.0],
+"pivot": [25.15, 20.4],
+"region": [1739.0, 2.0, 47.0, 71.0],
+"source_crop": [46.0, 260.0, 93.0, 331.0],
+"source_frame": 28.0
+}, {
+"alpha_bounds": [-20.15, 3.6, 36.0, 46.0],
+"pivot": [20.15, -3.6],
+"region": [1790.0, 2.0, 36.0, 46.0],
+"source_crop": [51.0, 284.0, 87.0, 330.0],
+"source_frame": 29.0
+}, {
+"alpha_bounds": [-15.15, 32.6, 26.0, 16.0],
+"pivot": [15.15, -32.6],
+"region": [1830.0, 2.0, 26.0, 16.0],
+"source_crop": [56.0, 313.0, 82.0, 329.0],
+"source_frame": 30.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [71.15, 280.4],
+"region": [1860.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 31.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_tombstone；派生图集；来源与pivot见catalog。"

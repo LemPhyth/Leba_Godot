@@ -1,0 +1,346 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_bf7bc"]
+
+[resource]
+script = ExtResource("1_bf7bc")
+identifier = "943"
+parameters = {
+"beast_scale": [1.5, 1.5],
+"beast_source_id": 907.0,
+"beast_spawn_source_frame": 65.0,
+"beast_y_offset": 100.0,
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"frame": 10.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"frame": 20.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 7.0,
+"frame": 29.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -46.65, -0.75],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"frame": 35.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": "시간",
+"source_id": 942.0
+}, {
+"depth": 9.0,
+"frame": 35.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -37.65, -9.55],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"frame": 36.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": "시간",
+"source_id": 942.0
+}, {
+"depth": 11.0,
+"frame": 36.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 91.4, 5.05],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 13.0,
+"frame": 40.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 30.4, 10.9],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 15.0,
+"frame": 40.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, -57.6, 5.05],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 17.0,
+"frame": 45.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -65.15, -13.55],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 19.0,
+"frame": 45.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -74.45, -0.75],
+"name": null,
+"source_id": 942.0
+}, {
+"depth": 21.0,
+"frame": 45.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -92.95, 5.75],
+"name": null,
+"source_id": 942.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"hold_frame": 35.0,
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}],
+"source_frame": 10.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"ratio": "19",
+"source_id": 942.0
+}],
+"source_frame": 20.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"ratio": "19",
+"source_id": 942.0
+}, {
+"depth": 7.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -46.65, -0.75],
+"ratio": "28",
+"source_id": 942.0
+}],
+"source_frame": 29.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}, {
+"depth": 7.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -46.65, -0.75],
+"ratio": "28",
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": "시간",
+"ratio": "34",
+"source_id": 942.0
+}, {
+"depth": 9.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -37.65, -9.55],
+"ratio": "34",
+"source_id": 942.0
+}],
+"source_frame": 35.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}, {
+"depth": 7.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -46.65, -0.75],
+"ratio": "28",
+"source_id": 942.0
+}, {
+"depth": 9.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -37.65, -9.55],
+"ratio": "34",
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": "시간",
+"ratio": "35",
+"source_id": 942.0
+}, {
+"depth": 11.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 91.4, 5.05],
+"ratio": "35",
+"source_id": 942.0
+}],
+"source_frame": 36.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}, {
+"depth": 7.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -46.65, -0.75],
+"ratio": "28",
+"source_id": 942.0
+}, {
+"depth": 9.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -37.65, -9.55],
+"ratio": "34",
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": "시간",
+"ratio": "35",
+"source_id": 942.0
+}, {
+"depth": 11.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 91.4, 5.05],
+"ratio": "35",
+"source_id": 942.0
+}, {
+"depth": 13.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 30.4, 10.9],
+"ratio": "39",
+"source_id": 942.0
+}, {
+"depth": 15.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, -57.6, 5.05],
+"ratio": "39",
+"source_id": 942.0
+}],
+"source_frame": 40.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 0.9, -0.3],
+"source_id": 942.0
+}, {
+"depth": 3.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 50.85, 2.75],
+"ratio": "9",
+"source_id": 942.0
+}, {
+"depth": 7.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -46.65, -0.75],
+"ratio": "28",
+"source_id": 942.0
+}, {
+"depth": 9.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -37.65, -9.55],
+"ratio": "34",
+"source_id": 942.0
+}, {
+"depth": 5.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, 67.35, 6.75],
+"name": "시간",
+"ratio": "35",
+"source_id": 942.0
+}, {
+"depth": 11.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 91.4, 5.05],
+"ratio": "35",
+"source_id": 942.0
+}, {
+"depth": 13.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, 30.4, 10.9],
+"ratio": "39",
+"source_id": 942.0
+}, {
+"depth": 15.0,
+"matrix": [0.7953949, 0.0, 0.0, 0.7953949, -57.6, 5.05],
+"ratio": "39",
+"source_id": 942.0
+}, {
+"depth": 17.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -65.15, -13.55],
+"ratio": "44",
+"source_id": 942.0
+}, {
+"depth": 19.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -74.45, -0.75],
+"ratio": "44",
+"source_id": 942.0
+}, {
+"depth": 21.0,
+"matrix": [1.1543427, 0.0, 0.0, 1.1543427, -92.95, 5.75],
+"ratio": "44",
+"source_id": 942.0
+}],
+"source_frame": 45.0
+}, {
+"placements": [],
+"source_frame": 65.0
+}],
+"sounds": [],
+"source": [{
+"frame": 111.0,
+"path": "res/scripts/DefineSprite_943/frame_111/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 35.0,
+"path": "res/scripts/DefineSprite_943/frame_35/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 35.0,
+"path": "res/scripts/DefineSprite_943/frame_35/PlaceObject2_942_5/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "e04247511f1a4c6fe809de007eadce564ffcae8ed8246a23b81be542fdc11577"
+}, {
+"frame": 35.0,
+"path": "res/scripts/DefineSprite_943/frame_35/PlaceObject2_942_5/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "b97ed198ec4ef30f4a35b076789e59bae7eb229a1dd91313840cdb6e1a26dc9b"
+}],
+"source_frame_count": 111.0,
+"source_id": 943.0,
+"stop_source_frames": [35.0, 111.0],
+"timer_bonus_per_active_flag": 8.0,
+"timer_flags": ["kaz", "bremen", "saya", "rhasa", "ghostwalk", "kalla"],
+"timer_increment_per_callback": 1.0,
+"timer_initial": 0.0,
+"timer_release_seek": 38.0,
+"timer_threshold": 40.0
+}
+source = "Original AS/XML source 943; res://data/act06_crt4_rules.json.components.943"

@@ -1,0 +1,138 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_wjntr"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_f_burst.png" id="2_fce8u"]
+
+[resource]
+script = ExtResource("1_wjntr")
+identifier = "crt2_f_burst"
+texture = ExtResource("2_fce8u")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-103.9, -281.25, 207.0, 301.0],
+"pivot": [103.9, 281.25],
+"region": [2.0, 2.0, 207.0, 301.0],
+"source_crop": [5.0, 41.0, 212.0, 342.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-103.9, -281.25, 207.0, 301.0],
+"pivot": [103.9, 281.25],
+"region": [213.0, 2.0, 207.0, 301.0],
+"source_crop": [5.0, 41.0, 212.0, 342.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-103.9, -281.25, 207.0, 301.0],
+"pivot": [103.9, 281.25],
+"region": [424.0, 2.0, 207.0, 301.0],
+"source_crop": [5.0, 41.0, 212.0, 342.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-99.9, -311.25, 203.0, 291.0],
+"pivot": [99.9, 311.25],
+"region": [635.0, 2.0, 203.0, 291.0],
+"source_crop": [9.0, 11.0, 212.0, 302.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-99.9, -311.25, 203.0, 291.0],
+"pivot": [99.9, 311.25],
+"region": [842.0, 2.0, 203.0, 291.0],
+"source_crop": [9.0, 11.0, 212.0, 302.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-102.9, -316.25, 209.0, 288.0],
+"pivot": [102.9, 316.25],
+"region": [1049.0, 2.0, 209.0, 288.0],
+"source_crop": [6.0, 6.0, 215.0, 294.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-102.9, -316.25, 209.0, 288.0],
+"pivot": [102.9, 316.25],
+"region": [1262.0, 2.0, 209.0, 288.0],
+"source_crop": [6.0, 6.0, 215.0, 294.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-108.9, -318.25, 222.0, 283.0],
+"pivot": [108.9, 318.25],
+"region": [1475.0, 2.0, 222.0, 283.0],
+"source_crop": [0.0, 4.0, 222.0, 287.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-108.9, -318.25, 222.0, 283.0],
+"pivot": [108.9, 318.25],
+"region": [1701.0, 2.0, 222.0, 283.0],
+"source_crop": [0.0, 4.0, 222.0, 287.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-108.9, -318.25, 222.0, 283.0],
+"pivot": [108.9, 318.25],
+"region": [1927.0, 2.0, 222.0, 283.0],
+"source_crop": [0.0, 4.0, 222.0, 287.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-108.9, -316.25, 222.0, 275.0],
+"pivot": [108.9, 316.25],
+"region": [2153.0, 2.0, 222.0, 275.0],
+"source_crop": [0.0, 6.0, 222.0, 281.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-108.9, -316.25, 222.0, 275.0],
+"pivot": [108.9, 316.25],
+"region": [2379.0, 2.0, 222.0, 275.0],
+"source_crop": [0.0, 6.0, 222.0, 281.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-108.9, -316.25, 222.0, 275.0],
+"pivot": [108.9, 316.25],
+"region": [2605.0, 2.0, 222.0, 275.0],
+"source_crop": [0.0, 6.0, 222.0, 281.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-106.9, -316.25, 185.0, 274.0],
+"pivot": [106.9, 316.25],
+"region": [2831.0, 2.0, 185.0, 274.0],
+"source_crop": [2.0, 6.0, 187.0, 280.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-106.9, -316.25, 210.0, 295.0],
+"pivot": [106.9, 316.25],
+"region": [3020.0, 2.0, 210.0, 295.0],
+"source_crop": [2.0, 6.0, 212.0, 301.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-106.9, -316.25, 210.0, 295.0],
+"pivot": [106.9, 316.25],
+"region": [3234.0, 2.0, 210.0, 295.0],
+"source_crop": [2.0, 6.0, 212.0, 301.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-102.9, -302.25, 209.0, 267.0],
+"pivot": [102.9, 302.25],
+"region": [3448.0, 2.0, 209.0, 267.0],
+"source_crop": [6.0, 20.0, 215.0, 287.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-102.9, -311.25, 209.0, 291.0],
+"pivot": [102.9, 311.25],
+"region": [3661.0, 2.0, 209.0, 291.0],
+"source_crop": [6.0, 11.0, 215.0, 302.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-108.9, -311.25, 222.0, 291.0],
+"pivot": [108.9, 311.25],
+"region": [2.0, 307.0, 222.0, 291.0],
+"source_crop": [0.0, 11.0, 222.0, 302.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-108.9, -316.25, 222.0, 288.0],
+"pivot": [108.9, 316.25],
+"region": [228.0, 307.0, 222.0, 288.0],
+"source_crop": [0.0, 6.0, 222.0, 294.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [108.9, 322.25],
+"region": [454.0, 307.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 21.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_f_burst；派生图集；来源与pivot见catalog。"

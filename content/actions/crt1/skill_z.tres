@@ -1,0 +1,123 @@
+[gd_resource type="Resource" format=3 uid="uid://cehl7t3d2nbui"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_z.tres" id="1_bmqp2"]
+[ext_resource type="AudioStream" uid="uid://fklulu6ogl32" path="res://assets/audio/4620.mp3" id="2_a834v"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="2_f4goh"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_grwc7"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="3_iibyk"]
+[ext_resource type="AudioStream" uid="uid://bpvpp33cuyx6l" path="res://assets/audio/4621.mp3" id="4_ebgu2"]
+
+[sub_resource type="Resource" id="Resource_e7jbu"]
+script = ExtResource("3_grwc7")
+frame = 6
+sound = "crt1_skill_z"
+audio_stream = ExtResource("2_a834v")
+audio_offset = 0.04988662131519274
+parameters = {
+"envelope": [{
+"left": 12399.0,
+"right": 11513.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 2200.0,
+"sound_id": 4620.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "2200",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6335.0
+}
+source = "原StartSound：sprite6335/frame6/Sound4620；起播2200 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_nyoes"]
+script = ExtResource("3_grwc7")
+frame = 6
+sound = "crt1_skill_z_sound_2"
+audio_stream = ExtResource("4_ebgu2")
+audio_offset = 0.07482993197278912
+parameters = {
+"envelope": [{
+"left": 10923.0,
+"right": 12103.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 3300.0,
+"out_point_samples_44100": 59904.0,
+"sound_id": 4621.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "3300",
+"outPoint": "59904",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6335.0
+}
+source = "原StartSound：sprite6335/frame6/Sound4621；起播3300 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_a834v"]
+script = ExtResource("3_iibyk")
+from_frame = 6
+until_frame = 8
+kind = "crt1_lift"
+rectangles = Array[Rect2]([Rect2(-5.211628, -123.1123, 120.123245, 173.23488)])
+gravity = -15.0
+parameters = {
+"calibration": "伤害字段仅本动作已知观察器贡献；公共marker分期另计。",
+"helper_id": 1234,
+"source_depth": -1,
+"source_frame": 6,
+"source_geometry": "act03_crt1_hit_windows",
+"source_id": 6335,
+"source_matrix_applied": true
+}
+
+[resource]
+script = ExtResource("2_f4goh")
+identifier = "skill_z"
+title = "skill_z"
+animation = ExtResource("1_bmqp2")
+animation_key = "crt1_skill_z"
+source_parent = 144
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+input_id = "skill_z"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "skill")
+cost = 2.0
+required_mp = 2.0
+cooldown_ticks = 65
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_e7jbu"), SubResource("Resource_nyoes")])
+windows = Array[Resource]([SubResource("Resource_a834v")])
+source = "res/scripts/DefineSprite_6732/frame_144 + DefineSprite_6335；父矩阵/选帧见asset_catalog.animations.crt1_skill_z"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_clip_id": 6334,
+"body_metadata": "act03_crt1_body",
+"child_x_easing": {
+"divisor": 2.0,
+"initial": -2.2,
+"target": 10.0,
+"transfer_at": 14
+},
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41, 46],
+"source_id": 6335,
+"source_timer": {
+"all_airborne_targets": true,
+"duration_ms": 500,
+"enemy_x_step": 3.0,
+"interval_ms": 10,
+"refresh_each_active_callback": true
+}
+}

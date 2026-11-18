@@ -1,0 +1,63 @@
+[gd_resource type="Resource" format=3 uid="uid://ciwtcrl3hl283"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_basic3.tres" id="1_mg6vp"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_3ipqv"]
+[ext_resource type="AudioStream" uid="uid://cqnhcn7ekt5w6" path="res://assets/audio/4859.mp3" id="3_3ipqv"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_hba4t"]
+
+[sub_resource type="Resource" id="Resource_3s0s3"]
+script = ExtResource("2_3ipqv")
+frame = 3
+kind = "projectile"
+
+[sub_resource type="Resource" id="Resource_hba4t"]
+script = ExtResource("2_3ipqv")
+frame = 2
+sound = "crt1_basic3"
+audio_stream = ExtResource("3_3ipqv")
+audio_offset = 0.02267573696145124
+parameters = {
+"envelope": [{
+"left": 16532.0,
+"right": 15941.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 1000.0,
+"sound_id": 4859.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "1000",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4864.0
+}
+source = "原StartSound：sprite4864/frame2/Sound4859；起播1000 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("3_hba4t")
+identifier = "basic3"
+title = "basic3"
+animation = ExtResource("1_mg6vp")
+animation_key = "crt1_basic3"
+source_parent = 39
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
+input_id = "attack"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+hold_at = PackedInt32Array()
+combo_next = "basic4"
+combo_from = 5
+combo_until = 12
+events = Array[Resource]([SubResource("Resource_3s0s3"), SubResource("Resource_hba4t")])
+source = "res/scripts/DefineSprite_6732/frame_39 + DefineSprite_4864；父矩阵/选帧见asset_catalog.animations.crt1_basic3"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 4864
+}

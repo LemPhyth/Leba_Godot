@@ -1,0 +1,132 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_yy0v3"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_d_blood.png" id="2_7iluw"]
+
+[resource]
+script = ExtResource("1_yy0v3")
+identifier = "crt2_d_blood"
+texture = ExtResource("2_7iluw")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-10.65, -17.15, 39.0, 36.0],
+"pivot": [10.65, 17.15],
+"region": [2.0, 2.0, 39.0, 36.0],
+"source_crop": [40.0, 57.0, 79.0, 93.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 137.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [45.0, 2.0, 137.0, 127.0],
+"source_crop": [23.0, 9.0, 160.0, 136.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 149.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [186.0, 2.0, 149.0, 127.0],
+"source_crop": [23.0, 9.0, 172.0, 136.0],
+"source_frame": 23.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 149.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [339.0, 2.0, 149.0, 127.0],
+"source_crop": [23.0, 9.0, 172.0, 136.0],
+"source_frame": 24.0
+}, {
+"alpha_bounds": [-29.65, -65.15, 154.0, 127.0],
+"pivot": [29.65, 65.15],
+"region": [492.0, 2.0, 154.0, 127.0],
+"source_crop": [21.0, 9.0, 175.0, 136.0],
+"source_frame": 25.0
+}, {
+"alpha_bounds": [-31.65, -65.15, 156.0, 127.0],
+"pivot": [31.65, 65.15],
+"region": [650.0, 2.0, 156.0, 127.0],
+"source_crop": [19.0, 9.0, 175.0, 136.0],
+"source_frame": 26.0
+}, {
+"alpha_bounds": [-32.65, -65.15, 161.0, 127.0],
+"pivot": [32.65, 65.15],
+"region": [810.0, 2.0, 161.0, 127.0],
+"source_crop": [18.0, 9.0, 179.0, 136.0],
+"source_frame": 27.0
+}, {
+"alpha_bounds": [-33.65, -65.15, 162.0, 127.0],
+"pivot": [33.65, 65.15],
+"region": [975.0, 2.0, 162.0, 127.0],
+"source_crop": [17.0, 9.0, 179.0, 136.0],
+"source_frame": 28.0
+}, {
+"alpha_bounds": [-34.65, -65.15, 165.0, 128.0],
+"pivot": [34.65, 65.15],
+"region": [1141.0, 2.0, 165.0, 128.0],
+"source_crop": [16.0, 9.0, 181.0, 137.0],
+"source_frame": 29.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 158.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [1310.0, 2.0, 158.0, 127.0],
+"source_crop": [23.0, 9.0, 181.0, 136.0],
+"source_frame": 30.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 158.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [1472.0, 2.0, 158.0, 127.0],
+"source_crop": [23.0, 9.0, 181.0, 136.0],
+"source_frame": 31.0
+}, {
+"alpha_bounds": [32.35, -66.15, 98.0, 128.0],
+"pivot": [-32.35, 66.15],
+"region": [1634.0, 2.0, 98.0, 128.0],
+"source_crop": [83.0, 8.0, 181.0, 136.0],
+"source_frame": 32.0
+}, {
+"alpha_bounds": [-10.65, -66.15, 133.0, 128.0],
+"pivot": [10.65, 66.15],
+"region": [1736.0, 2.0, 133.0, 128.0],
+"source_crop": [40.0, 8.0, 173.0, 136.0],
+"source_frame": 33.0
+}, {
+"alpha_bounds": [-27.65, -44.15, 150.0, 70.0],
+"pivot": [27.65, 44.15],
+"region": [1873.0, 2.0, 150.0, 70.0],
+"source_crop": [23.0, 30.0, 173.0, 100.0],
+"source_frame": 34.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 150.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [2027.0, 2.0, 150.0, 127.0],
+"source_crop": [23.0, 9.0, 173.0, 136.0],
+"source_frame": 35.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 150.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [2181.0, 2.0, 150.0, 127.0],
+"source_crop": [23.0, 9.0, 173.0, 136.0],
+"source_frame": 36.0
+}, {
+"alpha_bounds": [-27.65, -65.15, 137.0, 127.0],
+"pivot": [27.65, 65.15],
+"region": [2335.0, 2.0, 137.0, 127.0],
+"source_crop": [23.0, 9.0, 160.0, 136.0],
+"source_frame": 37.0
+}, {
+"alpha_bounds": [10.35, -65.15, 100.0, 127.0],
+"pivot": [-10.35, 65.15],
+"region": [2476.0, 2.0, 100.0, 127.0],
+"source_crop": [61.0, 9.0, 161.0, 136.0],
+"source_frame": 38.0
+}, {
+"alpha_bounds": [13.35, -65.15, 97.0, 127.0],
+"pivot": [-13.35, 65.15],
+"region": [2580.0, 2.0, 97.0, 127.0],
+"source_crop": [64.0, 9.0, 161.0, 136.0],
+"source_frame": 39.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [50.65, 74.15],
+"region": [2681.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 40.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_d_blood；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_iivdq"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_r_air_back.png" id="2_ekqwh"]
+
+[resource]
+script = ExtResource("1_iivdq")
+identifier = "crt2_r_air_back"
+texture = ExtResource("2_ekqwh")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-197.5, -353.1, 394.0, 706.0],
+"pivot": [197.5, 353.1],
+"region": [2.0, 2.0, 394.0, 706.0],
+"source_crop": [1.0, 11.0, 395.0, 717.0],
+"source_frame": 1.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_r_air_back；派生图集；来源与pivot见catalog。"

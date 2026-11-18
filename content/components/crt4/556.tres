@@ -1,0 +1,95 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_mummy_birth.tres" id="1_j8k3h"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_b8y48"]
+
+[resource]
+script = ExtResource("2_b8y48")
+identifier = "556"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 553.0
+}, {
+"depth": 1.0,
+"frame": 5.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 554.0
+}, {
+"depth": 1.0,
+"frame": 10.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 555.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 553.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 554.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"ratio": "13107",
+"source_id": 554.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"ratio": "26214",
+"source_id": 554.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"ratio": "39322",
+"source_id": 554.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"ratio": "52429",
+"source_id": 554.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 555.0
+}],
+"source_frame": 10.0
+}],
+"sounds": [],
+"source": [{
+"frame": 10.0,
+"path": "res/scripts/DefineSprite_556/frame_10/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 10.0,
+"source_id": 556.0,
+"stop_source_frames": [10.0]
+}
+animations = Array[Resource]([ExtResource("1_j8k3h")])
+source = "Original AS/XML source 556; res://data/act06_crt4_rules.json.components.556"

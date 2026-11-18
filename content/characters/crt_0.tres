@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://content/actions/crt0/idle.tres" id="1_qrhxy"]
+[ext_resource type="Resource" path="res://content/actions/crt0/basic.tres" id="2_2x4v0"]
+[ext_resource type="Resource" path="res://content/actions/crt0/skill_s.tres" id="3_p5d1u"]
+[ext_resource type="Resource" path="res://content/actions/crt0/knockdown.tres" id="4_2x4v0"]
+[ext_resource type="PackedScene" path="res://scenes/actors/combatant.tscn" id="4_gbfo6"]
+[ext_resource type="Script" path="res://scripts/content/character_definition.gd" id="5_yolej"]
+
+[resource]
+script = ExtResource("5_yolej")
+actor_scene = ExtResource("4_gbfo6")
+actions = Array[Resource]([ExtResource("1_qrhxy"), ExtResource("2_2x4v0"), ExtResource("3_p5d1u"), ExtResource("4_2x4v0")])

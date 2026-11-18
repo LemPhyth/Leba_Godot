@@ -1,0 +1,132 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_xe135"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_skill_h.png" id="2_11rii"]
+
+[resource]
+script = ExtResource("1_xe135")
+identifier = "crt2_skill_h"
+texture = ExtResource("2_11rii")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [2.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [111.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [220.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [329.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [438.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [547.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [656.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [765.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [874.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [983.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [1092.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-42.45, -104.5, 128.0, 211.0],
+"pivot": [42.45, 104.5],
+"region": [1201.0, 2.0, 128.0, 211.0],
+"source_crop": [25.0, 45.0, 153.0, 256.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-53.45, -135.5, 140.0, 242.0],
+"pivot": [53.45, 135.5],
+"region": [1333.0, 2.0, 140.0, 242.0],
+"source_crop": [14.0, 14.0, 154.0, 256.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-53.45, -135.5, 140.0, 242.0],
+"pivot": [53.45, 135.5],
+"region": [1477.0, 2.0, 140.0, 242.0],
+"source_crop": [14.0, 14.0, 154.0, 256.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-53.45, -135.5, 140.0, 242.0],
+"pivot": [53.45, 135.5],
+"region": [1621.0, 2.0, 140.0, 242.0],
+"source_crop": [14.0, 14.0, 154.0, 256.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-45.45, -130.5, 128.0, 237.0],
+"pivot": [45.45, 130.5],
+"region": [1765.0, 2.0, 128.0, 237.0],
+"source_crop": [22.0, 19.0, 150.0, 256.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-37.45, -117.5, 100.0, 224.0],
+"pivot": [37.45, 117.5],
+"region": [1897.0, 2.0, 100.0, 224.0],
+"source_crop": [30.0, 32.0, 130.0, 256.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-37.45, -117.5, 100.0, 224.0],
+"pivot": [37.45, 117.5],
+"region": [2001.0, 2.0, 100.0, 224.0],
+"source_crop": [30.0, 32.0, 130.0, 256.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-37.45, -72.5, 100.0, 179.0],
+"pivot": [37.45, 72.5],
+"region": [2105.0, 2.0, 100.0, 179.0],
+"source_crop": [30.0, 77.0, 130.0, 256.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-42.45, -92.5, 105.0, 199.0],
+"pivot": [42.45, 92.5],
+"region": [2209.0, 2.0, 105.0, 199.0],
+"source_crop": [25.0, 57.0, 130.0, 256.0],
+"source_frame": 20.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_skill_h；派生图集；来源与pivot见catalog。"

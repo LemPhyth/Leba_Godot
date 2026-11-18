@@ -1,0 +1,132 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_8ws6y"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_e_right.png" id="2_6g3e3"]
+
+[resource]
+script = ExtResource("1_8ws6y")
+identifier = "crt2_e_right"
+texture = ExtResource("2_6g3e3")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [2.0, 2.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 137.0],
+"pivot": [31.8, 21.8],
+"region": [431.0, 2.0, 425.0, 137.0],
+"source_crop": [18.0, 10.0, 443.0, 147.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [860.0, 2.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [1289.0, 2.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [1718.0, 2.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 137.0],
+"pivot": [31.8, 21.8],
+"region": [2147.0, 2.0, 425.0, 137.0],
+"source_crop": [18.0, 10.0, 443.0, 147.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [2576.0, 2.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 137.0],
+"pivot": [31.8, 21.8],
+"region": [3005.0, 2.0, 425.0, 137.0],
+"source_crop": [18.0, 10.0, 443.0, 147.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [3434.0, 2.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [2.0, 272.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 266.0],
+"pivot": [31.8, 21.8],
+"region": [431.0, 272.0, 425.0, 266.0],
+"source_crop": [18.0, 10.0, 443.0, 276.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 137.0],
+"pivot": [31.8, 21.8],
+"region": [860.0, 272.0, 425.0, 137.0],
+"source_crop": [18.0, 10.0, 443.0, 147.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 137.0],
+"pivot": [31.8, 21.8],
+"region": [1289.0, 272.0, 425.0, 137.0],
+"source_crop": [18.0, 10.0, 443.0, 147.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-31.8, -21.8, 425.0, 137.0],
+"pivot": [31.8, 21.8],
+"region": [1718.0, 272.0, 425.0, 137.0],
+"source_crop": [18.0, 10.0, 443.0, 147.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-30.8, -21.8, 423.0, 136.0],
+"pivot": [30.8, 21.8],
+"region": [2147.0, 272.0, 423.0, 136.0],
+"source_crop": [19.0, 10.0, 442.0, 146.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-29.8, -20.8, 422.0, 135.0],
+"pivot": [29.8, 20.8],
+"region": [2574.0, 272.0, 422.0, 135.0],
+"source_crop": [20.0, 11.0, 442.0, 146.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-29.8, -20.8, 421.0, 135.0],
+"pivot": [29.8, 20.8],
+"region": [3000.0, 272.0, 421.0, 135.0],
+"source_crop": [20.0, 11.0, 441.0, 146.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-27.8, -19.8, 417.0, 132.0],
+"pivot": [27.8, 19.8],
+"region": [3425.0, 272.0, 417.0, 132.0],
+"source_crop": [22.0, 12.0, 439.0, 144.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [49.8, 31.8],
+"region": [3846.0, 272.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [49.8, 31.8],
+"region": [3851.0, 272.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 20.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_e_right；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,87 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://content/actions/crt3/idle.tres" id="1_x58ym"]
+[ext_resource type="Resource" path="res://content/actions/crt3/move.tres" id="2_vy550"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_a.tres" id="3_qjkpx"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_d.tres" id="4_fc1rt"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_d2.tres" id="5_y7l3h"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_d3.tres" id="6_ym0fe"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_d4.tres" id="7_t04xt"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_d5.tres" id="8_krfwg"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_f.tres" id="9_w4l18"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_g.tres" id="10_2ud3x"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_g_follow.tres" id="11_tk5o1"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_q.tres" id="12_wrojb"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_q_finish.tres" id="13_1yve0"]
+[ext_resource type="Resource" path="res://content/actions/crt3/backstep.tres" id="14_pml4p"]
+[ext_resource type="Resource" path="res://content/actions/crt3/hit.tres" id="15_vfldu"]
+[ext_resource type="Resource" path="res://content/actions/crt3/knockdown.tres" id="16_4cw0v"]
+[ext_resource type="Resource" path="res://content/actions/crt3/fallen.tres" id="17_i4o7e"]
+[ext_resource type="Resource" path="res://content/actions/crt3/dead.tres" id="18_p5ufw"]
+[ext_resource type="Resource" path="res://content/actions/crt3/jump.tres" id="19_je1jr"]
+[ext_resource type="Resource" path="res://content/actions/crt3/jump_z.tres" id="20_jevt8"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_v.tres" id="21_6p66a"]
+[ext_resource type="Resource" path="res://content/actions/crt3/basic.tres" id="22_h1qmu"]
+[ext_resource type="Resource" path="res://content/actions/crt3/basic2.tres" id="23_4eulj"]
+[ext_resource type="Resource" path="res://content/actions/crt3/basic3.tres" id="24_p0j1o"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_s.tres" id="25_2llli"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_s2.tres" id="26_ard85"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_s3.tres" id="27_wul41"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_h.tres" id="28_05d60"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_w.tres" id="29_qq5pw"]
+[ext_resource type="Resource" path="res://content/actions/crt3/skill_e.tres" id="30_ppk5x"]
+[ext_resource type="PackedScene" path="res://scenes/actors/crt3.tscn" id="31_1k1ti"]
+[ext_resource type="Resource" path="res://content/components/crt3/jump.tres" id="32_iuo8g"]
+[ext_resource type="Resource" path="res://content/components/crt3/backstep.tres" id="33_f4oyn"]
+[ext_resource type="Resource" path="res://content/components/crt3/d_chain.tres" id="34_kbpwt"]
+[ext_resource type="Resource" path="res://content/components/crt3/f.tres" id="35_e72ij"]
+[ext_resource type="Resource" path="res://content/components/crt3/q.tres" id="36_fxhf4"]
+[ext_resource type="Resource" path="res://content/components/crt3/grab.tres" id="37_fjxud"]
+[ext_resource type="Resource" path="res://content/components/crt3/combo.tres" id="38_o1fp0"]
+[ext_resource type="Resource" path="res://content/components/crt3/overdrive.tres" id="39_ykqmo"]
+[ext_resource type="Resource" path="res://content/components/crt3/awakening_default.tres" id="40_gjbka"]
+[ext_resource type="Resource" path="res://content/components/crt3/w_control.tres" id="41_llf7v"]
+[ext_resource type="Resource" path="res://content/components/crt3/visuals.tres" id="42_trhhe"]
+[ext_resource type="Script" path="res://scripts/content/character_definition.gd" id="43_vic76"]
+[ext_resource type="Resource" path="res://content/components/crt3/sword_wave.tres" id="43_vy550"]
+
+[resource]
+script = ExtResource("43_vic76")
+identifier = "crt_3"
+title = "角色编号3"
+source_crt = 3
+actor_scene = ExtResource("31_1k1ti")
+actions = Array[Resource]([ExtResource("1_x58ym"), ExtResource("2_vy550"), ExtResource("3_qjkpx"), ExtResource("4_fc1rt"), ExtResource("5_y7l3h"), ExtResource("6_ym0fe"), ExtResource("7_t04xt"), ExtResource("8_krfwg"), ExtResource("9_w4l18"), ExtResource("10_2ud3x"), ExtResource("11_tk5o1"), ExtResource("12_wrojb"), ExtResource("13_1yve0"), ExtResource("14_pml4p"), ExtResource("15_vfldu"), ExtResource("16_4cw0v"), ExtResource("17_i4o7e"), ExtResource("18_p5ufw"), ExtResource("19_je1jr"), ExtResource("20_jevt8"), ExtResource("21_6p66a"), ExtResource("22_h1qmu"), ExtResource("23_4eulj"), ExtResource("24_p0j1o"), ExtResource("25_2llli"), ExtResource("26_ard85"), ExtResource("27_wul41"), ExtResource("28_05d60"), ExtResource("29_qq5pw"), ExtResource("30_ppk5x")])
+components = Array[Resource]([ExtResource("32_iuo8g"), ExtResource("33_f4oyn"), ExtResource("34_kbpwt"), ExtResource("35_e72ij"), ExtResource("36_fxhf4"), ExtResource("37_fjxud"), ExtResource("38_o1fp0"), ExtResource("39_ykqmo"), ExtResource("40_gjbka"), ExtResource("41_llf7v"), ExtResource("42_trhhe"), ExtResource("43_vy550")])
+extra = {
+"death_settlement_frame": 25,
+"default_locked_slots": [4272, 4276, 4283, 4288],
+"hit_fx_animation": "player_hit_fx",
+"movement_parent_end": 104,
+"movement_parent_start": 102,
+"skill_slot_actions": {
+"a": "skill_a",
+"air_z": "jump_z",
+"d": "skill_d",
+"e": "skill_e",
+"f": "skill_f",
+"g": "skill_g",
+"h": "skill_h",
+"q": "skill_q",
+"s": "skill_s",
+"v": "skill_v",
+"w": "skill_w"
+},
+"source_profile": {
+"armor": 1.0,
+"bracelet": 0.0,
+"crt": 3.0,
+"extra_unlocks": 0.0,
+"necklace": 0.0,
+"ring": 0.0,
+"source": "res/scripts/DefineSprite_3841/frame_1/DoAction.as",
+"weapon": 0.0,
+"weaponmaster": 0.0
+}
+}
+source = "Original3841 defaults;6732 parent101..140,4391 page4,2728 page5; ACT05 evidence report"

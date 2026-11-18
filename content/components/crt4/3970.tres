@@ -1,0 +1,170 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_wnx68"]
+
+[resource]
+script = ExtResource("1_wnx68")
+identifier = "3970"
+parameters = {
+"births": [{
+"color_transform": {
+"alphaMultTerm": "223",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"frame": 1.0,
+"matrix": [0.00019836426, 0.3232422, -0.3232422, 0.00019836426, -0.05, -28.25],
+"name": "일",
+"source_id": 1149.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"frame": 136.0,
+"matrix": [0.00019836426, 0.3232422, -0.3232422, 0.00019836426, -0.05, -28.25],
+"name": "일",
+"source_id": 1149.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"damage_events": [{
+"damage": 23.0,
+"frame": 29.0,
+"fx_depth": "current_root_i_without_increment",
+"scope": "owning_enemy",
+"spawn_fx": 578.0
+}, {
+"damage": 23.0,
+"frame": 56.0,
+"fx_depth": "current_root_i_without_increment",
+"scope": "owning_enemy",
+"spawn_fx": 578.0
+}, {
+"damage": 23.0,
+"frame": 82.0,
+"fx_depth": "current_root_i_without_increment",
+"scope": "owning_enemy",
+"spawn_fx": 578.0
+}, {
+"damage": 23.0,
+"frame": 108.0,
+"fx_depth": "current_root_i_without_increment",
+"scope": "owning_enemy",
+"spawn_fx": 578.0
+}, {
+"damage": 23.0,
+"frame": 135.0,
+"fx_depth": "current_root_i_without_increment",
+"scope": "owning_enemy",
+"spawn_fx": 578.0
+}],
+"placement_tracks": [{
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "223",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"matrix": [0.00019836426, 0.3232422, -0.3232422, 0.00019836426, -0.05, -28.25],
+"name": "일",
+"source_id": 1149.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"matrix": [0.00019836426, 0.3232422, -0.3232422, 0.00019836426, -0.05, -28.25],
+"name": "일",
+"ratio": "135",
+"source_id": 1149.0
+}],
+"source_frame": 136.0
+}],
+"sounds": [],
+"source": [{
+"frame": 108.0,
+"path": "res/scripts/DefineSprite_3970/frame_108/DoAction.as",
+"sha256": "dc7d94233ce25c9cd058a7fb0e0ea35274ce9654127be9f815057ba765d3c2e4"
+}, {
+"frame": 135.0,
+"path": "res/scripts/DefineSprite_3970/frame_135/DoAction.as",
+"sha256": "dc7d94233ce25c9cd058a7fb0e0ea35274ce9654127be9f815057ba765d3c2e4"
+}, {
+"frame": 136.0,
+"path": "res/scripts/DefineSprite_3970/frame_136/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 136.0,
+"path": "res/scripts/DefineSprite_3970/frame_136/PlaceObject3_1149_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "a0b8f809bca53af48a78bbf4bbc262603c60f96c4c7807ff93f39f3a7f46f3af"
+}, {
+"frame": 29.0,
+"path": "res/scripts/DefineSprite_3970/frame_29/DoAction.as",
+"sha256": "dc7d94233ce25c9cd058a7fb0e0ea35274ce9654127be9f815057ba765d3c2e4"
+}, {
+"frame": 56.0,
+"path": "res/scripts/DefineSprite_3970/frame_56/DoAction.as",
+"sha256": "dc7d94233ce25c9cd058a7fb0e0ea35274ce9654127be9f815057ba765d3c2e4"
+}, {
+"frame": 82.0,
+"path": "res/scripts/DefineSprite_3970/frame_82/DoAction.as",
+"sha256": "dc7d94233ce25c9cd058a7fb0e0ea35274ce9654127be9f815057ba765d3c2e4"
+}],
+"source_frame_count": 136.0,
+"source_id": 3970.0,
+"stop_source_frames": [136.0]
+}
+source = "Original AS/XML source 3970; res://data/act06_crt4_rules.json.components.3970"

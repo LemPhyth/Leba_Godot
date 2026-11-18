@@ -1,0 +1,88 @@
+[gd_resource type="Resource" format=3 uid="uid://bxktwpx871jj2"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_a.tres" id="1_7ckbq"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="2_npmyg"]
+[ext_resource type="AudioStream" uid="uid://cwwa0twsm87ke" path="res://assets/audio/4844.mp3" id="2_rpjea"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_12vyt"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="3_rpjea"]
+
+[sub_resource type="Resource" id="Resource_n1ijg"]
+script = ExtResource("3_12vyt")
+frame = 4
+sound = "crt1_skill_a"
+audio_stream = ExtResource("2_rpjea")
+audio_offset = 0.00453514739229024
+parameters = {
+"envelope": [{
+"left": 24797.0,
+"right": 24797.0,
+"sample": 0.0
+}, {
+"left": 24207.0,
+"right": 24797.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 200.0,
+"sound_id": 4844.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "200",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 4851.0
+}
+source = "原StartSound：sprite4851/frame4/Sound4844；起播200 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_12vyt"]
+script = ExtResource("3_rpjea")
+from_frame = 5
+until_frame = 7
+kind = "crt1_lift"
+rectangles = Array[Rect2]([Rect2(-38.900097, -86.18533, 253.60019, 136.37067)])
+damage = 45.0
+gravity = -3.0
+parameters = {
+"calibration": "伤害字段仅本动作已知观察器贡献；公共marker分期另计。",
+"helper_id": 4684,
+"source_depth": -1,
+"source_frame": 5,
+"source_geometry": "act03_crt1_hit_windows",
+"source_id": 4851,
+"source_matrix_applied": true
+}
+
+[resource]
+script = ExtResource("2_npmyg")
+identifier = "skill_a"
+title = "skill_a"
+animation = ExtResource("1_7ckbq")
+animation_key = "crt1_skill_a"
+source_parent = 35
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+input_id = "skill_a"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "skill")
+cost = 2.0
+required_mp = 2.0
+cooldown_ticks = 65
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_n1ijg")])
+windows = Array[Resource]([SubResource("Resource_12vyt")])
+source = "res/scripts/DefineSprite_6732/frame_35 + DefineSprite_4851；父矩阵/选帧见asset_catalog.animations.crt1_skill_a"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+&"child_x_easing": {
+"divisor": 2.0,
+"initial": -3.15,
+"target": 10.0,
+"transfer_at": 0
+},
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41, 46],
+"source_id": 4851
+}

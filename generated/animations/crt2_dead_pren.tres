@@ -1,0 +1,162 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_bcnbq"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt2_dead_pren.png" id="2_20joy"]
+
+[resource]
+script = ExtResource("1_bcnbq")
+identifier = "crt2_dead_pren"
+texture = ExtResource("2_20joy")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-21.4, -63.95, 148.0, 140.0],
+"pivot": [21.4, 63.95],
+"region": [2.0, 2.0, 148.0, 140.0],
+"source_crop": [164.0, 27.0, 312.0, 167.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-43.4, -60.95, 148.0, 140.0],
+"pivot": [43.4, 60.95],
+"region": [154.0, 2.0, 148.0, 140.0],
+"source_crop": [142.0, 30.0, 290.0, 170.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-95.4, -50.95, 149.0, 137.0],
+"pivot": [95.4, 50.95],
+"region": [306.0, 2.0, 149.0, 137.0],
+"source_crop": [90.0, 40.0, 239.0, 177.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-143.4, -54.95, 140.0, 136.0],
+"pivot": [143.4, 54.95],
+"region": [459.0, 2.0, 140.0, 136.0],
+"source_crop": [42.0, 36.0, 182.0, 172.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-161.4, -74.95, 139.0, 147.0],
+"pivot": [161.4, 74.95],
+"region": [603.0, 2.0, 139.0, 147.0],
+"source_crop": [24.0, 16.0, 163.0, 163.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [746.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [964.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [1182.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [1400.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [1618.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [1836.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [2054.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [2272.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [2490.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [2708.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [2926.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [3144.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [3362.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [3580.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [3798.0, 2.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [2.0, 153.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [220.0, 153.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [438.0, 153.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 23.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [656.0, 153.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 24.0
+}, {
+"alpha_bounds": [-161.4, 10.05, 214.0, 66.0],
+"pivot": [161.4, -10.05],
+"region": [874.0, 153.0, 214.0, 66.0],
+"source_crop": [24.0, 101.0, 238.0, 167.0],
+"source_frame": 25.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt2_dead_pren；派生图集；来源与pivot见catalog。"

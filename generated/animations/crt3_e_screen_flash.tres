@@ -1,0 +1,30 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_yfba7"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_e_screen_flash.png" id="2_ydnno"]
+
+[resource]
+script = ExtResource("1_yfba7")
+identifier = "crt3_e_screen_flash"
+texture = ExtResource("2_ydnno")
+frames = Array[Dictionary]([{
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [778.45, 469.0],
+"region": [2.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-777.0, -469.0, 812.0, 488.0],
+"pivot": [777.45, 469.0],
+"region": [7.0, 2.0, 812.0, 488.0],
+"source_crop": [1.0, 0.0, 813.0, 488.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [-777.0, -469.0, 812.0, 488.0],
+"pivot": [777.45, 469.0],
+"region": [823.0, 2.0, 812.0, 488.0],
+"source_crop": [1.0, 0.0, 813.0, 488.0],
+"source_frame": 23.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt3_e_screen_flash；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_hit.tres" id="1_sypqx"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_0hbkb"]
+
+[resource]
+script = ExtResource("2_0hbkb")
+identifier = "hit"
+title = "hit"
+animation = ExtResource("1_sypqx")
+animation_key = "crt2_hit"
+source_parent = 74
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+allowed_states = PackedStringArray()
+hold_at = PackedInt32Array()
+source = "res/scripts/DefineSprite_5212/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_hit",
+"1": "crt2_hit_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "hurt",
+"hit_callback_sources": [],
+"normal_end_source_frame": 14,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 4.25, 20.0],
+"source_id": 5212.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

@@ -1,0 +1,295 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/1152.mp3" id="1_lsbe1"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_uurv1"]
+
+[resource]
+script = ExtResource("2_uurv1")
+identifier = "1326"
+parameters = {
+"world_semantics": {
+"birth_alpha_percent": 100.0,
+"birth_xscale_percent": "100*facing",
+"birth_yscale_percent": 100.0,
+"flight": {
+"contact_before_after_movement": "Different original ClipActions; host execution phase not proved by this static table",
+"contact_bodies": ["normal", "frozen", "super"],
+"contact_targets": [1.0, 2.0, 3.0, 4.0, 5.0],
+"dx_per_tick_facing": 20.0,
+"dy_per_tick": 0.0,
+"ground_contact": false,
+"helper": {
+"alpha_mult": 0.0,
+"depth": 3.0,
+"local_aabb": [24.399938399999996, -17.34981655, 40.0001232, 32.9996331],
+"matrix": [1.6666718, 0.0, 0.0, 1.5714111, 44.4, -0.85],
+"shape_id": 1150.0,
+"shape_rect": [-12.0, -10.5, 24.0, 21.0],
+"source_id": 1151.0
+},
+"initial_t": 0.0,
+"movement_order": ["t++", "x += 20*xscale/100", "if t>26 outer.gotoStop2"],
+"on_contact": "outer.gotoStop2",
+"timeout_callbacks": 27.0,
+"visible_alpha_mult": 256.0,
+"visible_loop_frames": 9.0,
+"visible_matrix": [0.625, 0.0, 0.0, 0.625, -20.2, -1.0],
+"visible_source": 1149.0
+},
+"impact": {
+"alpha_mult": 256.0,
+"clock": "independent child, outer stays2",
+"color_filter_preserved": true,
+"entry_frame": 1.0,
+"flight_removed": true,
+"helper_removed": true,
+"hit_program": {
+"frame_groups": [{
+"frames": [1.0, 2.0],
+"global_marker_observers": [{
+"damage": 21.0,
+"independent_if": true,
+"marker_path": "enemy.공중.타격",
+"marker_source_frame": 2.0,
+"requires_same_instance_contact": false,
+"targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}, {
+"damage": 21.0,
+"independent_if": true,
+"marker_path": "enemy.속.얼음.속",
+"marker_source_frame": 2.0,
+"requires_same_instance_contact": false,
+"targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}],
+"helper439_depth15": {
+"clone_status_next_frame": 3971.0,
+"frozen_inner_seek": 2.0,
+"gacc_delta": 0.1,
+"gravity": -5.0,
+"helper_seek_on_frozen_super": 2.0,
+"normal_air_marker_seek": 2.0,
+"super_marker_seek": 2.0
+},
+"independent_fx_helper439_depth17": "Contact normal/frozen/super spawns578 using local i0 without increment; helper seeks2"
+}, {
+"frames": [5.0, 6.0],
+"global_marker_observers": [{
+"damage": 3.0,
+"independent_if": true,
+"marker_path": "enemy.공중.타격",
+"marker_source_frame": 2.0,
+"requires_same_instance_contact": false,
+"targets": [1.0, 2.0, 3.0, 4.0, 5.0]
+}],
+"helper224_depth15": {
+"frozen_callback_order": ["records6..10: frozen inner gotoPlay2; helper gotoStop2", "records16..20: if frozen body still overlaps, enemy inner gotoPlay2"],
+"frozen_inner_seek": 2.0,
+"frozen_to_normal_source_frame": 2.0,
+"gacc_delta": 0.1,
+"gravity": -2.0,
+"helper_seek_on_frozen_super": 2.0,
+"normal_air_marker_seek": 2.0,
+"super_marker_seek": 2.0
+}
+}, {
+"empty": true,
+"frames": [8.0, 8.0],
+"stop": true
+}],
+"observer_scope": "Each1153 instance own set, allfive targets; no fixed total damage",
+"rectangles": "rules.hit_windows source1153 are1153-local; apply impact child matrix THEN rootflight transform once",
+"source_id": 1153.0
+},
+"late_flags_do_not_cancel": "No kalla/death/targetHP guards in flight scripts; Godot teardown is a separate lifecycle adaptation",
+"matrix": [1.0, 0.0, 0.0, 1.0, 50.55, -1.1],
+"no_source_self_remove": true,
+"source_id": 1153.0,
+"stop_frame": 8.0
+},
+"outer_stop_pages": [1.0, 2.0],
+"owner": "root world object",
+"source_id": 1326.0,
+"spawn_input": {
+"action_source": 6527.0,
+"observed_child_source_frame": 3.0,
+"parent_source": 166.0,
+"xy": "player.x,player.y"
+}
+},
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [0.625, 0.0, 0.0, 0.625, -20.2, -1.0],
+"name": null,
+"source_id": 1149.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"frame": 1.0,
+"matrix": [1.6666718, 0.0, 0.0, 1.5714111, 44.4, -0.85],
+"name": null,
+"source_id": 1151.0
+}, {
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"frame": 2.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 50.55, -1.1],
+"name": null,
+"source_id": 1153.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [0.625, 0.0, 0.0, 0.625, -20.2, -1.0],
+"source_id": 1149.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 3.0,
+"matrix": [1.6666718, 0.0, 0.0, 1.5714111, 44.4, -0.85],
+"source_id": 1151.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"children": [{
+"name": "matrix"
+}],
+"id": "6",
+"kind": "COLORMATRIXFILTER"
+}],
+"matrix": [1.0, 0.0, 0.0, 1.0, 50.55, -1.1],
+"ratio": "1",
+"source_id": 1153.0
+}],
+"source_frame": 2.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("1_lsbe1"),
+"envelope": [],
+"frame": 1,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_1326_sound_1",
+"sound_id": 1152.0,
+"source_id": 1326,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1326.0
+}],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "e8f695cc92df96afa11d251971e37d42416996f541d8129df847bdf7c40ee4b4"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "d2bc1a755f1cb7bdf15e185d214b53c8b4af843aa3a4d620db2514481de36538"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "9430fe2f2016ef2852f7bc84eb8d621efc50c0398c3ec7f18522a8e5ba9f0451"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "41005701278ca46de26a7b32022e9d2e987c0118af37f66b39abcd769734a1a6"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "14679b4cca7dd7af135d462ea7f8010c2f3408d8f55feafb4099f0236708a134"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "60171ea2f65431396ea5c652d7bcc23b66c8d480cc1eda38171f347a24273b4a"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "093d84716c5ff1877938f90c650928cedc3cc052479a6477625ed97439dab7dc"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "fde09b117032b8adf5c2d43cda5d85951a17befdd5f4f9a4babe5e61fd120dfc"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "b67b46d6e5bb84916475e5a4409bdf686afb9917572abb2bb2d9da66ac8393a0"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "71daac43ce0727934eaada6164b425317a9c713699d81ba0e99af5f922f930bb"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "f7b197b2decf2ba6d8cd3d415190026f819251a0d1a16e22742ea1e04c24e018"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "ab5827f5122ff2303e7caae62702b3ef18a2ba6d7a78a10f85c9d635c7b0a8af"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "c834d97b008c7c6cf46d37640e2c268822974b3edad82d09b36be07d2c25226c"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "35bf1b894d5fd04eb797f01d243cf8c109eaff6f59da24282b24bd83a16a05b2"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject2_1151_3/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "97c55794788a723d5dbde3626aac3105de8897e09bedb8ee4895274200ef3e54"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject3_1149_1/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "6913dc7724e4ea1861aa2f6970fb61a89fd45132a4fa32cbd471861b931baa61"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_1/PlaceObject3_1149_1/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "9e2aadd9ae58f4b092bae48fad51bec576e3e1e5705bca77b21dfa7c73fd6a9a"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_1326_분신1/frame_2/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 2.0,
+"source_id": 1326.0,
+"stop_source_frames": [1.0, 2.0]
+}
+source = "Original AS/XML source 1326; res://data/act06_crt4_rules.json.components.1326"

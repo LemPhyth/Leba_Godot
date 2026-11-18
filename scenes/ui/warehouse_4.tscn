@@ -1,0 +1,1333 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_r5k5l"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_crt2_weapons_panel.png" id="2_jwv7m"]
+[ext_resource type="Script" path="res://scripts/ui/source_button.gd" id="3_0l4iw"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_close_up.png" id="4_mouqj"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_close_over.png" id="5_okyeb"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_close_down.png" id="6_6kjqb"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_weapons_up.png" id="7_t01mx"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_weapons_over.png" id="8_j7cs4"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_weapons_down.png" id="9_33u6i"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_crt2_rings_up.png" id="10_imf1f"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_crt2_rings_over.png" id="11_bmuxb"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_crt2_rings_down.png" id="12_ascoe"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_warehouse_crt1_rings_up.png" id="13_0jjw1"]
+[ext_resource type="FontFile" path="res://assets/fonts/inventory.ttf" id="14_tt1ak"]
+
+[node name="Warehouse4" type="Control" unique_id=2089430266]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+theme = ExtResource("1_r5k5l")
+
+[node name="WarehouseRoot" type="Node2D" parent="." unique_id=138423948]
+position = Vector2(202.4, 45.3)
+metadata/source_depth = 9999
+
+[node name="InventoryRoot" type="Node2D" parent="WarehouseRoot" unique_id=1497678577]
+position = Vector2(80.3, 154.5)
+metadata/source_depth = 0
+metadata/panel_root = true
+
+[node name="source_warehouse_crt2_weapons_panel" type="Sprite2D" parent="WarehouseRoot/InventoryRoot" unique_id=81610920]
+position = Vector2(-160.95, -196.15)
+texture = ExtResource("2_jwv7m")
+centered = false
+metadata/panel_sprite = true
+
+[node name="PanelMouseSurface" type="Control" parent="WarehouseRoot/InventoryRoot" unique_id=349648406]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -160.95
+offset_top = -196.15
+offset_right = 153.05
+offset_bottom = 166.85
+tooltip_text = "当前仅接入武器页浏览和HP +10戒指；其他装备分类、兑换及翻页尚未接入。"
+
+[node name="warehouse_closeRegistration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=4068513]
+position = Vector2(140.65, -184)
+metadata/source_depth = 5
+
+[node name="warehouse_close" type="BaseButton" parent="WarehouseRoot/InventoryRoot/warehouse_closeRegistration" unique_id=984283453]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -11.0
+offset_top = -11.0
+offset_right = 24.297855
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "关闭仓库"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+normal_texture = ExtResource("4_mouqj")
+hover_texture = ExtResource("5_okyeb")
+pressed_texture = ExtResource("6_6kjqb")
+normal_pivot = Vector2(10.5, 10.5)
+hover_pivot = Vector2(10.5, 10.5)
+pressed_pivot = Vector2(10.5, 10.5)
+metadata/button_key = "warehouse_close"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/warehouse_closeRegistration/warehouse_close" unique_id=1645611820]
+position = Vector2(0.5, 0.5)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/warehouse_closeRegistration/warehouse_close/ArtworkLayout" unique_id=1830803459]
+texture = ExtResource("4_mouqj")
+centered = false
+
+[node name="warehouse_weaponsRegistration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1631235927]
+position = Vector2(-115.4, -150.8)
+metadata/source_depth = 39
+
+[node name="warehouse_weapons" type="BaseButton" parent="WarehouseRoot/InventoryRoot/warehouse_weaponsRegistration" unique_id=1250390722]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -42.4
+offset_top = -15.2
+offset_right = 38.1
+offset_bottom = 11.3
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "武器"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+normal_texture = ExtResource("7_t01mx")
+hover_texture = ExtResource("8_j7cs4")
+pressed_texture = ExtResource("9_33u6i")
+normal_pivot = Vector2(24.9, 7.2)
+hover_pivot = Vector2(24.9, 7.2)
+pressed_pivot = Vector2(24.9, 7.2)
+metadata/button_key = "warehouse_weapons"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/warehouse_weaponsRegistration/warehouse_weapons" unique_id=45858897]
+position = Vector2(17.500002, 8)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/warehouse_weaponsRegistration/warehouse_weapons/ArtworkLayout" unique_id=1080093050]
+texture = ExtResource("7_t01mx")
+centered = false
+
+[node name="warehouse_crt1_ringsRegistration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=127890238]
+position = Vector2(-103.25, -10.8)
+metadata/source_depth = 52
+
+[node name="warehouse_crt2_rings" type="BaseButton" parent="WarehouseRoot/InventoryRoot/warehouse_crt1_ringsRegistration" unique_id=1832289488]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -56.55
+offset_top = -15.2
+offset_right = 23.95
+offset_bottom = 9.3
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "戒指"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+normal_texture = ExtResource("10_imf1f")
+hover_texture = ExtResource("11_bmuxb")
+pressed_texture = ExtResource("12_ascoe")
+normal_pivot = Vector2(11.75, 7.2)
+hover_pivot = Vector2(11.75, 7.2)
+pressed_pivot = Vector2(11.75, 7.2)
+metadata/button_key = "warehouse_crt2_rings"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/warehouse_crt1_ringsRegistration/warehouse_crt2_rings" unique_id=1846617142]
+position = Vector2(44.8, 8)
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/warehouse_crt1_ringsRegistration/warehouse_crt2_rings/ArtworkLayout" unique_id=1774074499]
+texture = ExtResource("13_0jjw1")
+centered = false
+
+[node name="Field2656_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1470665698]
+position = Vector2(89.1, 144.15)
+metadata/source_depth = 158
+
+[node name="Field2656_0" type="Label" parent="WarehouseRoot/InventoryRoot/Field2656_0Registration" unique_id=830663054]
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 53.5
+offset_bottom = 21.0
+mouse_filter = 1
+theme = ExtResource("1_r5k5l")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("14_tt1ak")
+theme_override_font_sizes/font_size = 12
+text = "0"
+horizontal_alignment = 2
+metadata/storage_field = "gold"
+
+[node name="Field2657_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=556015894]
+position = Vector2(-123.55, 144.4)
+metadata/source_depth = 254
+
+[node name="Field2657_0" type="Label" parent="WarehouseRoot/InventoryRoot/Field2657_0Registration" unique_id=420766811]
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 64.05
+offset_bottom = 24.0
+mouse_filter = 1
+theme = ExtResource("1_r5k5l")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("14_tt1ak")
+theme_override_font_sizes/font_size = 15
+text = "200"
+metadata/storage_field = "clear_cubes"
+
+[node name="Field2658_0Registration" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=2102471964]
+position = Vector2(-40.3, 144.5)
+metadata/source_depth = 256
+
+[node name="Field2658_0" type="Label" parent="WarehouseRoot/InventoryRoot/Field2658_0Registration" unique_id=1914578513]
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 30.95
+offset_bottom = 21.0
+tooltip_text = "装备材料尚未接入，当前显示默认0。"
+mouse_filter = 0
+theme = ExtResource("1_r5k5l")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("14_tt1ak")
+theme_override_font_sizes/font_size = 15
+text = "0"
+metadata/storage_field = "pama_stones"
+
+[node name="Unsupported0" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1303463898]
+position = Vector2(136.6264, 39.3)
+scale = Vector2(1.0006104, 1)
+metadata/source_depth = 3
+
+[node name="unsupported_0" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported0" unique_id=983124581]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_0"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported0/unsupported_0" unique_id=1454939844]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported0/unsupported_0/ArtworkLayout" unique_id=1754859416]
+visible = false
+centered = false
+
+[node name="Unsupported1" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1195881440]
+position = Vector2(137.55, 102.05)
+metadata/source_depth = 3
+
+[node name="unsupported_1" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported1" unique_id=702672731]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_1"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported1/unsupported_1" unique_id=553116916]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported1/unsupported_1/ArtworkLayout" unique_id=118713304]
+visible = false
+centered = false
+
+[node name="Unsupported2" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1802128212]
+position = Vector2(-23.195381, 39.95)
+scale = Vector2(1.0001068, 1)
+metadata/source_depth = 3
+
+[node name="unsupported_2" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported2" unique_id=518326293]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_2"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported2/unsupported_2" unique_id=1701126243]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported2/unsupported_2/ArtworkLayout" unique_id=397670064]
+visible = false
+centered = false
+
+[node name="Unsupported3" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1181787976]
+position = Vector2(-23.1236, 104.6)
+scale = Vector2(1.0006104, 1)
+metadata/source_depth = 3
+
+[node name="unsupported_3" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported3" unique_id=1693271894]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -13.55
+offset_top = -24.95
+offset_right = 22.900002
+offset_bottom = 25.55
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_3"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported3/unsupported_3" unique_id=818717]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported3/unsupported_3/ArtworkLayout" unique_id=860458985]
+visible = false
+centered = false
+
+[node name="Unsupported4" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1706759770]
+position = Vector2(-62.3, 144.7)
+metadata/source_depth = 257
+
+[node name="unsupported_4" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported4" unique_id=1278344008]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -18.25
+offset_top = -17.35
+offset_right = 18.75
+offset_bottom = 19.65
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_4"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported4/unsupported_4" unique_id=1153024123]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported4/unsupported_4/ArtworkLayout" unique_id=1741919317]
+visible = false
+centered = false
+
+[node name="Unsupported5" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1556605188]
+position = Vector2(-145.7, 148.4)
+metadata/source_depth = 264
+
+[node name="unsupported_5" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported5" unique_id=954678362]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -15.05
+offset_top = -15.3
+offset_right = 14.95
+offset_bottom = 14.7
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_5"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported5/unsupported_5" unique_id=977257538]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported5/unsupported_5/ArtworkLayout" unique_id=877378802]
+visible = false
+centered = false
+
+[node name="Unsupported6" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1685049206]
+position = Vector2(-120.85, -102.8)
+metadata/source_depth = 43
+
+[node name="unsupported_6" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported6" unique_id=1845366455]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -39.95
+offset_top = -16.2
+offset_right = 42.55
+offset_bottom = 12.299999
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_6"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported6/unsupported_6" unique_id=291953702]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported6/unsupported_6/ArtworkLayout" unique_id=1567294478]
+visible = false
+centered = false
+
+[node name="Unsupported7" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=1387139365]
+position = Vector2(-108.65, -56.8)
+metadata/source_depth = 46
+
+[node name="unsupported_7" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported7" unique_id=224708458]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -51.15
+offset_top = -14.2
+offset_right = 30.349998
+offset_bottom = 13.3
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_7"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported7/unsupported_7" unique_id=1470605933]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported7/unsupported_7/ArtworkLayout" unique_id=213347793]
+visible = false
+centered = false
+
+[node name="Unsupported8" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=211840619]
+position = Vector2(-103.25, -33.35)
+metadata/source_depth = 49
+
+[node name="unsupported_8" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported8" unique_id=570290005]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -56.55
+offset_top = -14.65
+offset_right = 24.95
+offset_bottom = 10.85
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_8"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported8/unsupported_8" unique_id=1838509253]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported8/unsupported_8/ArtworkLayout" unique_id=1346344958]
+visible = false
+centered = false
+
+[node name="Unsupported9" type="Node2D" parent="WarehouseRoot/InventoryRoot" unique_id=708765239]
+position = Vector2(-115.6, -79.8)
+scale = Vector2(1.0009766, 1)
+metadata/source_depth = 55
+
+[node name="unsupported_9" type="BaseButton" parent="WarehouseRoot/InventoryRoot/Unsupported9" unique_id=1879010602]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -23.05
+offset_top = -7.25
+offset_right = 34.25
+offset_bottom = 6.1499996
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "此分类、兑换或翻页尚未接入。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_0l4iw")
+metadata/button_key = "unsupported_9"
+
+[node name="ArtworkLayout" type="Node2D" parent="WarehouseRoot/InventoryRoot/Unsupported9/unsupported_9" unique_id=80662023]
+
+[node name="Artwork" type="Sprite2D" parent="WarehouseRoot/InventoryRoot/Unsupported9/unsupported_9/ArtworkLayout" unique_id=1432354000]
+visible = false
+centered = false

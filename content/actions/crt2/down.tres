@@ -1,0 +1,87 @@
+[gd_resource type="Resource" format=3 uid="uid://ds156d4gfbfmm"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_down.tres" id="1_oxl57"]
+[ext_resource type="AudioStream" uid="uid://d1n4c6exfyokb" path="res://assets/audio/4624.mp3" id="2_4bcdi"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_8xsbt"]
+[ext_resource type="AudioStream" uid="uid://cgnphbfd7ddms" path="res://assets/audio/4616.mp3" id="4_j4yy0"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="5_hh733"]
+
+[sub_resource type="Resource" id="Resource_1yhf5"]
+script = ExtResource("3_8xsbt")
+frame = 2
+sound = "crt2_down"
+audio_stream = ExtResource("2_4bcdi")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4624.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5211.0
+}
+
+[sub_resource type="Resource" id="Resource_uhsto"]
+script = ExtResource("3_8xsbt")
+frame = 11
+sound = "crt2_down_sound_2"
+audio_stream = ExtResource("4_j4yy0")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5211.0
+}
+
+[resource]
+script = ExtResource("5_hh733")
+identifier = "down"
+title = "down"
+animation = ExtResource("1_oxl57")
+animation_key = "crt2_down"
+source_parent = 73
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+input_id = "down"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_1yhf5"), SubResource("Resource_uhsto")])
+source = "res/scripts/DefineSprite_5211/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_down",
+"1": "crt2_down_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "action",
+"end_x_transfer": false,
+"hit_callback_sources": [],
+"motion": [{
+"frames": [1.0, 11.0],
+"multiply_facing": true,
+"root_delta_x": -5.0
+}],
+"normal_end_source_frame": 12,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.0, 20.0],
+"physical_key": "Down",
+"source_allowed_parent_frames": [64.0, 65.0, 66.0, 67.0, 69.0, 70.0, 71.0, 84.0, 85.0, 86.0, 87.0],
+"source_id": 5211.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

@@ -1,0 +1,60 @@
+[gd_resource type="Resource" format=3 uid="uid://dpxaftdmsjcmc"]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_special.tres" id="1_xolme"]
+[ext_resource type="AudioStream" uid="uid://c7wv5i5ukbxsq" path="res://assets/audio/6089.wav" id="2_rvggh"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_op1lu"]
+[ext_resource type="AudioStream" uid="uid://b7dnplpsjlrwk" path="res://assets/audio/6096.mp3" id="4_h5g5v"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="5_ogcpt"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="6_iumwk"]
+
+[sub_resource type="Resource" id="Resource_t3owk"]
+script = ExtResource("3_op1lu")
+frame = 121
+sound = "enemy7437_special_start"
+audio_stream = ExtResource("2_rvggh")
+parameters = {
+"source_sound_id": 6089
+}
+
+[sub_resource type="Resource" id="Resource_vpl6r"]
+script = ExtResource("3_op1lu")
+frame = 131
+sound = "enemy7437_special_hit"
+audio_stream = ExtResource("4_h5g5v")
+parameters = {
+"source_sound_id": 6096
+}
+
+[sub_resource type="Resource" id="Resource_tehwx"]
+script = ExtResource("6_iumwk")
+from_frame = 131
+until_frame = 137
+kind = "enemy_knockdown"
+rectangles = Array[Rect2]([Rect2(-229.99153, -93.19753, 451.18304, 107.1453)])
+damage = 5.0
+knockback = 3.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 131..137; root9 observer 34/38",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[resource]
+script = ExtResource("5_ogcpt")
+identifier = "special"
+title = "special"
+animation = ExtResource("1_xolme")
+animation_key = "enemy7437_special"
+source_parent = 121
+sequence = PackedInt32Array(121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140)
+input_id = "special"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold_at = PackedInt32Array()
+next_action = "recover"
+events = Array[Resource]([SubResource("Resource_t3owk"), SubResource("Resource_vpl6r")])
+windows = Array[Resource]([SubResource("Resource_tehwx")])
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."
+extra = {
+"parent_from_source_frame": true
+}

@@ -1,0 +1,94 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_skill_t.tres" id="1_tpntv"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_uvhdy"]
+[ext_resource type="AudioStream" path="res://assets/audio/6512.mp3" id="3_iqbgb"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_p3n3c"]
+
+[sub_resource type="Resource" id="Resource_rb5i6"]
+script = ExtResource("2_uvhdy")
+frame = 7
+kind = "crt4_component_seek"
+parameters = {
+"source_frame": 2.0,
+"source_id": 6384.0
+}
+
+[sub_resource type="Resource" id="Resource_g3eok"]
+script = ExtResource("2_uvhdy")
+frame = 7
+sound = "crt4_source_6513_sound_1"
+audio_stream = ExtResource("3_iqbgb")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 6512.0,
+"source_id": 6513,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6513.0
+}
+
+[resource]
+script = ExtResource("4_p3n3c")
+identifier = "skill_t"
+title = "skill_t"
+animation = ExtResource("1_tpntv")
+animation_key = "crt4_skill_t"
+source_parent = 164
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
+input_id = "skill_t"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "kalla_basic")
+cost = 8.0
+required_mp = 8.0
+cubes = 2
+cooldown_ticks = 1384
+cooldown_key = "skill_t"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_rb5i6"), SubResource("Resource_g3eok")])
+source = "Original6732 parent164/source6513; res://data/act06_crt4_rules.json.actions.skill_t; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [{
+"event": "entry",
+"requires_flag": "kalla",
+"value": 0.0
+}],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.3, 18.75],
+"ready_source_frame": 1.0,
+"slot_source_id": 4334.0,
+"source_allowed_parent_frames": [146.0, 150.0, 151.0, 152.0, 166.0],
+"source_entry": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4334/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "b33db35b5a67841e1ff87d2500babbefbc49e473972be4f0df34cfd7752bbb70"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4334/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown)_2.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4334/frame_1/PlaceObject2_4051_5/CLIPACTIONRECORD onClipEvent(keyDown)_3.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}],
+"source_id": 6513.0,
+&"source_references": [{
+"frame": 18.0,
+"path": "res/scripts/DefineSprite_6513/frame_18/DoAction.as",
+"sha256": "9f28fd4d051c78949aa3433e32507c07d46ff819c6ceb333a14e14a1060b03be"
+}, {
+"frame": 7.0,
+"path": "res/scripts/DefineSprite_6513/frame_7/DoAction.as",
+"sha256": "327bcc531b26fd2b7f58b507c6bffae0636eac0c4d04726f4352106e15ca301a"
+}],
+"source_selected": true
+}

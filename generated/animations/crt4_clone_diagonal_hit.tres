@@ -1,0 +1,60 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_ykvmx"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_clone_diagonal_hit.png" id="2_yobrf"]
+
+[resource]
+script = ExtResource("1_ykvmx")
+identifier = "crt4_clone_diagonal_hit"
+texture = ExtResource("2_yobrf")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-42.25, -39.5, 80.0, 78.0],
+"pivot": [42.25, 39.5],
+"region": [2.0, 2.0, 80.0, 78.0],
+"source_crop": [76.0, 79.0, 156.0, 157.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-43.25, -46.5, 86.0, 95.0],
+"pivot": [43.25, 46.5],
+"region": [86.0, 2.0, 86.0, 95.0],
+"source_crop": [75.0, 72.0, 161.0, 167.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-52.25, -47.5, 101.0, 93.0],
+"pivot": [52.25, 47.5],
+"region": [176.0, 2.0, 101.0, 93.0],
+"source_crop": [66.0, 71.0, 167.0, 164.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-56.25, -48.5, 109.0, 98.0],
+"pivot": [56.25, 48.5],
+"region": [281.0, 2.0, 109.0, 98.0],
+"source_crop": [62.0, 70.0, 171.0, 168.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-69.25, -59.5, 134.0, 116.0],
+"pivot": [69.25, 59.5],
+"region": [394.0, 2.0, 134.0, 116.0],
+"source_crop": [49.0, 59.0, 183.0, 175.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-57.25, -44.5, 106.0, 98.0],
+"pivot": [57.25, 44.5],
+"region": [532.0, 2.0, 106.0, 98.0],
+"source_crop": [61.0, 74.0, 167.0, 172.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-57.25, -47.5, 111.0, 106.0],
+"pivot": [57.25, 47.5],
+"region": [642.0, 2.0, 111.0, 106.0],
+"source_crop": [61.0, 71.0, 172.0, 177.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [0.0, 0.0, 0.0, 0.0],
+"pivot": [118.25, 118.5],
+"region": [757.0, 2.0, 1.0, 1.0],
+"source_crop": [0.0, 0.0, 1.0, 1.0],
+"source_frame": 8.0
+}])
+baked_placement_matrix = PackedFloat64Array(0.800079345703, 0.42716979980499997, -0.42716979980499997, 0.800079345703, 0, 0)
+source = "asset_catalog.animations.crt4_clone_diagonal_hit；派生图集；来源与pivot见catalog。"

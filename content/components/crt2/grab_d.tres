@@ -1,0 +1,513 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_55kgo"]
+
+[resource]
+script = ExtResource("1_55kgo")
+identifier = "grab_d"
+parameters = {
+"anchor_formula": {
+"actor_scale_applied": false,
+"x": "player.root_x + facing*(action.local_x+anchor.local_x)",
+"y": "player.root_y + action.local_y+anchor.local_y"
+},
+"anchor_rules": [{
+"gravity_acceleration_set": 0.0,
+"gravity_set": 0.0,
+"helper": 5260.0
+}, {
+"gravity_acceleration_add": 0.1,
+"gravity_add": -1.1,
+"helper": 414.0
+}],
+"anchor_tracks": {
+"414_d30": {
+"16": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 30.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 17.6, 0.6],
+"name": null,
+"source_id": 414.0
+}]
+},
+"5260_d1": {
+"19": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [0.34542847, 0.0, 0.0, 0.49386597, 16.15, 5.4],
+"name": null,
+"source_id": 5260.0
+}],
+"20": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [0.34542847, 0.0, 0.0, 0.49386597, 16.15, 5.4],
+"name": null,
+"source_id": 5260.0
+}],
+"21": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [0.34542847, 0.0, 0.0, 0.49386597, 16.15, 5.4],
+"name": null,
+"source_id": 5260.0
+}]
+},
+"5260_d20": {
+"10": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"11": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"12": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"13": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"14": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"16": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.34542847, 0.0, 0.0, 0.49386597, 16.15, 5.4],
+"name": null,
+"source_id": 5260.0
+}],
+"17": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.34542847, 0.0, 0.0, 0.49386597, 16.15, 5.4],
+"name": null,
+"source_id": 5260.0
+}],
+"18": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.34542847, 0.0, 0.0, 0.49386597, 16.15, 5.4],
+"name": null,
+"source_id": 5260.0
+}],
+"4": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"5": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"6": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"7": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"8": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"9": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}]
+}
+},
+"blast_air_push": 20.0,
+"blast_gravity": -5.0,
+"blast_marker_bonus_callbacks": [{
+"active": [28.0, 30.0],
+"bonus": 50.0,
+"helper": 5291.0
+}, {
+"active": [28.0, 35.0],
+"bonus": 50.0,
+"helper": 524.0
+}],
+"blast_source_frame": 28.0,
+"blood": {
+"end_frame": 40.0,
+"initial_frame": 1.0,
+"initial_stopped": true,
+"notes": "The source28 _21..25 callbacks test blood-status helper overlap; they do NOT test air marker2.",
+"overlap_goto_play": 21.0,
+"overlap_helper_id": 5291.0,
+"overlap_target": "enemy.해골.피도우미",
+"presence": [16.0, 39.0],
+"seek_observer_source_frame": 28.0,
+"source_id": 5289.0,
+"track": {
+"16": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"31": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"32": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"33": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"34": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"35": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"36": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"37": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"38": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}],
+"39": [{
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.8724823, 0.0, 0.0, 2.0635834, 36.9, -20.75],
+"name": "피터짐",
+"source_id": 5289.0
+}]
+}
+},
+"body_hit_hold_frame": 8.0,
+"contact_frames": [4.0, 14.0],
+"contact_helper": 5260.0,
+"contact_track": {
+"10": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"11": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"12": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"13": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"14": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"4": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"5": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"6": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"7": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"8": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}],
+"9": [{
+"alpha_mult": 0.0,
+"depth": 20.0,
+"matrix": [0.90501404, 0.0, 0.0, 1.4417725, 50.15, -19.15],
+"name": null,
+"source_id": 5260.0
+}]
+},
+"end_frame": 40.0,
+"failure_frame": 15.0,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.0, 20.0],
+"release_frame": 34.0,
+"source": ["res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5313/frame_4/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5313/frame_16/PlaceObject2_414_30/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5313/frame_16/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5313/frame_16/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5313/frame_16/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5313/frame_16/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5313/frame_16/PlaceObject2_5260_20/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5313/frame_19/PlaceObject2_5260_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5313/frame_19/PlaceObject2_5260_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5313/frame_19/PlaceObject2_5260_1/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5313/frame_19/PlaceObject2_5260_1/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5313/frame_19/PlaceObject2_5260_1/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5313/frame_28/DoAction.as", "res/scripts/DefineSprite_5313/frame_28/DoAction_2.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_26.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_27.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_28.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_29.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_30.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_524_32/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5313/frame_28/PlaceObject2_5291_30/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5313/frame_34/DoAction.as"],
+"source_id": 5313.0,
+"source_parent": 80.0,
+"success_frame": 16.0,
+"targets": ["normal", "super_armor"]
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

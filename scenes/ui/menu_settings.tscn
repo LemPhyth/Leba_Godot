@@ -1,0 +1,1103 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_ybd0s"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_settings_panel.png" id="2_25nk7"]
+[ext_resource type="Script" path="res://scripts/ui/source_button.gd" id="3_hw1ry"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_close_up.png" id="4_c4xmj"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_close_over.png" id="5_etnj5"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_close_down.png" id="6_avggo"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_high_up.png" id="7_wdpag"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_high_over.png" id="8_bfysn"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_high_down.png" id="9_t743x"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_medium_up.png" id="10_tgy3p"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_medium_over.png" id="11_fiose"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_medium_down.png" id="12_rsmgy"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_low_up.png" id="13_tqwu0"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_low_over.png" id="14_ix66s"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_quality_low_down.png" id="15_ya1ts"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_volume_100.png" id="16_aofuc"]
+[ext_resource type="Texture2D" path="res://assets/ui/source_checkbox_off.png" id="17_jkmo4"]
+
+[node name="MenuSettings" type="Control" unique_id=1951272930]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+theme = ExtResource("1_ybd0s")
+
+[node name="PanelRoot" type="Node2D" parent="." unique_id=2078638517]
+position = Vector2(290.55, 224.55)
+metadata/source_depth = 2668
+metadata/panel_root = true
+
+[node name="source_settings_panel" type="Sprite2D" parent="PanelRoot" unique_id=1261088768]
+position = Vector2(-148, -107.55)
+texture = ExtResource("2_25nk7")
+centered = false
+metadata/panel_sprite = true
+
+[node name="PanelMouseSurface" type="Control" parent="PanelRoot" unique_id=570574800]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -148.0
+offset_top = -107.55
+offset_right = 143.0
+offset_bottom = 129.45
+
+[node name="closeRegistration" type="Node2D" parent="PanelRoot" unique_id=1700370931]
+position = Vector2(130.05, -94)
+metadata/source_depth = 9
+
+[node name="close" type="BaseButton" parent="PanelRoot/closeRegistration" unique_id=1732431367]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -11.0
+offset_top = -11.0
+offset_right = 24.297855
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "关闭菜单，返回游戏"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+normal_texture = ExtResource("4_c4xmj")
+hover_texture = ExtResource("5_etnj5")
+pressed_texture = ExtResource("6_avggo")
+normal_pivot = Vector2(10.5, 10.5)
+hover_pivot = Vector2(10.5, 10.5)
+pressed_pivot = Vector2(10.5, 10.5)
+metadata/button_key = "close"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/closeRegistration/close" unique_id=1156648137]
+position = Vector2(0.5, 0.5)
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/closeRegistration/close/ArtworkLayout" unique_id=1756127795]
+texture = ExtResource("4_c4xmj")
+centered = false
+
+[node name="quality_highRegistration" type="Node2D" parent="PanelRoot" unique_id=459739710]
+position = Vector2(-28.65, 4.6)
+metadata/source_depth = 14
+
+[node name="quality_high" type="BaseButton" parent="PanelRoot/quality_highRegistration" unique_id=20481240]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -30.55
+offset_top = -15.55
+offset_right = 24.0
+offset_bottom = 17.100002
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "原作 Flash 矢量画质尚未映射为 Godot 设置，此选项当前不可用。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+normal_texture = ExtResource("7_wdpag")
+hover_texture = ExtResource("8_bfysn")
+pressed_texture = ExtResource("9_t743x")
+normal_pivot = Vector2(28.05, 13.05)
+hover_pivot = Vector2(28.05, 13.05)
+pressed_pivot = Vector2(28.05, 13.05)
+metadata/button_key = "quality_high"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/quality_highRegistration/quality_high" unique_id=1033726962]
+position = Vector2(2.5, 2.5)
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/quality_highRegistration/quality_high/ArtworkLayout" unique_id=1356846607]
+modulate = Color(1, 1, 1, 0.45)
+texture = ExtResource("7_wdpag")
+centered = false
+
+[node name="quality_mediumRegistration" type="Node2D" parent="PanelRoot" unique_id=373747471]
+position = Vector2(30.35, 5.65)
+metadata/source_depth = 17
+
+[node name="quality_medium" type="BaseButton" parent="PanelRoot/quality_mediumRegistration" unique_id=399276418]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -27.55
+offset_top = -16.6
+offset_right = 27.0
+offset_bottom = 16.050001
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "原作 Flash 矢量画质尚未映射为 Godot 设置，此选项当前不可用。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+normal_texture = ExtResource("10_tgy3p")
+hover_texture = ExtResource("11_fiose")
+pressed_texture = ExtResource("12_rsmgy")
+normal_pivot = Vector2(25.05, 14.1)
+hover_pivot = Vector2(25.05, 14.1)
+pressed_pivot = Vector2(25.05, 14.1)
+metadata/button_key = "quality_medium"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/quality_mediumRegistration/quality_medium" unique_id=1225381111]
+position = Vector2(2.5, 2.5)
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/quality_mediumRegistration/quality_medium/ArtworkLayout" unique_id=1802192049]
+modulate = Color(1, 1, 1, 0.45)
+texture = ExtResource("10_tgy3p")
+centered = false
+
+[node name="quality_lowRegistration" type="Node2D" parent="PanelRoot" unique_id=595668986]
+position = Vector2(90.35, 5.6)
+metadata/source_depth = 20
+
+[node name="quality_low" type="BaseButton" parent="PanelRoot/quality_lowRegistration" unique_id=799444607]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -27.55
+offset_top = -16.55
+offset_right = 27.0
+offset_bottom = 16.100002
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "原作 Flash 矢量画质尚未映射为 Godot 设置，此选项当前不可用。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+normal_texture = ExtResource("13_tqwu0")
+hover_texture = ExtResource("14_ix66s")
+pressed_texture = ExtResource("15_ya1ts")
+normal_pivot = Vector2(25.05, 14.05)
+hover_pivot = Vector2(25.05, 14.05)
+pressed_pivot = Vector2(25.05, 14.05)
+metadata/button_key = "quality_low"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/quality_lowRegistration/quality_low" unique_id=714237472]
+position = Vector2(2.5, 2.499999)
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/quality_lowRegistration/quality_low/ArtworkLayout" unique_id=808164014]
+modulate = Color(1, 1, 1, 0.45)
+texture = ExtResource("13_tqwu0")
+centered = false
+
+[node name="VolumeRoot" type="Node2D" parent="PanelRoot" unique_id=2140955663]
+position = Vector2(27.8, -42.45)
+metadata/source_depth = 23
+
+[node name="source_volume_100" type="Sprite2D" parent="PanelRoot/VolumeRoot" unique_id=2065904328]
+position = Vector2(-67.85, -10.5)
+texture = ExtResource("16_aofuc")
+centered = false
+metadata/volume_sprite = true
+
+[node name="volume_0" type="BaseButton" parent="PanelRoot/VolumeRoot" unique_id=193795815]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -67.85
+offset_top = 1.5
+offset_right = -41.899998
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "设为0%（当前80.0%）"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/button_key = "volume_0"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/VolumeRoot/volume_0" unique_id=1636853572]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/VolumeRoot/volume_0/ArtworkLayout" unique_id=134711924]
+visible = false
+centered = false
+
+[node name="volume_25" type="BaseButton" parent="PanelRoot/VolumeRoot" unique_id=2137119041]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -40.5
+offset_top = -6.25
+offset_right = -12.65
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "设为25%（当前80.0%）"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/button_key = "volume_25"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/VolumeRoot/volume_25" unique_id=1424560188]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/VolumeRoot/volume_25/ArtworkLayout" unique_id=1256266837]
+visible = false
+centered = false
+
+[node name="volume_50" type="BaseButton" parent="PanelRoot/VolumeRoot" unique_id=2016915815]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -11.05
+offset_top = -8.9
+offset_right = 16.849998
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "设为50%（当前80.0%）"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/button_key = "volume_50"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/VolumeRoot/volume_50" unique_id=1618216381]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/VolumeRoot/volume_50/ArtworkLayout" unique_id=1262150026]
+visible = false
+centered = false
+
+[node name="volume_75" type="BaseButton" parent="PanelRoot/VolumeRoot" unique_id=2133970243]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 18.35
+offset_top = -6.6
+offset_right = 42.35
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "设为75%（当前80.0%）"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/button_key = "volume_75"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/VolumeRoot/volume_75" unique_id=2136348873]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/VolumeRoot/volume_75/ArtworkLayout" unique_id=1651858069]
+visible = false
+centered = false
+
+[node name="volume_100" type="BaseButton" parent="PanelRoot/VolumeRoot" unique_id=1423613840]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 44.1
+offset_top = -10.5
+offset_right = 67.899994
+offset_bottom = 10.5
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "设为100%（当前80.0%）"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/button_key = "volume_100"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/VolumeRoot/volume_100" unique_id=940600847]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/VolumeRoot/volume_100/ArtworkLayout" unique_id=1120434750]
+visible = false
+centered = false
+
+[node name="auto_saveRoot" type="Node2D" parent="PanelRoot" unique_id=438449704]
+position = Vector2(-36.2, 56.85)
+metadata/source_depth = 37
+
+[node name="source_checkbox_off" type="Sprite2D" parent="PanelRoot/auto_saveRoot" unique_id=960175214]
+position = Vector2(-21.5, -14.25)
+texture = ExtResource("17_jkmo4")
+centered = false
+metadata/checkbox_key = "auto_save"
+
+[node name="auto_save" type="BaseButton" parent="PanelRoot/auto_saveRoot" unique_id=1298887998]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -21.5
+offset_top = -34.25
+offset_right = 31.25
+offset_bottom = 14.099998
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "开启自动保存"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/source_checked = false
+metadata/button_key = "auto_save"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/auto_saveRoot/auto_save" unique_id=541868295]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/auto_saveRoot/auto_save/ArtworkLayout" unique_id=2102307686]
+visible = false
+centered = false
+
+[node name="auto_qualityRoot" type="Node2D" parent="PanelRoot" unique_id=1182137212]
+position = Vector2(93.25, 56.85)
+metadata/source_depth = 40
+
+[node name="source_checkbox_off" type="Sprite2D" parent="PanelRoot/auto_qualityRoot" unique_id=981388108]
+modulate = Color(1, 1, 1, 0.45)
+position = Vector2(-21.5, -14.25)
+texture = ExtResource("17_jkmo4")
+centered = false
+metadata/checkbox_key = "auto_quality"
+
+[node name="auto_quality" type="BaseButton" parent="PanelRoot/auto_qualityRoot" unique_id=1444728847]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 3
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -21.5
+offset_top = -34.25
+offset_right = 31.25
+offset_bottom = 14.099998
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(0, 0)
+pivot_offset_ratio = Vector2(0, 0)
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = "原作 Flash 矢量画质尚未映射为 Godot 设置，此选项当前不可用。"
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 0
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = true
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("3_hw1ry")
+metadata/source_checked = false
+metadata/button_key = "auto_quality"
+
+[node name="ArtworkLayout" type="Node2D" parent="PanelRoot/auto_qualityRoot/auto_quality" unique_id=818150781]
+
+[node name="Artwork" type="Sprite2D" parent="PanelRoot/auto_qualityRoot/auto_quality/ArtworkLayout" unique_id=144333092]
+visible = false
+centered = false

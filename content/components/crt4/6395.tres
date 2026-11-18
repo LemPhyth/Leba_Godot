@@ -1,0 +1,37 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_ghost_move_timer.tres" id="1_2bcwq"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="2_skivs"]
+
+[resource]
+script = ExtResource("2_skivs")
+identifier = "6395"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 6394.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 6394.0
+}],
+"source_frame": 1.0
+}],
+"sounds": [],
+"source": [{
+"frame": 35.0,
+"path": "res/scripts/DefineSprite_6395/frame_35/DoAction.as",
+"sha256": "c998649edf3ec949b500a639ebacf187f156d8a06f101c2ba6dac18ea42cb958"
+}],
+"source_frame_count": 35.0,
+"source_id": 6395.0,
+"stop_source_frames": []
+}
+animations = Array[Resource]([ExtResource("1_2bcwq")])
+source = "Original AS/XML source 6395; res://data/act06_crt4_rules.json.components.6395"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_u1q3x"]
+[ext_resource type="Texture2D" path="res://assets/atlases/enemy7437_idle.png" id="2_ul1ku"]
+
+[resource]
+script = ExtResource("1_u1q3x")
+identifier = "enemy7437_idle"
+texture = ExtResource("2_ul1ku")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-41.05, -90.55, 62.0, 92.0],
+"pivot": [41.05, 90.55],
+"region": [2.0, 2.0, 62.0, 92.0],
+"source_frame": 1.0
+}])
+source = "asset_catalog.animations.enemy7437_idle；派生图集；来源与pivot见catalog。"

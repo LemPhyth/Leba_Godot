@@ -1,0 +1,63 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_cast.tres" id="1_non2t"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="2_cr8jw"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="3_yug7j"]
+
+[sub_resource type="Resource" id="Resource_kf5b5"]
+script = ExtResource("2_cr8jw")
+frame = 7
+kind = "crt4_spawn_field"
+parameters = {
+"global_i_increment": true,
+"source_id": 818.0,
+"x_offset": 100.0,
+"y_offset": 0.0
+}
+
+[resource]
+script = ExtResource("3_yug7j")
+identifier = "skill_g"
+title = "skill_g"
+animation = ExtResource("1_non2t")
+animation_key = "crt4_cast"
+source_parent = 160
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+input_id = "load_g"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "kalla_basic")
+cost = 5.0
+required_mp = 5.0
+cubes = 1
+cooldown_ticks = 554
+cooldown_key = "skill_g"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_kf5b5")])
+source = "Original6732 parent160/source6507; res://data/act06_crt4_rules.json.actions.skill_g; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.2, 19.1],
+"ready_source_frame": 1.0,
+"slot_source_id": 4312.0,
+"source_allowed_parent_frames": [146.0, 150.0, 151.0, 152.0, 166.0],
+"source_entry": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4312/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "c49eb45e3ed38193df6e3560c8d06a5774c22b3577453cbc2188240447e66580"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4312/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown)_2.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}, {
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_4312/frame_1/PlaceObject2_4051_3/CLIPACTIONRECORD onClipEvent(keyDown)_3.as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}],
+"source_id": 6507.0,
+&"source_references": [{
+"frame": 14.0,
+"path": "res/scripts/DefineSprite_6507/frame_14/DoAction.as",
+"sha256": "9f28fd4d051c78949aa3433e32507c07d46ff819c6ceb333a14e14a1060b03be"
+}],
+"source_selected": true
+}

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_w_idle.tres" id="1_3dyt0"]
+[ext_resource type="Resource" path="res://content/components/crt1/moving_fire.tres" id="2_f33qf"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_we020"]
+
+[resource]
+script = ExtResource("2_we020")
+identifier = "skill_w"
+title = "skill_w"
+animation = ExtResource("1_3dyt0")
+animation_key = "crt1_w_idle"
+component_definition = ExtResource("2_f33qf")
+source_parent = 54
+sequence = PackedInt32Array(1)
+input_id = "skill_w"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5")
+cost = 5.0
+required_mp = 5.0
+cubes = 1
+cooldown_ticks = 449
+hold = true
+hold_at = PackedInt32Array(1)
+source = "res/scripts/DefineSprite_6732/frame_54 + DefineSprite_5137；父矩阵/选帧见asset_catalog.animations.crt1_w_idle"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"component": "moving_fire",
+"controller": "crt1_moving_fire",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41],
+"source_id": 5137
+}

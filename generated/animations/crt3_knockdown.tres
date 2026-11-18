@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_nklda"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt3_knockdown.png" id="2_vlv4x"]
+
+[resource]
+script = ExtResource("1_nklda")
+identifier = "crt3_knockdown"
+texture = ExtResource("2_vlv4x")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-60.6, 19.6, 208.0, 74.0],
+"pivot": [60.7, -19.8],
+"region": [2.0, 2.0, 208.0, 74.0],
+"source_crop": [32.0, 71.0, 240.0, 145.0],
+"source_frame": 1.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt3_knockdown；派生图集；来源与pivot见catalog。"

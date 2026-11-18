@@ -1,0 +1,103 @@
+[gd_resource type="Resource" format=3 uid="uid://l00cwltfbvph"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_revenger.tres" id="1_2lrum"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_yw88u"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_2cnjo"]
+[ext_resource type="AudioStream" uid="uid://btg6r07xs0sq2" path="res://assets/audio/5175.mp3" id="3_3e8ua"]
+[ext_resource type="AudioStream" uid="uid://q2jdf7dvx2yp" path="res://assets/audio/4957.mp3" id="4_oaous"]
+
+[sub_resource type="Resource" id="Resource_3e8ua"]
+script = ExtResource("2_yw88u")
+frame = 12
+kind = "crt1_line_shot"
+damage = 0.0
+parameters = {
+"damage_scope": "原4636碰撞写marker9/샷；实际扣血由原公共观察器及本动作额外观察器组合。",
+"helper_id": 4636,
+"marker_frame": 9,
+"rectangles": [Rect2(-220.64519, -43.05, 421.77655, 74.5)],
+"source_id": 5177,
+"source_matrix_applied": true
+}
+
+[sub_resource type="Resource" id="Resource_y7k1s"]
+script = ExtResource("2_yw88u")
+frame = 2
+sound = "crt1_revenger"
+audio_stream = ExtResource("3_3e8ua")
+parameters = {
+"envelope": [{
+"left": 16827.0,
+"right": 15351.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"out_point_samples_44100": 27353.0,
+"sound_id": 5175.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"outPoint": "27353",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5177.0
+}
+source = "原StartSound：sprite5177/frame2/Sound5175；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[sub_resource type="Resource" id="Resource_qm5ot"]
+script = ExtResource("2_yw88u")
+frame = 12
+sound = "crt1_revenger_sound_2"
+audio_stream = ExtResource("4_oaous")
+audio_offset = 0.05702947845804988
+parameters = {
+"envelope": [{
+"left": 17122.0,
+"right": 15941.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 2515.0,
+"sound_id": 4957.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"inPoint": "2515",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5177.0
+}
+source = "原StartSound：sprite5177/frame12/Sound4957；起播2515 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("3_2cnjo")
+identifier = "revenger"
+title = "revenger"
+animation = ExtResource("1_2lrum")
+animation_key = "crt1_revenger"
+source_parent = 63
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21)
+input_id = "skill_z"
+allowed_states = PackedStringArray("hit")
+cost = 5.0
+required_mp = 5.0
+cooldown_ticks = 265
+cooldown_key = "revenger"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_3e8ua"), SubResource("Resource_y7k1s"), SubResource("Resource_qm5ot")])
+source = "res/scripts/DefineSprite_6732/frame_63 + DefineSprite_5177；父矩阵/选帧见asset_catalog.animations.crt1_revenger"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [44],
+"source_id": 5177
+}

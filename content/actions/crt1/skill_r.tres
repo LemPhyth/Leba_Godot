@@ -1,0 +1,67 @@
+[gd_resource type="Resource" format=3 uid="uid://byvvpoqdp81ob"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_r.tres" id="1_gflp1"]
+[ext_resource type="Resource" path="res://content/components/crt1/gunhawks.tres" id="2_dp0sr"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_fqs13"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_dp0sr"]
+[ext_resource type="AudioStream" uid="uid://d4j48rfwsf6px" path="res://assets/audio/5161.mp3" id="4_dp0sr"]
+
+[sub_resource type="Resource" id="Resource_qvhm4"]
+script = ExtResource("2_fqs13")
+frame = 3
+kind = "crt1_gunhawk"
+parameters = {
+"stage": 1
+}
+
+[sub_resource type="Resource" id="Resource_4heaf"]
+script = ExtResource("2_fqs13")
+frame = 2
+sound = "crt1_skill_r"
+audio_stream = ExtResource("4_dp0sr")
+parameters = {
+"envelope": [{
+"left": 16827.0,
+"right": 15941.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5161.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5164.0
+}
+source = "原StartSound：sprite5164/frame2/Sound5161；起播0 samples@44100；ACT04定向补接，不重生成动作。"
+
+[resource]
+script = ExtResource("3_dp0sr")
+identifier = "skill_r"
+title = "skill_r"
+animation = ExtResource("1_gflp1")
+animation_key = "crt1_skill_r"
+component_definition = ExtResource("2_dp0sr")
+source_parent = 56
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+input_id = "skill_r"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "basic4", "basic5", "skill_a", "skill")
+cost = 5.0
+required_mp = 5.0
+cubes = 2
+cooldown_ticks = 699
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_qvhm4"), SubResource("Resource_4heaf")])
+source = "res/scripts/DefineSprite_6732/frame_56 + DefineSprite_5164；父矩阵/选帧见asset_catalog.animations.crt1_skill_r"
+calibration = "AS/XML静态证实帧、消耗、冷却和入口；原作伤害观察器相位及手感留待人工校准。"
+extra = {
+"body_metadata": "act03_crt1_body",
+"source_allowed_parent_frames": [30, 31, 32, 33, 37, 38, 39, 40, 41, 35, 46],
+"source_id": 5164
+}

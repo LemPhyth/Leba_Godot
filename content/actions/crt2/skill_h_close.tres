@@ -1,0 +1,70 @@
+[gd_resource type="Resource" format=3 uid="uid://d3ey1k2oywm25"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_e.tres" id="1_b4gsd"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_q2m15"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="3_lcl1i"]
+
+[sub_resource type="Resource" id="Resource_lbf73"]
+script = ExtResource("2_q2m15")
+frame = 102
+kind = "crt2_hp_gain"
+parameters = {
+"amount": 20.0,
+"source_frame": 102.0
+}
+
+[sub_resource type="Resource" id="Resource_so1tp"]
+script = ExtResource("2_q2m15")
+frame = 102
+kind = "crt2_set_urlr"
+parameters = {
+"source_frame": 102.0,
+"value": 0.0
+}
+
+[resource]
+script = ExtResource("3_lcl1i")
+identifier = "skill_h_close"
+title = "skill_h_close"
+animation = ExtResource("1_b4gsd")
+animation_key = "crt2_skill_e"
+source_parent = 89
+sequence = PackedInt32Array(1, 2, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102)
+input_id = "load_h"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+cost = 7.0
+required_mp = 7.0
+cooldown_ticks = 259
+cooldown_key = "skill_h"
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_lbf73"), SubResource("Resource_so1tp")])
+source = "res/scripts/DefineSprite_5520/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_skill_e",
+"1": "crt2_skill_e_pren"
+},
+"body_metadata": "act04_crt2_body",
+"child_x_divisor": 8.0,
+"child_x_frames": [17.0, 35.0],
+"child_x_target": 80.0,
+"controller": "crt2_h_close",
+"end_x_transfer": false,
+"gravity_body_x_divisor": 8.0,
+"gravity_body_x_target": 80.0,
+"hit_callback_sources": [],
+"input_semantics": "onClipEvent(keyDown) then Key.isDown(key), not event key equality",
+"normal_end_source_frame": 102,
+"notes": "HUD4191 first disables4600, charges7MP, setsurlr1; parent89 source2→90. E is separate HP7/cubes2 path.",
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -54.15, 20.0],
+"physical_key": "H",
+"required_pren": 1.0,
+"slot_id": 4191.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+"slot_start_playing": true,
+"source_allowed_parent_frames": [64.0, 65.0, 66.0, 67.0, 69.0, 70.0, 71.0, 84.0, 85.0, 86.0, 87.0],
+"source_id": 5520.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

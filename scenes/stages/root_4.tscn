@@ -1,0 +1,100 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/content/stage_layout.gd" id="1_e1y6o"]
+[ext_resource type="Resource" path="res://content/stages/root_4.tres" id="2_8ebbc"]
+[ext_resource type="Texture2D" path="res://assets/atlases/forest.png" id="3_7tjpw"]
+[ext_resource type="Texture2D" path="res://assets/ui/training_ground.png" id="4_a3ap6"]
+[ext_resource type="PackedScene" path="res://scenes/actors/combatant.tscn" id="5_ofnv7"]
+[ext_resource type="PackedScene" path="res://scenes/actors/enemy.tscn" id="7_le0ar"]
+[ext_resource type="PackedScene" path="res://scenes/ui/source_hud.tscn" id="8_u4bwr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gsjp0"]
+size = Vector2(761.05, 39)
+
+[node name="root_4" type="Node2D" unique_id=225010826]
+script = ExtResource("1_e1y6o")
+rules = ExtResource("2_8ebbc")
+metadata/act03_layout_migrated = true
+metadata/act04_crt2_hud = true
+metadata/act05_crt3_hud = true
+metadata/act06_crt4_hud = true
+
+[node name="Map" type="Sprite2D" parent="." unique_id=533285723]
+position = Vector2(-132.75, -111.25)
+texture = ExtResource("3_7tjpw")
+centered = false
+
+[node name="SourceGround" type="Sprite2D" parent="." unique_id=196752539]
+z_index = 688
+position = Vector2(-74.65, 359.65)
+texture = ExtResource("4_a3ap6")
+centered = false
+
+[node name="Bounds" type="Node2D" parent="." unique_id=2109808116]
+
+[node name="Left" type="Marker2D" parent="Bounds" unique_id=1537578518]
+
+[node name="Right" type="Marker2D" parent="Bounds" unique_id=1601520109]
+position = Vector2(550, 0)
+
+[node name="Floor" type="Area2D" parent="." unique_id=964643478]
+position = Vector2(0, 360.15)
+monitoring = false
+
+[node name="Collision" type="CollisionShape2D" parent="Floor" unique_id=2125432389]
+position = Vector2(305.875, 19)
+shape = SubResource("RectangleShape2D_gsjp0")
+
+[node name="PlayerSpawn" type="Marker2D" parent="." unique_id=1965793336]
+z_index = 1652
+position = Vector2(273.35, 314.9)
+scale = Vector2(0.6369171, 0.65245056)
+
+[node name="Actor" parent="PlayerSpawn" unique_id=1186367400 instance=ExtResource("5_ofnv7")]
+
+[node name="EnemySpawns" type="Node2D" parent="." unique_id=103162180]
+
+[node name="Enemy0" type="Marker2D" parent="EnemySpawns" unique_id=9960997]
+z_index = 224
+position = Vector2(494.9, 363.7)
+scale = Vector2(0.52941895, 0.51246643)
+
+[node name="Actor" parent="EnemySpawns/Enemy0" unique_id=758627098 instance=ExtResource("7_le0ar")]
+
+[node name="Enemy1" type="Marker2D" parent="EnemySpawns" unique_id=1224866158]
+z_index = 705
+position = Vector2(411.45, 363.7)
+scale = Vector2(0.52941895, 0.51246643)
+
+[node name="Actor" parent="EnemySpawns/Enemy1" unique_id=1752426381 instance=ExtResource("7_le0ar")]
+
+[node name="Enemy2" type="Marker2D" parent="EnemySpawns" unique_id=943473159]
+z_index = 1142
+position = Vector2(168.5, 363.7)
+scale = Vector2(0.52941895, 0.51246643)
+
+[node name="Actor" parent="EnemySpawns/Enemy2" unique_id=316348130 instance=ExtResource("7_le0ar")]
+
+[node name="Enemy3" type="Marker2D" parent="EnemySpawns" unique_id=1239810967]
+z_index = 1389
+position = Vector2(50.4, 363.7)
+scale = Vector2(0.52941895, 0.51246643)
+
+[node name="Actor" parent="EnemySpawns/Enemy3" unique_id=1715062595 instance=ExtResource("7_le0ar")]
+
+[node name="HUD" parent="." unique_id=50973086 instance=ExtResource("8_u4bwr")]
+z_index = 474
+
+[node name="GrenadeFLayout" parent="HUD/Characters/CRT0" parent_id_path=PackedInt32Array(50973086, 551349561) index="18" unique_id=1599556980]
+z_index = 3466
+
+[node name="GrenadeGLayout" parent="HUD/Characters/CRT0" parent_id_path=PackedInt32Array(50973086, 551349561) index="19" unique_id=1440738170]
+z_index = 3466
+
+[node name="GrenadeHLayout" parent="HUD/Characters/CRT0" parent_id_path=PackedInt32Array(50973086, 551349561) index="20" unique_id=1725714457]
+z_index = 3466
+
+[node name="WAmmoLayout" parent="HUD/Characters/CRT1" parent_id_path=PackedInt32Array(50973086, 2117573010) index="24" unique_id=1651278291]
+z_index = 3466
+
+[editable path="HUD"]

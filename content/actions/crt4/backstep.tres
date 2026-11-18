@@ -1,0 +1,94 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_backstep.tres" id="1_7d4kx"]
+[ext_resource type="AudioStream" path="res://assets/audio/4624.mp3" id="2_32lpf"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_kb8d6"]
+[ext_resource type="AudioStream" path="res://assets/audio/4616.mp3" id="4_5mgqb"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="5_78ho1"]
+
+[sub_resource type="Resource" id="Resource_ew57s"]
+script = ExtResource("3_kb8d6")
+frame = 2
+sound = "crt4_source_6532_sound_1"
+audio_stream = ExtResource("2_32lpf")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4624.0,
+"source_id": 6532,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6532.0
+}
+
+[sub_resource type="Resource" id="Resource_wrvsa"]
+script = ExtResource("3_kb8d6")
+frame = 11
+sound = "crt4_source_6532_sound_2"
+audio_stream = ExtResource("4_5mgqb")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_id": 6532,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6532.0
+}
+
+[resource]
+script = ExtResource("5_78ho1")
+identifier = "backstep"
+title = "backstep"
+animation = ExtResource("1_7d4kx")
+animation_key = "crt4_backstep"
+source_parent = 168
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+input_id = "backstep"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_ew57s"), SubResource("Resource_wrvsa")])
+source = "Original6732 parent168/source6532; res://data/act06_crt4_rules.json.actions.backstep; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [{
+"child_frame": 1.0,
+"child_seek": 2.0,
+"event": "key_down",
+"key": "X",
+"requires_kalla": 1.0
+}],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.0, 20.0],
+"source_allowed_parent_frames": [],
+"source_displacement": [{
+"dx_per_tick": -5.0,
+"facing_relative": true,
+"from": 1.0,
+"until": 11.0
+}],
+"source_id": 6532.0,
+&"source_references": [{
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6532/frame_12/DoAction.as",
+"sha256": "03e9cebe218452a07441beea1e8450971ec16a88e43ec5fb5937ad47f68fc063"
+}],
+"source_selected": true
+}

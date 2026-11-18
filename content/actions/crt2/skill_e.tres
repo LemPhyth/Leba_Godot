@@ -1,0 +1,1215 @@
+[gd_resource type="Resource" format=3 uid="uid://dynbiwcoyuf71"]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_skill_e.tres" id="1_5rr7t"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="2_n8t4g"]
+[ext_resource type="AudioStream" uid="uid://c7cy0ru7u2bgn" path="res://assets/audio/5494.mp3" id="3_gnhjs"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="4_fkp2r"]
+[ext_resource type="AudioStream" uid="uid://bke84l6d6bnl4" path="res://assets/audio/260.mp3" id="4_n8t4g"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="5_kq7am"]
+
+[sub_resource type="Resource" id="Resource_44btt"]
+script = ExtResource("2_n8t4g")
+frame = 82
+kind = "crt2_transfer_child"
+
+[sub_resource type="Resource" id="Resource_5d0jt"]
+script = ExtResource("2_n8t4g")
+frame = 36
+kind = "crt2_attach"
+parameters = {
+"phase": "parent_enterFrame",
+"position": "player.root_position",
+"source_frame": 36.0,
+"source_ids_by_facing": {
+"left": 676.0,
+"right": 685.0
+},
+"space": "root"
+}
+
+[sub_resource type="Resource" id="Resource_y8jvq"]
+script = ExtResource("2_n8t4g")
+frame = 35
+sound = "crt2_skill_e"
+audio_stream = ExtResource("3_gnhjs")
+parameters = {
+"envelope": [{
+"left": 21845.0,
+"right": 22436.0,
+"sample": 0.0
+}, {
+"left": 22141.0,
+"right": 21255.0,
+"sample": 0.0
+}, {
+"left": 23912.0,
+"right": 24797.0,
+"sample": 0.0
+}],
+"in_point_samples_44100": 0.0,
+"sound_id": 5494.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5520.0
+}
+
+[sub_resource type="Resource" id="Resource_r84gj"]
+script = ExtResource("5_kq7am")
+from_frame = 35
+until_frame = 35
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-115.274994, -21.722176, 379.607, 140.49146)])
+gravity = -10.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 35,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -10.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 75.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_0wgu0"]
+script = ExtResource("5_kq7am")
+from_frame = 36
+until_frame = 36
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-115.274994, -21.722176, 379.607, 140.49146)])
+gravity = -10.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 36,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -10.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 75.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_2lt0d"]
+script = ExtResource("5_kq7am")
+from_frame = 37
+until_frame = 37
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-115.274994, -21.722176, 379.607, 140.49146)])
+gravity = -10.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 37,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -10.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 75.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": null,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_hm5i5"]
+script = ExtResource("5_kq7am")
+from_frame = 56
+until_frame = 56
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-28.802382, -361.94626, 433.35486, 458.37646)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 56,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 33.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_ev27t"]
+script = ExtResource("5_kq7am")
+from_frame = 57
+until_frame = 57
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-28.802382, -361.94626, 433.35486, 458.37646)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 57,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 33.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_o7drn"]
+script = ExtResource("5_kq7am")
+from_frame = 60
+until_frame = 60
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-105.03347, -354.09683, 388.17325, 469.41147)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 60,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 33.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_wouuk"]
+script = ExtResource("5_kq7am")
+from_frame = 61
+until_frame = 61
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-105.03347, -354.09683, 388.17325, 469.41147)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 61,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 33.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_3hjr2"]
+script = ExtResource("5_kq7am")
+from_frame = 64
+until_frame = 64
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-157.61017, -263.49002, 487.31836, 334.06833)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 64,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 33.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_fluk1"]
+script = ExtResource("5_kq7am")
+from_frame = 65
+until_frame = 65
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-157.61017, -263.49002, 487.31836, 334.06833)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 65,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 33.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_0kpbb"]
+script = ExtResource("5_kq7am")
+from_frame = 68
+until_frame = 68
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-160.81073, -351.73404, 581.7996, 482.31763)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 68,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 35.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_gyfo5"]
+script = ExtResource("5_kq7am")
+from_frame = 69
+until_frame = 69
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-160.81073, -351.73404, 581.7996, 482.31763)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 69,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 35.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_pneox"]
+script = ExtResource("5_kq7am")
+from_frame = 72
+until_frame = 72
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-38.80992, -366.89502, 404.7069, 480.77414)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 72,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 35.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_xwqgl"]
+script = ExtResource("5_kq7am")
+from_frame = 73
+until_frame = 73
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-38.80992, -366.89502, 404.7069, 480.77414)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 73,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 35.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_3gpwn"]
+script = ExtResource("5_kq7am")
+from_frame = 76
+until_frame = 76
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-152.49263, -418.75357, 514.9207, 546.59155)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 76,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 35.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_mfb8g"]
+script = ExtResource("5_kq7am")
+from_frame = 77
+until_frame = 77
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-152.49263, -418.75357, 514.9207, 546.59155)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 77,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 35.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_k6epx"]
+script = ExtResource("5_kq7am")
+from_frame = 80
+until_frame = 80
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(-152.49263, -418.75357, 514.9207, 546.59155)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 80,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 25.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[sub_resource type="Resource" id="Resource_altrv"]
+script = ExtResource("5_kq7am")
+from_frame = 81
+until_frame = 81
+kind = "crt2_hit"
+rectangles = Array[Rect2]([Rect2(165.11658, -414.35406, 145.0592, 544.88116)])
+gravity = -8.0
+once_per_action = false
+parameters = {
+"source_depth": 55,
+"source_frame": 81,
+"source_helper": 439,
+"source_rule": {
+"calibration": "Statically confirmed local operation; callback phase/global marker observers not collapsed into total damage.",
+"default_profile": {
+"accessories": 0.0,
+"armor": 1.0,
+"master": 0.0,
+"weapon": 0.0
+},
+"direct_damage": 0.0,
+"excluded_equipment_rules": ["weapon1/9 or master1 explosion attachments", "weapon8 parent A/S extra8", "post-default weapon5/other alternate timelines"],
+"frozen_reaction_frame": 2.0,
+"gravity": -8.0,
+"gravity_acceleration_add": 0.1,
+"helper_goto_stop2_on_frozen_or_super": true,
+"kind": "lift",
+"marker_bonus": 25.0,
+"marker_observer": {
+"frequency": "every enterFrame while source listener exists",
+"marker_path": "enemy.공중.타격",
+"requires_geometry": false,
+"source_frame": 2.0
+},
+"normal_contact_frequency": "every enterFrame while normal helper overlap remains",
+"normal_contact_once": false,
+"normal_targets": ["normal", "super_armor"],
+"requires_geometry": true,
+"reset_air_marker_to": 2.0,
+"super_armor_reaction_frame": 2.0
+}
+}
+
+[resource]
+script = ExtResource("4_fkp2r")
+identifier = "skill_e"
+title = "skill_e"
+animation = ExtResource("1_5rr7t")
+animation_key = "crt2_skill_e"
+source_parent = 89
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82)
+input_id = "skill_e"
+allowed_states = PackedStringArray("idle", "move", "basic", "basic2", "basic3", "pren_basic1", "pren_basic2", "pren_basic3", "pren_basic4")
+hp_cost = 7.0
+required_hp = 7.0
+cubes = 2
+cooldown_ticks = 799
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_44btt"), SubResource("Resource_5d0jt"), SubResource("Resource_y8jvq")])
+windows = Array[Resource]([SubResource("Resource_r84gj"), SubResource("Resource_0wgu0"), SubResource("Resource_2lt0d"), SubResource("Resource_hm5i5"), SubResource("Resource_ev27t"), SubResource("Resource_o7drn"), SubResource("Resource_wouuk"), SubResource("Resource_3hjr2"), SubResource("Resource_fluk1"), SubResource("Resource_0kpbb"), SubResource("Resource_gyfo5"), SubResource("Resource_pneox"), SubResource("Resource_xwqgl"), SubResource("Resource_3gpwn"), SubResource("Resource_mfb8g"), SubResource("Resource_k6epx"), SubResource("Resource_altrv")])
+source = "res/scripts/DefineSprite_5520/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_skill_e",
+"1": "crt2_skill_e_pren"
+},
+"body_metadata": "act04_crt2_body",
+"child_x_divisor": 8.0,
+"child_x_frames": [17.0, 35.0],
+"child_x_target": 80.0,
+"controller": "crt2_e",
+"end_x_transfer": true,
+"gravity_body_x_divisor": 8.0,
+"gravity_body_x_target": 80.0,
+"hit_callback_sources": ["res/scripts/DefineSprite_5520/frame_35/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_56/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_60/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_64/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_68/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_72/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_76/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5520/frame_80/PlaceObject2_439_55/CLIPACTIONRECORD onClipEvent(enterFrame).as"],
+"input_semantics": "onClipEvent(keyDown) then Key.isDown(key), not event key equality",
+"nested_audio": [{
+"entry_frame": 1,
+"from_frame": 56,
+"identifier": "src5511_depth27_at56",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth27；独立子时钟，移除时销毁。",
+"source_depth": 27,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 58,
+"identifier": "src5511_depth1_at58",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth1；独立子时钟，移除时销毁。",
+"source_depth": 1,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 60,
+"identifier": "src5511_depth30_at60",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth30；独立子时钟，移除时销毁。",
+"source_depth": 30,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 63,
+"identifier": "src5511_depth4_at63",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth4；独立子时钟，移除时销毁。",
+"source_depth": 4,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 65,
+"identifier": "src5511_depth33_at65",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth33；独立子时钟，移除时销毁。",
+"source_depth": 33,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 67,
+"identifier": "src5511_depth36_at67",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth36；独立子时钟，移除时销毁。",
+"source_depth": 36,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 69,
+"identifier": "src5511_depth39_at69",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth39；独立子时钟，移除时销毁。",
+"source_depth": 39,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 71,
+"identifier": "src5511_depth7_at71",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth7；独立子时钟，移除时销毁。",
+"source_depth": 7,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 73,
+"identifier": "src5511_depth10_at73",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth10；独立子时钟，移除时销毁。",
+"source_depth": 10,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 75,
+"identifier": "src5511_depth42_at75",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth42；独立子时钟，移除时销毁。",
+"source_depth": 42,
+"source_id": 5511,
+"until_frame": 81
+}, {
+"entry_frame": 1,
+"from_frame": 77,
+"identifier": "src5511_depth45_at77",
+"parent_source_id": 5520,
+"sounds": [{
+"audio_stream": ExtResource("4_n8t4g"),
+"clock": "independent source child timeline, not actor parent timeline",
+"envelope": [],
+"frame": 2,
+"in_point_samples_44100": 1700.0,
+"kind": "sound",
+"offset": 0.03854875283446712,
+"out_point_samples_44100": 65390.0,
+"sound": "crt2_e_hit_child",
+"sound_id": 260.0,
+"source_sound_info": {
+"hasEnvelope": "false",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "1700",
+"outPoint": "65390",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5511.0
+}],
+"source": "原DefineSprite_5520 placement child5511/depth45；独立子时钟，移除时销毁。",
+"source_depth": 45,
+"source_id": 5511,
+"until_frame": 81
+}],
+"normal_end_source_frame": 82,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -54.15, 20.0],
+"physical_key": "E",
+"required_pren": 1.0,
+"slot_id": 4197.0,
+"slot_ready_frame": 1.0,
+"slot_start_frame": 2.0,
+"slot_start_playing": true,
+"source_allowed_parent_frames": [64.0, 65.0, 66.0, 67.0, 69.0, 70.0, 71.0, 84.0, 85.0, 86.0, 87.0],
+"source_id": 5520.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

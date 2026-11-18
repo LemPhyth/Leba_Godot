@@ -1,0 +1,290 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+identifier = "5417"
+parameters = {
+"births": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"frame": 5.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": "왼대각",
+"source_id": 439.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"clock_note": "Independent keyDown proxy; do not synchronize with6528 held-X polling. Only5417 source5 contains transparent439; actor parent main-frame placement changes independently.",
+"input": {
+"event": "key_down",
+"held_key": "X",
+"only_at_child_frame": 1.0,
+"seek_play": 2.0,
+"source": {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6530/frame_4/PlaceObject2_5417_55/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "13e3f880d6ebda23ce3442b5b66814c120e4dbef2d0bdbb61cfdd140a5831770"
+}
+},
+"local_rects_by_source_frame": {
+"1": [],
+"10": [],
+"11": [],
+"12": [],
+"13": [],
+"2": [],
+"3": [],
+"4": [],
+"5": [[12.31406272000001, -103.76307344, 144.92154651, 194.48881877999997]],
+"6": [],
+"7": [],
+"8": [],
+"9": []
+},
+"parent_placement_tracks": [{
+"placements": [],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, 2.1],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -23.9],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -47.15],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -67.65],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -85.45],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -100.5],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -112.8],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 10.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -122.4],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 11.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -129.25],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 12.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -133.35],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 13.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 14.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -133.35],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 18.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.05, -129.25],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 19.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.15, -122.4],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 20.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.35, -112.8],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 21.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.55, -100.5],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 22.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.85, -85.45],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 23.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.15, -67.65],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 24.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.5, -47.15],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 25.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.95, -23.9],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 26.0
+}, {
+"placements": [{
+"depth": 55.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.4, 2.1],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 5417.0
+}],
+"source_frame": 27.0
+}],
+"placement_tracks": [{
+"placements": [],
+"source_frame": 1.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 1.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": "왼대각",
+"ratio": "4",
+"source_id": 439.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [],
+"source_frame": 6.0
+}],
+"sounds": [],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_5417/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 13.0,
+"path": "res/scripts/DefineSprite_5417/frame_13/DoAction.as",
+"sha256": "35053f002c5674b71a6b615ae0d190871a1a56ad1c185af6cd86771bbcde532c"
+}],
+"source_frame_count": 13.0,
+"source_id": 5417.0,
+"stop_source_frames": [1.0],
+"terminal_goto": {
+"goto_play": 1.0,
+"source_frame": 13.0
+},
+"visible_png_required": false
+}
+source = "Original6530/4 direct left-diagonal keyDown proxy5417; finite authored clocks and original geometry from act06_crt4_rules.json."

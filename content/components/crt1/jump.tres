@@ -1,0 +1,171 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_jump.tres" id="1_0qilw"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_jump_air.tres" id="2_famp8"]
+[ext_resource type="Resource" path="res://generated/animations/projectile_diagonal.tres" id="3_lu6oj"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="4_bjtf2"]
+
+[resource]
+script = ExtResource("4_bjtf2")
+identifier = "crt1_jump"
+parameters = {
+"air_animation": "crt1_jump_air",
+"air_id": 5635.0,
+"air_local_offset_baked": false,
+"air_overlay_by_frame": {
+"1": [],
+"10": [],
+"11": [],
+"12": [],
+"13": [],
+"14": [],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -234.75],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -234.3],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -232.85],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -230.5],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -227.2],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"2": [],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -223.0],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -217.8],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -211.7],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -204.6],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -196.6],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -187.65],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -177.75],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -166.95],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"28": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -155.15],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"29": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -142.45],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"3": [],
+"30": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 14.8, -128.8],
+"name": "점프중",
+"source_id": 5635.0
+}],
+"31": [],
+"32": [],
+"33": [],
+"34": [],
+"35": [],
+"4": [],
+"5": [],
+"6": [],
+"7": [],
+"8": [],
+"9": []
+},
+"air_stop_frames": [1.0, 6.0],
+"end_parent_destination": 30.0,
+"end_parent_frame": 35.0,
+"fire_sub_frames": [2.0, 3.0],
+"held_move": 4.0,
+"held_x_restart_frames": [1.0, 5.0],
+"movement_selector": {
+"forward_per_tick": 3.0,
+"reverse_per_tick": -9.0,
+"source_id": 4940.0
+},
+"parent_frame": 96.0,
+"parent_id": 6732.0,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -0.2, 78.45],
+"projectile": "projectile_diagonal",
+"projectile_local_spawn": {
+"x": 0.0,
+"y": "230 + child._y"
+},
+"recoil_per_tick": -3.0,
+"sprite_id": 5636.0
+}
+animations = Array[Resource]([ExtResource("1_0qilw"), ExtResource("2_famp8"), ExtResource("3_lu6oj")])
+source = "首次派生：asset_catalog.source_geometry.act03_crt1_components.jump；此Resource自此为作者参数权威，普通资源导入不覆盖。来源原AS/XML及边界见docs/LEBA-ACT-03_角色1与资源依据.md。"

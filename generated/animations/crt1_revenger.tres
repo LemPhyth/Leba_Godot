@@ -1,0 +1,116 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_8bukc"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_revenger.png" id="2_e62vg"]
+
+[resource]
+script = ExtResource("1_8bukc")
+identifier = "crt1_revenger"
+texture = ExtResource("2_e62vg")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-44.75, -80.45, 108.0, 154.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 2.0, 550.0, 187.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-44.75, -64.45, 96.0, 138.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 2.0, 550.0, 187.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-51.75, -71.45, 115.0, 145.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 2.0, 550.0, 187.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-44.75, -76.45, 99.0, 150.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 193.0, 550.0, 187.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-44.75, -70.45, 97.0, 144.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 193.0, 550.0, 187.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-44.75, -82.45, 96.0, 156.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 193.0, 550.0, 187.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-44.75, -80.45, 108.0, 154.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 384.0, 550.0, 187.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-44.75, -64.45, 96.0, 138.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 384.0, 550.0, 187.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-51.75, -71.45, 115.0, 145.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 384.0, 550.0, 187.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-44.75, -76.45, 99.0, 150.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 575.0, 550.0, 187.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-86.75, -75.45, 163.0, 148.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 575.0, 550.0, 187.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-184.75, -92.45, 364.0, 165.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 575.0, 550.0, 187.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-278.75, -106.45, 550.0, 179.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 766.0, 550.0, 187.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-243.75, -109.45, 483.0, 182.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 766.0, 550.0, 187.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-251.75, -113.45, 496.0, 186.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 766.0, 550.0, 187.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-246.75, -113.45, 489.0, 186.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 957.0, 550.0, 187.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-208.75, -113.45, 412.0, 186.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 957.0, 550.0, 187.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-84.75, -60.45, 160.0, 133.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 957.0, 550.0, 187.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-184.75, -92.45, 364.0, 165.0],
+"pivot": [278.75, 113.45],
+"region": [2.0, 1148.0, 550.0, 187.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-84.75, -71.45, 160.0, 144.0],
+"pivot": [278.75, 113.45],
+"region": [556.0, 1148.0, 550.0, 187.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-86.75, -66.45, 163.0, 139.0],
+"pivot": [278.75, 113.45],
+"region": [1110.0, 1148.0, 550.0, 187.0],
+"source_frame": 21.0
+}])
+source = "asset_catalog.animations.crt1_revenger；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_udc2d"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_fallen.png" id="2_xn0ta"]
+
+[resource]
+script = ExtResource("1_udc2d")
+identifier = "crt4_fallen"
+texture = ExtResource("2_xn0ta")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-84.35, 16.75, 257.0, 113.0],
+"pivot": [84.35, -16.75],
+"region": [2.0, 2.0, 257.0, 113.0],
+"source_crop": [120.0, 158.0, 377.0, 271.0],
+"source_frame": 1.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_fallen；派生图集；来源与pivot见catalog。"

@@ -1,0 +1,84 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_wawpd"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt4_move.png" id="2_n7mmh"]
+
+[resource]
+script = ExtResource("1_wawpd")
+identifier = "crt4_move"
+texture = ExtResource("2_n7mmh")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-156.65, -93.3, 230.0, 171.0],
+"pivot": [156.65, 93.3],
+"region": [2.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 143.0, 352.0, 314.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-156.65, -93.3, 230.0, 171.0],
+"pivot": [156.65, 93.3],
+"region": [236.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 143.0, 352.0, 314.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-156.65, -93.3, 230.0, 171.0],
+"pivot": [156.65, 93.3],
+"region": [470.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 143.0, 352.0, 314.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-156.65, -93.3, 230.0, 171.0],
+"pivot": [156.65, 93.3],
+"region": [704.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 143.0, 352.0, 314.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-156.65, -94.3, 230.0, 171.0],
+"pivot": [156.65, 94.3],
+"region": [938.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 142.0, 352.0, 313.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-156.65, -94.3, 230.0, 171.0],
+"pivot": [156.65, 94.3],
+"region": [1172.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 142.0, 352.0, 313.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-156.65, -95.3, 230.0, 171.0],
+"pivot": [156.65, 95.3],
+"region": [1406.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 141.0, 352.0, 312.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-156.65, -95.3, 230.0, 171.0],
+"pivot": [156.65, 95.3],
+"region": [1640.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 141.0, 352.0, 312.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-156.65, -94.3, 230.0, 171.0],
+"pivot": [156.65, 94.3],
+"region": [1874.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 142.0, 352.0, 313.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-156.65, -94.3, 230.0, 171.0],
+"pivot": [156.65, 94.3],
+"region": [2108.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 142.0, 352.0, 313.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-156.65, -93.3, 230.0, 171.0],
+"pivot": [156.65, 93.3],
+"region": [2342.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 143.0, 352.0, 314.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-156.65, -93.3, 230.0, 171.0],
+"pivot": [156.65, 93.3],
+"region": [2576.0, 2.0, 230.0, 171.0],
+"source_crop": [122.0, 143.0, 352.0, 314.0],
+"source_frame": 12.0
+}])
+baked_placement_matrix = PackedFloat64Array(1, 0, 0, 1, 0, 0)
+source = "asset_catalog.animations.crt4_move；派生图集；来源与pivot见catalog。"

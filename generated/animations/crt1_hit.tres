@@ -1,0 +1,81 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_87j8b"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_hit.png" id="2_kwcva"]
+
+[resource]
+script = ExtResource("1_87j8b")
+identifier = "crt1_hit"
+texture = ExtResource("2_kwcva")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [2.0, 2.0, 96.0, 155.0],
+"source_frame": 1.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [102.0, 2.0, 96.0, 155.0],
+"source_frame": 2.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [202.0, 2.0, 96.0, 155.0],
+"source_frame": 3.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [302.0, 2.0, 96.0, 155.0],
+"source_frame": 4.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [402.0, 2.0, 96.0, 155.0],
+"source_frame": 5.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [2.0, 161.0, 96.0, 155.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [102.0, 161.0, 96.0, 155.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [202.0, 161.0, 96.0, 155.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [302.0, 161.0, 96.0, 155.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [402.0, 161.0, 96.0, 155.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [2.0, 320.0, 96.0, 155.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [102.0, 320.0, 96.0, 155.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [202.0, 320.0, 96.0, 155.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-28.95, -81.7, 96.0, 155.0],
+"pivot": [28.95, 81.7],
+"region": [302.0, 320.0, 96.0, 155.0],
+"source_frame": 14.0
+}])
+source = "asset_catalog.animations.crt1_hit；派生图集；来源与pivot见catalog。"

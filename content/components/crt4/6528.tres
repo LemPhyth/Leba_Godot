@@ -1,0 +1,1051 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_jump_attack.tres" id="1_vu6bw"]
+[ext_resource type="AudioStream" path="res://assets/audio/5181.mp3" id="2_a6fas"]
+[ext_resource type="AudioStream" path="res://assets/audio/6526.mp3" id="3_htvqp"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="4_o130b"]
+
+[resource]
+script = ExtResource("4_o130b")
+identifier = "6528"
+parameters = {
+"directional_fx_proxies": {
+"nested_proxy": {
+"observed_by_root_common_slash": false,
+"placement": {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 47.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 439.0
+},
+"reason": "Root observers address actor.action.left_diagonal, not actor.action.jump_child.left_diagonal; separate5417 is the actual direct proxy.",
+"source_frame": 4.0
+},
+"root_observed_component": 5417,
+"root_observed_parent_source": 6530,
+"sound_alias": "crt4_script_common_contact_sound5"
+},
+"births": [{
+"depth": 3.0,
+"frame": 1.0,
+"matrix": [0.99401855, 0.008422852, -0.008377075, 1.0030975, 21.7, 9.1],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"frame": 1.0,
+"matrix": [0.8036499, -0.58625793, 0.58625793, 0.8036499, 50.4, -31.1],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 30.0,
+"frame": 1.0,
+"matrix": [0.9806671, 0.1923523, -0.1923523, 0.9806671, 3.15, -14.55],
+"name": "p3",
+"source_id": 47.0
+}, {
+"depth": 32.0,
+"frame": 1.0,
+"matrix": [0.9623718, -0.24916077, 0.24916077, 0.9623718, -4.45, 17.7],
+"name": "p5",
+"source_id": 24.0
+}, {
+"depth": 34.0,
+"frame": 1.0,
+"matrix": [0.99580383, -0.00024414062, 0.00024414062, 0.99580383, -42.6, 21.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"frame": 1.0,
+"matrix": [0.6720276, 0.73706055, -0.73706055, 0.6720276, -23.35, -35.25],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"frame": 1.0,
+"matrix": [0.99168396, 0.11772156, -0.11772156, 0.99168396, 0.7, -64.45],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [-0.50431824, 0.8566437, -0.8645172, -0.50878906, 12.65, -5.7],
+"name": null,
+"source_id": 24.0
+}, {
+"depth": 17.0,
+"frame": 4.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"frame": 4.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"source_id": 24.0
+}, {
+"depth": 43.0,
+"frame": 4.0,
+"matrix": [0.7328186, 0.7614441, -0.7193451, 0.69229126, 90.85, -3.2],
+"name": null,
+"source_id": 5183.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 45.0,
+"frame": 4.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": null,
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 47.0,
+"frame": 4.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": "왼대각",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 49.0,
+"frame": 4.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 22.4, -66.25],
+"name": "공중공격",
+"source_id": 5415.0
+}, {
+"depth": 43.0,
+"frame": 6.0,
+"matrix": [0.19941711, 0.97779846, -0.97779846, 0.19941711, 66.6, 34.4],
+"name": null,
+"source_id": 5193.0
+}, {
+"depth": 1.0,
+"frame": 8.0,
+"matrix": [0.13026428, 0.6387329, -0.6368103, 0.12988281, 77.45, 47.2],
+"name": null,
+"source_id": 5193.0
+}, {
+"depth": 1.0,
+"frame": 13.0,
+"matrix": [0.35568237, 0.9114227, -0.9114227, 0.35568237, 46.15, 5.05],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 10.0,
+"frame": 13.0,
+"matrix": [-0.8426666, -0.52731323, -0.52731323, 0.8426666, 16.85, 14.7],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 12.0,
+"frame": 13.0,
+"matrix": [0.33050537, 0.92796326, -0.92796326, 0.33050537, -36.9, -53.5],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 19.0,
+"frame": 13.0,
+"matrix": [-0.5285797, 0.8383789, -0.8383789, -0.5285797, 20.3, -53.05],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 21.0,
+"frame": 13.0,
+"matrix": [0.71606445, 0.69374084, -0.69374084, 0.71606445, 50.8, -52.95],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 3.0,
+"frame": 15.0,
+"matrix": [0.32717896, -0.9262085, 0.9262085, 0.32717896, 68.6, 43.95],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 5.0,
+"frame": 15.0,
+"matrix": [0.93608093, -0.31700134, 0.31700134, 0.93608093, 24.45, 7.55],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 12.0,
+"frame": 15.0,
+"matrix": [0.54055786, 0.8368683, -0.8368683, 0.54055786, 61.25, -19.55],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 28.0,
+"frame": 15.0,
+"matrix": [0.6600342, 0.8406677, -0.83158875, 0.6529083, 93.95, 18.5],
+"name": null,
+"source_id": 5193.0
+}, {
+"depth": 30.0,
+"frame": 15.0,
+"matrix": [0.9809265, -0.39411926, 0.96377563, 1.0546722, 119.15, -67.35],
+"name": null,
+"source_id": 5393.0
+}, {
+"depth": 5.0,
+"frame": 17.0,
+"matrix": [0.54055786, 0.8368683, -0.8368683, 0.54055786, 61.25, -19.55],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 5.0,
+"frame": 19.0,
+"matrix": [0.54055786, 0.8368683, -0.8368683, 0.54055786, 61.25, -19.55],
+"name": "p1",
+"source_id": 6392.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 3.0,
+"matrix": [0.99401855, 0.008422852, -0.008377075, 1.0030975, 21.7, 9.1],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.8036499, -0.58625793, 0.58625793, 0.8036499, 50.4, -31.1],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 30.0,
+"matrix": [0.9806671, 0.1923523, -0.1923523, 0.9806671, 3.15, -14.55],
+"name": "p3",
+"source_id": 47.0
+}, {
+"depth": 32.0,
+"matrix": [0.9623718, -0.24916077, 0.24916077, 0.9623718, -4.45, 17.7],
+"name": "p5",
+"source_id": 24.0
+}, {
+"depth": 34.0,
+"matrix": [0.99580383, -0.00024414062, 0.00024414062, 0.99580383, -42.6, 21.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.6720276, 0.73706055, -0.73706055, 0.6720276, -23.35, -35.25],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.99168396, 0.11772156, -0.11772156, 0.99168396, 0.7, -64.45],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 1.0,
+"matrix": [-0.50431824, 0.8566437, -0.8645172, -0.50878906, 12.65, -5.7],
+"source_id": 24.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [0.9623413, -0.24911499, 0.25152588, 0.9710846, 14.75, 15.15],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [-0.75775146, 0.64411926, -0.64411926, -0.75775146, -36.35, -30.05],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 30.0,
+"matrix": [0.99102783, -0.121017456, 0.121017456, 0.99102783, 6.4, -18.05],
+"name": "p3",
+"source_id": 47.0
+}, {
+"depth": 32.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -3.95, 17.7],
+"name": "p5",
+"source_id": 24.0
+}, {
+"depth": 34.0,
+"matrix": [0.9329529, 0.344635, -0.344635, 0.9329529, -58.05, 11.75],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.6720276, 0.73706055, -0.73706055, 0.6720276, -23.35, -35.25],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9739227, -0.21618652, 0.21618652, 0.9739227, 5.45, -63.45],
+"name": "p1",
+"source_id": 6392.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [-0.9623413, -0.24911499, -0.25152588, 0.9710846, 15.75, 14.65],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.81492615, 0.55599976, -0.55599976, 0.81492615, 30.55, 10.3],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 34.0,
+"matrix": [0.71839905, -0.68540955, 0.68540955, 0.71839905, 35.75, 45.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.80574036, -0.5762787, 0.5762787, 0.80574036, 1.25, -6.4],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9057007, 0.4144287, -0.4144287, 0.9057007, 19.7, -59.7],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 17.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 43.0,
+"matrix": [0.7328186, 0.7614441, -0.7193451, 0.69229126, 90.85, -3.2],
+"ratio": "3",
+"source_id": 5183.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 45.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"ratio": "3",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 47.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": "왼대각",
+"ratio": "3",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 49.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 22.4, -66.25],
+"name": "공중공격",
+"ratio": "3",
+"source_id": 5415.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [-0.9623413, -0.24911499, -0.25152588, 0.9710846, 15.75, 14.65],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.81492615, 0.55599976, -0.55599976, 0.81492615, 30.55, 10.3],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 34.0,
+"matrix": [0.71839905, -0.68540955, 0.68540955, 0.71839905, 35.75, 45.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.80574036, -0.5762787, 0.5762787, 0.80574036, 1.25, -6.4],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9057007, 0.4144287, -0.4144287, 0.9057007, 19.7, -59.7],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 17.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 43.0,
+"matrix": [0.7328186, 0.7614441, -0.7193451, 0.69229126, 90.85, -3.2],
+"ratio": "3",
+"source_id": 5183.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 45.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"ratio": "3",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 49.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 22.4, -66.25],
+"name": "공중공격",
+"ratio": "3",
+"source_id": 5415.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [-0.9623413, -0.24911499, -0.25152588, 0.9710846, 15.75, 14.65],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.81492615, 0.55599976, -0.55599976, 0.81492615, 30.55, 10.3],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 34.0,
+"matrix": [0.71839905, -0.68540955, 0.68540955, 0.71839905, 35.75, 45.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.80574036, -0.5762787, 0.5762787, 0.80574036, 1.25, -6.4],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9057007, 0.4144287, -0.4144287, 0.9057007, 19.7, -59.7],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 17.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 45.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"ratio": "3",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 49.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 22.4, -66.25],
+"name": "공중공격",
+"ratio": "3",
+"source_id": 5415.0
+}, {
+"depth": 43.0,
+"matrix": [0.19941711, 0.97779846, -0.97779846, 0.19941711, 66.6, 34.4],
+"ratio": "5",
+"source_id": 5193.0
+}],
+"source_frame": 6.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [-0.9623413, -0.24911499, -0.25152588, 0.9710846, 15.75, 14.65],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.81492615, 0.55599976, -0.55599976, 0.81492615, 30.55, 10.3],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 34.0,
+"matrix": [0.71839905, -0.68540955, 0.68540955, 0.71839905, 35.75, 45.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.80574036, -0.5762787, 0.5762787, 0.80574036, 1.25, -6.4],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9057007, 0.4144287, -0.4144287, 0.9057007, 19.7, -59.7],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 17.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 43.0,
+"matrix": [0.19941711, 0.97779846, -0.97779846, 0.19941711, 66.6, 34.4],
+"ratio": "5",
+"source_id": 5193.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [-0.9623413, -0.24911499, -0.25152588, 0.9710846, 15.75, 14.65],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.81492615, 0.55599976, -0.55599976, 0.81492615, 30.55, 10.3],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 34.0,
+"matrix": [0.71839905, -0.68540955, 0.68540955, 0.71839905, 35.75, 45.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.80574036, -0.5762787, 0.5762787, 0.80574036, 1.25, -6.4],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9057007, 0.4144287, -0.4144287, 0.9057007, 19.7, -59.7],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 17.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 1.0,
+"matrix": [0.13026428, 0.6387329, -0.6368103, 0.12988281, 77.45, 47.2],
+"ratio": "7",
+"source_id": 5193.0
+}],
+"source_frame": 8.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [-0.9623413, -0.24911499, -0.25152588, 0.9710846, 15.75, 14.65],
+"name": "p6",
+"source_id": 24.0
+}, {
+"depth": 28.0,
+"matrix": [0.81492615, 0.55599976, -0.55599976, 0.81492615, 30.55, 10.3],
+"name": "p4",
+"source_id": 3774.0
+}, {
+"depth": 34.0,
+"matrix": [0.71839905, -0.68540955, 0.68540955, 0.71839905, 35.75, 45.8],
+"name": "p7",
+"source_id": 6386.0
+}, {
+"depth": 36.0,
+"matrix": [0.80574036, -0.5762787, 0.5762787, 0.80574036, 1.25, -6.4],
+"name": "p2",
+"source_id": 56.0
+}, {
+"depth": 38.0,
+"matrix": [0.9057007, 0.4144287, -0.4144287, 0.9057007, 19.7, -59.7],
+"name": "p1",
+"source_id": 6392.0
+}, {
+"depth": 17.0,
+"matrix": [0.8542023, 0.51322937, -0.51322937, 0.8542023, 8.15, -18.05],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.99313354, -0.021224976, 0.021224976, 0.99313354, -9.95, 15.45],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}],
+"source_frame": 9.0
+}, {
+"placements": [{
+"depth": 17.0,
+"matrix": [0.7380066, 0.66703796, -0.66703796, 0.7380066, 17.95, -16.65],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.70224, 0.6990051, -0.6990051, 0.70224, -14.1, 0.65],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 1.0,
+"matrix": [0.35568237, 0.9114227, -0.9114227, 0.35568237, 46.15, 5.05],
+"name": "p4",
+"ratio": "12",
+"source_id": 3774.0
+}, {
+"depth": 10.0,
+"matrix": [-0.8426666, -0.52731323, -0.52731323, 0.8426666, 16.85, 14.7],
+"name": "p6",
+"ratio": "12",
+"source_id": 24.0
+}, {
+"depth": 12.0,
+"matrix": [0.33050537, 0.92796326, -0.92796326, 0.33050537, -36.9, -53.5],
+"name": "p7",
+"ratio": "12",
+"source_id": 6386.0
+}, {
+"depth": 19.0,
+"matrix": [-0.5285797, 0.8383789, -0.8383789, -0.5285797, 20.3, -53.05],
+"name": "p2",
+"ratio": "12",
+"source_id": 56.0
+}, {
+"depth": 21.0,
+"matrix": [0.71606445, 0.69374084, -0.69374084, 0.71606445, 50.8, -52.95],
+"name": "p1",
+"ratio": "12",
+"source_id": 6392.0
+}],
+"source_frame": 13.0
+}, {
+"placements": [{
+"depth": 17.0,
+"matrix": [-0.37446594, -0.9199524, -0.9199524, 0.37446594, 13.8, -8.7],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.55506897, 0.8200226, -0.8200226, 0.55506897, -24.2, -4.7],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 1.0,
+"matrix": [0.023345947, -0.9726715, -0.9726715, -0.023345947, 10.4, -56.2],
+"name": "p4",
+"ratio": "12",
+"source_id": 3774.0
+}, {
+"depth": 10.0,
+"matrix": [-0.397583, -0.9094391, -0.9094391, 0.397583, 5.8, 8.9],
+"name": "p6",
+"ratio": "12",
+"source_id": 24.0
+}, {
+"depth": 3.0,
+"matrix": [0.32717896, -0.9262085, 0.9262085, 0.32717896, 68.6, 43.95],
+"name": "p7",
+"ratio": "14",
+"source_id": 6386.0
+}, {
+"depth": 5.0,
+"matrix": [0.93608093, -0.31700134, 0.31700134, 0.93608093, 24.45, 7.55],
+"name": "p2",
+"ratio": "14",
+"source_id": 56.0
+}, {
+"depth": 12.0,
+"matrix": [0.54055786, 0.8368683, -0.8368683, 0.54055786, 61.25, -19.55],
+"name": "p1",
+"ratio": "14",
+"source_id": 6392.0
+}, {
+"depth": 28.0,
+"matrix": [0.6600342, 0.8406677, -0.83158875, 0.6529083, 93.95, 18.5],
+"ratio": "14",
+"source_id": 5193.0
+}, {
+"depth": 30.0,
+"matrix": [0.9809265, -0.39411926, 0.96377563, 1.0546722, 119.15, -67.35],
+"ratio": "14",
+"source_id": 5393.0
+}],
+"source_frame": 15.0
+}, {
+"placements": [{
+"depth": 17.0,
+"matrix": [-0.37446594, -0.9199524, -0.9199524, 0.37446594, 13.8, -8.7],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.55506897, 0.8200226, -0.8200226, 0.55506897, -24.2, -4.7],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 1.0,
+"matrix": [-0.10028076, -0.9673767, -0.9673767, 0.10028076, 5.7, -52.2],
+"name": "p4",
+"ratio": "12",
+"source_id": 3774.0
+}, {
+"depth": 10.0,
+"matrix": [-0.49057007, -0.8624573, -0.8624573, 0.49057007, 11.95, 12.15],
+"name": "p6",
+"ratio": "12",
+"source_id": 24.0
+}, {
+"depth": 3.0,
+"matrix": [0.5192871, -0.83039856, 0.83039856, 0.5192871, 23.85, 37.55],
+"name": "p7",
+"ratio": "14",
+"source_id": 6386.0
+}, {
+"depth": 30.0,
+"matrix": [0.9809265, -0.39411926, 0.96377563, 1.0546722, 119.15, -67.35],
+"ratio": "14",
+"source_id": 5393.0
+}, {
+"depth": 5.0,
+"matrix": [0.54055786, 0.8368683, -0.8368683, 0.54055786, 61.25, -19.55],
+"name": "p1",
+"ratio": "16",
+"source_id": 6392.0
+}],
+"source_frame": 17.0
+}, {
+"placements": [{
+"depth": 17.0,
+"matrix": [-0.37446594, -0.9199524, -0.9199524, 0.37446594, 13.8, -8.7],
+"name": "p3",
+"ratio": "3",
+"source_id": 47.0
+}, {
+"depth": 26.0,
+"matrix": [0.55506897, 0.8200226, -0.8200226, 0.55506897, -24.2, -4.7],
+"name": "p5",
+"ratio": "3",
+"source_id": 24.0
+}, {
+"depth": 1.0,
+"matrix": [-0.10028076, -0.9673767, -0.9673767, 0.10028076, 5.7, -52.2],
+"name": "p4",
+"ratio": "12",
+"source_id": 3774.0
+}, {
+"depth": 10.0,
+"matrix": [-0.49057007, -0.8624573, -0.8624573, 0.49057007, 11.95, 12.15],
+"name": "p6",
+"ratio": "12",
+"source_id": 24.0
+}, {
+"depth": 3.0,
+"matrix": [0.5192871, -0.83039856, 0.83039856, 0.5192871, 23.85, 37.55],
+"name": "p7",
+"ratio": "14",
+"source_id": 6386.0
+}, {
+"depth": 30.0,
+"matrix": [0.9809265, -0.39411926, 0.96377563, 1.0546722, 119.15, -67.35],
+"ratio": "14",
+"source_id": 5393.0
+}, {
+"depth": 5.0,
+"matrix": [0.54055786, 0.8368683, -0.8368683, 0.54055786, 61.25, -19.55],
+"name": "p1",
+"ratio": "18",
+"source_id": 6392.0
+}],
+"source_frame": 19.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("2_a6fas"),
+"envelope": [{
+"left": 11218.0,
+"right": 11513.0,
+"sample": 0.0
+}],
+"frame": 3,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_6528_sound_1",
+"sound_id": 5181.0,
+"source_id": 6528,
+"source_sound_info": {
+"envelopes": [{
+"leftLevel": "11218",
+"pos44": "0",
+"rightLevel": "11513",
+"type": "SOUNDENVELOPE"
+}],
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6528.0
+}, {
+"audio_stream": ExtResource("3_htvqp"),
+"envelope": [],
+"frame": 14,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt4_source_6528_sound_2",
+"sound_id": 6526.0,
+"source_id": 6528,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6528.0
+}],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_6528/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 12.0,
+"path": "res/scripts/DefineSprite_6528/frame_12/DoAction.as",
+"sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13"
+}, {
+"frame": 19.0,
+"path": "res/scripts/DefineSprite_6528/frame_19/PlaceObject2_6392_5/CLIPACTIONRECORD onClipEvent(keyDown).as",
+"sha256": "4c489b3b4f82801f73506e18417c19fefa873193d3e720ca6cb8193eca83c0a7"
+}, {
+"frame": 21.0,
+"path": "res/scripts/DefineSprite_6528/frame_21/DoAction.as",
+"sha256": "c0a42c492da5b7c31190298cb4c0bd292fc621302c2f7173c5192df3891472ce"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "fe75c13bb180bc3b70f60d339afcd691e0fa03b2ece891f24af6fb1c61cd2313"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "ef2e72eba8c2dc3052e970950e56a5c453f8c710d1ad22f447cf334ba2756c44"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "2faeb1357d7902e4bc0645dbc3d51753c6f9a854b08f0a06647136011f0e22f8"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "63bb010df328040bf4ece9a203c595cc1b552d7f3813447be45500ef7e200754"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "a597f8afcaaa8241bf258245757c4dc41d107508e822c3331c23b02b39d4ceea"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "011d5202251eff661eb48bf3798264c3642c7a924c9be5131cc286051a3d6b39"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "4e333eded904c564a82716b259857623a9448e364993ef2cf413d053e6f8dbe9"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "9656a772c5b87020d79d54b7cc3ebfec9aa6fcd86b8570ff05440ba66cd7988a"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as",
+"sha256": "e396bf32e2ce24b604fed86e466d036540b083bc06d6bd0333ac7b7944bdf064"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "b6eca97b80b3aa70a4adb17c06e7e5081e1c3f32a69ef0331f042e45bfc5fbf8"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "3995cc88792cc720553e44836f54b19ef9f90501a3383836c3f8267b8383c2f9"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "1a20af04669d685d4cb7c92951b9f7343a7880832e97c5b2ba68b846cd9dbb9d"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "2db6e62fbda45f684aeb3fbc8abf763dd0795155df850c83302c431759ba673b"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "742b624ad353198a79ce18d0b766b260b8aa897d2b6ea915a550cf9d4357e5a7"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "2db8f92d6d8524e5a770f5435ec4f593c4d4669faaaaaac465941a7f3fe5f13c"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "c4952d1cec25152885cd12fc7c4b2ac5c429ce91715c940addada080cbcfdf4f"
+}, {
+"frame": 4.0,
+"path": "res/scripts/DefineSprite_6528/frame_4/PlaceObject2_439_45/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}],
+"source_frame_count": 21.0,
+"source_id": 6528.0,
+"stop_source_frames": [1.0]
+}
+animations = Array[Resource]([ExtResource("1_vu6bw")])
+source = "Original AS/XML source 6528; res://data/act06_crt4_rules.json.components.6528"

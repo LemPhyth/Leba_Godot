@@ -1,0 +1,152 @@
+[gd_resource type="Resource" format=3 uid="uid://b7n2xm7mmvco3"]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_ranged.tres" id="1_fxyek"]
+[ext_resource type="AudioStream" uid="uid://ctbgip8nydutn" path="res://assets/audio/7406.mp3" id="2_gcy6y"]
+[ext_resource type="Script" uid="uid://b8qnm4hfwkop5" path="res://scripts/content/action_event.gd" id="3_qp0de"]
+[ext_resource type="AudioStream" uid="uid://co04ycbyj7bqq" path="res://assets/audio/169.mp3" id="4_qdw30"]
+[ext_resource type="Script" uid="uid://bujk0gw5vaas8" path="res://scripts/content/action_definition.gd" id="5_f6j12"]
+[ext_resource type="Script" uid="uid://cs86hh0dnquef" path="res://scripts/content/hit_window.gd" id="6_3iwje"]
+
+[sub_resource type="Resource" id="Resource_jn27i"]
+script = ExtResource("3_qp0de")
+frame = 42
+sound = "enemy7437_ranged"
+audio_stream = ExtResource("2_gcy6y")
+parameters = {
+"source_sound_id": 7406
+}
+
+[sub_resource type="Resource" id="Resource_vmlxy"]
+script = ExtResource("3_qp0de")
+frame = 54
+sound = "enemy7437_swing"
+audio_stream = ExtResource("4_qdw30")
+parameters = {
+"source_sound_id": 169
+}
+
+[sub_resource type="Resource" id="Resource_gh2ui"]
+script = ExtResource("3_qp0de")
+frame = 63
+sound = "enemy7437_swing"
+audio_stream = ExtResource("4_qdw30")
+parameters = {
+"source_sound_id": 169
+}
+
+[sub_resource type="Resource" id="Resource_2ttae"]
+script = ExtResource("6_3iwje")
+from_frame = 54
+until_frame = 54
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-121.591835, -55.17281, 102.88367, 63.861256)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 54..54; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_jkgpq"]
+script = ExtResource("6_3iwje")
+from_frame = 55
+until_frame = 57
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-161.94183, -55.17281, 102.88367, 63.861256)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 55..57; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_3xx6c"]
+script = ExtResource("6_3iwje")
+from_frame = 58
+until_frame = 58
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-228.574, -129.98254, 208.54799, 125.28255)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 58..58; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_qe5ca"]
+script = ExtResource("6_3iwje")
+from_frame = 59
+until_frame = 59
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-262.04706, -140.13795, 233.46765, 175.66301)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 59..59; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_kyk4o"]
+script = ExtResource("6_3iwje")
+from_frame = 60
+until_frame = 61
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-269.54684, -116.86726, 152.19368, 119.41727)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 60..61; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_1l45u"]
+script = ExtResource("6_3iwje")
+from_frame = 62
+until_frame = 62
+kind = "enemy_hit"
+rectangles = Array[Rect2]([Rect2(-334.47745, -52.939095, 209.75488, 63.089096)])
+damage = 4.0
+knockback = 20.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 62..62; root9 observer 33/37",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[sub_resource type="Resource" id="Resource_xm77e"]
+script = ExtResource("6_3iwje")
+from_frame = 63
+until_frame = 65
+kind = "enemy_knockdown"
+rectangles = Array[Rect2]([Rect2(-277.79184, -55.17281, 102.88367, 63.861256)])
+damage = 5.0
+knockback = 3.0
+once_per_action = false
+parameters = {
+"source": "res/scripts/DefineSprite_7427/frames 63..65; root9 observer 34/38",
+"source_damage_note": "Damage is observed on the unique player marker, not directly for every overlapping source tick."
+}
+
+[resource]
+script = ExtResource("5_f6j12")
+identifier = "ranged"
+title = "ranged"
+animation = ExtResource("1_fxyek")
+animation_key = "enemy7437_ranged"
+source_parent = 41
+sequence = PackedInt32Array(41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40)
+input_id = "ranged"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_jn27i"), SubResource("Resource_vmlxy"), SubResource("Resource_gh2ui")])
+windows = Array[Resource]([SubResource("Resource_2ttae"), SubResource("Resource_jkgpq"), SubResource("Resource_3xx6c"), SubResource("Resource_qe5ca"), SubResource("Resource_kyk4o"), SubResource("Resource_1l45u"), SubResource("Resource_xm77e")])
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."
+extra = {
+"parent_from_source_frame": true
+}

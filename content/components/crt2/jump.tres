@@ -1,0 +1,446 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="AudioStream" path="res://assets/audio/5181.mp3" id="1_deqgv"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_iaeh5"]
+
+[resource]
+script = ExtResource("1_iaeh5")
+identifier = "jump"
+parameters = {
+"air_z": {
+"body_seek7_frames": [61.0],
+"cooldown_restart_at_end": true,
+"default_reachable_source_frames": [57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0],
+"early_cd_on_entry": true,
+"early_goto": 62.0,
+"early_parent_frames": [4.0, 5.0],
+"end_control_frame": 67.0,
+"end_goto": 28.0,
+"impact_frame": 66.0,
+"impact_ids": {
+"left": 971.0,
+"right": 574.0
+},
+"later_cd_on_entry": false,
+"later_poll_sources": {
+"11": 57.0,
+"20": 59.0,
+"24": 57.0,
+"6": 61.0,
+"9": 59.0
+},
+"mp_cost": 5.0,
+"ready_frame": 1.0,
+"requires_air_child_frame": 1.0,
+"slot_id": 4229.0,
+"source": ["res/scripts/DefineSprite_5649/frame_4/PlaceObject2_4843_34/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_4937_32/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_4937_32/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_5416_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_5417_36/CLIPACTIONRECORD onClipEvent(keyDown).as", "res/scripts/DefineSprite_5649/frame_6/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_6/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_9/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_9/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_11/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_11/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_20/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_20/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_24/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_24/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_67/DoAction.as"]
+},
+"base_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0],
+"body_source_id": 4745.0,
+"children": {
+"air_x": {
+"end_frame": 13.0,
+"end_goto_frame": 1.0,
+"held_X_start_frame": 2.0,
+"initial_frame": 1.0,
+"initial_stopped": true,
+"name": "점프중",
+"placement_track": {
+"10": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -112.9],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -122.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -129.5],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -133.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -135.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -133.65],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.6, -129.5],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.5, -122.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.3, -113.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.1, -100.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.2, -85.5],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.5, -67.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.9, -46.95],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.3, -23.6],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.8, 2.55],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, 3.0],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -23.2],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -46.7],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -67.4],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -85.3],
+"name": "점프중",
+"source_id": 5416.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.7, -100.5],
+"name": "점프중",
+"source_id": 5416.0
+}]
+},
+"sounds": [{
+"audio_stream": ExtResource("1_deqgv"),
+"envelope": [{
+"left": 11218.0,
+"right": 11513.0,
+"sample": 0.0
+}],
+"frame": 4,
+"in_point_samples_44100": 0.0,
+"kind": "sound",
+"offset": 0.0,
+"sound": "crt2_jump_attack_right",
+"sound_id": 5181.0,
+"source_sound_info": {
+"hasEnvelope": "true",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 5416.0
+}],
+"source_id": 5416.0
+},
+"left_rect": {
+"name": "왼대각",
+"notes": "All pages empty except alpha0 helper439 at5; no PNG required.",
+"placement_track": {
+"10": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -112.8],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"11": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -122.4],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"12": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -129.25],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"13": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -133.35],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"14": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"15": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"16": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"17": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -134.7],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"18": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -133.35],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"19": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.05, -129.25],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"20": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.15, -122.4],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"21": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.35, -112.8],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"22": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.55, -100.5],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"23": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -0.85, -85.45],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"24": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.15, -67.65],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"25": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.5, -47.15],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"26": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -1.95, -23.9],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"27": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -2.4, 2.1],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"4": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, 2.1],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"5": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -23.9],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"6": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -47.15],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"7": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -67.65],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"8": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -85.45],
+"name": "왼대각",
+"source_id": 5417.0
+}],
+"9": [{
+"alpha_mult": 256.0,
+"depth": 36.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.05, -100.5],
+"name": "왼대각",
+"source_id": 5417.0
+}]
+},
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0],
+"source5_helper": {
+"5": [{
+"alpha_mult": 0.0,
+"depth": 1.0,
+"matrix": [0.7308197, 0.0, 0.0, 0.8935852, 87.15, -52.65],
+"name": "왼대각",
+"source_id": 439.0
+}]
+},
+"source_id": 5417.0,
+"visible": false
+}
+},
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -0.25, 26.1],
+"root_move": {
+"active_frames": [4.0, 30.0],
+"both_keys": "both independent ifs net0",
+"depth": 32.0,
+"left_delta": -4.0,
+"poll_source_id": 4937.0,
+"right_delta": 4.0,
+"turn_only_if_air_child_frame": 1.0
+},
+"source": ["res/scripts/DefineSprite_5649/frame_11/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_11/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_20/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_20/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_24/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_24/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_30/DoAction.as", "res/scripts/DefineSprite_5649/frame_31/DoAction.as", "res/scripts/DefineSprite_5649/frame_31/DoAction_2.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5649/frame_31/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5649/frame_38/PlaceObject2_5639_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_4843_34/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_4937_32/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_4937_32/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_5416_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_4/PlaceObject2_5417_36/CLIPACTIONRECORD onClipEvent(keyDown).as", "res/scripts/DefineSprite_5649/frame_41/DoAction.as", "res/scripts/DefineSprite_5649/frame_42/DoAction.as", "res/scripts/DefineSprite_5649/frame_42/DoAction_2.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5649/frame_42/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5649/frame_48/PlaceObject2_5639_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_54/DoAction.as", "res/scripts/DefineSprite_5649/frame_55/DoAction.as", "res/scripts/DefineSprite_5649/frame_55/DoAction_2.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5649/frame_55/PlaceObject2_439_20/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5649/frame_6/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_6/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_61/DoAction.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_439_18/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as", "res/scripts/DefineSprite_5649/frame_61/PlaceObject2_5639_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_67/DoAction.as", "res/scripts/DefineSprite_5649/frame_9/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_5649/frame_9/PlaceObject2_4937_38/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as"],
+"source_id": 5649.0,
+"source_parent": 97.0
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

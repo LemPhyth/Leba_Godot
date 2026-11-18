@@ -1,0 +1,37 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_lo2d1"]
+
+[resource]
+script = ExtResource("1_lo2d1")
+identifier = "bleed_status"
+parameters = {
+"container_frame": 20.0,
+"container_source_id": 4021.0,
+"container_stop": true,
+"helper_alpha_mult": 0.0,
+"helper_frame_count": 140.0,
+"helper_matrix": [1.0, 0.0, 0.0, 1.0, 1.7, -1.6],
+"helper_name": "피도우미",
+"helper_shape_id": 4001.0,
+"helper_source_id": 4003.0,
+"helper_terminal_stop": 140.0,
+"observer_damage": {
+"amount": 2.0,
+"condition": "enemy.해골.피._currentframe == 1",
+"requires_geometry": false,
+"source": "res/scripts/frame_41/PlaceObject3_4030_111/CLIPACTIONRECORD onClipEvent(enterFrame)_35.as",
+"stage_root": 41.0
+},
+"timer_source": "res/scripts/DefineSprite_4021/frame_20/PlaceObject2_4003_3/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"timer_source_statement": "if(this._currentframe == 140) { gotoAndStop(1); }",
+"unknown": "Unqualified gotoAndStop1 target and terminal callback phase not dynamically compared; do not assert140 clears parent4021 without tracing.",
+"visual_frame_count": 12.0,
+"visual_has_frame_scripts": false,
+"visual_loop": "natural",
+"visual_matrix": [1.0, 0.0, 0.0, 1.0, 32.45, -10.15],
+"visual_name": "피",
+"visual_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0],
+"visual_source_id": 4000.0
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

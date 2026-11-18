@@ -1,0 +1,190 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt1_skill_t.tres" id="1_3e8x3"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_hold_body.tres" id="2_ifkmk"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_move_body.tres" id="3_vn8kw"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_ground_fire.tres" id="4_5k3t5"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_ground_shell.tres" id="5_07n0v"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_air_fire1.tres" id="6_exn55"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_air_fire2.tres" id="7_7eoqu"]
+[ext_resource type="Resource" path="res://generated/animations/crt1_t_air_body.tres" id="8_oyf5u"]
+[ext_resource type="Resource" path="res://generated/animations/hud_crt1_t_cutin.tres" id="9_62u2q"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="10_gqnst"]
+
+[resource]
+script = ExtResource("10_gqnst")
+identifier = "crt1_awakening"
+parameters = {
+"actor_parent": 110.0,
+"air_container_audio": {
+"frame": 1.0,
+"offset": 0.07029478458049887,
+"on_entry_once": true,
+"parent_frame": 66.0,
+"sound": "crt1_t_air_container",
+"source_id": 5879.0
+},
+"air_parts": [{
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 117.15, -28.3],
+"name": null,
+"source_id": 5875.0
+}, {
+"alpha_mult": 256.0,
+"depth": 56.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 2.45, -22.7],
+"name": null,
+"source_id": 5876.0
+}, {
+"alpha_mult": 256.0,
+"depth": 68.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 87.15, 160.2],
+"name": null,
+"source_id": 5877.0
+}],
+"cutin": {
+"animation": "hud_crt1_t_cutin",
+"end_control": 65.0,
+"end_frame": 65,
+"entry": 34.0,
+"placement": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -771.15, 16.6],
+"name": "컷신",
+"source_id": 6835.0
+},
+"position": [742.15, 284.6],
+"return": 1.0,
+"source_id": 6835.0,
+"start_frame": 34,
+"trigger_frame": 2,
+"trigger_source_frame": 2.0
+},
+"death_release_source_frame": 111,
+"ground_parts": {
+"fire": {
+"alpha_mult": 256.0,
+"depth": 20.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 120.75, -10.8],
+"name": null,
+"source_id": 5845.0
+},
+"idle": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.4, -0.95],
+"name": null,
+"source_id": 5843.0
+},
+"move": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 5.4, -0.65],
+"name": null,
+"source_id": 5853.0
+},
+"shell": {
+"alpha_mult": 256.0,
+"depth": 22.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 79.6, 66.0],
+"name": null,
+"source_id": 5852.0
+}
+},
+"holds": {
+"25": {
+"next": 26.0,
+"timer_id": 5856.0,
+"timer_observed_frame": 54.0,
+"visual": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 11.5, 5.45],
+"name": "이동",
+"source_id": 5854.0
+}
+},
+"43": {
+"next": 44.0,
+"timer_id": 5856.0,
+"timer_observed_frame": 54.0,
+"visual": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 11.5, 5.45],
+"name": "이동",
+"source_id": 5854.0
+}
+},
+"66": {
+"next": 67.0,
+"timer_id": 5856.0,
+"timer_observed_frame": 54.0,
+"visual": {
+"alpha_mult": 256.0,
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 62.0, -327.3],
+"name": null,
+"source_id": 5879.0
+}
+}
+},
+"kill_branch": {
+"check_frame": 94.0,
+"destination": 97.0,
+"end_frame": 120.0,
+"flag": "any enemy 스변==1"
+},
+"move_allowed_parent_frames": [25.0, 43.0, 66.0],
+"move_per_tick": 6.0,
+"normal_end_frame": 96.0,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, -1.75, -12.5],
+"part_animations": {
+"5843": "crt1_t_hold_body",
+"5845": "crt1_t_ground_fire",
+"5852": "crt1_t_ground_shell",
+"5853": "crt1_t_move_body",
+"5875": "crt1_t_air_fire1",
+"5876": "crt1_t_air_fire2",
+"5877": "crt1_t_air_body"
+},
+"part_stop_frames": {
+"5852": 4.0,
+"5877": 5.0
+},
+"phase_helpers": {
+"25": {
+"active_frames": [1, 2],
+"gravity": -3.0,
+"hit_windows": [Rect2(44.5, -328.4873, 419.6, 430.97922)],
+"loop_frames": 5,
+"marker_bonus": 9.0,
+"source_id": 5858,
+"space": "actor local; original5881 parent matrix already applied once"
+},
+"43": {
+"active_frames": [1, 2],
+"gravity": -3.0,
+"hit_windows": [Rect2(44.5, -324.7214, 419.6, 418.65015)],
+"loop_frames": 5,
+"marker_bonus": 9.0,
+"source_id": 5858,
+"space": "actor local; original5881 parent matrix already applied once"
+},
+"66": {
+"active_frames": [1, 2],
+"gravity": -5.0,
+"hit_windows": [Rect2(-292.03967, -322.99274, 685.1794, 440.0881)],
+"loop_frames": 4,
+"marker_bonus": 11.0,
+"source_id": 5858,
+"space": "actor local; original5881 parent matrix already applied once"
+}
+},
+"sprite_id": 5881.0,
+"turn_allowed_parent_frames": [25.0, 43.0]
+}
+animations = Array[Resource]([ExtResource("1_3e8x3"), ExtResource("2_ifkmk"), ExtResource("3_vn8kw"), ExtResource("4_5k3t5"), ExtResource("5_07n0v"), ExtResource("6_exn55"), ExtResource("7_7eoqu"), ExtResource("8_oyf5u"), ExtResource("9_62u2q")])
+source = "首次派生：asset_catalog.source_geometry.act03_crt1_components.awakening；此Resource自此为作者参数权威，普通资源导入不覆盖。来源原AS/XML及边界见docs/LEBA-ACT-03_角色1与资源依据.md。"

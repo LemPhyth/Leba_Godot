@@ -1,0 +1,151 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_jfsqd"]
+[ext_resource type="Texture2D" path="res://assets/atlases/enemy7437_attack.png" id="2_km0y2"]
+
+[resource]
+script = ExtResource("1_jfsqd")
+identifier = "enemy7437_attack"
+texture = ExtResource("2_km0y2")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-24.05, -88.55, 111.0, 90.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 2.0, 384.0, 178.0],
+"source_frame": 6.0
+}, {
+"alpha_bounds": [-27.05, -85.55, 110.0, 86.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 2.0, 384.0, 178.0],
+"source_frame": 7.0
+}, {
+"alpha_bounds": [-27.05, -85.55, 102.0, 86.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 2.0, 384.0, 178.0],
+"source_frame": 8.0
+}, {
+"alpha_bounds": [-48.05, -85.55, 67.0, 113.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 2.0, 384.0, 178.0],
+"source_frame": 9.0
+}, {
+"alpha_bounds": [-59.05, -85.55, 78.0, 100.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 184.0, 384.0, 178.0],
+"source_frame": 10.0
+}, {
+"alpha_bounds": [-90.05, -81.55, 113.0, 82.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 184.0, 384.0, 178.0],
+"source_frame": 11.0
+}, {
+"alpha_bounds": [-134.05, -127.55, 154.0, 132.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 184.0, 384.0, 178.0],
+"source_frame": 12.0
+}, {
+"alpha_bounds": [-138.05, -127.55, 154.0, 132.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 184.0, 384.0, 178.0],
+"source_frame": 13.0
+}, {
+"alpha_bounds": [-181.05, -127.55, 197.0, 133.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 366.0, 384.0, 178.0],
+"source_frame": 14.0
+}, {
+"alpha_bounds": [-181.05, -127.55, 197.0, 133.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 366.0, 384.0, 178.0],
+"source_frame": 15.0
+}, {
+"alpha_bounds": [-266.05, -127.55, 282.0, 143.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 366.0, 384.0, 178.0],
+"source_frame": 16.0
+}, {
+"alpha_bounds": [-297.05, -150.55, 313.0, 169.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 366.0, 384.0, 178.0],
+"source_frame": 17.0
+}, {
+"alpha_bounds": [-253.05, -127.55, 269.0, 139.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 548.0, 384.0, 178.0],
+"source_frame": 18.0
+}, {
+"alpha_bounds": [-231.05, -127.55, 247.0, 138.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 548.0, 384.0, 178.0],
+"source_frame": 19.0
+}, {
+"alpha_bounds": [-235.05, -127.55, 251.0, 128.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 548.0, 384.0, 178.0],
+"source_frame": 20.0
+}, {
+"alpha_bounds": [-86.05, -127.55, 102.0, 128.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 548.0, 384.0, 178.0],
+"source_frame": 21.0
+}, {
+"alpha_bounds": [-138.05, -127.55, 154.0, 132.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 730.0, 384.0, 178.0],
+"source_frame": 22.0
+}, {
+"alpha_bounds": [-138.05, -127.55, 154.0, 132.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 730.0, 384.0, 178.0],
+"source_frame": 23.0
+}, {
+"alpha_bounds": [-181.05, -127.55, 197.0, 133.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 730.0, 384.0, 178.0],
+"source_frame": 24.0
+}, {
+"alpha_bounds": [-181.05, -127.55, 197.0, 133.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 730.0, 384.0, 178.0],
+"source_frame": 25.0
+}, {
+"alpha_bounds": [-266.05, -127.55, 282.0, 143.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 912.0, 384.0, 178.0],
+"source_frame": 26.0
+}, {
+"alpha_bounds": [-297.05, -150.55, 313.0, 169.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 912.0, 384.0, 178.0],
+"source_frame": 27.0
+}, {
+"alpha_bounds": [-253.05, -127.55, 269.0, 139.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 912.0, 384.0, 178.0],
+"source_frame": 28.0
+}, {
+"alpha_bounds": [-231.05, -127.55, 247.0, 138.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 912.0, 384.0, 178.0],
+"source_frame": 29.0
+}, {
+"alpha_bounds": [-86.05, -127.55, 102.0, 128.0],
+"pivot": [297.05, 150.55],
+"region": [2.0, 1094.0, 384.0, 178.0],
+"source_frame": 152.0
+}, {
+"alpha_bounds": [-86.05, -127.55, 102.0, 128.0],
+"pivot": [297.05, 150.55],
+"region": [390.0, 1094.0, 384.0, 178.0],
+"source_frame": 153.0
+}, {
+"alpha_bounds": [-86.05, -127.55, 102.0, 128.0],
+"pivot": [297.05, 150.55],
+"region": [778.0, 1094.0, 384.0, 178.0],
+"source_frame": 154.0
+}, {
+"alpha_bounds": [-86.05, -127.55, 102.0, 128.0],
+"pivot": [297.05, 150.55],
+"region": [1166.0, 1094.0, 384.0, 178.0],
+"source_frame": 155.0
+}])
+source = "asset_catalog.animations.enemy7437_attack；派生图集；来源与pivot见catalog。"

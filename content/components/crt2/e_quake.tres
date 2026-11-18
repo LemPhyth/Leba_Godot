@@ -1,0 +1,57 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_oow2c"]
+
+[resource]
+script = ExtResource("1_oow2c")
+identifier = "e_quake"
+parameters = {
+"actor_air_pull_observer": {
+"active_frames": [35.0, 82.0],
+"actor_source_id": 5520.0,
+"delta_x": 0.8,
+"depth": 59.0,
+"helper_id": 5493.0,
+"requires_enemy_outer_frame": 2.0,
+"requires_geometry": false,
+"toward_player": true
+},
+"birth_actor_source_frame": 36.0,
+"cleanup_note": "Original checks actor frame without action ID; abnormal interruption may strand held quake. Scene teardown must remove owned object; do not claim original always exits20.",
+"default_sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+"end_empty_stop": true,
+"end_frame": 20.0,
+"facing_scale_applied": false,
+"hold_frames": [1.0, 7.0],
+"position": "player.root_position",
+"resume_rules": [{
+"actor_action_frame": 51.0,
+"goto": 2.0,
+"self_frame": 1.0
+}, {
+"actor_action_frame": 81.0,
+"goto": 8.0,
+"self_frame": 7.0
+}, {
+"actor_parent": 68.0,
+"goto": 8.0,
+"self_frame": 7.0
+}, {
+"actor_action_frame": 51.0,
+"goto": 2.0,
+"self_frame": 8.0
+}],
+"source": ["res/scripts/DefineSprite_685_지진/frame_1/DoAction.as", "res/scripts/DefineSprite_685_지진/frame_1/PlaceObject2_660_2/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_685_지진/frame_20/DoAction.as", "res/scripts/DefineSprite_685_지진/frame_7/DoAction.as", "res/scripts/DefineSprite_685_지진/frame_7/PlaceObject2_660_2/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_685_지진/frame_7/PlaceObject2_660_2/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_685_지진/frame_8/PlaceObject2_660_2/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_676_지진2/frame_1/DoAction.as", "res/scripts/DefineSprite_676_지진2/frame_1/PlaceObject2_660_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_676_지진2/frame_20/DoAction.as", "res/scripts/DefineSprite_676_지진2/frame_7/DoAction.as", "res/scripts/DefineSprite_676_지진2/frame_7/PlaceObject2_660_1/CLIPACTIONRECORD onClipEvent(enterFrame).as", "res/scripts/DefineSprite_676_지진2/frame_7/PlaceObject2_660_1/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as", "res/scripts/DefineSprite_676_지진2/frame_8/PlaceObject2_660_1/CLIPACTIONRECORD onClipEvent(enterFrame).as"],
+"source_ids": {
+"left": 676.0,
+"right": 685.0
+},
+"space": "root",
+"visible_child": {
+"hold_frame": 9.0,
+"independent_while_parent_stopped": true,
+"sequence": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0],
+"source_id": 665.0
+}
+}
+source = "AS/XML静态规则首次转换；出处见parameters.source；作者Resource此后生效。"

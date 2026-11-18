@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_eutr6"]
+[ext_resource type="Texture2D" path="res://assets/atlases/crt1_w_idle.png" id="2_mk0v3"]
+
+[resource]
+script = ExtResource("1_eutr6")
+identifier = "crt1_w_idle"
+texture = ExtResource("2_mk0v3")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-58.05, -76.15, 106.0, 161.0],
+"pivot": [58.05, 76.15],
+"region": [2.0, 2.0, 106.0, 161.0],
+"source_frame": 1.0
+}])
+source = "asset_catalog.animations.crt1_w_idle；派生图集；来源与pivot见catalog。"

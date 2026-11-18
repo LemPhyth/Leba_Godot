@@ -1,0 +1,71 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_move.tres" id="1_hrfd6"]
+[ext_resource type="AudioStream" path="res://assets/audio/4616.mp3" id="2_7bkxk"]
+[ext_resource type="Script" path="res://scripts/content/action_event.gd" id="3_crpx5"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="4_6ql4y"]
+
+[sub_resource type="Resource" id="Resource_hlgc6"]
+script = ExtResource("3_crpx5")
+frame = 11
+sound = "crt4_source_6393_sound_1"
+audio_stream = ExtResource("2_7bkxk")
+parameters = {
+"envelope": [],
+"in_point_samples_44100": 0.0,
+"sound_id": 4616.0,
+"source_id": 6393,
+"source_sound_info": {
+"envelopes": [],
+"hasEnvelope": "false",
+"hasInPoint": "false",
+"hasLoops": "false",
+"hasOutPoint": "false",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 6393.0
+}
+
+[resource]
+script = ExtResource("4_6ql4y")
+identifier = "move"
+title = "move"
+animation = ExtResource("1_hrfd6")
+animation_key = "crt4_move"
+source_parent = 146
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+allowed_states = PackedStringArray()
+loop = true
+hold_at = PackedInt32Array()
+events = Array[Resource]([SubResource("Resource_hlgc6")])
+source = "Original6732 parent146/source6393; res://data/act06_crt4_rules.json.actions.move; source_references preserve individual AS paths/hashes"
+extra = {
+"controls": [],
+"matrix_chain": [{
+"depth": 41.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 12.9, 19.8],
+"name": "이동",
+"ratio": "145",
+"source_id": 6406.0
+}, {
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, -42.9, -11.7],
+"name": "이동",
+"ratio": "15",
+"source_id": 6405.0
+}, {
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 42.6, 12.1],
+"name": "이동",
+"source_id": 6393.0
+}],
+&"nested_audio": [],
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 12.6, 20.2],
+"source_allowed_parent_frames": [],
+"source_id": 6393.0,
+&"source_references": [],
+"source_selected": true
+}

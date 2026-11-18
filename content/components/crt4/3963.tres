@@ -1,0 +1,150 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="1_i8u60"]
+
+[resource]
+script = ExtResource("1_i8u60")
+identifier = "3963"
+parameters = {
+"births": [{
+"depth": 1.0,
+"frame": 1.0,
+"matrix": [0.115478516, 0.0, 0.0, 0.271698, 52.2, -0.05],
+"name": null,
+"source_id": 3952.0
+}, {
+"color_transform": {
+"alphaMultTerm": "192",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 2.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [{
+"alpha": "255",
+"blue": "204",
+"green": "51",
+"name": "glowColor",
+"red": "102",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.0"
+}, {
+"blurX": "17.0",
+"blurY": "17.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5"
+}],
+"frame": 2.0,
+"matrix": [0.7188568, 0.0, 0.0, 0.6556549, 0.1, -97.35],
+"name": "속",
+"source_id": 3962.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"matrix": [0.115478516, 0.0, 0.0, 0.271698, 52.2, -0.05],
+"source_id": 3952.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"matrix": [0.115478516, 0.0, 0.0, 0.271698, 52.2, -0.05],
+"source_id": 3952.0
+}, {
+"color_transform": {
+"alphaMultTerm": "192",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 2.0,
+"filters": [{
+"blurX": "5.0",
+"blurY": "5.0",
+"children": [{
+"alpha": "255",
+"blue": "204",
+"green": "51",
+"name": "glowColor",
+"red": "102",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.0"
+}, {
+"blurX": "17.0",
+"blurY": "17.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "51",
+"name": "glowColor",
+"red": "255",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.5"
+}],
+"matrix": [0.7188568, 0.0, 0.0, 0.6556549, 0.1, -97.35],
+"name": "속",
+"ratio": "1",
+"source_id": 3962.0
+}],
+"source_frame": 2.0
+}],
+"sounds": [],
+"source": [{
+"frame": 1.0,
+"path": "res/scripts/DefineSprite_3963/frame_1/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 2.0,
+"path": "res/scripts/DefineSprite_3963/frame_2/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}],
+"source_frame_count": 2.0,
+"source_id": 3963.0,
+"stop_source_frames": [1.0, 2.0]
+}
+source = "Original AS/XML source 3963; res://data/act06_crt4_rules.json.components.3963"

@@ -1,0 +1,964 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt4_tombstone.tres" id="1_seas6"]
+[ext_resource type="AudioStream" path="res://assets/audio/345.mp3" id="2_n52et"]
+[ext_resource type="Script" path="res://scripts/content/component_definition.gd" id="3_m7qxh"]
+
+[resource]
+script = ExtResource("3_m7qxh")
+identifier = "1273"
+parameters = {
+"births": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "51",
+"name": "glowColor",
+"red": "153",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "0.0"
+}],
+"frame": 1.0,
+"matrix": [0.75445557, 0.0, 0.0, 0.75445557, 6.15, -160.1],
+"name": null,
+"source_id": 1019.0
+}, {
+"depth": 1.0,
+"filters": [{
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "51",
+"name": "glowColor",
+"red": "153",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "0.0"
+}],
+"frame": 4.0,
+"matrix": [0.75445557, 0.0, 0.0, 0.75445557, 29.7, -17.5],
+"name": null,
+"source_id": 705.0
+}, {
+"depth": 1.0,
+"filters": [{
+"blurX": "7.0",
+"blurY": "7.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "0",
+"name": "glowColor",
+"red": "102",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.6992188"
+}],
+"frame": 5.0,
+"matrix": [0.91000366, -0.043151855, 0.043930054, 0.9264984, 4.85, -6.5],
+"name": null,
+"source_id": 709.0
+}, {
+"depth": 3.0,
+"frame": 5.0,
+"matrix": [0.7840576, -0.03717041, 0.035705566, 0.75294495, 19.7, 37.4],
+"name": null,
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"frame": 5.0,
+"matrix": [0.58399963, 0.0, 0.0, 1.3838196, 4.15, -164.55],
+"name": null,
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 7.0,
+"frame": 5.0,
+"matrix": [0.5840759, 0.0, 0.0, 1.3838196, 0.65, -164.55],
+"name": null,
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"frame": 5.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"name": null,
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"frame": 5.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"name": null,
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"frame": 5.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"name": null,
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"frame": 5.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"name": null,
+"source_id": 1023.0
+}, {
+"depth": 1.0,
+"frame": 27.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1271.0
+}, {
+"depth": 1.0,
+"frame": 28.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1272.0
+}, {
+"depth": 1.0,
+"frame": 29.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"name": null,
+"source_id": 1026.0
+}],
+"clock_contract": "independent source25Hz; held parent does not hold child; source re-placement may recreate child",
+"placement_tracks": [{
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "51",
+"name": "glowColor",
+"red": "153",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "0.0"
+}],
+"matrix": [0.75445557, 0.0, 0.0, 0.75445557, 6.15, -160.1],
+"source_id": 1019.0
+}],
+"source_frame": 1.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "51",
+"name": "glowColor",
+"red": "153",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "0.0"
+}],
+"matrix": [0.75445557, 0.0, 0.0, 0.75445557, 5.95, -144.25],
+"source_id": 1019.0
+}],
+"source_frame": 2.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "51",
+"name": "glowColor",
+"red": "153",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "0.0"
+}],
+"matrix": [0.75445557, 0.0, 0.0, 0.75445557, 5.4, -96.7],
+"source_id": 1019.0
+}],
+"source_frame": 3.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [],
+"id": "1",
+"kind": "BLURFILTER",
+"passes": "1",
+"reserved": "0"
+}, {
+"blurX": "0.0",
+"blurY": "0.0",
+"children": [{
+"alpha": "255",
+"blue": "255",
+"green": "51",
+"name": "glowColor",
+"red": "153",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "0.0"
+}],
+"matrix": [0.75445557, 0.0, 0.0, 0.75445557, 29.7, -17.5],
+"ratio": "3",
+"source_id": 705.0
+}],
+"source_frame": 4.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "7.0",
+"blurY": "7.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "0",
+"name": "glowColor",
+"red": "102",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.6992188"
+}],
+"matrix": [0.91000366, -0.043151855, 0.043930054, 0.9264984, 4.85, -6.5],
+"ratio": "4",
+"source_id": 709.0
+}, {
+"depth": 3.0,
+"matrix": [0.7840576, -0.03717041, 0.035705566, 0.75294495, 19.7, 37.4],
+"ratio": "4",
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 5.0,
+"matrix": [0.58399963, 0.0, 0.0, 1.3838196, 4.15, -164.55],
+"ratio": "4",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "0",
+"blueMultTerm": "256",
+"greenMultTerm": "256",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "256"
+},
+"depth": 7.0,
+"matrix": [0.5840759, 0.0, 0.0, 1.3838196, 0.65, -164.55],
+"ratio": "4",
+"source_id": 439.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}],
+"source_frame": 5.0
+}, {
+"placements": [{
+"depth": 1.0,
+"filters": [{
+"blurX": "7.0",
+"blurY": "7.0",
+"children": [{
+"alpha": "255",
+"blue": "153",
+"green": "0",
+"name": "glowColor",
+"red": "102",
+"type": "RGBA"
+}],
+"compositeSource": "true",
+"id": "2",
+"innerGlow": "false",
+"kind": "GLOWFILTER",
+"knockout": "false",
+"passes": "1",
+"strength": "1.6992188"
+}],
+"matrix": [0.91000366, -0.043151855, 0.043930054, 0.9264984, 4.85, -6.5],
+"ratio": "4",
+"source_id": 709.0
+}, {
+"depth": 3.0,
+"matrix": [0.7840576, -0.03717041, 0.035705566, 0.75294495, 19.7, 37.4],
+"ratio": "4",
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}],
+"source_frame": 7.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [0.7840576, -0.03717041, 0.035705566, 0.75294495, 19.7, 37.4],
+"ratio": "4",
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 1271.0
+}],
+"source_frame": 27.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [0.7840576, -0.03717041, 0.035705566, 0.75294495, 19.7, 37.4],
+"ratio": "4",
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 1272.0
+}],
+"source_frame": 28.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [0.5940094, -0.028167725, 0.035705566, 0.75294495, 14.5, 37.65],
+"ratio": "4",
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 1.0,
+"matrix": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+"source_id": 1026.0
+}],
+"source_frame": 29.0
+}, {
+"placements": [{
+"depth": 3.0,
+"matrix": [0.43214417, -0.020477295, 0.02255249, 0.47599792, 10.1, 39.75],
+"ratio": "4",
+"source_id": 711.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}],
+"source_frame": 30.0
+}, {
+"placements": [{
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 9.0,
+"matrix": [0.32658386, 0.0, 0.0, 0.75445557, -6.2, 17.0],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"color_transform": {
+"alphaMultTerm": "256",
+"blueMultTerm": "225",
+"greenMultTerm": "225",
+"hasAddTerms": "false",
+"hasMultTerms": "true",
+"nbits": "10",
+"redMultTerm": "225"
+},
+"depth": 11.0,
+"matrix": [-0.32658386, 0.0, 0.0, 0.75445557, 5.25, 15.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 13.0,
+"matrix": [-0.26921082, 0.18399048, 0.20828247, 0.30480957, 3.5, 36.45],
+"ratio": "4",
+"source_id": 1023.0
+}, {
+"depth": 15.0,
+"matrix": [0.26921082, 0.18399048, -0.20828247, 0.30480957, -5.4, 35.7],
+"ratio": "4",
+"source_id": 1023.0
+}],
+"source_frame": 31.0
+}],
+"sounds": [{
+"audio_stream": ExtResource("2_n52et"),
+"envelope": [{
+"left": 20960.0,
+"right": 23026.0,
+"sample": 0.0
+}],
+"frame": 5,
+"in_point_samples_44100": 12462.0,
+"kind": "sound",
+"offset": 0.28258503401360546,
+"out_point_samples_44100": 81486.0,
+"sound": "crt4_source_1273_sound_1",
+"sound_id": 345.0,
+"source_id": 1273,
+"source_sound_info": {
+"envelopes": [{
+"leftLevel": "20960",
+"pos44": "0",
+"rightLevel": "23026",
+"type": "SOUNDENVELOPE"
+}],
+"hasEnvelope": "true",
+"hasInPoint": "true",
+"hasLoops": "false",
+"hasOutPoint": "true",
+"inPoint": "12462",
+"outPoint": "81486",
+"reserved": "0",
+"syncNoMultiple": "false",
+"syncStop": "false",
+"type": "SOUNDINFO"
+},
+"sprite_id": 1273.0
+}],
+"source": [{
+"frame": 31.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_31/DoAction.as",
+"sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/DoAction.as",
+"sha256": "ed071d52954d034c33fb651ff2f6584cd44a8724f6240328e37d78b99f956ddc"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "4e206c6486bdf32c179d54a80507adeaa238ac3c27a9769b2ae5099fbfbc70a7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "ef2e72eba8c2dc3052e970950e56a5c453f8c710d1ad22f447cf334ba2756c44"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "2faeb1357d7902e4bc0645dbc3d51753c6f9a854b08f0a06647136011f0e22f8"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "63bb010df328040bf4ece9a203c595cc1b552d7f3813447be45500ef7e200754"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "a597f8afcaaa8241bf258245757c4dc41d107508e822c3331c23b02b39d4ceea"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "011d5202251eff661eb48bf3798264c3642c7a924c9be5131cc286051a3d6b39"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "4e333eded904c564a82716b259857623a9448e364993ef2cf413d053e6f8dbe9"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_16.as",
+"sha256": "b80a96278e03676da3f31712682c605ce45d6a50bd0c0bf843af88d69ebfc606"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_17.as",
+"sha256": "fcb96c280363e7f5f525234346696890e4528c7309ede0f8a53f0ce6e7bfe47a"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_18.as",
+"sha256": "e37b6728a5a6c2c35566687ea9061ce03559210b7ddece31b37065e08736f2b1"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_19.as",
+"sha256": "604f937507cb40c34c3f8d4c632a7fd537e43bff2020b8756ef1ac77e1d7b8ba"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "2da44e37ccecce5fe3ba1a60de67a06b2108f317631bc03453e77052ed9073b4"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_20.as",
+"sha256": "86bd30014edeb8a5e0233006c3d279c830bbe01e21952d37d191b1a63f5620f7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_21.as",
+"sha256": "c3ba1f37d2637562faa2f8d96a86c91673ee34de62bb87a36fb7f68247b2d94a"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_22.as",
+"sha256": "ebd0b944d59f78b061019447ff6deeb67ef335c95bb587ab9834d465c3cc18e6"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_23.as",
+"sha256": "41d0100a491d1cb2efc45ddf5ae8034768b97b9ba93fa7d2123518622e3c3e12"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_24.as",
+"sha256": "2076ac5d093048ff75405b29841d3ccafa7b62f1ac1a6bb58bf736b31605f67c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_25.as",
+"sha256": "16f5e7fe68ae950bb908d4d9a546f66e2501c227f3a106819a8466626ef6535b"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "95d1d27a86872515a78b86364ff55938ccde25f5909147a482f88c9f47ce7b18"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "73fc59fde7be86c9a95eb0364400cc0b9d2af5219b6b511cdaf1a5aefac85e5b"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "eae5df4dcff20f91095650474d0de523cc19ea1acd32c6240a5e2d402aa5d268"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "2db6e62fbda45f684aeb3fbc8abf763dd0795155df850c83302c431759ba673b"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "742b624ad353198a79ce18d0b766b260b8aa897d2b6ea915a550cf9d4357e5a7"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "2db8f92d6d8524e5a770f5435ec4f593c4d4669faaaaaac465941a7f3fe5f13c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_5/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "c4952d1cec25152885cd12fc7c4b2ac5c429ce91715c940addada080cbcfdf4f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+"sha256": "1d2e8abab73afc98ea966819aaf58d485328d4f30f533afd1c30ae85f4dd47e0"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_10.as",
+"sha256": "543d2e7f873ca89f1951abd00a97ffbf45b30124527cddb881c70d06442be3a6"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_11.as",
+"sha256": "66b603a711e454d45cd21155c7b4f8b95cf57d7e36ce85f4b18fdff64ae8f866"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_12.as",
+"sha256": "6e1ca67dbcadc8e3da9da073d1ad2d05e40df516c58a4e06646c03c3f20ae253"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_13.as",
+"sha256": "9d0c76c5f9fb6d78b9f03ba1c8363799cf5a015874124d4de0e09c4396db504f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_14.as",
+"sha256": "ee128d9b03524882fb6cfbbd943a8403f13603d2e5811c68f72d0fc9fcb29fbc"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_15.as",
+"sha256": "6ef546a9355774e375e2f472ac01a77fe34881bf2a5411dc9f6c37133eb09950"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_2.as",
+"sha256": "c5b4a74dcd9b3d251c628c91fe133bb57bb0be38912c1e2baf56d21eb054fe7a"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_3.as",
+"sha256": "f5a43e4df35825dd3d39a6456d62bb28e7635eb6c14fc1026c04532f2e26641f"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_4.as",
+"sha256": "13a33fbeda14cfc4fe6675c3a604ce4b0c0e39b2bae66f5fff7c4eca257fe531"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_5.as",
+"sha256": "e5e63096365c027fe484a5f59474d9ac239c53ad27a617f308e47e5f71fcc44d"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_6.as",
+"sha256": "b75124546f06858465dc0ef19356cf9f3db6ceb8034aef94a17b04ad33f02cd5"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_7.as",
+"sha256": "526fa4ef0099acef1dd78d5c21ff09760eb61f330a8a568afe89b46c56aeaa5c"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_8.as",
+"sha256": "78033f4f72470daf7ee7b75819c167b4b68e753cf7c6d9824a02d04f4fbb0fd3"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(enterFrame)_9.as",
+"sha256": "2ce92338d2ba120228163f2cd65c8b22ca8c8d689c3377905ffdc41bf0d2fd28"
+}, {
+"frame": 5.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_5/PlaceObject2_439_7/CLIPACTIONRECORD onClipEvent(load).as",
+"sha256": "db65884521f573ad5773c41bdb3d19e4e133b72134f48d706125eb7509562cea"
+}, {
+"frame": 6.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_6/DoAction.as",
+"sha256": "f75a44d8f2d8f855862688c6551747eaf897b28e22f0725669a15685605ecec6"
+}, {
+"frame": 7.0,
+"path": "res/scripts/DefineSprite_1273_소울툼스톤/frame_7/DoAction.as",
+"sha256": "8d23d84b12e136d5b2b06a528b88fe1aedb91b39aa50aad17afd66ff0cb5be7f"
+}],
+"source_frame_count": 31.0,
+"source_id": 1273.0,
+"stop_source_frames": [31.0]
+}
+animations = Array[Resource]([ExtResource("1_seas6")])
+source = "Original AS/XML source 1273; res://data/act06_crt4_rules.json.components.1273"

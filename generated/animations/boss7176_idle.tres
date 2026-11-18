@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/content/source_animation.gd" id="1_dpqxl"]
+[ext_resource type="Texture2D" path="res://assets/atlases/boss7176_idle.png" id="2_yi6kt"]
+
+[resource]
+script = ExtResource("1_dpqxl")
+identifier = "boss7176_idle"
+texture = ExtResource("2_yi6kt")
+frames = Array[Dictionary]([{
+"alpha_bounds": [-55.8, -161.55, 106.0, 166.0],
+"pivot": [55.8, 161.55],
+"region": [2.0, 2.0, 106.0, 166.0],
+"source_frame": 1.0
+}])
+source = "asset_catalog.animations.boss7176_idle；派生图集；来源与pivot见catalog。"

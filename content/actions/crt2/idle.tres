@@ -1,0 +1,30 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/crt2_idle.tres" id="1_65jhh"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_cab4o"]
+
+[resource]
+script = ExtResource("2_cab4o")
+title = "idle"
+animation = ExtResource("1_65jhh")
+animation_key = "crt2_idle"
+source_parent = 64
+sequence = PackedInt32Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+allowed_states = PackedStringArray()
+loop = true
+hold_at = PackedInt32Array()
+source = "res/scripts/DefineSprite_5179/；source callbacks/default conditions见act04_crt2_rules。"
+calibration = "仅默认武器0/护甲1/master0；标注bonus是局部观察器贡献，非总伤害。"
+extra = {
+"animation_by_pren": {
+"0": "crt2_idle",
+"1": "crt2_idle_pren"
+},
+"body_metadata": "act04_crt2_body",
+"controller": "action",
+"hit_callback_sources": [],
+"normal_end_source_frame": 14,
+"parent_matrix": [1.0, 0.0, 0.0, 1.0, 11.95, 19.6],
+"source_id": 5179.0,
+"validation": "AS2/XML static; dynamic callback phase not yet probed"
+}

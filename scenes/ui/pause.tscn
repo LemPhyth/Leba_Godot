@@ -1,0 +1,60 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://scenes/ui/default_theme.tres" id="1_xld5c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k23cl"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.07, 0.075, 0.1, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.33333334, 0.29411766, 0.38039216, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Pause" type="Control" unique_id=1582314250]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("1_xld5c")
+
+[node name="@Panel@69" type="Panel" parent="." unique_id=1793857853]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 113.0
+offset_right = 420.0
+offset_bottom = 288.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_k23cl")
+
+[node name="Title" type="Label" parent="." unique_id=792001328]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 126.0
+offset_right = 390.0
+offset_bottom = 152.0
+theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0.93333334, 0.9098039, 0.8627451, 1)
+text = "暂停"
+autowrap_mode = 3
+
+[node name="Resume" type="Button" parent="." unique_id=1228931427]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 179.0
+offset_right = 390.0
+offset_bottom = 214.0
+text = "继续战斗"
+
+[node name="Menu" type="Button" parent="." unique_id=1525512714]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 230.0
+offset_right = 390.0
+offset_bottom = 265.0
+text = "保存进度并返回菜单"

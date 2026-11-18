@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://generated/animations/enemy7437_frozen.tres" id="1_mc4eb"]
+[ext_resource type="Script" path="res://scripts/content/action_definition.gd" id="2_qgi1i"]
+
+[resource]
+script = ExtResource("2_qgi1i")
+identifier = "frozen"
+title = "frozen"
+animation = ExtResource("1_mc4eb")
+animation_key = "enemy7437_frozen"
+source_parent = 149
+sequence = PackedInt32Array(1)
+input_id = "frozen"
+allowed_states = PackedStringArray("idle", "move", "basic")
+hold = true
+hold_at = PackedInt32Array()
+source = "res/scripts/DefineSprite_7427/ / res/scripts/frame_9/PlaceObject3_7437_294/; docs/LEBA-ACT-03_流程依据.md §4"
+calibration = "Source frames and matrices confirmed statically; original root9 dynamic play not yet compared."

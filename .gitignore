@@ -1,0 +1,6 @@
+.godot/
+.local/
+artifacts/*
+!artifacts/.gdignore
+__pycache__/
+*.tmp
